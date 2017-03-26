@@ -101,6 +101,8 @@ A blurb about the RGD & a link to their website.
 
 *Maybe a blurb in its own section, RGD colours.*
 
+We can just post: [RGD logo] Our professional accreditation association
+
 #### Portfolio requirements
 
 **Link to the portfolio requirements & laptop requirements page.**
