@@ -67,6 +67,14 @@ a:active {
   background-color: var(--color-green-light);
 }
 
+.bg-grey-light {
+  background-color: var(--color-grey-light);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
 .btn {
   background-color: var(--color-green-dark);
   border-color: var(--color-green-dark);
