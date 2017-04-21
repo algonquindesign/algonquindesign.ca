@@ -1,0 +1,21 @@
+<section class="pad-t pad-b gutter-1-4 push">
+  <header class="text-center push-2">
+    <h2 class="yotta push-1-2">{{site.data.curriculum.title}}</h2>
+    <p class="mega max-length push-0">{{site.data.curriculum.desc}}</p>
+  </header>
+  <div class="gutter text-center pad-t">
+    <ul class="list-group grid gutter-2 angle-card-group">
+      {% for topic in site.data.curriculum.topics %}
+        <li class="unit [ xs-1 s-1-2 l-1-3 ] gutter-1-4 {% if forloop.last %}unit-s-centered{% endif %}">
+          <div class="angle-card pad-b push-2">
+            <h3 class="push"><a href="#">{{topic.title}}</a></h3>
+            <p>{{topic.desc}}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="text-center pad-t-1-2">
+    <a class="btn btn-pill" href="#">Explore our courses</a>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+.angle-card {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.angle-card::after {
+  content: " ";
+  height: 4px;
+  left: 35%;
+  position: absolute;
+  width: 30%;
+  bottom: .4em;
+
+  background-color: var(--color-grey-light);
+  transform: rotate(2deg);
+}
+
+.angle-card-group :nth-child(even) .angle-card::after {
+  transform: rotate(-2deg);
+}
+
+.angle-card-group :last-child .angle-card {
+  margin-bottom: 0;
+}
+
+.angle-card-group :last-child .angle-card::after {
+  content: none;
+  display: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .angle-card-group :nth-last-child(2) .angle-card,
+  .angle-card-group :nth-last-child(3) .angle-card {
+    margin-bottom: 0;
+  }
+
+  .angle-card-group :nth-last-child(2) .angle-card::after,
+  .angle-card-group :nth-last-child(3) .angle-card::after {
+    content: none;
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 70em) {
+
+  .angle-card-group {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}

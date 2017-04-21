@@ -1,0 +1,80 @@
+:root {
+  --color-green-dark: #00673e;
+  --color-green-light: #94c947;
+  --color-turquoise: #00675a;
+  --color-blue-light: #009aa6;
+  --color-blue-dark: #007096;
+  --color-orange: #eaab00;
+  --color-grey: #63666a;
+  --color-grey-light: #e2e2e2;
+
+  --font-primary: "Merriweather", Georgia, serif;
+  --font-secondary: "Open Sans", Helvetica, sans-serif;
+
+  --border-radius: 4px;
+}
+
+html {
+  font-family: var(--font-primary);
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+a {
+  border-bottom: .1em solid rgba(0, 154, 166, .4);
+
+  color: var(--color-blue-light);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  border-color: var(--color-blue-light);
+}
+
+.link-box {
+  border-bottom: 0;
+}
+
+.bg-green-dark {
+  background-color: var(--color-green-dark);
+  color: #fff;
+}
+
+.bg-green-dark a {
+  color: var(--color-green-light);
+  border-color: rgba(148, 201, 71, .7);
+}
+
+.bg-green-dark a:hover,
+.bg-green-dark a:focus,
+.bg-green-dark a:active {
+  color: #fff;
+  border-color: #fff;
+}
+
+.bg-green-light {
+  background-color: var(--color-green-light);
+}
+
+.btn {
+  background-color: var(--color-green-dark);
+  border-color: var(--color-green-dark);
+}
+
+.btn-pill {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+  border-radius: 50em;
+}
