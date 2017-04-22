@@ -1,7 +1,54 @@
 title: "Our Faculty"
 desc: "Our faculty is made of dedicated professionals who are passionate about encouraging new designers and who strive to push the program&nbsp;forward."
+outro: "And many more amazing professionals from the Ottawa community who contribute their time to help our students learn."
 
 people:
-  - name: ""
-    img: ""
-    desc: ""
+  - name: "Alain Paradis"
+    img: "alain.jpg"
+    desc: "Graphics & layout"
+    coord: "Co-coordinator"
+    links:
+      - title: "YouTube"
+        url: "https://www.youtube.com/accomputergraphics"
+      - title: "Curriculum"
+        url: "http://cg.algonquindesign.ca/"
+
+  - name: "David Bromley"
+    img: "david.jpg"
+    desc: "Theory & branding"
+    coord: "Co-coordinator"
+
+  - name: "Andrea Emery"
+    img: "andrea.jpg"
+    desc: "Typography & lettering"
+
+  - name: "Angie Fahlman"
+    img: "angie.jpg"
+    desc: "Design & layout"
+
+  - name: "Chris Jones"
+    img: "chris.jpg"
+    desc: "Business & design thinking"
+
+  - name: "Greg Treadwell"
+    img: "greg.jpg"
+    desc: "Graphics & typography"
+
+  - name: "Janet Menger"
+    img: "janet.jpg"
+    desc: "Illustration & theory"
+
+  - name: "Jed Looker"
+    img: "jed.jpg"
+    desc: "Interaction & experience"
+
+  - name: "Thomas J Bradley"
+    img: "thomas.jpg"
+    desc: "Code & problem solving"
+    links:
+      - title: "Email"
+        url: "mailto:bradlet@algonquincollege.com"
+      - title: "Website"
+        url: "https://thomasjbradley.ca/"
+      - title: "GitHub"
+        url: "https://github.com/thomasjbradley"

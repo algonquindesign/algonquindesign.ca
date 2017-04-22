@@ -46,6 +46,12 @@ a:active {
   border-bottom: 0;
 }
 
+abbr[title="and"] {
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
 .bg-green-dark {
   background-color: var(--color-green-dark);
   color: #fff;
@@ -67,12 +73,30 @@ a:active {
   background-color: var(--color-green-light);
 }
 
+.bg-green-light-texture {
+  background-image: url("../images/green-light-bg.png");
+}
+
 .bg-grey-light {
   background-color: var(--color-grey-light);
 }
 
+.bg-grey-texture {
+  background-image: url("../images/grey-bg.png");
+  background-size: 8px 8px;
+}
+
 .bg-white {
   background-color: #fff;
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+  color: #fff;
+}
+
+.bg-orange-texture {
+  background-image: url("../images/orange-bg.png");
 }
 
 .btn {
@@ -85,4 +109,25 @@ a:active {
   padding-right: 1.5em;
 
   border-radius: 50em;
+}
+
+.bullet-sep-list > li::after {
+  content: "•";
+  display: inline-block;
+  margin-left: .3em;
+  opacity: .5;
+}
+
+.bullet-sep-list > li:last-child::after {
+  content: none;
+  display: none;
+}
+
+@media only screen and (max-width: 70em) {
+
+  .gutter-only-on-large {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }

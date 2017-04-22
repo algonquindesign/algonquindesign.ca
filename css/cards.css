@@ -43,11 +43,7 @@
 
 }
 
-@media only screen and (max-width: 70em) {
-
-  .angle-card-group {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
+.faculty-card-details {
+  background-color: #fff;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }

@@ -1,0 +1,7 @@
+@media only screen and (min-width: 38em) {
+
+  .video-wrap {
+    box-shadow: 0 0 1.4em rgba(0, 0, 0, .2);
+  }
+
+}
