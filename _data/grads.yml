@@ -1,0 +1,46 @@
+title: "Graduate Showcases"
+desc: "Every year our grads show off their hard work to family, friends & industry professionals at a public event."
+
+shows:
+  - title: "Studio N"
+    date_time: "2017-05-09T17:00"
+    addr: |
+      Horticulture Building
+      <br>1525 Princess Patricia Way
+      <br>Ottawa, ON, K1S 5J3
+
+  - title: "Framework"
+    date_time: "2016-04-29T17:00"
+    addr: |
+      Horticulture Building
+      <br>1525 Princess Patricia Way
+      <br>Ottawa, ON, K1S 5J3
+
+  - title: "Multiply"
+    date_time: "2015-03-13T18:30"
+    addr: |
+      Student Commons (E Building)
+      <br>Algonquin College
+      <br>1385 Woodroffe Ave.
+      <br>Ottawa ON, K2G 1V8
+
+  - title: "Level 14"
+    date_time: "2014-05-02T18:00"
+    addr: |
+      Shopify Inc.
+      <br>126 York Street, Suite 200
+      <br>Ottawa, ON, K1N 5T5
+
+  - title: "Grad Show"
+    date_time: "2013-05-03T19:00"
+    addr: |
+      Shopify Inc.
+      <br>126 York Street, Suite 200
+      <br>Ottawa, ON, K1N 5T5
+
+  - title: "DGS"
+    date_time: "2012-05-04T18:30"
+    addr: |
+      Orange Gallery
+      <br>233 Armstrong St.
+      <br>Ottawa, ON, K1R 7R7

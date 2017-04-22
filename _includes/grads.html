@@ -1,0 +1,57 @@
+<section class="pad-t-2 pad-b-2 bg-blue-light">
+  <header class="text-center gutter-1-4 push-2">
+    <h2 class="yotta">{{site.data.grads.title}}</h2>
+    <p class="mega max-length push-0">{{site.data.grads.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
+  </header>
+
+  <article class="media-block-wrap gutter-1-2 push-2">
+    <div class="media-block wrapper grid grid-stretch chop">
+      <div class="media-block-img unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png)">
+        <a class="content-stretch ir link-box" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/">Learn more about this Graphic Design news</a>
+      </div>
+      <div class="media-block-text unit [ xs-1 s-3-4 ] gutter pad-t pad-b unit-content-distribute">
+        <div class="grid grid-middle content-stretch">
+          <div class="unit [ xs-1 m-2-3 ] unit-content-distribute">
+            <div class="content-stretch center-contents-vertical-start">
+              <h3 class="giga push-1-2">{{site.data.grads.shows[0].title}} — {{site.data.grads.shows[0].date_time | date: '%Y'}}</h3>
+              <time class="block push-1-2" datetime="{{site.data.grads[0].date_time}}">{{site.data.grads.shows[0].date_time | date: '%a., %b %e, %Y — %l:%M %P'}}</time>
+              <address class="push-0">{{site.data.grads.shows[0].addr}}</address>
+            </div>
+          </div>
+          <div class="news-learn-more unit [ xs-1 m-1-3 ] unit-content-distribute pad-t">
+            <div class="text-center content-stretch center-content mega">
+              <a class="relative" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/" aria-label="Learn more about {{site.data.grads.shows[0].title}}, the {{site.data.grads.shows[0].date_time | date: '%Y'}} Graphic Design Grad Show">
+                <span class="icon-label push-r">Learn&nbsp;more</span>
+                <i class="icon i-16 absolute pin-rc"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#arrow"></use></svg></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="gutter-1-4">
+    <ol class="list-group grid wrapper" reversed>
+      {% for show in site.data.grads.shows offset:1 limit:4 %}
+        <li class="unit [ xs-1-2 s-1-3 l-1-4 ] gutter-1-8 {% if forloop.last %}unit-xs-hidden unit-s-hidden unit-m-hidden{% endif %}">
+          <a class="block link-box text-center" href="http://{{show.date_time | date: '%Y'}}.grads.algonquindesign.ca/" aria-label="Learn more about {{show.title}}, the {{show.date_time | date: '%Y'}} Graphic Design Grad Show">
+            <div class="angle-bottom-card pad-b-1-2">
+              <img class="img-flex push-1-2" src="{{site.baseurl}}/images/grad-shows/{{show.date_time | date: '%Y'}}.png" alt="">
+              <h3 class="mega not-bold font-primary push-1-8"><span class="link-box-text">{{show.title}} — {{show.date_time | date: '%Y'}}</span></h3>
+            </div>
+            <svg class="angle-bottom-card-slant w-1 block" width="1600" height="80" viewBox="0 0 1600 80">
+              {% capture even_or_odd %}{{forloop.index | modulo: 2}}{% endcapture %}
+              {% if even_or_odd == "1" %}
+                <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(-2 797.48 -51.983)"/>
+              {% else %}
+                <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"/>
+              {% endif %}
+            </svg>
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+
+</section>

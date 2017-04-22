@@ -1,4 +1,5 @@
 :root {
+  --color-text: #333;
   --color-green-dark: #00673e;
   --color-green-light: #94c947;
   --color-turquoise: #00675a;
@@ -16,7 +17,11 @@
 
 html {
   font-family: var(--font-primary);
-  color: #333;
+  color: var(--color-text);
+}
+
+.font-primary {
+  font-family: var(--font-primary);
 }
 
 h1,
@@ -29,7 +34,8 @@ h6,
   font-family: var(--font-secondary);
 }
 
-a {
+a,
+.link-box-text {
   border-bottom: .1em solid rgba(0, 154, 166, .4);
 
   color: var(--color-blue-light);
@@ -38,7 +44,10 @@ a {
 
 a:hover,
 a:focus,
-a:active {
+a:active,
+.link-box:hover .link-box-text,
+.link-box:focus .link-box-text,
+.link-box:active .link-box-text {
   border-color: var(--color-blue-light);
 }
 
@@ -97,6 +106,11 @@ abbr[title="and"] {
 
 .bg-orange-texture {
   background-image: url("../images/orange-bg.png");
+}
+
+.bg-blue-light {
+  background-color: var(--color-blue-light);
+  color: #fff;
 }
 
 .btn {
