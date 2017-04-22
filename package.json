@@ -1,0 +1,31 @@
+{
+  "name": "algonquindesign.ca",
+  "version": "1.0.0",
+  "author": "Thomas J Bradley <bradlet@algonquincollege.com>",
+  "description": "Public facing website for the Algonquin College Graphic Design program.",
+  "private": true,
+  "keywords": [
+    "algonquin",
+    "design",
+    "graphic",
+    "typography",
+    "layout",
+    "web",
+    "development",
+    "photoshop",
+    "illustrator",
+    "indesign",
+    "adobe"
+  ],
+  "bugs": {
+    "url": "https://github.com/algonquindesign/algonquindesign.ca/issues"
+  },
+  "homepage": "https://algonquindesign.ca",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algonquindesign/algonquindesign.ca.git"
+  },
+  "scripts": {
+    "start": "jekyll serve --baseurl=''"
+  }
+}
