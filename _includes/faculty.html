@@ -33,7 +33,9 @@
               {% if person.links %}
                 <ul class="bullet-sep-list list-group-inline milli push-0">
                   {% for link in person.links %}
-                    <li><a href="{{link.url}}" rel="external">{{link.title}}</a></li>
+                    <li>
+                      <a href="{{link.url}}" rel="external">{{link.title}}</a>
+                    </li>
                   {% endfor %}
                 </ul>
               {% endif %}

@@ -95,6 +95,11 @@ abbr[title="and"] {
   background-size: 8px 8px;
 }
 
+.bg-grey-texture-alt {
+  background-image: url("../images/grey-bg-alt.png");
+  background-size: 200px 100px;
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -127,14 +132,23 @@ abbr[title="and"] {
 
 .bullet-sep-list > li::after {
   content: "•";
-  display: inline-block;
-  margin-left: .3em;
   opacity: .5;
 }
 
 .bullet-sep-list > li:last-child::after {
   content: none;
   display: none;
+}
+
+.rgd-link {
+  color: #ed1d24;
+  border-color: rgba(237, 29, 36, .4);
+}
+
+.rgd-link:hover,
+.rgd-link:focus,
+.rgd-link:active {
+  border-color: #ed1d24;
 }
 
 @media only screen and (max-width: 70em) {

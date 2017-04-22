@@ -1,0 +1,37 @@
+title: "Student Resources"
+desc: "The links, documents, websites & information you need as a student of the Algonquin College Graphic Design program."
+
+resources:
+  - title: "Websites"
+    links:
+      - title: "Email"
+        url: "http://liveac.algonquincollege.com/"
+        highlight: true
+      - title: "ACSIS"
+        url: "https://acsis.algonquincollege.com/students/"
+        highlight: true
+
+  - title: "Curriculum"
+    links:
+      - title: "Canvas"
+        url: "https://algonquin.instructure.com/"
+        highlight: true
+      - title: "Blackboard"
+        url: "https://blackboard.algonquincollege.com/"
+      - title: "Computer Graphics"
+        url: "http://cg.algonquindesign.ca/"
+      - title: "Learn the Web"
+        url: "https://learn-the-web.algonquindesign.ca/"
+
+  - title: "Social media"
+    links:
+      - title: "Facebook"
+        url: "https://www.facebook.com/algonquindesign"
+      - title: "Twitter"
+        url: "https://twitter.com/algonquindesign"
+      - title: "YouTube"
+        url: "https://youtube.com/algonquindesignca"
+      - title: "LinkedIn"
+        url: "http://www.linkedin.com/groups?gid=7434225"
+      - title: "GitHub"
+        url: "https://algonquindesign.github.io/"
