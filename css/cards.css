@@ -1,6 +1,5 @@
 .angle-card {
   position: relative;
-  overflow-x: hidden;
 }
 
 .angle-card::after {

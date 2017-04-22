@@ -8,6 +8,8 @@ people:
     desc: "Graphics & layout"
     coord: "Co-coordinator"
     links:
+      - title: "Email"
+        url: "mailto:paradia@algonquincollege.com"
       - title: "YouTube"
         url: "https://www.youtube.com/accomputergraphics"
       - title: "Curriculum"
@@ -17,6 +19,9 @@ people:
     img: "david.jpg"
     desc: "Theory & branding"
     coord: "Co-coordinator"
+    links:
+      - title: "Email"
+        url: "mailto:bromled@algonquincollege.com"
 
   - name: "Andrea Emery"
     img: "andrea.jpg"

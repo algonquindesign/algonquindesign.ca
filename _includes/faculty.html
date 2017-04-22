@@ -5,7 +5,7 @@
     </svg>
   </div>
   <header class="text-center gutter-1-4 pad-b push">
-    <h2 class="yotta">{{site.data.faculty.title}}</h2>
+    <h2 class="yotta"><span tabindex="0">{{site.data.faculty.title}}</span></h2>
     <p class="mega max-length push-0">{{site.data.faculty.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
   </header>
   <div class="gutter pad-t-1-2">
@@ -27,7 +27,7 @@
               <image mask="url(#mask-{{forloop.index}})" xlink:href="{{site.baseurl}}/images/faculty/{{person.img}}" width="100%" height="100%"></image>
             </svg>
             <div class="faculty-card-details pad-t-1-2 pad-b-1-2 gutter-1-2 content-fill">
-              <h3 class="giga push-1-8">{{person.name}}</h3>
+              <h3 class="giga push-1-8"><span tabindex="0">{{person.name}}</span></h3>
               {% if person.coord %}<p class="push-0"><em>{{person.coord}}</em></p>{% endif %}
               <p class="push-1-4">{{person.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
               {% if person.links %}
@@ -45,7 +45,7 @@
       {% endfor %}
     </ul>
   </div>
-  <footer class="text-center gutter-1-4 pad-t-2 pad-b-2">
-    <p class="giga max-length push-0">{{site.data.faculty.outro}}</p>
+  <footer class="text-center gutter-1-4 pad-t pad-b-2">
+    <p class="giga max-length pad-t-1-4 push-0">{{site.data.faculty.outro}}</p>
   </footer>
 </section>

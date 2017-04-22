@@ -1,11 +1,11 @@
 <section class="pad-t-2 bg-blue-light">
   <header class="text-center gutter-1-4 push-2">
-    <h2 class="yotta">{{site.data.grads.title}}</h2>
+    <h2 class="yotta"><span tabindex="0">{{site.data.grads.title}}</span></h2>
     <p class="mega max-length push-0">{{site.data.grads.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
   </header>
 
   <article class="media-block-wrap gutter-1-2 push-2">
-    <div class="media-block wrapper grid grid-stretch chop">
+    <div class="media-block wrapper grid grid-stretch">
       <div class="media-block-img unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png)">
         <a class="content-stretch ir link-box" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/">Learn more about this Graphic Design news</a>
       </div>
