@@ -40,22 +40,24 @@
               <img class="img-flex push-1-2" src="{{site.baseurl}}/images/grad-shows/{{show.date_time | date: '%Y'}}.png" alt="">
               <h3 class="kilo not-bold font-primary push-1-8"><span class="link-box-text">{{show.title}} — {{show.date_time | date: '%Y'}}</span></h3>
             </div>
-            <svg class="angle-bottom-card-slant w-1 block" width="1600" height="80" viewBox="0 0 1600 80">
-              {% capture even_or_odd %}{{forloop.index | modulo: 2}}{% endcapture %}
-              {% if even_or_odd == "1" %}
-                <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(-2 797.48 -51.983)"/>
-              {% else %}
-                <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"/>
-              {% endif %}
-            </svg>
+            <div class="embed embed-slant">
+              <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
+                {% capture even_or_odd %}{{forloop.index | modulo: 2}}{% endcapture %}
+                {% if even_or_odd == "1" %}
+                  <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(-2 797.48 -51.983)"></rect>
+                {% else %}
+                  <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"></rect>
+                {% endif %}
+              </svg>
+            </div>
           </a>
         </li>
       {% endfor %}
     </ol>
   </div>
 
-  <div class="push bg-white">
-    <svg class="chop w-1 block" width="1600" height="80" viewBox="0 0 1600 80">
+  <div class="embed embed-slant push bg-white">
+    <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
       <rect fill="#009aa6" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"/>
     </svg>
   </div>

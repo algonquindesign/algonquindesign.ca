@@ -3,6 +3,14 @@ desc: "Our faculty is made of dedicated professionals who are passionate about e
 outro: "And many more amazing professionals from the Ottawa community who contribute their time to help our students&nbsp;learn."
 
 people:
+  - name: "David Bromley"
+    img: "david.jpg"
+    desc: "Theory & branding"
+    coord: "Co-coordinator"
+    links:
+      - title: "Email"
+        url: "mailto:bromled@algonquincollege.com"
+
   - name: "Alain Paradis"
     img: "alain.jpg"
     desc: "Graphics & layout"
@@ -14,14 +22,6 @@ people:
         url: "https://www.youtube.com/accomputergraphics"
       - title: "Curriculum"
         url: "http://cg.algonquindesign.ca/"
-
-  - name: "David Bromley"
-    img: "david.jpg"
-    desc: "Theory & branding"
-    coord: "Co-coordinator"
-    links:
-      - title: "Email"
-        url: "mailto:bromled@algonquincollege.com"
 
   - name: "Andrea Emery"
     img: "andrea.jpg"

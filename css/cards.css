@@ -48,10 +48,6 @@
   overflow: hidden;
 }
 
-.angle-bottom-card-slant {
-  height: 14px;
-}
-
 .faculty-card-details {
   background-color: #fff;
   border-radius: 0 0 var(--border-radius) var(--border-radius);
