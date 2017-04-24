@@ -1,17 +1,21 @@
 <aside class="pre-footer bg-green-dark pad-t pad-b">
   <div class="wrapper gutter-1-2">
-    <ul class="list-group mega list-group-columns">
-      <li class="pad-t-1-4"><a href="#testimonials">Testimonials</a></li>
-      <li class="pad-t-1-4"><a href="#news">News</a></li>
-      <li class="pad-t-1-4"><a href="#hear-from-grads">Hear From Graduates</a></li>
-      <li class="pad-t-1-4"><a href="#student-work">Student Work</a></li>
-      <li class="pad-t-1-4"><a href="#curriculum">Our Curriculum</a></li>
-      <li class="pad-t-1-4"><a href="#faculty">Our Faculty</a></li>
-      <li class="pad-t-1-4"><a href="#grad-shows">Graduate Showcases</a></li>
-      <li class="pad-t-1-4"><a href="#portfolio-requirements">Portfolio Requirements</a></li>
-      <li class="pad-t-1-4"><a href="#apply-now">Apply Now</a></li>
-    </ul>
+    <nav role="navigation">
+      <h2 class="visually-hidden">Sitemap</h2>
+      <ul class="list-group mega list-group-columns">
+        <li class="pad-t-1-4"><a href="#testimonials">Testimonials</a></li>
+        <li class="pad-t-1-4"><a href="#news">News</a></li>
+        <li class="pad-t-1-4"><a href="#hear-from-grads">Hear From Graduates</a></li>
+        <li class="pad-t-1-4"><a href="#student-work">Student Work</a></li>
+        <li class="pad-t-1-4"><a href="#curriculum">Our Curriculum</a></li>
+        <li class="pad-t-1-4"><a href="#faculty">Our Faculty</a></li>
+        <li class="pad-t-1-4"><a href="#grad-shows">Graduate Showcases</a></li>
+        <li class="pad-t-1-4"><a href="#portfolio-requirements">Portfolio Requirements</a></li>
+        <li class="pad-t-1-4"><a href="#apply-now">Apply Now</a></li>
+      </ul>
+    </nav>
     <hr>
+    <h2 class="visually-hidden">{{site.data.footer.social_title}}</h2>
     <ul class="list-group list-group-spaced">
       {% for link in site.data.footer.social %}
         <li class="pad-t-1-8 pad-b-1-8">
@@ -23,6 +27,7 @@
       {% endfor %}
     </ul>
     <hr>
+    <h2 class="visually-hidden">{{site.data.footer.resources_title}}</h2>
     <ul class="list-group list-group-spaced milli">
       {% for link in site.data.footer.resources %}
         <li class="pad-t-1-8 pad-b-1-8">
