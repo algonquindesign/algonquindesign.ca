@@ -1,0 +1,57 @@
+<section class="pad-t-2 push-1-2 text-center bg-grey">
+  <header class="gutter-1-2 push">
+    <h2 class="yotta"><span tabindex="0" id="student-work-samples">{{site.data.sample-work.title}}</span></h2>
+    <p class="mega max-length push-0">{{site.data.sample-work.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
+  </header>
+  <div class="embed embed-16by9">
+    <svg class="embed-item" width="1600" height="900" viewBox="0 0 1600 900">
+      <defs>
+        <clipPath id="poly-1">
+          <polygon fill="#000" points="551.9 488.9 0 509.1 0 25 534.1 44.3 551.9 488.9"></polygon>
+        </clipPath>
+        <clipPath id="poly-2">
+          <polygon fill="#000" points="1068.1 470.9 551.9 488.9 534.1 44.3 1085.6 25 1068.1 470.9"></polygon>
+        </clipPath>
+        <clipPath id="poly-3">
+          <polygon fill="#000" points="1600 491.2 1068.1 470.9 1085.6 25 1600 5.6 1600 491.2"></polygon>
+        </clipPath>
+        <clipPath id="poly-4">
+          <polygon fill="#000" points="-1 509.3 551.4 489.5 533.3 899 -1 899 -1 509.3"></polygon>
+        </clipPath>
+        <clipPath id="poly-5">
+          <polygon fill="#000" points="1054.3 898 1068.1 470.9 551.7 489.3 533.3 898.5 1054.3 898"></polygon>
+        </clipPath>
+        <clipPath id="poly-6">
+          <polygon fill="#000" points="1599 899 1599 491 1067.8 471.4 1054.3 899 1599 899"></polygon>
+        </clipPath>
+      </defs>
+      <a xlink:href="{{site.data.sample-work.images.slot-1.url}}">
+        <image clip-path="url(#poly-1)" x="-10px" y="-10px" width="45%" xlink:href="images/sample-work/{{site.data.sample-work.images.slot-1.image}}"></image>
+      </a>
+      <a xlink:href="{{site.data.sample-work.images.slot-2.url}}">
+        <image clip-path="url(#poly-2)" x="30%" y="-10px" width="45%" xlink:href="images/sample-work/{{site.data.sample-work.images.slot-2.image}}"></image>
+      </a>
+      <a xlink:href="{{site.data.sample-work.images.slot-3.url}}">
+        <image clip-path="url(#poly-3)" x="60%" y="-10px" width="45%" xlink:href="images/sample-work/{{site.data.sample-work.images.slot-3.image}}"></image>
+      </a>
+      <a xlink:href="{{site.data.sample-work.images.slot-4.url}}">
+        <image clip-path="url(#poly-4)" x="-10px" y="45%" width="45%" xlink:href="images/sample-work/{{site.data.sample-work.images.slot-4.image}}"></image>
+      </a>
+      <a xlink:href="{{site.data.sample-work.images.slot-5.url}}">
+        <image clip-path="url(#poly-5)" x="30%" y="45%" width="45%" xlink:href="images/sample-work/{{site.data.sample-work.images.slot-5.image}}"></image>
+      </a>
+      <a xlink:href="{{site.data.sample-work.images.slot-6.url}}">
+        <image clip-path="url(#poly-6)" x="60%" y="45%" width="45%" xlink:href="images/sample-work/{{site.data.sample-work.images.slot-6.image}}"></image>
+      </a>
+    </svg>
+  </div>
+  <div class="pad-t-2 pad-b">
+    <p class="mega">{{site.data.sample-work.outro}}</p>
+    <a class="btn btn-pill btn-orange" href="{{site.data.sample-work.url}}" rel="external">{{site.data.sample-work.button}}</a>
+  </div>
+  <div class="embed embed-slant">
+    <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
+      <rect fill="#fff" width="1629.8" height="220.36" x="-9" y="40.5" transform="rotate(-2 805.388 151.596)"></rect>
+    </svg>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+title: "Fantastic Student Designs"
+desc: "Check out some of the amazing graphic design work our students have created over the years."
+outro: "There’s plenty more where that came from!"
+button: "Check out more student work"
+url: "https://www.behance.net/algonquindesign"
+
+images:
+  slot-1:
+    image: "isometric.jpg"
+    url: "https://www.behance.net/gallery/30910937/Isometric-Illustration"
+  slot-2:
+    image: "double-exposure.jpg"
+    url: "https://www.behance.net/gallery/49133643/Double-Exposure-Effect"
+  slot-3:
+    image: "brosmind.jpg"
+    url: "https://www.behance.net/algonquindesign"
+  slot-4:
+    image: "popcorn.jpg"
+    url: "https://www.behance.net/algonquindesign"
+  slot-5:
+    image: "cycle-secure.jpg"
+    url: "https://www.behance.net/algonquindesign"
+  slot-6:
+    image: "sota.jpg"
+    url: "https://www.behance.net/algonquindesign"

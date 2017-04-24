@@ -137,6 +137,11 @@ abbr[title="and"] {
   border-color: #000;
 }
 
+.bg-grey {
+  background-color: var(--color-grey);
+  color: #fff;
+}
+
 .bg-grey-light {
   background-color: var(--color-grey-light);
 }
@@ -201,7 +206,7 @@ abbr[title="and"] {
   padding-top: 5%;
 }
 
-.embed-slant .embed-item {
+svg.embed-item {
   height: 100%;
 }
 

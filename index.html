@@ -25,8 +25,11 @@
 
   <main role="main">
     {% include banner.html %}
-    {% include news.html %}
-    {% include student-video.html %}
+    {% unless site.data.news.disabled %}
+      {% include news.html %}
+    {% endunless %}
+    {% include video.html %}
+    {% include sample-work.html %}
     {% include curriculum.html %}
     {% include faculty.html %}
     {% include grads.html %}
