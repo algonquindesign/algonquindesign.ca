@@ -1,0 +1,19 @@
+<section class="pad-b bg-grey-light-alt bg-grey-texture-alt">
+  <div class="embed embed-slant push">
+    <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
+      <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(-2 797.48 -51.983)"></rect>
+    </svg>
+  </div>
+  <header class="text-center gutter-1-4 push">
+    <h2 class="yotta"><span tabindex="0">{{site.data.portfolio.title}}</span></h2>
+    <p class="mega max-length ">{{site.data.portfolio.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
+    <p class="max-length">{{site.data.portfolio.details | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
+    <p class="max-length"><em>{{site.data.portfolio.questions}} <a href="mailto:{{site.data.portfolio.email}}?subject=Question%20about%20portfolio%20requirements">{{site.data.portfolio.email_text}}</a>.</em></p>
+  </header>
+
+  <div class="gutter pad-t-1-2 wrapper text-center">
+    <div class="push">
+      <a class="btn btn-blue-light btn-pill" href="{{site.data.portfolio.url}}" rel="external">{{site.data.portfolio.button}} </a>
+    </div>
+  </div>
+</section>

@@ -1,6 +1,6 @@
 <section class="pad-t-2 bg-blue-light">
   <header class="text-center gutter-1-4 push-2">
-    <h2 class="yotta"><span tabindex="0">{{site.data.grads.title}}</span></h2>
+    <h2 class="yotta"><span tabindex="0" id="grad-shows">{{site.data.grads.title}}</span></h2>
     <p class="mega max-length push-0">{{site.data.grads.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
   </header>
 
@@ -22,7 +22,7 @@
             <div class="text-center content-stretch center-content mega">
               <a class="relative" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/" aria-label="Learn more about {{site.data.grads.shows[0].title}}, the {{site.data.grads.shows[0].date_time | date: '%Y'}} Graphic Design Grad Show">
                 <span class="icon-label push-r">Learn&nbsp;more</span>
-                <i class="icon i-16 absolute pin-rc"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#arrow"></use></svg></i>
+                <i class="icon i-16 absolute pin-rc"><svg><use xlink:href="#arrow"></use></svg></i>
               </a>
             </div>
           </div>
