@@ -6,6 +6,10 @@
   outline: none;
 }
 
+.focus-rings polygon {
+  visibility: hidden;
+}
+
 .student-work a:nth-of-type(1):focus ~ .focus-rings polygon:nth-child(1),
 .student-work a:nth-of-type(2):focus ~ .focus-rings polygon:nth-child(2),
 .student-work a:nth-of-type(3):focus ~ .focus-rings polygon:nth-child(3),
@@ -14,5 +18,5 @@
 .student-work a:nth-of-type(6):focus ~ .focus-rings polygon:nth-child(6),
 .student-work a:nth-of-type(7):focus ~ .focus-rings polygon:nth-child(7),
 .student-work a:nth-of-type(8):focus ~ .focus-rings polygon:nth-child(8) {
-  stroke-width: 4px;
+  visibility: visible;
 }
