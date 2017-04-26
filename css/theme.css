@@ -20,6 +20,11 @@ html {
   color: var(--color-text);
 }
 
+::selection {
+  background-color: var(--color-blue-light);
+  color: #fff;
+}
+
 .font-primary {
   font-family: var(--font-primary);
 }
@@ -117,6 +122,11 @@ abbr[title="and"] {
   border-color: var(--color-green-light);
 }
 
+.bg-green-dark ::selection {
+  background-color: var(--color-green-light);
+  color: #fff;
+}
+
 .bg-green-light {
   background-color: var(--color-green-light);
 }
@@ -130,6 +140,11 @@ abbr[title="and"] {
   border-color: rgba(0, 103, 62, .5);
 }
 
+.bg-green-light ::selection {
+  background-color: var(--color-green-dark);
+  color: #fff;
+}
+
 .bg-green-light a:not(.btn):hover,
 .bg-green-light a:not(.btn):focus,
 .bg-green-light a:not(.btn):active {
@@ -139,6 +154,11 @@ abbr[title="and"] {
 
 .bg-grey {
   background-color: var(--color-grey);
+  color: #fff;
+}
+
+.bg-grey ::selection {
+  background-color: #111;
   color: #fff;
 }
 
@@ -155,6 +175,11 @@ abbr[title="and"] {
   background-color: #f2f2f2;
 }
 
+.bg-grey-light-alt ::selection {
+  background-color: var(--color-blue-light);
+  color: #fff;
+}
+
 .bg-grey-texture-alt {
   background-image: url("../images/grey-bg-alt.png");
   background-size: 200px 100px;
@@ -169,6 +194,11 @@ abbr[title="and"] {
   color: #fff;
 }
 
+.bg-orange ::selection {
+  background-color: #333;
+  color: #fff;
+}
+
 .bg-orange-texture {
   background-image: url("../images/orange-bg.png");
 }
@@ -176,6 +206,11 @@ abbr[title="and"] {
 .bg-blue-light {
   background-color: var(--color-blue-light);
   color: #fff;
+}
+
+.bg-blue-light ::selection {
+  background-color: #e2e2e2;
+  color: #333;
 }
 
 .btn {
@@ -257,6 +292,11 @@ svg.embed-item {
 .rgd-link:focus,
 .rgd-link:active {
   border-color: #ed1d24;
+}
+
+.rgd ::selection {
+  background-color: #ed1d24;
+  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {

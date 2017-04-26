@@ -3,6 +3,11 @@
   color: var(--color-text);
 }
 
+.media-block ::selection {
+  background-color: #333;
+  color: #fff;
+}
+
 .media-block-img {
   min-height: 14em;
   background-size: cover;
