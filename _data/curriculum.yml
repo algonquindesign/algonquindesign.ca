@@ -4,20 +4,29 @@ button: "Explore our courses"
 
 topics:
   - title: "Branding"
+    icon: branding
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Typography"
+    icon: typography
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Computer Graphics"
+    icon: graphics
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Interaction Design"
+    icon: interaction
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Web Development"
+    icon: web
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Motion Graphics"
+    icon: motion
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Theory & History"
+    icon: theory
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Business"
+    icon: business
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
   - title: "Field Work"
+    icon: fieldwork
     desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."

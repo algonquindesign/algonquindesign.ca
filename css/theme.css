@@ -235,6 +235,11 @@ svg.embed-item {
 
 }
 
+.curriculum-icon svg {
+  stroke: #999;
+  fill: #999;
+}
+
 .rgd-link {
   color: #ed1d24;
   border-color: rgba(237, 29, 36, .4);

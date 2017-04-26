@@ -13,6 +13,7 @@
       {% for topic in site.data.curriculum.topics %}
         <li class="unit [ xs-1 s-1-2 l-1-3 ] gutter-1-4 {% if forloop.last %}unit-s-centered{% endif %}">
           <div class="angle-card pad-b push-2">
+            <i class="curriculum-icon icon i-96 block center-block push-1-2"><svg><use xlink:href="#{{topic.icon}}"></use></svg></i>
             <h3 class="push"><a href="#">{{topic.title}}</a></h3>
             <p>{{topic.desc}}</p>
           </div>
