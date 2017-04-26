@@ -5,28 +5,28 @@ button: "Explore our courses"
 topics:
   - title: "Branding"
     icon: branding
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Research & generate ideas to effectively convey information."
   - title: "Typography"
     icon: typography
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Learn to communicate visually with text, grids & alignment."
   - title: "Computer Graphics"
     icon: graphics
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Use standard tools to implement layouts for print & digital."
   - title: "Interaction Design"
     icon: interaction
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Define & model how users interact with your digital products."
   - title: "Web Development"
     icon: web
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Produce websites by hand-writing code that follows open standards."
   - title: "Motion Graphics"
     icon: motion
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Implement animation & audio to tell emotional stories over time."
   - title: "Theory & History"
     icon: theory
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Explore colour & design history to help fully express your ideas."
   - title: "Business"
     icon: business
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Innovate your business skill in the ever-changing graphic design world."
   - title: "Field Work"
     icon: fieldwork
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    desc: "Practice interviewing and build experience in a six-week internship."

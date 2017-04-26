@@ -15,7 +15,7 @@
           <div class="angle-card pad-b push-2">
             <i class="curriculum-icon icon i-96 block center-block push-1-2"><svg><use xlink:href="#{{topic.icon}}"></use></svg></i>
             <h3 class="push"><a href="#">{{topic.title}}</a></h3>
-            <p>{{topic.desc}}</p>
+            <p>{{topic.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
           </div>
         </li>
       {% endfor %}
