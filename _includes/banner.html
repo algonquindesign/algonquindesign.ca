@@ -1,10 +1,24 @@
 <section class="intro bg-green-light bg-green-light-texture relative">
   <div class="relative zindex-3">
-    <div class="intro-text wrapper gutter-1-2 pad-t-2 pad-b push">
+    <div class="intro-text wrapper gutter-1-2 pad-t-2 pad-b-1-2 push">
       <h2 class="main-title push"><span tabindex="0">{{site.data.banner.title}}</span></h2>
-      <div class="max-length not-centered">
+      <div class="max-length not-centered push">
         <p class="tera push-0">{{site.data.banner.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
       </div>
+      <ul class="list-group-inline pad-t-1-4 push-0 kilo">
+        <li class="push-r">
+          <i class="banner-icon icon i-64" role="presentation"><svg><use xlink:href="#credential"></use></svg></i>
+          <span class="ib icon-label">{{site.data.banner.credential}}</span>
+        </li>
+        <li class="push-r">
+          <i class="banner-icon icon i-64" role="presentation"><svg><use xlink:href="#building"></use></svg></i>
+          <span class="ib icon-label">{{site.data.banner.location}}</span>
+        </li>
+        <li>
+          <i class="banner-icon icon i-64" role="presentation"><svg><use xlink:href="#length"></use></svg></i>
+          <span class="ib icon-label">{{site.data.banner.length}}</span>
+        </li>
+      </ul>
     </div>
     <div class="media-block-wrap testimonials-wrap push-2 gutter-1-2" id="testimonials">
       <h2 class="visually-hidden">{{site.data.banner.testimonials_title}}</h2>

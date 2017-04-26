@@ -240,6 +240,14 @@ svg.embed-item {
   fill: #999;
 }
 
+.banner-icon svg {
+  stroke: currentcolor;
+}
+
+.portfolio-icon svg {
+  stroke: #999;
+}
+
 .rgd-link {
   color: #ed1d24;
   border-color: rgba(237, 29, 36, .4);
@@ -273,6 +281,11 @@ svg.embed-item {
   .list-group-spaced > li::after {
     content: none;
     display: none;
+  }
+
+  .portfolio-icon {
+    position: relative;
+    top: -2.4em;
   }
 
 }
