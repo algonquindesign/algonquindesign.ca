@@ -13,6 +13,7 @@
   <link href="{{site.baseurl}}/css/masthead.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/media-block.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/banner.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/stats.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/cards.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/video.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/student-work.css" rel="stylesheet">
@@ -26,6 +27,7 @@
 
   <main role="main">
     {% include banner.html %}
+    {% include stats.html %}
     {% unless site.data.news.disabled %}
       {% include news.html %}
     {% endunless %}

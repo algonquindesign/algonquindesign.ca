@@ -86,6 +86,10 @@ abbr[title="and"] {
   text-decoration: none;
 }
 
+.color-green-dark {
+  color: var(--color-green-dark);
+}
+
 .bg-green-dark {
   background-color: var(--color-green-dark);
   color: #fff;
