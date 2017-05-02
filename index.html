@@ -43,5 +43,13 @@
 
   {% include footer.html %}
 
+  <script id="testimonial-template" type="text/x-template">{% include testimonial-template.html %}</script>
+  <script id="testimonial-buttons" type="text/x-template">{% include testimonial-buttons-template.html %}</script>
+  <script>
+    var imgUrlBase = '{{site.baseurl}}/images/testimonials/';
+    var testimonials = {{site.data.testimonials | jsonify}};
+  </script>
+  <script src="{{site.baseurl}}/js/shuffle.js"></script>
+  <script src="{{site.baseurl}}/js/testimonials.js"></script>
 </body>
 </html>

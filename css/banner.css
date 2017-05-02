@@ -15,6 +15,39 @@
   background-repeat: no-repeat;
 }
 
+.testimonial-button {
+  padding: 0;
+  border-radius: 50em;
+  border-color: var(--color-grey-light);
+}
+
+.testimonial-button:hover,
+.testimonial-button:focus {
+  background-color: #fff;
+  border-color: var(--color-grey);
+}
+
+.testimonial-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #000;
+}
+
+.testimonial-button[aria-selected="true"] {
+  background-color: var(--color-grey-light);
+}
+
+[data-state="loading"] .testimonial-img {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Cpath fill='%23e2e2e2' d='M0 0h256v256H0z'/%3E%3Cpath fill='%23999' d='M103.4 136.6a45.6 45.6 0 1 1 49.2 0c18.4 12 31.6 37.1 34 66.9H69.4c2.4-29.8 15.7-54.9 34-66.9z'/%3E%3C/svg%3E") !important;
+}
+
+[data-state="loading"] .testimonial-author,
+[data-state="loading"] .testimonial-quote {
+  background-color: #e2e2e2 !important;
+  color: #e2e2e2 !important;
+  pointer-events: none;
+  user-select: none;
+}
+
 @media only screen and (min-width: 38em) {
 
   .intro-text {
