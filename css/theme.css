@@ -207,6 +207,11 @@ abbr[title="and"] {
   background-image: url("../images/orange-bg.png");
 }
 
+.bg-orange a {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .5);
+}
+
 .bg-blue-light {
   background-color: var(--color-blue-light);
   color: #fff;

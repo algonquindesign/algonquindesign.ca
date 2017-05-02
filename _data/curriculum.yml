@@ -5,28 +5,28 @@ button: "Explore our courses"
 topics:
   - title: "Branding"
     icon: branding
-    desc: "Research & generate ideas to effectively convey information."
+    desc: "Design memorable brands through research, iteration & implementation."
   - title: "Typography"
     icon: typography
     desc: "Learn to communicate visually with text, grids & alignment."
   - title: "Computer Graphics"
     icon: graphics
-    desc: "Use standard tools to implement layouts for print & digital."
+    desc: "Create captivating graphics & layouts for the page and the screen."
   - title: "Interaction Design"
     icon: interaction
-    desc: "Define & model how users interact with your digital products."
+    desc: "Define & model how users interact with digital products."
   - title: "Web Development"
     icon: web
-    desc: "Produce websites by hand-writing code that follows open standards."
+    desc: "Author hand-crafted code to build sites for the Open Web."
   - title: "Motion Graphics"
     icon: motion
-    desc: "Implement animation & audio to tell emotional stories over time."
+    desc: "Tell compelling stories with animation and audio."
   - title: "Theory & History"
     icon: theory
     desc: "Explore colour & design history to help fully express your ideas."
   - title: "Business"
     icon: business
-    desc: "Innovate your business skill in the ever-changing graphic design world."
+    desc: "Gain the knowledge to confidently navigate the real-world business of design."
   - title: "Field Work"
     icon: fieldwork
-    desc: "Practice interviewing and build experience in a six-week internship."
+    desc: "Experience the design studio environment during a six-week internship."

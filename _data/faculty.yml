@@ -1,6 +1,6 @@
 title: "Our Faculty"
-desc: "Our faculty is made of dedicated professionals who are passionate about encouraging new designers and who strive to push the program&nbsp;forward."
-outro: "And many more amazing professionals from the Ottawa community who contribute their time to help our students&nbsp;learn."
+desc: "We are passionate design professionals, dedicated to imparting an industry-relevant, current & varied curriculum to eager budding designers."
+outro: "Many more amazing practicing designers from the Ottawa community contribute their time, knowledge & expertise to help our students."
 
 people:
   - name: "David Bromley"
@@ -10,6 +10,8 @@ people:
     links:
       - title: "Email"
         url: "mailto:bromled@algonquincollege.com"
+      - title: "Website"
+        url: "https://davidbromley.design"
 
   - name: "Alain Paradis"
     img: "alain.jpg"

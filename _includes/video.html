@@ -4,13 +4,19 @@
       <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"/>
     </svg>
   </div>
-  <header class="gutter-1-4 push-2">
+  <header class="gutter-1-2 push-2">
     <h2 class="yotta"><span tabindex="0" id="hear-from-grads">{{site.data.video.title}}</span></h2>
     <p class="mega max-length push-0">{{site.data.video.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
   </header>
-  <div class="max-length push-2">
+  <div class="max-length push">
     <div class="video-wrap embed embed-16by9">
       <iframe class="embed-item" src="https://www.youtube.com/embed/cN6ULi1DaZ8?color=white&theme=light&rel=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
+  <blockquote class="push-2">
+    <div class="video-quote mega pad-t gutter-2 max-length">
+      <p class="italic push-1-2">{{site.data.video.testimonial}}</p>
+      <footer class="kilo">— <cite>{{site.data.video.testimonial_author}}</cite></footer>
+    </div>
+  </blockquote>
 </section>
