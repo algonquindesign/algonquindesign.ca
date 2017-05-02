@@ -212,6 +212,10 @@ abbr[title="and"] {
   border-color: rgba(255, 255, 255, .5);
 }
 
+.bg-orange a:hover {
+  border-color: #fff;
+}
+
 .bg-blue-light {
   background-color: var(--color-blue-light);
   color: #fff;
