@@ -48,6 +48,13 @@ people:
   - name: "Jed Looker"
     img: "jed.jpg"
     desc: "Interaction & experience"
+    links:
+      - title: "Email"
+        url: "mailto:lookerj@algonquincollege.com"
+      - title: "LinkedIn"
+        url: "https://www.linkedin.com/in/jedlooker/"
+      - title: "Twitter"
+        url: "https://twitter.com/jedlooker"
 
   - name: "Thomas J Bradley"
     img: "thomas.jpg"
