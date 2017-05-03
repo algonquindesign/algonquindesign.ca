@@ -62,6 +62,10 @@ a:active,
   border-color: var(--color-blue-light);
 }
 
+.show-on-medium {
+  display: none;
+}
+
 .icon-link {
   border: 0;
 }
@@ -316,6 +320,10 @@ svg.embed-item {
 
   .list-group-columns {
     columns: 2;
+  }
+
+  .show-on-medium {
+    display: inline-block;
   }
 
 }

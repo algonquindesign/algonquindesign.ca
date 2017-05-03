@@ -64,10 +64,10 @@
   }
 
   .testimonials-wrap::after {
-    bottom: -.9em;
+    bottom: -1.4em;
     content: " ";
     left: 0;
-    height: 3.2em;
+    height: 3.6em;
     position: absolute;
     width: 100%;
     z-index: 1;
