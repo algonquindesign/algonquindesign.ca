@@ -18,7 +18,7 @@ topics:
     url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Computer Graphics"
     icon: graphics
-    desc: "Create captivating graphics & layouts for the page and the screen."
+    desc: "Create captivating graphics & layouts for the page and the&nbsp;screen."
     url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Interaction Design"
     icon: interaction
@@ -30,7 +30,7 @@ topics:
     url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Motion Graphics"
     icon: motion
-    desc: "Tell compelling stories with animation and audio."
+    desc: "Tell compelling stories with animation and&nbsp;audio."
     url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Theory & History"
     icon: theory
@@ -38,7 +38,7 @@ topics:
     url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Business"
     icon: business
-    desc: "Gain the knowledge to confidently navigate the real-world business of design."
+    desc: "Gain the knowledge to confidently navigate the real-world business of&nbsp;design."
     url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Field Work"
     icon: fieldwork
