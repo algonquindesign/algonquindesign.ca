@@ -9,17 +9,17 @@ images:
     image: "isometric.jpg"
     url: "https://www.behance.net/gallery/30910937/Isometric-Illustration"
   slot-2:
+    image: "event-poster.jpg"
+    url: "https://www.behance.net/gallery/52198691/Event-Poster-in-Illustrator"
+  slot-3:
     image: "double-exposure.jpg"
     url: "https://www.behance.net/gallery/49133643/Double-Exposure-Effect"
-  slot-3:
-    image: "brosmind.jpg"
-    url: "https://www.behance.net/algonquindesign"
   slot-4:
-    image: "popcorn.jpg"
-    url: "https://www.behance.net/algonquindesign"
+    image: "pattern-library.jpg"
+    url: "https://www.behance.net/gallery/52256845/Website-Pattern-Libraries"
   slot-5:
     image: "cycle-secure.jpg"
     url: "https://www.behance.net/algonquindesign"
   slot-6:
-    image: "sota.jpg"
-    url: "https://www.behance.net/algonquindesign"
+    image: "saas.jpg"
+    url: "https://www.behance.net/gallery/52259475/SAAS-Website"

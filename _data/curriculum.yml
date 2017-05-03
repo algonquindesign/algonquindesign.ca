@@ -1,6 +1,7 @@
 title: "Our Curriculum"
 desc: "Our ever-evolving courses keep our students employable by targeting the forefront of the graphic design&nbsp;industry."
 button: "Explore our courses"
+button_url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
 
 youtube_id: "SH1dyByw7u0"
 video_link: "Watch the Algonquin Design coordinators talk about the program"
@@ -10,27 +11,36 @@ topics:
   - title: "Branding"
     icon: branding
     desc: "Design memorable brands through research, iteration & implementation."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Typography"
     icon: typography
     desc: "Learn to communicate visually with text, grids & alignment."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Computer Graphics"
     icon: graphics
     desc: "Create captivating graphics & layouts for the page and the screen."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Interaction Design"
     icon: interaction
     desc: "Define & model how users interact with digital products."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Web Development"
     icon: web
     desc: "Author hand-crafted code to build sites for the Open Web."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Motion Graphics"
     icon: motion
     desc: "Tell compelling stories with animation and audio."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Theory & History"
     icon: theory
     desc: "Explore colour & design history to help fully express your ideas."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Business"
     icon: business
     desc: "Gain the knowledge to confidently navigate the real-world business of design."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
   - title: "Field Work"
     icon: fieldwork
     desc: "Experience the design studio environment during a six-week internship."
+    rl: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
