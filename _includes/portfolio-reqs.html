@@ -1,5 +1,5 @@
 <section class="pad-b bg-grey-light-alt bg-grey-texture-alt">
-  <div class="embed embed-slant push">
+  <div class="embed embed-slant push" aria-hidden="true" role="presentation">
     <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
       <rect fill="#fff" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(-2 797.48 -51.983)"></rect>
     </svg>
@@ -12,13 +12,13 @@
   <div class="push">
     <div class="grid grid-middle wrapper">
       <div class="unit [ unit-xs-hidden unit-s-hidden unit-m-hidden l-1-4 ] gutter-1-2">
-        <i class="portfolio-icon icon i-192 push-1-2" role="presentation"><svg><use xlink:href="#portfolio"></use></svg></i>
+        <i class="portfolio-icon icon i-192 push-1-2" aria-hidden="true" role="presentation"><svg><use xlink:href="#portfolio"></use></svg></i>
       </div>
       <div class="unit [ xs-1 l-3-4 ] gutter-1-2">
         <p class="mega">{{site.data.portfolio.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
         <p>{{site.data.portfolio.details | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
-        <p><em>{{site.data.portfolio.questions}} <a href="mailto:{{site.data.portfolio.email}}?subject=Question%20about%20portfolio%20requirements">{{site.data.portfolio.email_text}}</a>.</em></p>
-        <a class="btn btn-blue-light btn-pill" href="{{site.data.portfolio.url}}" rel="external">{{site.data.portfolio.button}} </a>
+        <p><em>{{site.data.portfolio.questions}} <a href="mailto:{{site.data.portfolio.email}}?subject=Question%20about%20portfolio%20requirements">{{site.data.portfolio.email_text}}</a><span aria-hidden="true" role="presentation">.</span></em></p>
+        <a class="btn btn-blue-light btn-pill" href="{{site.data.portfolio.url}}" rel="external">{{site.data.portfolio.button}}</a>
       </div>
     </div>
   </div>

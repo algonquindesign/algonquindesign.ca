@@ -2,7 +2,7 @@
   <div class="wrapper gutter-1-2 text-center">
     <h2 class="yotta push"><span tabindex="0">{{site.data.interested.title}}</span></h2>
     <p class="mega max-length">{{site.data.interested.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
-    <p class="max-length"><em>{{site.data.interested.questions}} <a href="mailto:{{site.data.interested.email}}?subject=Question%20about%20applying">{{site.data.interested.email_text}}</a>.</em></p>
+    <p class="max-length"><em>{{site.data.interested.questions}} <a href="mailto:{{site.data.interested.email}}?subject=Question%20about%20applying">{{site.data.interested.email_text}}</a><span aria-hidden="true" role="presentation">.</span></em></p>
     <div class="push pad-t-1-2">
       <a class="btn btn-pill giga" href="{{site.data.interested.url}}" rel="external">
         <span class="icon-label push-r-1-2">{{site.data.interested.button}}</span>
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="embed embed-slant bg-green-dark">
+  <div class="embed embed-slant bg-green-dark" aria-hidden="true" role="presentation">
     <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
       <rect fill="#94c947" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"/>
     </svg>

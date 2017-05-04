@@ -7,7 +7,7 @@
   <article class="media-block-wrap gutter-1-2 push-2">
     <div class="media-block wrapper grid grid-stretch">
       <div class="media-block-img unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png)">
-        <a class="content-stretch ir link-box" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/">Learn more about this Graphic Design news</a>
+        <a class="content-stretch ir link-box" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/">Learn more about the {{site.data.grads.shows[0].date_time | date: '%Y'}} grad show “{{site.data.grads.shows[0].title}}”</a>
       </div>
       <div class="media-block-text unit [ xs-1 s-3-4 ] gutter pad-t pad-b unit-content-distribute">
         <div class="grid grid-middle content-stretch">
@@ -40,7 +40,7 @@
               <img class="img-flex push-1-2" src="{{site.baseurl}}/images/grad-shows/{{show.date_time | date: '%Y'}}.png" alt="">
               <h3 class="kilo not-bold font-primary push-1-8"><span class="link-box-text"><span class="show-on-medium">{{show.title}} — </span>{{show.date_time | date: '%Y'}}</span></h3>
             </div>
-            <div class="embed embed-slant">
+            <div class="embed embed-slant" aria-hidden="true" role="presentation">
               <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
                 {% capture even_or_odd %}{{forloop.index | modulo: 2}}{% endcapture %}
                 {% if even_or_odd == "1" %}
@@ -56,7 +56,7 @@
     </ol>
   </div>
 
-  <div class="embed embed-slant push bg-white">
+  <div class="embed embed-slant push bg-white" aria-hidden="true" role="presentation">
     <svg class="embed-item" width="1600" height="80" viewBox="0 0 1600 80">
       <rect fill="#009aa6" width="1629.8" height="187.41" x="-16.1" y="-146.8" transform="rotate(2 797.48 -51.983)"/>
     </svg>
