@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{site.data.sample-work.images[include.slot].alt}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{site.data.sample-work.images[include.slot].author}}"
+  },
+  "image": "/images/sample-work/{{site.data.sample-work.images[include.slot].src}}",
+  "url": "{{site.data.sample-work.images[include.slot].url}}",
+  "dateCreated": "{{site.data.sample-work.images[include.slot].year}}",
+  "keywords": "{{site.data.sample-work.images[include.slot].keywords}}"
+}
