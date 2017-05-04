@@ -1,0 +1,49 @@
+## TEAM
+
+Developer: Thomas J Bradley <hey@thomasjbradley.ca>
+Website: https://thomasjbradley.ca
+Twitter: @thomasjbradley
+GitHub: https://github.com/thomasjbradley
+Location: Ottawa, Canada
+
+Planner: Alain Paradis <paradia@algonquincollege.com>
+Website: http://cg.algonquindesign.ca/
+Twitter: @alainparadis
+Location: Ottawa, Canada
+
+
+## THANKS
+
+The rest of the great faculty members:
+
+- David Bromley
+- Andrea Emery
+- Chris Jones
+- Jed Looker
+- Janet Menger
+
+Check out the faculty page for a list:
+https://algonquindesign.ca/#faculty
+
+
+## SITE
+
+Source code:
+All our source code is up on GitHub, check it out:
+http://github.com/algonquindesign/algonquindesign.ca/
+
+Software:
+- Sublime Text 3 (with Vintageous)
+- Jekyll
+- Git + GitHub
+- PostCSS
+- UglifyJS
+
+Check out the package.json for more:
+https://github.com/algonquindesign/algonquindesign.ca/blob/master/package.json
+
+Domain registration:
+- Hover <https://www.hover.com/>
+
+Hosting:
+- KeyCDN <https://www.keycdn.com/>

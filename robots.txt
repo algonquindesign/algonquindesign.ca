@@ -1,0 +1,4 @@
+Sitemap: https://algonquindesign.ca/sitemap.xml
+
+User-Agent: *
+Disallow:
