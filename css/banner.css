@@ -5,6 +5,7 @@
 }
 
 .testimonial-img {
+  background-color: var(--color-grey-light);
   background-position: center top;
 }
 

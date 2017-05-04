@@ -10,6 +10,7 @@
 
 .media-block-img {
   min-height: 14em;
+  background-color: var(--color-grey-light);
   background-size: cover;
   background-position: center top;
 }
