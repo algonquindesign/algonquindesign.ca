@@ -4,7 +4,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Algonquin Design</title>
+  <title>{{site.data.metadata.title}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -19,25 +19,11 @@
   <link href="{{site.baseurl}}/css/student-work.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Open+Sans:400,700" rel="stylesheet">
-  <meta name="description" content="">
+  {% include metadata.html %}
 </head>
 <body>
 
-  <ul class="skip-links">
-    <li><a href="#testimonials">{{site.data.banner.testimonials_title}}</a></li>
-    <li><a href="#design-for-you">{{site.data.stats.foryou.title | replace: ':', ''}}</a></li>
-    <li><a href="#career-opportunities">{{site.data.stats.career.title}}</a></li>
-    <li><a href="#program-highlights">{{site.data.stats.highlights.title}}</a></li>
-    <li><a href="#news">{{site.data.news.section_title}}</a></li>
-    <li><a href="#hear-from-grads">{{site.data.video.title}}</a></li>
-    <li><a href="#student-work-samples">{{site.data.sample-work.title}}</a></li>
-    <li><a href="#curriculum">{{site.data.curriculum.title}}</a></li>
-    <li><a href="#faculty">{{site.data.faculty.title}}</a></li>
-    <li><a href="#grad-shows">{{site.data.grads.title}}</a></li>
-    <li><a href="#portfolio-requirements">{{site.data.portfolio.title}}</a></li>
-    <li><a href="#apply-now">{{site.data.interested.title}}</a></li>
-  </ul>
-
+  {% include skip-links.html %}
   {% include icons.html %}
   {% include masthead.html %}
 
