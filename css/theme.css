@@ -22,6 +22,11 @@ html {
   color: var(--color-text);
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .fonts-loaded {
   font-family: var(--font-primary);
 }
