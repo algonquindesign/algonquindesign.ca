@@ -6,7 +6,7 @@
       "name": "{{person.name}}",
       "image": "https://algonquindesign.ca/images/faculty/{{person.img}}",
       "jobTitle": "Professor",
-      "memberOf": "@algonquin",
+      "memberOf": "#algonquin",
       "description": "{{person.name}} teachers {{person.desc | downcase}} in the Graphic Design program at Algonquin College"
       {% for link in person.links %}
         {% if link.title == "Email" %}
@@ -17,5 +17,5 @@
         {% endif %}
       {% endfor %}
     }{% unless forloop.last %},{% endunless %}
-  {% endfor %}}
+  {% endfor %}
 ]
