@@ -63,7 +63,6 @@
     var group = document.getElementById('testimonials-group');
 
     swiper(group, function (e) {
-      var currentButton = document.querySelector('.testimonial-button[aria-selected="true"]');
       var allButtons = document.querySelectorAll('.testimonial-button');
       var current = 0;
       var next = 0;
