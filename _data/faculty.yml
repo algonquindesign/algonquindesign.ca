@@ -28,6 +28,11 @@ people:
   - name: "Andrea Emery"
     img: "andrea.jpg"
     desc: "Typography & lettering"
+    links:
+      - title: "Behance"
+        url: "https://www.behance.net/andreaemery"
+      - title: "Instagram"
+        url: "https://www.instagram.com/typemistress/"
 
   - name: "Angie Fahlman"
     img: "angie.jpg"

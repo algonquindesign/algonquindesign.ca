@@ -31,10 +31,10 @@
                 </svg>
               </div>
             </div>
-            <div class="faculty-card-details pad-t-1-2 pad-b-1-2 gutter-1-2 content-fill">
+            <div class="faculty-card-details pad-t-1-2 pad-b-1-2 gutter-1-2 content-fill unit-content-distribute">
               <h3 class="giga push-1-8"><span tabindex="0">{{person.name}}</span></h3>
               {% if person.coord %}<p class="push-0"><em>{{person.coord}}</em></p>{% endif %}
-              <p class="push-1-4">{{person.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
+              <p class="push-1-4 content-fill">{{person.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
               {% if person.links %}
                 <ul class="bullet-sep-list list-group-inline milli push-0">
                   {% for link in person.links %}
