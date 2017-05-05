@@ -21,11 +21,34 @@
     "url": "https://github.com/algonquindesign/algonquindesign.ca/issues"
   },
   "homepage": "https://algonquindesign.ca",
+  "config": {
+    "js_main": "js/swiper.js js/shuffle.js js/testimonials.js js/video.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/algonquindesign/algonquindesign.ca.git"
   },
   "scripts": {
-    "start": "jekyll serve --baseurl=''"
+    "start": "parallelshell 'npm run start-server' 'npm run watch-css' 'npm run watch-js'",
+    "start-server": "jekyll serve --baseurl='' --incremental",
+    "build-site": "jekyll build",
+    "postcss": "postcss --no-map -u postcss-import -u postcss-cssnext --postcss-cssnext.browsers 'last 2 versions' -u postcss-assets -u cssnano --cssnano.safe",
+    "build-css": "npm run postcss -- -o css/algonquindesign.min.css css/main.css",
+    "watch-css": "onchange 'css/*.css' -e '**/*.min.css' -- npm run build-css",
+    "build-js": "uglifyjs $npm_package_config_js_main -c -m --lint -o js/algonquindesign.min.js",
+    "watch-js": "onchange 'js/*.js' -e '**/*.min.js' -- npm run build-js",
+    "build": "npm run build-css && npm run build-js && npm run build-site",
+    "deploy": "rsync --archive --recursive --delete --delete-excluded --progress --compress --chmod=u=rwX,go=rX ./_site/ keycdn:zones/algonquindesign/",
+    "build-n-deploy": "npm run build && npm run deploy"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "onchange": "^3.2.1",
+    "parallelshell": "^2.0.0",
+    "postcss-assets": "^4.1.0",
+    "postcss-cli": "^3.2.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^9.1.0",
+    "uglify-js": "^2.8.22"
   }
 }

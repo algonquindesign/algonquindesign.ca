@@ -47,7 +47,7 @@
     });
   };
 
-  var initTestimonials = function (group, template) {
+  var initTestimonials = function () {
     var randTestimonials = shuffle(testimonials);
     var totalButtons = document.querySelectorAll('.testimonial-button').length;
     var i = 0;
@@ -59,7 +59,31 @@
     }
   };
 
+  var initSwipe = function () {
+    var group = document.getElementById('testimonials-group');
+
+    swiper(group, function (e) {
+      var currentButton = document.querySelector('.testimonial-button[aria-selected="true"]');
+      var allButtons = document.querySelectorAll('.testimonial-button');
+      var current = 0;
+      var next = 0;
+
+      [].forEach.call(allButtons, function (btn, i) {
+        if (btn.getAttribute('aria-selected') == 'true') current = i;
+      });
+
+      if (e.direction == 'left') {
+        next = ((current + 1) < allButtons.length) ? current + 1 : 0;
+      } else {
+        next = ((current - 1) >= 0) ? current - 1 : allButtons.length - 1;
+      }
+
+      showTestimonial('testimonial-' + (next + 1));
+    });
+  };
+
   initButtons();
   initTestimonials();
+  initSwipe();
   showTestimonial('testimonial-1');
 }());
