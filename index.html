@@ -20,7 +20,6 @@
   <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Open+Sans:400,700" rel="stylesheet">
   {% include metadata.html %}
-  <script type="application/ld+json">{% include metadata.json %}</script>
 </head>
 <body>
 
@@ -56,8 +55,9 @@
   <script src="{{site.baseurl}}/js/testimonials.js"></script>
   <script src="{{site.baseurl}}/js/video.js"></script>
 
-  <script type="application/ld+json">{% include grads.json %}</script>
+  <script type="application/ld+json">{% include metadata.json %}</script>
   <script type="application/ld+json">{% include faculty.json %}</script>
   <script type="application/ld+json">{% include sample-work.json %}</script>
+  <script type="application/ld+json">{% include grads.json %}</script>
 </body>
 </html>
