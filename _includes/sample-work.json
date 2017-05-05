@@ -1,13 +1,17 @@
-{
-  "@context": "https://schema.org",
-  "@type": "CreativeWork",
-  "name": "{{site.data.sample-work.images[include.slot].alt}}",
-  "author": {
-    "@type": "Person",
-    "name": "{{site.data.sample-work.images[include.slot].author}}"
-  },
-  "image": "/images/sample-work/{{site.data.sample-work.images[include.slot].src}}",
-  "url": "{{site.data.sample-work.images[include.slot].url}}",
-  "dateCreated": "{{site.data.sample-work.images[include.slot].year}}",
-  "keywords": "{{site.data.sample-work.images[include.slot].keywords}}"
-}
+[
+  {% for work in site.data.sample-work.images %}
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "{{work[1].alt}}",
+      "author": {
+        "@type": "Person",
+        "name": "{{work[1].author}}"
+      },
+      "image": "https://algonquindesign.ca/images/sample-work/{{work[1].src}}",
+      "url": "{{work[1].url}}",
+      "dateCreated": "{{work[1].year}}",
+      "keywords": "{{work[1].keywords}}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

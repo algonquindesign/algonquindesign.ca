@@ -1,0 +1,21 @@
+[
+  {% for person in site.data.faculty.people %}
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{person.name}}",
+      "image": "https://algonquindesign.ca/images/faculty/{{person.img}}",
+      "jobTitle": "Professor",
+      "memberOf": "@algonquin",
+      "description": "{{person.name}} teachers {{person.desc | downcase}} in the Graphic Design program at Algonquin College"
+      {% for link in person.links %}
+        {% if link.title == "Email" %}
+          , "email": "{{link.url | replace: 'mailto:', ''}}"
+        {% endif %}
+        {% if link.title == "Website" %}
+          , "url": "{{link.url}}"
+        {% endif %}
+      {% endfor %}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}}
+]

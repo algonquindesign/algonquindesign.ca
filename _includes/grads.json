@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{site.data.grads.shows[0].title}}",
+  "description": "The Algonquin College {{site.data.grads.shows[0].date_time | date: '%Y'}} Graphic Design Graduate Showcase where students share their work publicly with family, friends & industry professionals.",
+  "url": "http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca",
+  "image": "https://algonquindesign.ca/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png",
+  "startDate": "{{site.data.grads.shows[0].date_time}}",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "offers": {
+    "@type": "Offer",
+    "price": 0,
+    "priceCurrency": "CAD"
+  },
+  "location": {
+    "@type": "LocalBusiness",
+    "name": "{{site.data.grads.shows[0].addr.name}}",
+    "image": "https://algonquindesign.ca/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{site.data.grads.shows[0].addr.street_address}}",
+      "addressLocality": "{{site.data.grads.shows[0].addr.city}}",
+      "addressRegion": "{{site.data.grads.shows[0].addr.province}}",
+      "postalCode": "{{site.data.grads.shows[0].addr.postal_code}}",
+      "addressCountry": "CA"
+    }
+  }
+}
