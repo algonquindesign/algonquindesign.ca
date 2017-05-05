@@ -1,2 +1,4 @@
+version: 1
+
 permalink: pretty
-baseurl: /algonquindesign.ca
+baseurl: "/"

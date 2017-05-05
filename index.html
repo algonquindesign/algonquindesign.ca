@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <title>{{site.data.metadata.title}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="{{site.baseurl}}/css/algonquindesign.min.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/algonquindesign.min.css?v={{site.version}}" rel="stylesheet">
   <link href="{{site.baseurl}}/fonts/merriweather-bold.woff2" rel="preload" as="font">
   <link href="{{site.baseurl}}/fonts/merriweather-italic.woff2" rel="preload" as="font">
   <link href="{{site.baseurl}}/fonts/merriweather-regular.woff2" rel="preload" as="font">
@@ -49,7 +49,7 @@
     var imgUrlBase = '{{site.baseurl}}/images/testimonials/';
     var testimonials = {{site.data.testimonials | jsonify}};
   </script>
-  <script src="{{site.baseurl}}/js/algonquindesign.min.js"></script>
+  <script src="{{site.baseurl}}/js/algonquindesign.min.js?v={{site.version}}"></script>
 
   <script type="application/ld+json">{% include metadata.json %}</script>
   <script type="application/ld+json">{% include faculty.json %}</script>
