@@ -3,9 +3,11 @@ desc: "Our ever-evolving courses keep our students employable by targeting the f
 button: "Explore our courses"
 button_url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#courses"
 
-youtube_id: "SH1dyByw7u0"
-video_link: "Watch the Algonquin Design coordinators talk about the program"
-video_poster: "coordinators.png"
+video:
+  id: "SH1dyByw7u0"
+  service: "youtube"
+  link: "Watch the Algonquin Design coordinators talk about the program"
+  poster: "coordinators.png"
 
 topics:
   - title: "Branding"

@@ -10,8 +10,8 @@
   </header>
   <div class="max-length push">
     <div class="video-wrap embed embed-16by9">
-      <a class="video-link embed-item link-box" href="https://youtu.be/{{site.data.video.youtube_id}}" data-video-id="{{site.data.video.youtube_id}}" rel="external" title="{{site.data.video.video_link}}" aria-label="{{site.data.video.video_link}}">
-        <img class="img-flex" src="{{site.baseurl}}/images/{{site.data.video.video_poster}}" alt="{{site.data.video.video_link}}">
+      <a class="video-link embed-item link-box" href="https://{% if site.data.video.video.service == 'vimeo' %}vimeo.com{% else %}youtu.be{% endif %}/{{site.data.video.video.id}}" data-video-id="{{site.data.video.video.id}}" data-video-service="{{site.data.video.video.service}}" rel="external" title="{{site.data.video.video.link}}" aria-label="{{site.data.video.video.link}}">
+        <img class="img-flex" src="{{site.baseurl}}/images/{{site.data.video.video.poster}}" alt="{{site.data.video.video.link}}">
       </a>
     </div>
   </div>

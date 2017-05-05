@@ -47,3 +47,12 @@ images:
     year: "2017"
     url: "https://www.behance.net/gallery/52259475/SAAS-Website"
     keywords: "web, development, design, saas, responsive, mobile first"
+
+video:
+  id: "208051173"
+  service: "vimeo"
+  poster: "ashley-motion-poster.png"
+  title: "Motion Reel"
+  author: "Ashley Murray"
+  year: "2017"
+  keywords: "motion, graphics, typography, animation"

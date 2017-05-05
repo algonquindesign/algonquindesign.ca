@@ -5,8 +5,8 @@
   </header>
   <div class="max-length push-2">
     <div class="video-wrap embed embed-16by9">
-      <a class="video-link embed-item link-box" href="https://youtu.be/{{site.data.curriculum.youtube_id}}" data-video-id="{{site.data.curriculum.youtube_id}}" rel="external" title="{{site.data.curriculum.video_link}}" aria-label="{{site.data.curriculum.video_link}}">
-        <img class="img-flex" src="{{site.baseurl}}/images/{{site.data.curriculum.video_poster}}" alt="{{site.data.curriculum.video_link}}">
+      <a class="video-link embed-item link-box" href="https://{% if site.data.curriculum.video.service == 'vimeo' %}vimeo.com{% else %}youtu.be{% endif %}/{{site.data.curriculum.video.id}}" data-video-id="{{site.data.curriculum.video.id}}" data-video-service="{{site.data.curriculum.video.service}}" rel="external" title="{{site.data.curriculum.video.link}}" aria-label="{{site.data.curriculum.video.link}}">
+        <img class="img-flex" src="{{site.baseurl}}/images/{{site.data.curriculum.video.poster}}" alt="{{site.data.curriculum.video.link}}">
       </a>
     </div>
   </div>

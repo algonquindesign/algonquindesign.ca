@@ -8,11 +8,11 @@
     "image": "https://algonquindesign.ca/favicon-152.png",
     "video": {
       "@type": "VideoObject",
-      "name": "{{site.data.curriculum.video_link}}",
-      "description": "{{site.data.curriculum.video_link}}",
+      "name": "{{site.data.curriculum.video.link}}",
+      "description": "{{site.data.curriculum.video.link}}",
       "uploadDate": "2015-04-22",
-      "thumbnailURL": "https://algonquindesign.ca/images/{{site.data.curriculum.video_poster}}",
-      "embedUrl": "https://www.youtube.com/embed/{{site.data.curriculum.youtube_id}}"
+      "thumbnailURL": "https://algonquindesign.ca/images/{{site.data.curriculum.video.poster}}",
+      "embedUrl": "https://{% if site.data.curriculum.video.service == 'vimeo' %}player.vimeo.com/video/{% else %}www.youtube.com/embed/{% endif %}{{site.data.curriculum.video.id}}"
     },
     "dateModified": "{{site.time}}",
     "copyrightYear": "{{site.time | date:'%Y'}}",

@@ -3,7 +3,7 @@
     <h2 class="yotta"><span tabindex="0" id="student-work-samples">{{site.data.sample-work.title}}</span></h2>
     <p class="mega max-length push-0">{{site.data.sample-work.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}}</p>
   </header>
-  <div class="embed embed-16by9">
+  <div class="embed embed-16by9 push-2">
     <svg class="student-work embed-item" width="1600" height="900" viewBox="0 0 1600 900">
       <defs>
         <clipPath id="poly-1">
@@ -52,6 +52,13 @@
         <polygon fill="none" stroke-width="4" stroke="#000" points="1599 899 1599 491 1067.8 471.4 1054.3 899 1599 899"></polygon>
       </g>
     </svg>
+  </div>
+  <div class="max-length">
+    <div class="video-wrap embed embed-16by9">
+      <a class="video-link embed-item link-box" href="https://{% if site.data.sample-work.video.service == 'vimeo' %}vimeo.com{% else %}youtu.be{% endif %}/{{site.data.sample-work.video.id}}" data-video-id="{{site.data.sample-work.video.id}}" data-video-service="{{site.data.sample-work.video.service}}" rel="external" title="Play “{{site.data.sample-work.video.title}}”, {{site.data.sample-work.video.author}}, {{site.data.sample-work.video.year}}" aria-label="“{{site.data.sample-work.video.title}}”, {{site.data.sample-work.video.author}}, {{site.data.sample-work.video.year}}">
+        <img class="img-flex" src="{{site.baseurl}}/images/sample-work/{{site.data.sample-work.video.poster}}" alt="{{site.data.sample-work.video.link}}">
+      </a>
+    </div>
   </div>
   <div class="pad-t-2 pad-b gutter-1-2">
     <p class="mega">{{site.data.sample-work.outro}}</p>
