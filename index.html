@@ -7,7 +7,11 @@
   <title>{{site.data.metadata.title}}</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/algonquindesign.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Open+Sans:400,700" rel="stylesheet">
+  <link href="{{site.baseurl}}/fonts/merriweather-bold.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/merriweather-italic.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/merriweather-regular.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/opensans-bold.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/opensans-regular.woff2" rel="preload" as="font">
   {% include metadata.html %}
 </head>
 <body>
@@ -33,6 +37,11 @@
   </main>
 
   {% include footer.html %}
+
+  <script>
+    {% include_relative js/fontfaceobserver.min.js %}
+    {% include_relative js/fonts.min.js %}
+  </script>
 
   <script id="testimonial-template" type="text/x-template">{% include testimonial-template.html %}</script>
   <script id="testimonial-buttons" type="text/x-template">{% include testimonial-buttons-template.html %}</script>

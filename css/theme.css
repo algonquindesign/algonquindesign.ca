@@ -10,14 +10,20 @@
   --color-grey-light: #e2e2e2;
 
   --font-primary: "Merriweather", Georgia, serif;
+  --font-primary-fallback: Georgia, serif;
   --font-secondary: "Open Sans", Helvetica, sans-serif;
+  --font-secondary-fallback: sans-serif;
 
   --border-radius: 4px;
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-primary-fallback);
   color: var(--color-text);
+}
+
+.fonts-loaded {
+  font-family: var(--font-primary);
 }
 
 ::selection {
@@ -26,6 +32,10 @@ html {
 }
 
 .font-primary {
+  font-family: var(--font-primary-fallback);
+}
+
+.fonts-loaded.font-primary {
   font-family: var(--font-primary);
 }
 
@@ -36,6 +46,16 @@ h4,
 h5,
 h6,
 .font-secondary {
+  font-family: var(--font-secondary-fallback);
+}
+
+.fonts-loaded h1,
+.fonts-loaded h2,
+.fonts-loaded h3,
+.fonts-loaded h4,
+.fonts-loaded h5,
+.fonts-loaded h6,
+.fonts-loaded .font-secondary {
   font-family: var(--font-secondary);
 }
 
