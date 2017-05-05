@@ -44,7 +44,10 @@
 
 <footer class="footer-wrap text-center bg-green-dark pad-b-1-4">
   <div class="footer wrapper gutter-1-2">
-    <p class="pad-t-1-4 pad-b-1-4 push-0 micro">© {{site.time | date: '%Y'}} Graphic Design, Algonquin College</p>
+    <div class="pad-t-1-4 pad-b-1-4 micro" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+      <p class="push-0">© {{site.time | date: '%Y'}} Graphic Design, <span itemprop="name">Algonquin College</span></p>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="streetAddress">1385 Woodroffe Ave.</span>, <span itemprop="addressLocality">Ottawa</span>, <span itemprop="addressRegion">ON</span>, <span itemprop="addressCountry">CA</span>, <span itemprop="postalCode">K2G 1V8</span></address>
+    </div>
     <p class="pad-t-1-4 pad-b-1-4 push-0 micro">
       <a class="link-box" href="https://www.algonquincollege.com/" rel="external" title="Algonquin College" aria-label="Algonquin College">
         <svg width="160" height="30" viewBox="0 0 160 30">
@@ -52,6 +55,6 @@
         </svg>
       </a>
     </p>
-    <p class="pad-t-1-4 pad-b-1-4 push-0 micro"><a href="#">Privacy <abbr title="and">&amp;</abbr> Cookies</a></p>
+    <p class="pad-t-1-4 pad-b-1-4 push-0 micro"><a href="https://www.algonquincollege.com/directives/privacy/">Privacy <abbr title="and">&amp;</abbr> Cookies</a></p>
   </div>
 </footer>
