@@ -1,3 +1,6 @@
+---
+---
+
 ## TEAM
 
 Developer: Thomas J Bradley <hey@thomasjbradley.ca>
@@ -10,6 +13,12 @@ Planner: Alain Paradis <paradia@algonquincollege.com>
 Website: http://cg.algonquindesign.ca/
 Twitter: @alainparadis
 Location: Ottawa, Canada
+
+
+## CREDITS
+{% for credit in site.data.sample-work.images %}
+- “{{credit[1].title}}” © {{credit[1].year}} {{credit[1].author}}{% endfor %}
+- “{{site.data.sample-work.video.title}}” © {{site.data.sample-work.video.year}} {{site.data.sample-work.video.author}}
 
 
 ## THANKS
