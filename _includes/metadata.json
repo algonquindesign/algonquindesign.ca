@@ -27,6 +27,7 @@
     "@id": "#algonquin",
     "name": "Algonquin College Graphic Design",
     "image": "https://algonquindesign.ca/favicon-152.png",
+    "logo": "https://algonquindesign.ca/favicon-152.png",
     "url": "https://algonquindesign.ca",
     "description": "{{site.data.metadata.desc}}",
     "location": {
@@ -37,6 +38,14 @@
       "postalCode": "K2G 1V8",
       "addressCountry": "CA"
     },
+    "sameAs": [
+      "https://www.facebook.com/algonquindesign",
+      "https://twitter.com/algonquindesign",
+      "https://youtube.com/algonquindesignca",
+      "https://www.behance.net/algonquindesign",
+      "http://www.linkedin.com/groups?gid=7434225",
+      "https://algonquindesign.github.io/"
+    ],
     "aggregateRating": {
       "@type": "AggregateRating",
       "reviewCount": {{site.data.testimonials | size}},

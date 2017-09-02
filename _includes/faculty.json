@@ -9,7 +9,15 @@
       "memberOf": {
         "@id": "#algonquin"
       },
-      "description": "{{person.name}} teachers {{person.desc | downcase}} in the Graphic Design program at Algonquin College"
+      "description": "{{person.name}} teachers {{person.desc | downcase}} in the Graphic Design program at Algonquin College",
+      "sameAs": [
+        {% assign first_link = true %}
+        {% for link in person.links %}
+          {% if link.title == "Email" or link.title == "Website" %}{% continue %}{% endif %}
+          {% unless first_link %},{% endunless %}"{{link.url}}"
+          {% assign first_link = false %}
+        {% endfor %}
+      ]
       {% for link in person.links %}
         {% if link.title == "Email" %}
           , "email": "{{link.url | replace: 'mailto:', ''}}"
