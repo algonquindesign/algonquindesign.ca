@@ -1,21 +1,26 @@
-<meta name="description" content="{{site.data.metadata.desc}}">
+<meta name="description" content="{% if page.desc %}{{page.desc}}{% else %}{{site.data.metadata.desc}}{% endif %}">
 
-<meta name="application-name" content="{{site.data.metadata.title_short}}">
+<meta name="ICBM" content="45.3499268,-75.7549261">
+<meta name="geo.position" content="45.3499268;-75.7549261">
+<meta name="geo.region" content="ca-on">
+<meta name="geo.placename" content="Ottawa">
+
+<meta name="application-name" content="{% if page.title_short %}{{page.title_short}}{% else %}{{site.data.metadata.title_short}}{% endif %}">
 <link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-TileColor" content="#94c947">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{site.data.metadata.title_short}}">
-<meta property="og:url" content="https://algonquindesign.ca/">
+<meta property="og:title" content="{% if page.title_short %}{{page.title_short}}{% else %}{{site.data.metadata.title_short}}{% endif %}">
+<meta property="og:url" content="https://algonquindesign.ca{{page.url}}">
 <meta property="og:locale" content="en_CA">
-<meta property="og:site_name" content="{{site.data.metadata.title_short}}">
-<meta property="og:description" content="{{site.data.metadata.desc}}">
+<meta property="og:site_name" content="{% if page.title_short %}{{page.title_short}}{% else %}{{site.data.metadata.title_short}}{% endif %}">
+<meta property="og:description" content="{% if page.desc %}{{page.desc}}{% else %}{{site.data.metadata.desc}}{% endif %}">
 <meta property="og:image" content="https://algonquindesign.ca/favicon-social.png">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{{site.data.metadata.title_short}}">
+<meta name="twitter:title" content="{% if page.title_short %}{{page.title_short}}{% else %}{{site.data.metadata.title_short}}{% endif %}">
 <meta name="twitter:site" content="@algonquindesign">
-<meta name="twitter:url" content="https://algonquindesign.ca/">
-<meta name="twitter:description" content="{{site.data.metadata.desc}}">
+<meta name="twitter:url" content="https://algonquindesign.ca{{page.url}}">
+<meta name="twitter:description" content="{% if page.desc %}{{page.desc}}{% else %}{{site.data.metadata.desc}}{% endif %}">
 <meta name="twitter:image" content="https://algonquindesign.ca/favicon-social.png">

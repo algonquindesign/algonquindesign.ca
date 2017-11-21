@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{page.title}}{% else %}{{site.data.metadata.title}}{% endif %}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/algonquindesign.min.css?v={{site.version}}" rel="stylesheet">
+  <link href="{{site.baseurl}}/fonts/merriweather-bold.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/merriweather-italic.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/merriweather-regular.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/opensans-bold.woff2" rel="preload" as="font">
+  <link href="{{site.baseurl}}/fonts/opensans-regular.woff2" rel="preload" as="font">
+  {% include metadata.html %}
+</head>
+<body>
+
+  {{content}}
+
+  <script>
+    {% include_relative js/fontfaceobserver.min.js %}
+    {% include_relative js/fonts.min.js %}
+  </script>
+
+  {% if page.url == "/" %}
+    <script id="testimonial-template" type="text/x-template">{% include testimonial-template.html %}</script>
+    <script id="testimonial-buttons" type="text/x-template">{% include testimonial-buttons-template.html %}</script>
+    <script>
+      var imgUrlBase = '{{site.baseurl}}/images/testimonials/';
+      var testimonials = {{site.data.testimonials | jsonify}};
+    </script>
+  {% endif %}
+
+  <script src="{{site.baseurl}}/js/algonquindesign.min.js?v={{site.version}}"></script>
+
+  {% if page.url == "/" %}
+    <script type="application/ld+json">{% include metadata.json %}</script>
+    <script type="application/ld+json">{% include faculty.json %}</script>
+    <script type="application/ld+json">{% include sample-work.json %}</script>
+    <script type="application/ld+json">{% include grads.json %}</script>
+  {% endif %}
+</body>
+</html>

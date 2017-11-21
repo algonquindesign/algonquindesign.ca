@@ -1,59 +1,39 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>{{site.data.metadata.title}}</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="{{site.baseurl}}/css/algonquindesign.min.css?v={{site.version}}" rel="stylesheet">
-  <link href="{{site.baseurl}}/fonts/merriweather-bold.woff2" rel="preload" as="font">
-  <link href="{{site.baseurl}}/fonts/merriweather-italic.woff2" rel="preload" as="font">
-  <link href="{{site.baseurl}}/fonts/merriweather-regular.woff2" rel="preload" as="font">
-  <link href="{{site.baseurl}}/fonts/opensans-bold.woff2" rel="preload" as="font">
-  <link href="{{site.baseurl}}/fonts/opensans-regular.woff2" rel="preload" as="font">
-  {% include metadata.html %}
-</head>
-<body>
 
-  {% include skip-links.html %}
-  {% include icons.html %}
-  {% include masthead.html %}
+<ul class="skip-links">
+  <li><a href="#testimonials">Jump to {{site.data.banner.testimonials_title}}</a></li>
+  <li><a href="#design-for-you">Jump to {{site.data.stats.foryou.title | replace: ':', ''}}</a></li>
+  <li><a href="#career-opportunities">Jump to {{site.data.stats.career.title}}</a></li>
+  <li><a href="#program-highlights">Jump to {{site.data.stats.highlights.title}}</a></li>
+  <li><a href="#news">Jump to {{site.data.news.section_title}}</a></li>
+  <li><a href="#hear-from-grads">Jump to {{site.data.video.title}}</a></li>
+  <li><a href="#student-work-samples">Jump to {{site.data.sample-work.title}}</a></li>
+  <li><a href="#curriculum">Jump to {{site.data.curriculum.title}}</a></li>
+  <li><a href="#faculty">Jump to {{site.data.faculty.title}}</a></li>
+  <li><a href="#grad-shows">Jump to {{site.data.grads.title}}</a></li>
+  <li><a href="#portfolio-requirements">Jump to {{site.data.portfolio.title}}</a></li>
+  <li><a href="#apply-now">Jump to {{site.data.interested.title}}</a></li>
+</ul>
 
-  <main role="main">
-    {% include banner.html %}
-    {% include stats.html %}
-    {% unless site.data.news.disabled %}
-      {% include news.html %}
-    {% endunless %}
-    {% include video.html %}
-    {% include sample-work.html %}
-    {% include curriculum.html %}
-    {% include faculty.html %}
-    {% include grads.html %}
-    {% include rgd.html %}
-    {% include portfolio-reqs.html %}
-    {% include interested.html %}
-  </main>
+{% include icons.html %}
+{% include masthead.html %}
 
-  {% include footer.html %}
+<main role="main">
+  {% include banner.html %}
+  {% include stats.html %}
+  {% unless site.data.news.disabled %}
+    {% include news.html %}
+  {% endunless %}
+  {% include video.html %}
+  {% include sample-work.html %}
+  {% include curriculum.html %}
+  {% include faculty.html %}
+  {% include grads.html %}
+  {% include rgd.html %}
+  {% include portfolio-reqs.html %}
+  {% include interested.html %}
+</main>
 
-  <script>
-    {% include_relative js/fontfaceobserver.min.js %}
-    {% include_relative js/fonts.min.js %}
-  </script>
-
-  <script id="testimonial-template" type="text/x-template">{% include testimonial-template.html %}</script>
-  <script id="testimonial-buttons" type="text/x-template">{% include testimonial-buttons-template.html %}</script>
-  <script>
-    var imgUrlBase = '{{site.baseurl}}/images/testimonials/';
-    var testimonials = {{site.data.testimonials | jsonify}};
-  </script>
-  <script src="{{site.baseurl}}/js/algonquindesign.min.js?v={{site.version}}"></script>
-
-  <script type="application/ld+json">{% include metadata.json %}</script>
-  <script type="application/ld+json">{% include faculty.json %}</script>
-  <script type="application/ld+json">{% include sample-work.json %}</script>
-  <script type="application/ld+json">{% include grads.json %}</script>
-</body>
-</html>
+{% include footer.html %}

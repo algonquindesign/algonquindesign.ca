@@ -46,13 +46,13 @@
   },
   "devDependencies": {
     "cssnano": "^3.10.0",
-    "html-minifier": "^3.5.3",
-    "npm-run-all": "^4.0.2",
+    "html-minifier": "^3.5.6",
+    "npm-run-all": "^4.1.2",
     "onchange": "^3.2.1",
-    "postcss-assets": "^4.1.0",
-    "postcss-cli": "^3.2.0",
-    "postcss-cssnext": "^2.10.0",
-    "postcss-import": "^9.1.0",
-    "uglify-js": "^2.8.22"
+    "postcss-assets": "^5.0.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "uglify-js": "^3.1.9"
   }
 }
