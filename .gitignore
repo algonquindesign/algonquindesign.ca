@@ -1,3 +1,7 @@
+# App specific
+css/*.min.css
+js/algonquindesign.min.js
+
 # Test files
 node_modules
 npm-debug.log
