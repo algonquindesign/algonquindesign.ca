@@ -41,7 +41,7 @@
     "build-js:fonts": "uglifyjs $npm_package_config_js_fonts -c -m --lint -o js/fonts.min.js",
     "watch-js": "onchange 'js/*.js' -e '**/*.min.js' -- npm run build-js",
     "build": "npm run build-css && npm run build-js:fonts && npm run build-js && npm run build-site",
-    "deploy": "rsync --archive --recursive --delete --delete-excluded --progress --compress --chmod=u=rwX,go=rX ./_site/ keycdn:zones/algonquindesign/",
+    "deploy": "rsync --recursive --checksum --delete --delete-excluded --verbose --compress ./_site/ keycdn:zones/algonquindesign/",
     "build-n-deploy": "npm run build && npm run deploy"
   },
   "devDependencies": {

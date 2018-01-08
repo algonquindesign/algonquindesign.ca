@@ -2,3 +2,8 @@ version: 1
 
 permalink: pretty
 baseurl: ""
+
+exclude:
+  - "package.json"
+  - "yarn.lock"
+  - "README.md"
