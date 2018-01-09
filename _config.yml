@@ -4,6 +4,13 @@ permalink: pretty
 baseurl: ""
 
 exclude:
-  - "package.json"
-  - "yarn.lock"
   - "README.md"
+  - "LICENSE"
+  - "package.json"
+  - "tmp"
+  - "node_modules"
+  - "vendor"
+  - "_*/README.md"
+  - "_*/UNLICENSE"
+  - "*.lock"
+  - "Gemfile*"
