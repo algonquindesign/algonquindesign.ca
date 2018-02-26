@@ -31,9 +31,9 @@
   },
   "scripts": {
     "start": "npm-run-all --parallel start-server watch-*",
-    "start-server": "jekyll serve --incremental --baseurl='' --ssl-key=_certs/https-key.pem --ssl-cert=_certs/https-cert.pem",
+    "start-server": "bundle exec jekyll serve --incremental --baseurl='' --ssl-key=_certs/https-key.pem --ssl-cert=_certs/https-cert.pem",
     "minify-site": "html-minifier --file-ext=html --input-dir=_site --output-dir=_site --config-file=.html-minifier.json",
-    "build-site": "jekyll build && npm run minify-site",
+    "build-site": "bundle exec jekyll build && npm run minify-site",
     "postcss": "postcss --no-map -u postcss-import -u postcss-cssnext --postcss-cssnext.browsers 'last 2 versions' -u postcss-assets -u cssnano --cssnano.safe",
     "build-css": "npm run postcss -- -o css/algonquindesign.min.css css/main.css",
     "watch-css": "onchange 'css/*.css' -e '**/*.min.css' -- npm run build-css",
