@@ -2,6 +2,15 @@ title: "Graduate Showcases"
 desc: "Our grads host a yearly public exhibition to share their work with family, friends & industry professionals."
 
 shows:
+  - title: "Reboot"
+    date_time: "2018-04-25T17:00"
+    addr:
+      name: "Horticulture Building"
+      street_address: "1525 Princess Patricia Way"
+      city: "Ottawa"
+      province: "ON"
+      postal_code: "K1S 5J3"
+
   - title: "Studio N"
     date_time: "2017-05-09T17:00"
     addr:
