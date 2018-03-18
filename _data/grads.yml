@@ -4,6 +4,7 @@ desc: "Our grads host a yearly public exhibition to share their work with family
 shows:
   - title: "Reboot"
     date_time: "2018-04-25T17:00"
+    bgcolor: "#fff"
     addr:
       name: "Horticulture Building"
       street_address: "1525 Princess Patricia Way"

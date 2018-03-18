@@ -13,6 +13,12 @@
   background-color: var(--color-grey-light);
   background-size: cover;
   background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.media-block-img-contain {
+  background-size: contain;
+  background-position: center center;
 }
 
 .testimonial-img {

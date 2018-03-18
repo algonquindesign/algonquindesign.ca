@@ -6,7 +6,7 @@
 
   <article class="media-block-wrap gutter-1-2 push-2">
     <div class="media-block wrapper grid grid-stretch">
-      <div class="media-block-img unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png)">
+      <div class="media-block-img media-block-img-contain unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png); background-color:{{site.data.grads.shows[0].bgcolor}};">
         <a class="content-stretch ir link-box" href="http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca/">Learn more about the {{site.data.grads.shows[0].date_time | date: '%Y'}} grad show “{{site.data.grads.shows[0].title}}”</a>
       </div>
       <div class="media-block-text unit [ xs-1 s-3-4 ] gutter pad-t pad-b unit-content-distribute">
