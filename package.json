@@ -23,7 +23,7 @@
   "homepage": "https://algonquindesign.ca",
   "config": {
     "js_main": "js/swiper.js js/shuffle.js js/testimonials.js js/video.js",
-    "js_fonts": "js/fonts.js"
+    "js_fonts": "_includes/js/fonts.js"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "build-css": "npm run postcss -- -o css/algonquindesign.min.css css/main.css",
     "watch-css": "onchange 'css/*.css' -e '**/*.min.css' -- npm run build-css",
     "build-js": "uglifyjs $npm_package_config_js_main -c -m --lint -o js/algonquindesign.min.js",
-    "build-js:fonts": "uglifyjs $npm_package_config_js_fonts -c -m --lint -o js/fonts.min.js",
+    "build-js:fonts": "uglifyjs $npm_package_config_js_fonts -c -m --lint -o _includes/js/fonts.min.js",
     "watch-js": "onchange 'js/*.js' -e '**/*.min.js' -- npm run build-js",
     "build": "npm run build-css && npm run build-js:fonts && npm run build-js && npm run build-site",
     "deploy": "rsync --recursive --checksum --delete --delete-excluded --verbose --compress ./_site/ keycdn:algonquindesign/",
