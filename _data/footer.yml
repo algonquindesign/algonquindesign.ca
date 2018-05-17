@@ -3,15 +3,13 @@ resources:
     - title: "Email"
       url: "http://liveac.algonquincollege.com/"
       highlight: true
-    - title: "Canvas"
-      url: "https://algonquin.instructure.com/"
+    - title: "Brightspace"
+      url: "https://algonquincollege.brightspace.com/"
       highlight: true
     - title: "Computer Graphics"
       url: "http://cg.algonquindesign.ca/"
     - title: "Learn the Web"
       url: "https://learn-the-web.algonquindesign.ca/"
-    - title: "Blackboard"
-      url: "https://blackboard.algonquincollege.com/"
     - title: "ACSIS"
       url: "https://acsis.algonquincollege.com/students/"
 
