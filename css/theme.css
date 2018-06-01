@@ -195,11 +195,25 @@ abbr[title="and"] {
   color: #fff;
 }
 
+.bg-grey a {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .5);
+}
+
+.bg-grey a:hover {
+  border-color: #fff;
+}
+
+.bg-grey-texture {
+  background-image: url("../images/grey-dark-bg.png");
+  background-size: 8px 8px;
+}
+
 .bg-grey-light {
   background-color: var(--color-grey-light);
 }
 
-.bg-grey-texture {
+.bg-grey-light-texture {
   background-image: url("../images/grey-bg.png");
   background-size: 8px 8px;
 }
@@ -213,7 +227,7 @@ abbr[title="and"] {
   color: #fff;
 }
 
-.bg-grey-texture-alt {
+.bg-grey-light-texture-alt {
   background-image: url("../images/grey-bg-alt.png");
   background-size: 200px 100px;
 }
@@ -353,6 +367,14 @@ svg.embed-item {
 
   .show-on-medium {
     display: inline-block;
+  }
+
+  .col-pad-l-m {
+    padding-left: 2em;
+  }
+
+  .col-pad-r-m {
+    padding-right: 2em;
   }
 
 }
