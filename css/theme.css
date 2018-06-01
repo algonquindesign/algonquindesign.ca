@@ -341,6 +341,10 @@ svg.embed-item {
   color: #fff;
 }
 
+.hr-muted {
+  border-color: var(--color-grey-light);
+}
+
 @media only screen and (min-width: 38em) {
 
   .list-group-columns {
