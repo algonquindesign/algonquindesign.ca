@@ -6,6 +6,9 @@ resources:
     - title: "Brightspace"
       url: "https://algonquincollege.brightspace.com/"
       highlight: true
+    - title: "Student Support Services"
+      url: "http://www.algonquincollege.com/studentsupportservices/"
+      highlight: true
     - title: "Computer Graphics"
       url: "http://cg.algonquindesign.ca/"
     - title: "Learn the Web"
