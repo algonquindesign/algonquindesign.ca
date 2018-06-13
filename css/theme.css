@@ -9,6 +9,16 @@
   --color-grey: #63666a;
   --color-grey-light: #e2e2e2;
 
+  --color-alert-yellow: #ffd30d;
+  --color-alert-yellow-light: #ffefab;
+  --color-alert-yellow-dark: #9e832b;
+  --color-alert-green: #6dd110;
+  --color-alert-green-light: #c1e89b;
+  --color-alert-green-dark: #417d0a;
+  --color-alert-red: #f33;
+  --color-alert-red-light: #ffb3b4;
+  --color-alert-red-dark: #991f1f;
+
   --font-primary: "Merriweather", Georgia, serif;
   --font-primary-fallback: Georgia, serif;
   --font-secondary: "Open Sans", Helvetica, sans-serif;
@@ -117,6 +127,14 @@ abbr[title="and"] {
 
 .color-green-dark {
   color: var(--color-green-dark);
+}
+
+.color-alert-red {
+  color: var(--color-alert-red);
+}
+
+.color-alert-green {
+  color: var(--color-alert-green);
 }
 
 .bg-green-dark {
