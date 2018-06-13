@@ -20,3 +20,7 @@
 .student-work a:nth-of-type(8):focus ~ .focus-rings polygon:nth-child(8) {
   visibility: visible;
 }
+
+.portfolio-requirements-example {
+  border: 1px solid #e2e2e2;
+}
