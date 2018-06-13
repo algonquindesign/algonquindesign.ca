@@ -49,6 +49,11 @@
   user-select: none;
 }
 
+.main-title-portfolio .main-title {
+  transform: scale(.65);
+  transform-origin: left bottom;
+}
+
 @media only screen and (min-width: 38em) {
 
   .intro-text {
@@ -78,6 +83,10 @@
 
   .news-learn-more {
     padding-top: 0;
+  }
+
+  .main-title-portfolio .main-title {
+    transform: scale(1);
   }
 
 }
