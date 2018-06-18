@@ -282,6 +282,15 @@ abbr[title="and"] {
   color: #fff;
 }
 
+.bg-blue-light a {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .5);
+}
+
+.bg-blue-light a:hover {
+  border-color: #fff;
+}
+
 .bg-blue-light ::selection {
   background-color: #e2e2e2;
   color: #333;
