@@ -2,20 +2,26 @@
   "@context": "https://schema.org",
   "@type": "Event",
   "name": "{{site.data.grads.shows[0].title}}",
-  "description": "The Algonquin College {{site.data.grads.shows[0].date_time | date: '%Y'}} Graphic Design Graduate Showcase where students share their work publicly with family, friends & industry professionals.",
-  "url": "http://{{site.data.grads.shows[0].date_time | date: '%Y'}}.grads.algonquindesign.ca",
-  "image": "https://algonquindesign.ca/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png",
-  "startDate": "{{site.data.grads.shows[0].date_time}}",
+  "description": "The Algonquin College {{site.data.grads.shows[0].start_time | date: '%Y'}} Graphic Design Graduate Showcase where students share their work publicly with family, friends & industry professionals.",
+  "url": "http://{{site.data.grads.shows[0].start_time | date: '%Y'}}.grads.algonquindesign.ca",
+  "image": "https://algonquindesign.ca/images/grad-shows/{{site.data.grads.shows[0].start_time | date: '%Y'}}.png",
+  "startDate": "{{site.data.grads.shows[0].start_time}}",
+  "endDate": "{{site.data.grads.shows[0].end_time}}",
   "eventStatus": "https://schema.org/EventScheduled",
   "offers": {
     "@type": "Offer",
     "price": 0,
-    "priceCurrency": "CAD"
+    "priceCurrency": "CAD",
+    "availability": "{% if site.data.grades.shows[0].start_time > site.time %}Available{% else %}Not available{% endif %}",
+    "url": "http://{{site.data.grads.shows[0].start_time | date: '%Y'}}.grads.algonquindesign.ca",
+    "validFrom": "{{site.data.grads.shows[0].start_time}}"
   },
   "location": {
     "@type": "LocalBusiness",
     "name": "{{site.data.grads.shows[0].addr.name}}",
-    "image": "https://algonquindesign.ca/images/grad-shows/{{site.data.grads.shows[0].date_time | date: '%Y'}}.png",
+    "image": "https://algonquindesign.ca/images/grad-shows/{{site.data.grads.shows[0].start_time | date: '%Y'}}.png",
+    "priceRange": "$$$",
+    "telephone": "{{site.data.grads.shows[0].addr.tel}}",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "{{site.data.grads.shows[0].addr.street_address}}",
@@ -24,5 +30,8 @@
       "postalCode": "{{site.data.grads.shows[0].addr.postal_code}}",
       "addressCountry": "CA"
     }
+  },
+  "performer": {
+    "@id": "#algonquin"
   }
 }
