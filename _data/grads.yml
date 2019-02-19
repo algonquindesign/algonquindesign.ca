@@ -4,7 +4,7 @@ desc: "Our grads host a yearly public exhibition to share their work with family
 shows:
   - title: "Reboot"
     start_time: "2018-04-25T17:00"
-    end_time: "2018-04-25T17:00"
+    end_time: "2018-04-25T21:00"
     bgcolor: "#fff"
     addr:
       name: "Horticulture Building"
