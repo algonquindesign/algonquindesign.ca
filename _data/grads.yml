@@ -2,6 +2,18 @@ title: "Graduate Showcases"
 desc: "Our grads host a yearly public exhibition to share their work with family, friends & industry professionals."
 
 shows:
+  - title: "Pathfinder"
+    start_time: "2019-04-24T17:00"
+    end_time: "2018-04-24T21:00"
+    bgcolor: "#6f156c"
+    addr:
+      name: "Horticulture Building"
+      street_address: "1525 Princess Patricia Way"
+      city: "Ottawa"
+      province: "ON"
+      postal_code: "K1S 5J3"
+      tel: "+1-613-580-2429"
+
   - title: "Reboot"
     start_time: "2018-04-25T17:00"
     end_time: "2018-04-25T21:00"
