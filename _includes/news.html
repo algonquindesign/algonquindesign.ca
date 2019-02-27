@@ -5,7 +5,7 @@
     </header>
     {% for news in site.posts limit:1 %}
       <div class="media-block wrapper grid grid-stretch">
-        <div class="media-block-img unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/{{news.img.src}})">
+        <div class="media-block-img unit [ xs-1 s-1-4 ] unit-content-distribute" style="background-image:url({{site.baseurl}}/images/{{news.img.src}});{% if news.img.bgcolor %}background-color:{{news.img.bgcolor}};{% endif %}">
         {% if news.link.url %}
           <a class="content-stretch ir link-box" href="{{news.link.url}}" rel="external">{{news.img.alt}}</a>
         {% else %}
