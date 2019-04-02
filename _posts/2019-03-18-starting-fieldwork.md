@@ -1,6 +1,6 @@
 ---
 title: "Good Luck on Fieldwork"
-subtitle: "Mar 18 – Apr 26, 2018"
+subtitle: "Mar 18 – Apr 26, 2019"
 desc: |
   New people! New challenges! Lots of learning!
   <br>The Graphic Design faculty wish you the best.
