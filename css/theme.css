@@ -282,12 +282,12 @@ abbr[title="and"] {
   color: #fff;
 }
 
-.bg-blue-light a {
+.bg-blue-light a:not(.grad-show-link) {
   color: #fff;
   border-color: rgba(255, 255, 255, .5);
 }
 
-.bg-blue-light a:hover {
+.bg-blue-light a:not(.grad-show-link):hover {
   border-color: #fff;
 }
 
