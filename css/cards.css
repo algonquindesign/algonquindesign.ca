@@ -8,7 +8,7 @@
   left: 35%;
   position: absolute;
   width: 30%;
-  bottom: .4em;
+  bottom: 0.4em;
 
   background-color: var(--color-grey-light);
   transform: rotate(2deg);
@@ -20,10 +20,18 @@
   left: 35%;
   position: absolute;
   width: 30%;
-  top: .4em;
+  top: 0.4em;
 
   background-color: var(--color-grey-light);
   transform: rotate(-2deg);
+}
+
+.angle-card-reverse::after {
+  transform: rotate(-2deg);
+}
+
+.angle-card-top.angle-card-reverse::before {
+  transform: rotate(2deg);
 }
 
 .angle-card-group :nth-child(even) .angle-card::after {
@@ -40,7 +48,6 @@
 }
 
 @media only screen and (min-width: 60em) {
-
   .angle-card-group :nth-last-child(2) .angle-card,
   .angle-card-group :nth-last-child(3) .angle-card {
     margin-bottom: 0;
@@ -51,7 +58,6 @@
     content: none;
     display: none;
   }
-
 }
 
 .angle-bottom-card {
