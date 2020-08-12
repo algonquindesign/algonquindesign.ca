@@ -1,20 +1,20 @@
 resources_title: "Student Resources"
 resources:
-    - title: "Email"
-      url: "http://liveac.algonquincollege.com/"
-      highlight: true
-    - title: "Brightspace"
-      url: "https://algonquincollege.brightspace.com/"
-      highlight: true
-    - title: "Student Support Services"
-      url: "http://www.algonquincollege.com/studentsupportservices/"
-      highlight: true
-    - title: "Computer Graphics"
-      url: "http://cg.algonquindesign.ca/"
-    - title: "Learn the Web"
-      url: "https://learn-the-web.algonquindesign.ca/"
-    - title: "ACSIS"
-      url: "https://acsis.algonquincollege.com/students/"
+  - title: "Email"
+    url: "http://liveac.algonquincollege.com/"
+    highlight: true
+  - title: "Brightspace"
+    url: "https://algonquincollege.brightspace.com/"
+    highlight: true
+  - title: "Student Support Services"
+    url: "http://www.algonquincollege.com/studentsupportservices/"
+    highlight: true
+  - title: "Computer Graphics"
+    url: "http://cg.algonquindesign.ca/"
+  - title: "Learn the Web"
+    url: "https://learn-the-web.algonquindesign.ca/"
+  - title: "ACSIS"
+    url: "https://acsis.algonquincollege.com/students/"
 
 social_title: "Around the Web"
 social:
@@ -26,7 +26,7 @@ social:
     url: "https://twitter.com/algonquindesign"
   - title: "YouTube"
     icon: "youtube"
-    url: "https://youtube.com/algonquindesignca"
+    url: "https://www.youtube.com/user/algonquindesignca/channels"
   - title: "Behance"
     icon: "behance"
     url: "https://www.behance.net/algonquindesign"
