@@ -2,6 +2,14 @@ title: "Graduate Showcases"
 desc: "Our grads host a yearly public exhibition to share their work with family, friends & industry professionals."
 
 shows:
+  - title: "Generation Adaptation"
+    start_time: "2021-04-23T19:00"
+    end_time: "2020-04-23T20:00"
+    bgcolor: "#fff"
+    intro: "YouTube — Live Stream"
+    desc: |
+      We know — we’re sad too that we can’t meet in person, but we’ve got some cool new ideas!
+
   - title: "Anthology"
     start_time: "2020-04-09T17:00"
     end_time: "2020-04-09T21:00"

@@ -15,11 +15,16 @@
             <div class="content-stretch center-contents-vertical-start">
               <h3 class="giga push-1-2">{{site.data.grads.shows[0].title}} — {{site.data.grads.shows[0].start_time | date: '%Y'}}</h3>
               <time class="mega block push-1-2" datetime="{{site.data.grads.shows[0].start_time}}">{{site.data.grads.shows[0].start_time | date: '%a., %b %e, %Y — %l:%M %P'}}</time>
-              <address class="push-0">
-                {{site.data.grads.shows[0].addr.name}}
-                <br>{{site.data.grads.shows[0].addr.street_address}}
-                <br>{{site.data.grads.shows[0].addr.city}}, {{site.data.grads.shows[0].addr.province}}, {{site.data.grads.shows[0].addr.postal_code}}
-              </address>
+              {% if site.data.grads.shows[0].addr %}
+                <address class="push-0">
+                  {{site.data.grads.shows[0].addr.name}}
+                  <br>{{site.data.grads.shows[0].addr.street_address}}
+                  <br>{{site.data.grads.shows[0].addr.city}}, {{site.data.grads.shows[0].addr.province}}, {{site.data.grads.shows[0].addr.postal_code}}
+                </address>
+              {% else %}
+                <em class="block">{{site.data.grads.shows[0].intro}}</em>
+                {{site.data.grads.shows[0].desc}}
+              {% endif %}
             </div>
           </div>
           <div class="news-learn-more unit [ xs-1 m-1-3 ] unit-content-distribute pad-t">
