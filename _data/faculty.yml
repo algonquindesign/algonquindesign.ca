@@ -34,6 +34,17 @@ people:
       - title: "Instagram"
         url: "https://www.instagram.com/typemistress/"
 
+  - name: "Wendy Warren"
+    img: "wendy.jpg"
+    desc: "Code & problem solving"
+    links:
+      - title: "Email"
+        url: "mailto:warrenw@algonquincollege.com"
+      - title: "Website"
+        url: "https://wendywarren.ca/"
+      - title: "GitHub"
+        url: "https://github.com/wendywarren"
+
   - name: "Angie Fahlman"
     img: "angie.jpg"
     desc: "Design & layout"
@@ -42,9 +53,9 @@ people:
     img: "chris.jpg"
     desc: "Business & design thinking"
 
-  - name: "Greg Treadwell"
-    img: "greg.jpg"
-    desc: "Graphics & typography"
+  # - name: "Greg Treadwell"
+  #   img: "greg.jpg"
+  #   desc: "Graphics & typography"
 
   # - name: "Janet Menger"
   #   img: "janet.jpg"
