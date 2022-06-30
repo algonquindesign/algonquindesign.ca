@@ -11,5 +11,5 @@ img:
 
 link:
   title: "Re-watch"
-  url: "https://www.youtube.com/watch?v=cBRp2vuirj4"
+  url: "https://2022.grads.algonquindesign.ca/livestream"
 ---
