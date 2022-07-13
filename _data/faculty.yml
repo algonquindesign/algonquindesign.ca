@@ -20,10 +20,10 @@ people:
     links:
       - title: "Email"
         url: "mailto:paradia@algonquincollege.com"
-      - title: "YouTube"
-        url: "https://www.youtube.com/accomputergraphics"
+      # - title: "YouTube"
+      #  url: "https://www.youtube.com/accomputergraphics"
       - title: "Curriculum"
-        url: "http://cg.algonquindesign.ca/"
+        url: "http://type.algonquindesign.ca/"
 
   - name: "Andrea Emery"
     img: "andrea.jpg"
@@ -49,9 +49,9 @@ people:
     img: "angie.jpg"
     desc: "Design & layout"
 
-  - name: "Chris Jones"
-    img: "chris.jpg"
-    desc: "Business & design thinking"
+  # - name: "Chris Jones"
+  #  img: "chris.jpg"
+  #  desc: "Business & design thinking"
 
   # - name: "Greg Treadwell"
   #   img: "greg.jpg"
