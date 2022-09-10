@@ -25,7 +25,11 @@
   border: 1px solid #e2e2e2;
 }
 
-.box-shadow-lg {
+ul.flex-masonry {
+  list-style-type: none;
+}
+
+.box-shadow-lg img {
     box-shadow: 4px 4px 10px 4px #f2f2f2;
 }
 
