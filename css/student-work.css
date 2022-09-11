@@ -27,7 +27,7 @@
 
 ul.col-masonry {
   list-style-type: none;
-  column-count: 3;
+  column-count: 2;
   column-gap: 2%;
 }
 
@@ -37,6 +37,12 @@ ul.col-masonry li {
 
 ul.col-masonry li::before {
   content: "";
+}
+
+@media only screen and (min-width: 38em) {
+  ul.col-masonry {
+    column-count: 3;
+  }
 }
 
 .box-shadow-lg img {
