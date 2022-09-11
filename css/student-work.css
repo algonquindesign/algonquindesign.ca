@@ -25,17 +25,17 @@
   border: 1px solid #e2e2e2;
 }
 
-ul.flex-masonry {
+ul.col-masonry {
   list-style-type: none;
   column-count: 3;
   column-gap: 2%;
 }
 
-ul.flex-masonry li {
+ul.col-masonry li {
   margin-bottom: .65em;
 }
 
-ul.flex-masonry li::before {
+ul.col-masonry li::before {
   content: "";
 }
 
