@@ -9,10 +9,6 @@ resources:
   - title: "Student Support Services"
     url: "http://www.algonquincollege.com/studentsupportservices/"
     highlight: true
-  - title: "Computer Graphics"
-    url: "http://cg.algonquindesign.ca/"
-  - title: "Learn the Web"
-    url: "https://learn-the-web.algonquindesign.ca/"
   - title: "ACSIS"
     url: "https://acsis.algonquincollege.com/students/"
 
