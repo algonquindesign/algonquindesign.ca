@@ -11,6 +11,9 @@ resources:
     highlight: true
   - title: "ACSIS"
     url: "https://acsis.algonquincollege.com/students/"
+  - title: "Hardware Requirements"
+    url: "http://www.algonquincollege.com/hardware/"
+    highlight: true
 
 social_title: "Around the Web"
 social:
