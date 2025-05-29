@@ -15,7 +15,7 @@ people:
 
   - name: "Alain Paradis"
     img: "alain.jpg"
-    desc: "Graphics & layout"
+    desc: "Layout & Business"
     coord: "Coordinator"
     links:
       - title: "Email"
@@ -29,6 +29,8 @@ people:
     img: "andrea.jpg"
     desc: "Typography & sketching"
     links:
+      - title: "Email"
+        url: "mailto:emerya@algonquincollege.com"
  #     - title: "Behance"
  #       url: "https://www.behance.net/andreaemery"
  #     - title: "Instagram"
