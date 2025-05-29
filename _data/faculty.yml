@@ -22,8 +22,8 @@ people:
         url: "mailto:paradia@algonquincollege.com"
       # - title: "YouTube"
       #  url: "https://www.youtube.com/accomputergraphics"
-      - title: "Curriculum"
-        url: "http://type.algonquindesign.ca/"
+#      - title: "Curriculum"
+#        url: "http://type.algonquindesign.ca/"
 
   - name: "Andrea Emery"
     img: "andrea.jpg"
