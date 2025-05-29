@@ -48,6 +48,9 @@ people:
   - name: "Angie Fahlman"
     img: "angie.jpg"
     desc: "User Experience Design"
+    links:
+      - title: "Email"
+        url: "mailto:fahlmaa@algonquincollege.com"
 
   # - name: "Chris Jones"
   #  img: "chris.jpg"
