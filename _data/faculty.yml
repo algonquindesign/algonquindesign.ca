@@ -6,7 +6,7 @@ people:
   - name: "David Bromley"
     img: "david.jpg"
     desc: "Theory & branding"
-    coord: "Coordinator"
+    coord: "Coordinator & Professor"
     links:
       - title: "Email"
         url: "mailto:bromled@algonquincollege.com"
@@ -16,7 +16,7 @@ people:
   - name: "Alain Paradis"
     img: "alain.jpg"
     desc: "Layout & Business"
-    coord: "Coordinator"
+    coord: "Coordinator & Professor"
     links:
       - title: "Email"
         url: "mailto:paradia@algonquincollege.com"
@@ -28,6 +28,7 @@ people:
   - name: "Andrea Emery"
     img: "andrea.jpg"
     desc: "Typography & sketching"
+    coord: "Professor"
     links:
       - title: "Email"
         url: "mailto:emerya@algonquincollege.com"
@@ -39,6 +40,7 @@ people:
   - name: "Wendy Warren"
     img: "wendy.jpg"
     desc: "Code & problem solving"
+    coord: "Professor"
     links:
       - title: "Email"
         url: "mailto:warrenw@algonquincollege.com"
@@ -50,6 +52,7 @@ people:
   - name: "Angie Fahlman"
     img: "angie.jpg"
     desc: "User Experience Design"
+    coord: "Professor"
     links:
       - title: "Email"
         url: "mailto:fahlmaa@algonquincollege.com"
