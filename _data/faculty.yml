@@ -29,10 +29,10 @@ people:
     img: "andrea.jpg"
     desc: "Typography & sketching"
     links:
-      - title: "Behance"
-        url: "https://www.behance.net/andreaemery"
-      - title: "Instagram"
-        url: "https://www.instagram.com/typemistress/"
+ #     - title: "Behance"
+ #       url: "https://www.behance.net/andreaemery"
+ #     - title: "Instagram"
+ #       url: "https://www.instagram.com/typemistress/"
 
   - name: "Wendy Warren"
     img: "wendy.jpg"
