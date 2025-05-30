@@ -5,7 +5,7 @@ desc: |
   Algonquin’s Graphic Design graduating class of 2025 proudly presents Kaleido—a celebration of transformation, perspective, and endless creativity. Like a kaleidoscope, our designs shift, evolve, and reflect the ever-changing world.
 
 img:
-  src: "grad-shows/2022.png"
+  src: "grad-shows/2025.png"
   alt: ""
   bgcolor: "#fff"
 
