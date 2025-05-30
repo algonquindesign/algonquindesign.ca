@@ -3,8 +3,8 @@ desc: "Our grads host a yearly public exhibition to share their work with family
 
 shows:
   - title: "Kaleido"
-    start_time: "2020-04-10T17:00"
-    end_time: "2020-04-10T21:00"
+    start_time: "2025-04-10T17:00"
+    end_time: "2025-04-10T21:00"
     bgcolor: "#fff"
     addr:
       name: "Horticulture Building"
@@ -15,6 +15,20 @@ shows:
       tel: "+1-613-580-2429"
     desc: |
       We are Kaleido —  Algonquin’s Graphic Design graduating class of 2025 proudly presents Kaleido—a celebration of transformation, perspective, and endless creativity. Like a kaleidoscope, our designs shift, evolve, and reflect the ever-changing world.
+
+  - title: "Zenith"
+    start_time: "2024-04-11T17:00"
+    end_time: "2024-04-11T21:00"
+    bgcolor: "#fff"
+    addr:
+      name: "Bayview Yards"
+      street_address: "7 Bayview Station Rd"
+      city: "Ottawa"
+      province: "ON"
+      postal_code: "K1Y 2C5"
+      tel: "+1-613-216-4229"
+    desc: |
+      Our students reach their zenith, the highest point of their artistic journey, as they showcase their exceptional portfolios to industry professionals and art enthusiasts alike. Join us at Zenith and witness the future stars of graphic design shine bright!
 
   - title: "Collation"
     start_time: "2022-04-21T19:00"
