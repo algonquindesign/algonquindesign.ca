@@ -34,12 +34,12 @@ images:
     url: "https://www.behance.net/gallery/52256845/Website-Pattern-Libraries"
     keywords: "web, development, design, pattern, library, responsive, mobile first"
   slot-5:
-    src: "cycle-secure.jpg"
-    title: "Cycle Secure App Design"
-    author: ""
-    year: ""
-    url: "https://www.behance.net/algonquindesign"
-    keywords: ""
+    src: "menu-design.png"
+    title: "Flora's Door Menu"
+    author: "Matty Bennett"
+    year: "2025"
+    url: "https://www.behance.net/algonquin-design"
+    keywords: "menu design, typography"
   slot-6:
     src: "saas.jpg"
     title: "SAAS Website"
