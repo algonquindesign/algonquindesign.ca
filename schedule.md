@@ -8,8 +8,17 @@ title: Weekly Graphic Design Schedule
 {%- assign days = "Monday,Tuesday,Wednesday,Thursday,Friday" | split: "," -%}
 
 <style>
-body {
-  font-family: "IBM Plex Mono", monospace;
+* {
+    box-sizing: border-box;
+}
+body
+{
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	margin: 0.5rem;
+	padding: 0;
 }
 
 .table-container {
@@ -19,6 +28,7 @@ body {
   border: solid 1px #e0e0e0;
   max-width: 95%;
   overflow-x: auto;
+  font-size: clamp(0.6rem, 1.5vw, 2rem);
 }
 .table-header, .table-cell, .time-label {
   background-color: #fff;
@@ -59,6 +69,11 @@ body {
   margin-top: 40px;
   font-size: 1.5em;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 650px)
+{
+    font-size: 10px;
 }
 </style>
 
