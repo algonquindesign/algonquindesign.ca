@@ -9,7 +9,7 @@ title: Weekly Graphic Design Schedule
 
 <style>
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .table-container {
