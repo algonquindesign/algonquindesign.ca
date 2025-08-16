@@ -24,11 +24,13 @@ body
 .table-container {
   display: grid;
   gap: 1px;
+  grid-template-columns: auto;
   background-color: #ccc;
   border: solid 1px #e0e0e0;
   max-width: 95%;
   overflow-x: auto;
-  font-size: clamp(0.6rem, 1.5vw, 2rem);
+  font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
+
 }
 .table-header, .table-cell, .time-label {
   background-color: #fff;
@@ -71,10 +73,6 @@ body
   font-weight: bold;
 }
 
-@media only screen and (min-width: 650px)
-{
-    font-size: 10px;
-}
 </style>
 
 {% for day in days %}
@@ -85,7 +83,7 @@ body
   {% assign room_count = rooms | size %}
   {% assign time_count = times | size %}
 
-  <div class="table-container" style="grid-template-columns: auto repeat({{ room_count }}, 1fr); grid-template-rows: auto repeat({{ time_count }}, auto);">
+  <div role="table" aria-label="Weekly class schedule" class="table-container" style="grid-template-columns: auto repeat({{ room_count }}, 1fr); grid-template-rows: auto repeat({{ time_count }}, auto);">
 
     <!-- Header row -->
     <div class="table-header" style="grid-column: 1; grid-row: 1;"></div>
