@@ -8,75 +8,129 @@ title: Weekly Graphic Design Schedule
 {%- assign days = "Monday,Tuesday,Wednesday,Thursday,Friday" | split: "," -%}
 
 <style>
-* {
-    box-sizing: border-box;
-}
-body
-{
-	font-family: "IBM Plex Mono", serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 16px;
-	margin: 0.5rem;
-	padding: 0;
-}
-
-.table-container {
-  display: grid;
-  gap: 1px;
-  grid-template-columns: auto;
-  background-color: #ccc;
-  border: solid 1px #e0e0e0;
-  max-width: 95%;
-  overflow-x: auto;
-  font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
-
-}
-.table-header, .table-cell, .time-label {
-  background-color: #fff;
-  padding: 10px;
-  text-align: center;
-  min-width: 100px;
-}
-.time-label { background-color: #f0f0f0; font-weight: bold; }
-.table-header { background-color: #e0e0e0; }
-.class-block {
+	* { box-sizing: border-box; }
+	body
+	{
+		font-family: "IBM Plex Mono", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
+		margin: 0.5rem;
+		padding: 0;
+	}
+	
+	.table-container
+	{
+		display: grid;
+		gap: 1px;
+		grid-template-columns: auto;
+		background-color: #ccc;
+		border: solid 1px #e0e0e0;
+		max-width: 95%;
+		overflow-x: auto;
+	}
+	
+	.table-header, .table-cell, .time-label
+	{
+		background-color: #fff;
+		padding: 10px;
+		text-align: center;
+		min-width: 100px;
+	}
+	
+	.time-label
+	{
+		background-color: #f0f0f0;
+		font-weight: bold;
+	}
+	
+	.table-header { background-color: #e0e0e0; }
+	
+	.class-block
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-weight: bold;
+		color: #003366;
+		border: 1px solid #99c;
+	}
+	
+	.class-room
+	{
+		font-size: 0.85em;
+		font-weight: normal;
+		margin-bottom: 2px;
+		color: #222;
+	}
+	
+	.class-level-group
+	{
+		font-size: 0.85em;
+		font-weight: normal;
+		margin-bottom: 2px;
+		color: #444;
+	}
+	
+	.instructor-name
+	{
+		font-weight: normal;
+		font-size: 0.9em;
+		margin-top: 4px;
+		color: #333;
+	}
+	
+h2
+	{
+		margin-top: 48px;
+		font-weight: bold;
+	}
+h3
+	{
+		margin-top: 48px;
+		font-weight: bold;
+	}	
+.async {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #003366;
-  border: 1px solid #99c;
-}
-.class-room {
-  font-size: 0.85em;
-  font-weight: normal;
-  margin-bottom: 2px;
-  color: #222;
-}
-.class-level-group {
-  font-size: 0.85em;
-  font-weight: normal;
-  margin-bottom: 2px;
-  color: #444;
-}
-.instructor-name {
-  font-weight: normal;
-  font-size: 0.9em;
-  margin-top: 4px;
-  color: #333;
-}
-.day-title {
-  margin-top: 40px;
-  font-size: 1.5em;
-  font-weight: bold;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
+.async-item {
+  flex: 1 1 250px;
+  max-width: 400px;
+  background: #EBEBEB;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.async-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1.5rem;    /* indent bullets */
+}
 </style>
 
+<h2>Asynchronous Courses</h2>
+<ul class="async">
+  {% for item in site.data.schedule.async %}
+    <li class="async-item">
+      <ul>
+        <li><strong>{{ item.name }}</strong></li>
+        <li>{{ item.modality }}</li>
+        <li>Level: {{ item.level }}</li>
+        <li>{{ item.instructor }}</li>
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
+<h2>In-Person Courses</h2>
 {% for day in days %}
-  <div class="day-title">{{ day }}</div>
+<h3>{{ day }}</h3>
 
   {% assign day_classes = site.data.schedule.classes | where: "day", day %}
   {% assign classes = day_classes %}

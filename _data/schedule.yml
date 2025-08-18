@@ -283,3 +283,15 @@ classes:
     group: l5g2
     instructor: "Jamie McLennan"
     day: "Friday"
+
+async:
+  - name: "DSN1710 Design Strategy"
+    duration: 3
+    level: One
+    instructor: "Andrea Emery"
+    modality: "Online/Asynchronous"
+  - name: "DSN1782 Understanding Colour"
+    duration: 3
+    level: One
+    instructor: "David Bromley"
+    modality: "Online/Asynchronous"
