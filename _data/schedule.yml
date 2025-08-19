@@ -137,7 +137,7 @@ classes:
     instructor: "Andrea Emery"
     day: "Wednesday"
   - room: N214
-    start: "11:00am"
+    start: "11:30am"
     duration: 6
     name: "DSN1560 Typogrpahy 1"
     group: l1g1
@@ -171,7 +171,7 @@ classes:
     group: l3g3
     instructor: "Bradley Doyle"
     day: "Wednesday"
-  - room: N214
+  - room: N219
     start: "01:00pm"
     duration: 6
     name: "DSN1688 Motion Graphics 3"
