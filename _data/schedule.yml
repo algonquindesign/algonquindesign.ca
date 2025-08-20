@@ -281,6 +281,13 @@ classes:
     group: l3g1
     instructor: "David Bromley"
     day: "Friday"
+  - room: N216
+    start: "01:00pm"
+    duration: 6
+    name: "DSN1533 Graphic Design 3"
+    group: l3g2
+    instructor: "David Bromley"
+    day: "Friday"
   - room: N219
     start: "01:00pm"
     duration: 6
