@@ -50,6 +50,13 @@ classes:
     group: l3g2
     instructor: "Andrew Miller"
     day: "Monday"
+  - room: N214
+    start: "12:00pm"
+    duration: 6
+    name: "DSN1562 Computer Graphics 1"
+    group: l1g2
+    instructor: "Travis Gobeil"
+    day: "Monday"
   - room: N216
     start: "01:00pm"
     duration: 6
@@ -57,7 +64,7 @@ classes:
     group: l3g2
     instructor: "Wendy Warren & Steve Lavigne"
     day: "Monday"
-  - room: N216
+  - room: N219
     start: "09:00am"
     duration: 6
     name: "DSN1713 Web Design 2"
@@ -65,17 +72,24 @@ classes:
     instructor: "Wendy Warren & Steve Lavigne"
     day: "Monday"
   - room: N219
-    start: "12:00pm"
+    start: "12:30pm"
     duration: 6
     name: "DSN1534 Typography 3"
     group: l3g3
     instructor: "Alain Paradis"
     day: "Monday"
   - room: [Other, N203]
-    start: "09:00am"
+    start: "09:30am"
     duration: 6
     name: "DSN1730 Design Systems"
     group: L5g1
+    instructor: "Glenn Gobuyan"
+    day: "Monday"
+  - room: [Other, N203]
+    start: "01:00pm"
+    duration: 6
+    name: "DSN1730 Design Systems"
+    group: L5g2
     instructor: "Glenn Gobuyan"
     day: "Monday"
   - room: N214
@@ -155,6 +169,13 @@ classes:
     group: l3g1
     instructor: "Andrew Miller"
     day: "Wednesday"
+  - room: 219
+    start: "08:00am"
+    duration: 4
+    name: "DSN1697 Concept Sketching 1"
+    group: l1g1
+    instructor: "Andrea Emery"
+    day: "Wednesday"
   - room: N214
     start: "08:30am"
     duration: 6
@@ -216,49 +237,49 @@ classes:
     duration: 6
     name: "DSN1726 UX/UI Design 1"
     group: l3g1
-    instructor: "Angela Fahlman"
+    instructor: "Angela Fahlman & Tara Boland"
     day: "Thursday"
-  - room: N216
+  - room: N219
     start: "09:00am"
     duration: 6
     name: "DSN1535 Computer Graphics 3"
     group: l3g2
     instructor: "Travis Gobeil"
     day: "Thursday"
-  - room: N216
+  - room: N219
     start: "01:00pm"
     duration: 6
     name: "DSN1535 Computer Graphics 3"
     group: l3g3
     instructor: "Travis Gobeil"
     day: "Thursday"
-  - room: N219
+  - room: N216
     start: "08:00am"
     duration: 6
     name: "DSN1715 Web Design 4"
     group: l5g1
     instructor: "Wendy Warren & Andrew Newby"
     day: "Thursday"
-  - room: N219
+  - room: N216
     start: "12:00pm"
     duration: 6
     name: "DSN1715 Web Design 4"
     group: l5g2
     instructor: "Wendy Warren & Andrew Newby"
     day: "Thursday"
-  - room: N214
+  - room: N219
     start: "01:00pm"
     duration: 6
     name: "DSN1534 Typography 3"
     group: l3g1
     instructor: "Alain Paradis"
     day: "Friday"
-  - room: N214
+  - room: N219
     start: "08:00am"
     duration: 6
     name: "DSN1726 UX/UI Design 1"
     group: l3g2
-    instructor: "Angela Fahlman"
+    instructor: "Angela Fahlman & Tara Boland"
     day: "Friday"
   - room: [Other, B419]
     start: "12:00pm"
@@ -267,7 +288,7 @@ classes:
     group: l3g3
     instructor: "Angela Fahlman & Tara Boland"
     day: "Friday"
-  - room: N219
+  - room: N214
     start: "09:00am"
     duration: 6
     name: "DSN1545 Graphic Design 5"
@@ -288,7 +309,7 @@ classes:
     group: l3g2
     instructor: "David Bromley"
     day: "Friday"
-  - room: N219
+  - room: N214
     start: "01:00pm"
     duration: 6
     name: "DSN1545 Graphic Design 5"
