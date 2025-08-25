@@ -8,110 +8,120 @@ title: Weekly Graphic Design Schedule
 {%- assign days = "Monday,Tuesday,Wednesday,Thursday,Friday" | split: "," -%}
 
 <style>
-	* { box-sizing: border-box; }
-	body
-	{
-		font-family: "IBM Plex Mono", serif;
-		font-weight: 400;
-		font-style: normal;
-		font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
-		margin: 0.5rem;
-		padding: 0;
-	}
-	
-	.table-container
-	{
-		display: grid;
-		gap: 1px;
-		grid-template-columns: auto;
-		background-color: #ccc;
-		border: solid 1px #e0e0e0;
-		max-width: 95%;
-		overflow-x: auto;
-	}
-	
-	.table-header, .table-cell, .time-label
-	{
-		background-color: #fff;
-		padding: 10px;
-		text-align: center;
-		min-width: 100px;
-	}
-	
-	.time-label
-	{
-		background-color: #f0f0f0;
-		font-weight: bold;
-	}
-	
-	.table-header { background-color: #e0e0e0; }
-	
-	.class-block
-	{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		font-weight: bold;
-		color: #003366;
-		border: 1px solid #99c;
-	}
-	
-	.class-room
-	{
-		font-size: 0.85em;
-		font-weight: normal;
-		margin-bottom: 2px;
-		color: #222;
-	}
-	
-	.class-level-group
-	{
-		font-size: 0.85em;
-		font-weight: normal;
-		margin-bottom: 2px;
-		color: #444;
-	}
-	
-	.instructor-name
-	{
-		font-weight: normal;
-		font-size: 0.9em;
-		margin-top: 4px;
-		color: #333;
-	}
-	
+* { box-sizing: border-box; }
+
+body
+{
+font-family: "IBM Plex Mono", serif;
+font-weight: 400;
+font-style: normal;
+font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.4rem);
+margin: 0.5rem;
+padding: 0;
+}
+
+.table-container
+{
+display: grid;
+gap: 1px;
+grid-template-columns: auto;
+background-color: #ccc;
+border: solid 1px #e0e0e0;
+max-width: 95%;
+overflow-x: auto;
+}
+
+.table-header, .table-cell, .time-label
+{
+background-color: #fff;
+padding: 10px;
+text-align: center;
+min-width: 100px;
+}
+
+.time-label
+{
+background-color: #f0f0f0;
+font-weight: bold;
+}
+
+.table-header { background-color: #e0e0e0; }
+
+.class-block
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+color: #003366;
+border: 1px solid #99c;
+}
+
+.class-room
+{
+font-size: 0.85em;
+font-weight: normal;
+margin-bottom: 2px;
+color: #222;
+}
+
+.class-level-group
+{
+font-size: 0.85em;
+font-weight: normal;
+margin-bottom: 2px;
+color: #444;
+}
+
+.instructor-name
+{
+font-weight: normal;
+font-size: 0.9em;
+margin-top: 4px;
+color: #333;
+}
+
 h2
-	{
-		margin-top: 48px;
-		font-weight: bold;
-	}
+{
+margin-top: 48px;
+font-weight: bold;
+}
+
 h3
-	{
-		margin-top: 48px;
-		font-weight: bold;
-	}	
+{
+margin-top: 48px;
+font-weight: bold;
+}
+
+a {
+text-decoration: none;
+color: #003366;
+border-bottom: 1px solid #003366;
+}
+a:hover { border-bottom: 1px solid #0433FF; }
+
 .async {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
 }
 
 .async-item {
-  flex: 1 1 250px;
-  max-width: 400px;
-  background: #EBEBEB;
-  padding: 1rem;
-  border-radius: 8px;
+flex: 1 1 250px;
+max-width: 400px;
+background: #EBEBEB;
+padding: 1rem;
+border-radius: 8px;
 }
 
 .async-item ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 1.5rem;    /* indent bullets */
+list-style-type: none;
+margin: 0;
+padding-left: 1.5rem;    /* indent bullets */
 }
 </style>
 
@@ -201,12 +211,14 @@ h3
               {% assign parts = class_here.group | remove: "l" | split: "g" %}
               Level {{ parts[0] }}, Group {{ parts[1] }}
             </div>
-
             <div class="class-name">{{ class_here.name }}</div>
-
             {% if class_here.instructor %}
-              <div class="instructor-name">{{ class_here.instructor }}</div>
+              <div class="instructor-name"><a href="mailto:{{ class_here.email }}">{{ class_here.instructor }}</a>
+            {% if class_here.instructor2 %} & 
+              <a href="mailto:{{ class_here.email2 }}">{{ class_here.instructor2 }}</a>
             {% endif %}
+            {% endif %}
+              </div>
           </div>
 
         {% else %}
@@ -244,11 +256,3 @@ h3
 
   </div>
 {% endfor %}
-
-<h2>Faculty Contact List</h2>
-
-<ul>
-  {% for item in site.data.schedule.faculty %}
-        <li><a href="mailto:{{ item.e-mail }}"><strong>{{ item.name }}</strong></a></li>
-  {% endfor %}
-</ul>
