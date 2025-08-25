@@ -183,7 +183,7 @@ classes:
     group: l3g2
     instructor: "Alain Paradis"
     day: "Wednesday"
-  - room: N216
+  - room: N214
     start: "03:00pm"
     duration: 6
     name: "DSN1533 Graphic Design 3"
@@ -197,7 +197,7 @@ classes:
     group: l3g3
     instructor: "Bradley Doyle"
     day: "Wednesday"
-  - room: N219
+  - room: N216
     start: "01:00pm"
     duration: 6
     name: "DSN1688 Motion Graphics 3"
