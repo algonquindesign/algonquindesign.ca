@@ -328,3 +328,35 @@ async:
     level: One
     instructor: "David Bromley"
     modality: "Online/Asynchronous"
+
+faculty:
+  - name: Alain Paradis
+    email: paradia@algonquincollege.com
+  - name: David Bromley
+    email: bromled@algonquincollege.com
+  - name: Andrea Emery
+    email: emerya@algonquincollege.com
+  - name: Wendy Warren
+    email: warrenw@algonquincollege.com
+  - name: Angela Fahlman
+    email: fahlmaa@algonquincollege.com
+  - name: Travis Gobeil
+    email: gobeilt@algonquincollege.com
+  - name: Tara Boland
+    email: bolandt@algonquincollege.com
+  - name: Meredith Luce
+    email: lucem@algonquincollege.com
+  - name: Jamie McLennan
+    email: mclennj@algonquincollege.com
+  - name: Andrew Miller
+    email: millera1@algonquincollege.com
+  - name: Andrew Newby
+    email: newbya@algonquincollege.com
+  - name: Anish Parmar
+    email: parmara@algonquincollege.com
+  - name: Brad Doyle
+    email:
+  - name: Steven Lavigne
+    email: lavigns@algonquincollege.com
+  - name: Glenn Gobuyan
+    email: gobuyag@algonquincollege.com

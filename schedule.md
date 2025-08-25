@@ -244,3 +244,11 @@ h3
 
   </div>
 {% endfor %}
+
+<h2>Faculty Contact List</h2>
+
+<ul>
+  {% for item in site.data.schedule.faculty %}
+        <li><a href="mailto:{{ item.e-mail }}"><strong>{{ item.name }}</strong></a></li>
+  {% endfor %}
+</ul>
