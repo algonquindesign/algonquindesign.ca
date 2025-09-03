@@ -80,14 +80,6 @@ classes:
     email: warrenw@algonquincollege.com
     email2: lavigns@algonquincollege.com
     day: Monday
-  - room: N219
-    start: "12:30pm"
-    duration: 6
-    name: DSN1534 Typography 3
-    group: l3g3
-    instructor: Alain Paradis
-    email: paradia@algonquincollege.com
-    day: Monday
   - room: [Other, N203]
     start: "09:30am"
     duration: 6
@@ -147,6 +139,14 @@ classes:
     email: paradia@algonquincollege.com
     day: Tuesday
   - room: N214
+    start: "09:00am"
+    duration: 6
+    name: DSN1534 Typography 3
+    group: l3g3
+    instructor: Alain Paradis
+    email: paradia@algonquincollege.com
+    day: Tuesday
+  - room: N214
     start: "06:00pm"
     duration: 6
     name: DSN1677 Computer Graphics 5
@@ -170,9 +170,9 @@ classes:
     instructor: Angela Fahlman
     email: fahlmaa@algonquincollege.com
     day: Tuesday
-  - room: N219
+  - room: [Other, N103]
     start: "08:00am"
-    duration: 6
+    duration: 4
     name: DSN197 Concept Sketching 1
     group: l1g1
     instructor: Andrea Emery
@@ -194,7 +194,7 @@ classes:
     instructor: Andrew Miller
     email: millera1@algonquincollege.com
     day: Wednesday
-  - room: 219
+  - room: [Other, N103]
     start: "08:00am"
     duration: 4
     name: DSN1697 Concept Sketching 1
