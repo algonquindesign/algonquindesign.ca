@@ -113,13 +113,13 @@ classes:
     email: gobeilt@algonquincollege.com
     day: Tuesday
   - room: [Other, CA418]
-    start: "08:00am"
+    start: "10:00am"
     duration: 4
     name: DSN1697 Concept Sketching 1
     group: l1g2
     instructor: Andrea Emery
     email: emerya@algonquincollege.com
-    day: Tuesday
+    day: Monday
   - room: N216
     start: "09:00am"
     duration: 6
