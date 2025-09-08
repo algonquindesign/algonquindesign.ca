@@ -181,7 +181,7 @@ classes:
   - room: N214
     start: "11:30am"
     duration: 6
-    name: DSN1560 Typogrpahy 1
+    name: DSN1560 Typography 1
     group: l1g1
     instructor: Andrea Emery
     email: emerya@algonquincollege.com
@@ -260,7 +260,7 @@ classes:
   - room: N214
     start: "03:30pm"
     duration: 6
-    name: DSN1560 Typogrpahy 1
+    name: DSN1560 Typography 1
     group: l1g2
     instructor: Andrea Emery
     email: emerya@algonquincollege.com
