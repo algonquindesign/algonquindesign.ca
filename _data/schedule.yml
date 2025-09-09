@@ -194,14 +194,6 @@ classes:
     instructor: Andrew Miller
     email: millera1@algonquincollege.com
     day: Wednesday
-  - room: [Other, N103]
-    start: "08:00am"
-    duration: 4
-    name: DSN1697 Concept Sketching 1
-    group: l1g1
-    instructor: Andrea Emery
-    email: emerya@algonquincollege.com
-    day: Wednesday
   - room: N214
     start: "08:30am"
     duration: 6
