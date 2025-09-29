@@ -84,7 +84,7 @@ classes:
     start: "09:30am"
     duration: 6
     name: DSN1730 Design Systems
-    group: L5g1
+    group: l5g1
     instructor: Glenn Gobuyan
     email: gobuyag@algonquincollege.com
     day: Monday
@@ -92,7 +92,7 @@ classes:
     start: "01:00pm"
     duration: 6
     name: DSN1730 Design Systems
-    group: L5g2
+    group: l5g2
     instructor: Glenn Gobuyan
     email: gobuyag@algonquincollege.com
     day: Monday
@@ -249,7 +249,7 @@ classes:
     instructor: Meredith Luce
     email: lucem@algonquincollege.com
     day: Thursday
-  - room: N213
+  - room: N214
     start: "03:30pm"
     duration: 6
     name: DSN1560 Typography 1
