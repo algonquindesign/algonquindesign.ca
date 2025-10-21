@@ -102,7 +102,9 @@ classes:
     name: DSN1728 UX/UI Design 3
     group: l5g1
     instructor: Angela Fahlman
+    instructor2: Alyster Mahoney
     email: fahlmaa@algonquincollege.com
+    email2: mahonea@algonquincollege.com
     day: Monday
   - room: N216
     start: "12:00pm"
@@ -168,7 +170,9 @@ classes:
     name: DSN1728 UX/UI Design 3
     group: l5g2
     instructor: Angela Fahlman
+    instructor2: Alyster Mahoney
     email: fahlmaa@algonquincollege.com
+    email2: mahonea@algonquincollege.com
     day: Tuesday
   - room: N219
     start: "08:00am"
