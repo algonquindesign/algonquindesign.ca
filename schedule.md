@@ -139,8 +139,12 @@ padding-left: 1.5rem;    /* indent bullets */
   {% endfor %}
 </ul>
 <h2>In-Person Courses</h2>
+<p> Skip to: 
+<a href="#Tuesday">Tuesday</a> | <a href="#Wednesday">Wednesday</a> | <a href="#Thursday">Thursday</a> | <a href="#Friday">Friday</a>
+</p>
+
 {% for day in days %}
-<h3>{{ day }}</h3>
+<h3><a name="{{ day }}">{{ day }}</a></h3>
 
   {% assign day_classes = site.data.schedule.classes | where: "day", day %}
   {% assign classes = day_classes %}
