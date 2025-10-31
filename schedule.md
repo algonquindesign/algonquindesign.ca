@@ -205,7 +205,7 @@ padding-left: 1.5rem;    /* indent bullets */
                ">
             <div class="class-room">
               {% if class_here.room contains ',' or class_here.room.size > 1 %}
-                {{ class_here.room | join: ", " }}
+                {{ class_here.room | join: ", " }}, {{ class_here.start }}
               {% else %}
                 {{ class_here.room }}
               {% endif %}
