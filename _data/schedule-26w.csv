@@ -1,4 +1,4 @@
-Code,Courses,Section,Level,Day,Time,Room,Instructor,Email
+code,courses,section,level,day,time,room,instructor,email
 DSN1540,Typography 4,010,4,Thursday,11:00-14:00,N214,Alain Paradis,paradia@algonquincollege.com
 DSN1540,Typography 4,020,4,Friday,12:00-15:00,N214,Alain Paradis,paradia@algonquincollege.com
 DSN1540,Typography 4,030,4,Monday,16:30-19:30,N214,Alain Paradis,paradia@algonquincollege.com
@@ -29,7 +29,7 @@ DSN1684,Graphic Design 6,010,6,Thursday,15:00-18:00,N216,Jamie McLennan,mclennj@
 DSN1684,Graphic Design 6,020,6,Wednesday,14:00-17:00,N214,Jamie McLennan,mclennj@algonquincollege.com
 ENL1950A,Communications for Graphic Design,300,2,Wednesday,09:00-11:00,B182,Kate Corsten,corstek@algonquincollege.com
 ENL1950A,Communications for Graphic Design,310,2,Thursday,12:00-14:00,A2007,Kate Corsten,corstek@algonquincollege.com
-DSN1731,Innovative Strategies,350,6,ASYNC,ASYNC,ASYNC,Michael Ball,
+DSN1731,Innovative Strategies,350,6,ASYNC,ASYNC,ASYNC,Michael Ball,ballm@algonquincollege.com
 DSN1567,Computer Graphics 2,010,2,Wednesday,12:30-15:30,N216,Travis Gobeil,gobeilt@algonquincollege.com
 DSN1567,Computer Graphics 2,020,2,Monday,12:30-15:30,N216,Travis Gobeil,gobeilt@algonquincollege.com
 DSN1541,Computer Graphics 4,010,4,Monday,09:00-12:00,N219,Travis Gobeil,gobeilt@algonquincollege.com
