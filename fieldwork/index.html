@@ -1,114 +1,116 @@
 ---
 layout: default
-title: "Fieldwork · Algonquin Design"
-desc: "Our fieldwork program initiates our students to the professional practice of graphic design in a safe, stimulating and productive workplace."
-main_title: "Fieldwork"
-main_desc: "Our fieldwork program initiates our students to the professional practice of graphic design in a safe, stimulating and productive workplace."
+title: "Fieldwork"
+description: "Our fieldwork program initiates our students to the professional practice of graphic design in a safe, stimulating and productive workplace."
+id: 2
 ---
-
-<ul class="skip-links">
-  <li><a href="#intro">Jump to introduction</a></li>
-  <li><a href="#main">Jump to main content</a></li>
-</ul>
-
-{% include icons.html %}
-{% include masthead.html %}
-
-<main role="main" id="main">
-  {% include banner-inside.html %}
-
-  <div class="wrapper gutter-1-2 pad-t pad-b">
-    <h2 class="exa">Graphic Design Fieldwork</h2>
-    <p class="mega"><em>The Graphic Design fieldwork program at Algonquin College is proud to partner with creative agencies in Canada's National Capital Region and around the world. The goal of our fieldwork program is to initiate our students to the professional practice of graphic design in a safe, stimulating and productive workplace.</em></p>
-
-    <h2>Fieldwork Highlights</h2>
-    <ul>
-      <li>The start date is March 10 to April 17, 2026.</li>
-      <li>Students work as designers for a minimum of a 180 hours during the six-week period.</li>
-      <li>In-person mentorship is preferred, but remote work is accepted.</li>
-      <li>Students are expected to work similar hours as other employees.</li>
-      <li>Students anticipate mentorship as a member of a design team.</li>
-      <li>We expect our students to honour the confidentiality of your business.</li>
-      <li>Fieldwork can be salaried or not. That’s up to you and the student to negotiate.</li>
-    </ul>
-
-    <h2>What we need from you</h2>
-    <ul>
-      <li>Perform a thorough interview of candidates.</li>
-      <li>Provide supervision and mentoring during fieldwork.</li>
-      <li>Provide a productive and safe work environment for our students.</li>
-      <li>Complete a short report on the student's performance during their fieldwork.</li>
-    </ul>
-
-    <hr>
-
-    <p class="mega"><strong>We recognize that hosting a student intern represents an added responsibility for your company. Our faculty is grateful to all of you who choose to ensure a healthy future for our industry by nurturing budding practitioners in the field of graphic design.<br>Thank you!</strong></p>
-    <p class="mega"><em>Questions? Contact Alain Paradis <a href="mailto:paradia@algonquincollege.com">paradia@algonquincollege.com</a></em></p>
-
-    <hr>
-
-    <h2 class="exa">Employer's fieldwork request</h2>
-    <p class="mega">Submit yourself as an employer interested in engaging an Algonquin College Graphic Design student for fieldwork.</p>
-
-<form class="max-length not-centered push-2" action="https://formsubmit.co/paradia@algonquincollege.com" method="POST">
-      <div class="push-2">
-        <label class="push-1-4 giga" for="org">Organization name</label>
-        <input id="org" name="Organization" required>
-      </div>
-      <fieldset class="push-1-2">
-        <legend>Contact details</legend>
-        <p class="push-1-2">Your personal details—or the person whom should be contacted about the fieldwork placements.</p>
-        <div class="push pad-t-1-2">
-          <label class="push-1-4" for="contact-person">Contact person name</label>
-          <input id="contact-person" name="Contact-Person" required>
-        </div>
-        <div class="push">
-          <label class="push-1-4" for="contact-job">Contact person job title</label>
-          <input id="tel" name="Contact-Job-Title" required>
-        </div>
-        <div class="push">
-          <label class="push-1-4" for="contact-email">Contact email</label>
-          <input type="email" id="contact-email" name="Contact-Email" required>
-        </div>
-        <div class="push">
-          <label class="push-1-4" for="contact-tel">Contact telephone <em class="flag-optional gutter-1-2">(Optional)</em></label>
-          <input type="tel" id="contact-tel" name="Contact-Tel">
-        </div>
-      </fieldset>
-      <fieldset class="push-1-2">
-        <legend>Organization details</legend>
-        <p class="push-1-2">Details about the organization: website, location, etc.</p>
-        <div class="push pad-t-1-2">
-          <label class="push-1-4" for="org-addr">Organization address</label>
-          <textarea id="org-addr" name="Organization-Address" required></textarea>
-        </div>
-        <div class="push">
-          <label class="push-1-4" for="org-url">Organization website <em class="flag-optional gutter-1-2">(Optional)</em></label>
-          <input type="text" id="org-url" name="Organization-URL">
-        </div>
-      </fieldset>
-      <fieldset class="push-1-2">
-        <legend>Description of work</legend>
-        <p class="push-1-2">Describe the nature of the work a student will be undertaking. Is it web design, design for print, packaging, etc.?</p>
-        <div class="push pad-t-1-2">
-          <label class="push-1-4" for="work">Work details</label>
-          <textarea id="work" name="Description-of-Work" required></textarea>
-        </div>
-      </fieldset>
-
-      <input type="hidden" name="_subject" value="Fieldwork Employer Submission">
-      <input type="hidden" name="_next" value="https://algonquindesign.ca/fieldwork/thanks/">
-      <input type="hidden" name="_format" value="plain">
-<!--
-      <input type="hidden" name="_cc" value="bromled@algonquincollege.com">
- -->
-
-      <small class="block push-2 milli italic">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
-
-      <div><button class="btn giga" type="submit">Submit</button></div>
-    </form>
-  </div>
+{% include 01-masthead.html %}
+{% include 02-banner.html %}
+<main role="main" class="main-fieldwork">
+<section class="intro">
+	<h2>
+		Graphic Design Fieldwork 
+	</h2>
+	<p>
+		The Graphic Design fieldwork program at Algonquin College is proud to partner with creative agencies in Canada's National Capital Region and around the world... 
+	</p>
+</section>
+<section class="fieldwork-highlights">
+	<h3>
+		Fieldwork Highlights 
+	</h3>
+	<ul class="hanging-list">
+		<li>The start date is March 10 to April 17, 2026.</li>
+		<li>Students work as designers for a minimum of 180 hours during the six-week period.</li>
+		<li>In-person mentorship is preferred, but remote work is accepted.</li>
+		<li>Students are expected to work similar hours as other employees.</li>
+		<li>Students anticipate mentorship as a member of a design team.</li>
+		<li>We expect our students to honour the confidentiality of your business.</li>
+		<li>Fieldwork can be salaried or not; that's up to you and the student to negotiate.</li>
+	</ul>
+</section>
+<section class="what-we-need">
+	<h3>
+		What we need from you 
+	</h3>
+	<ul class="hanging-list">
+		<li>Perform a thorough interview of candidates.</li>
+		<li>Provide supervision and mentoring during fieldwork.</li>
+		<li>Provide a productive and safe work environment for our students.</li>
+		<li>Complete a short report on the student's performance during their fieldwork.</li>
+	</ul>
+	<p class="thanks">
+		<strong>We recognize that hosting a student intern represents an added responsibility for your company. Our faculty is grateful to all of you who choose to ensure a healthy future for our industry by nurturing budding practitioners in the field of graphic design. Thank you!</strong> 
+	</p>
+	<p>
+		Questions? Contact Alain Paradis <a href="mailto:paradia@algonquincollege.com">paradia@algonquincollege.com</a> 
+	</p>
+</section>
+<section class="fieldwork-form">
+	<h3>
+		Employer’s Fieldwork Request 
+	</h3>
+    	<form class="" action="https://submit-form.com/DrQxZHCef">
+		<div class="">
+			<label class="form-label" for="Organization">Organization name</label> 
+			<input type="text" id="Organization" name="Organization" placeholder="Organization Name" required="">
+		</div>
+		<fieldset class="">
+			<legend>Contact Details</legend> 
+			<p class="">
+				Your contact details, or the person who should be contacted about the fieldwork placements.
+			</p>
+			<div class="">
+				<label class="form-label" for="contact-person">Contact Person Name</label> 
+				<input type="text" id="contact-person" name="Contact Person" placeholder="Contact Person" required="">
+			</div>
+			<div class="">
+				<label class="form-label" for="contact-job">Contact Person Job Title</label> 
+				<input type="text" id="contact-job-title" name="Contact Job Title" placeholder="Contact Job Title" required="">
+			</div>
+			<div class="">
+				<label class="form-label" for="contact-email">Contact E-mail</label> 
+				<input type="email" id="contact-email" name="Contact Email" placeholder="Contact Email" required="">
+			</div>
+			<div class="">
+				<label class="form-label" for="contact-tel">Contact Telephone <em class="">(Optional)</em></label> 
+				<input type="tel" id="contact-tel" name="Contact Tel" placeholder="Contact Telephone">
+			</div>
+		</fieldset>
+		<fieldset class="">
+			<legend>Organization Details</legend> 
+			<p class="">
+				Details about the organization: website, location, etc.
+			</p>
+			<div class="">
+				<label class="form-label" for="org-address">Organization Address</label>
+				<textarea id="org-address" name="Organization Address" placeholder="Organization Address"></textarea>
+			</div>
+			<div class="">
+				<label class="form-label" for="organization-url">Organization Website <em class="">(Optional)</em></label> 
+				<input type="text" id="organization-url" name="Organization URL" placeholder="Organization URL" required="">
+			</div>
+		</fieldset>
+		<fieldset class="">
+			<legend>Description of Work</legend> 
+			<p class="">
+				Describe the nature of the work a student will be undertaking. Is it web design, design for print, packaging, etc.?
+			</p>
+			<div class="">
+				<label class="form-label" for="work-details">Work Details</label>
+				<textarea id="work-details" name="Work Details" placeholder="Describe the work." required=""></textarea>
+			</div>
+		</fieldset>
+		<input type="hidden" name="_email.subject" value="Fieldwork Employer Submission" />
+		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/fieldwork/thanks/"> 
+		<input type="hidden" name="_format" value="plain"> 
+		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small> 
+		<div>
+			<button class="" type="submit">Submit</button>
+		</div>
+		</form>
+	</section>
 
 </main>
 
-{% include footer.html %}
+{% include 13-footer.html %}

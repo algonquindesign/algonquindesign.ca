@@ -1,0 +1,97 @@
+{% if page.title == 'Home' %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ site.data.sitewide.sitewide-info.program-name }} 
+		</h1>
+		<h2>
+			{{ site.data.sitewide.sitewide-info.program-purpose }} 
+		</h2>
+		<div>
+			{{ site.data.sitewide.sitewide-info.academic-year }} • Program Code: {{ site.data.sitewide.sitewide-info.program-code }} 
+		</div>
+		<div>
+			{{ site.data.sitewide.sitewide-info.accreditation }} • {{ site.data.sitewide.sitewide-info.program-duration }} • {{ site.data.sitewide.sitewide-info.campus-name }} 
+		</div>
+	</div>
+</section>
+{% endif %} {% if page.title == 'Fieldwork' %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %} {% if page.id == 'fieldwork-thankyou' %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %} {% if page.title == 'Jobs' %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %} {% if page.id == "jobs-thankyou" %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %} {% if page.id == "portfolio-requirements" %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %}
+{% if page.id == "404" %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %}
+{% if page.id == "hardware" %} 
+<section class="banner">
+	<div class="banner-content">
+		<h1>
+			{{ page.title }} 
+		</h1>
+		<h2>
+			{{ page.description }} 
+		</h2>
+	</div>
+</section>
+{% endif %}

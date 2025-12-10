@@ -1,16 +1,25 @@
-version: 7
-
-permalink: pretty
+port: 4000
+title: AlgonquinDesign.ca
+email: paradia@algonquincollege.ca
+description:
 baseurl: ""
+url: ""
+twitter_username: "@algonquindesign"
+github_username:  "@algonquindesign"
+
+plugins:
+  - jekyll-feed
+
+repository: alainparadis/ad
 
 exclude:
-  - "README.md"
-  - "LICENSE"
-  - "package.json"
-  - "tmp"
-  - "node_modules"
-  - "vendor"
-  - "_*/README.md"
-  - "_*/UNLICENSE"
-  - "*.lock"
-  - "Gemfile*"
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

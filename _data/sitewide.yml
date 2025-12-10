@@ -1,0 +1,38 @@
+sitewide-info:
+  institution-name: Algonquin College
+  program-name: Graphic Design
+  site-title: AlgonquinDesign
+  academic-year: "2025-2026"
+  program-code: 1400X01FWO
+  program-duration: 3 Years
+  accreditation: Ontario College Advanced Diploma
+  campus-name: Woodroffe Campus
+  street-address: 1385 Woodroffe Ave., Ottawa, ON, CA, K2G 1V8
+  program-slogan: "Canada’s most progressive graphic design program · Ottawa, Canada"
+  program-purpose: "Learn to creatively explore and curate ideas to visually communicate the solution to problems."
+  desc: "Ontario college graphic design diploma program teaching students up-to-date courses in print, mobile, web & motion."
+  keywords: "ontario, college, graphic, design, diploma, program, courses, print, motion graphics, web development, mobile, app, posters, logos, brand"
+    
+program-social-links:
+  - title: Facebook
+    url: "https://www.facebook.com/algonquindesign"
+  - title: Twitter
+    url: "https://twitter.com/algonquindesign"
+  - title: LinkedIn
+    url: "https://www.linkedin.com/groups/7434225/"
+  - title: GitHub
+    url: "https://algonquindesign.github.io/"
+
+institution-links:
+  - title: Email
+    url: "http://liveac.algonquincollege.com/"
+  - title: BrightSpace
+    url: "https://algonquincollege.brightspace.com/"
+  - title: Student Support Services
+    url: "http://www.algonquincollege.com/studentsupportservices/"
+  - title: ACSIS
+    url: "https://acsis.algonquincollege.com/students/"
+  - title: Hardware Requirements
+    url: "http://www.algonquindesign.ca/hardware/"
+  - title: Privacy Statement
+    url: "https://www.algonquincollege.com/policies/privacy/"

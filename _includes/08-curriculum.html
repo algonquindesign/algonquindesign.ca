@@ -1,0 +1,18 @@
+<section class="curriculum" id="curriculum" name="curriculum">
+	<h2>
+		<a>{{site.data.curriculum.title}}</a>
+	</h2>
+	<p>
+		{{site.data.curriculum.desc | replace: '& ', '&amp; '}} 
+	</p>
+	<div>
+		{% for topic in site.data.curriculum.topics %} 
+		<ul>
+			<li><img alt="" class="curriculum-icon" src="{{ site.baseurl }}/svg/{{ topic.icon }}.svg"></li>
+			<li><h3><a href="{{topic.url}}" class="sans bold">{{topic.title}}</a></h3></li>
+			<li>{{topic.desc | replace: '& ', '&amp; '}}</li>
+		</ul>
+		{% endfor %}
+	</div>
+	<a href="{{site.data.curriculum.button_url}}" class="btn btn-lime-green">{{site.data.curriculum.button}}</a> 
+</section>

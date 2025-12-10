@@ -1,0 +1,13 @@
+<article class="news" id="news" name="news">
+		{% for news in site.posts reversed limit:3 %} 
+		<div class="news-item">
+			{% if news.link.url %} <a href="{{news.link.url}}" rel="external">{{news.img.alt}}</a> {% else %} <span>{{news.img.alt}}</span> {% endif %} 
+			<h2>
+				<a href="{{news.url}}">{{ news.title }}</a> 
+			</h2>
+			<p>
+				{{ news.deck }} 
+			</p>
+		</div>
+		{% endfor %} 
+</article>

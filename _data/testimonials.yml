@@ -1,36 +1,14 @@
-- text: "Did your application close because you missed submitting your portfolio? We’ll still take it!"
-  author: "<a href=\"mailto:paradia@algonquincollege.com\">Email us today</a>"
-  image: "portfolio-1.jpg"
+testimonials:
+  - text: "Did your application close because you missed submitting your portfolio? We’ll still take it!"
+    author: "<a href=\"mailto:paradia@algonquincollege.com\">Email us today</a>"
+    image: ""
 
-- text: "Did your application close because you missed submitting your portfolio? We’ll still take it!"
-  author: "<a href=\"mailto:paradia@algonquincollege.com\">Email us today</a>"
-  image: "portfolio-2.jpg"
+  - text: "Did your application close because you missed submitting your portfolio? We’ll still take it!"
+    author: "<a href=\"mailto:paradia@algonquincollege.com\">Email us today</a>"
+    image: ""
 
-- text: "Did your application close because you missed submitting your portfolio? We’ll still take it!"
-  author: "<a href=\"mailto:paradia@algonquincollege.com\">Email us today</a>"
-  image: "portfolio-3.jpg"
+  - text: "Did your application close because you missed submitting your portfolio? We’ll still take it!"
+    author: "<a href=\"mailto:paradia@algonquincollege.com\">Email us today</a>"
+    image: ""
 
-
-# - text: "A progressive curriculum with relevant courses, and faculty to fully support one’s ambition for success in the industry."
-#   author: "Steph, Graduate"
-#   image: "steph.jpg"
-
-# - text: "What impressed me most with the program was their drive and effort to stay current and encourage critical thinking. They’re in the business of making well-rounded designers."
-#   author: "Dani, Graduate"
-#   image: "dani.jpg"
-
-# - text: "When I started the Design program at Algonquin, I quickly realized this was the answer to mixing passion, creativity, and quality of life. I finally get paid to be creative."
-#   author: "Jared, Graduate"
-#   image: "jared.jpg"
-
-# - text: "From the start this program provides amazing knowledge as well experiences, to the set the foundation for a brighter future in this industry."
-#   author: "Earaj, Graduate"
-#   image: "earaj.jpg"
-
-# - text: "Experienced teachers, innovative program, and great friends."
-#   author: "Caroline, Graduate"
-#   image: "caroline.jpg"
-
-# - text: "The program was an important component in becoming the designer I envisioned in myself, providing me with the confidence and expertise needed to pursue my unique interests."
-#   author: "Brendan, Graduate"
-#   image: "brendan.jpg"
+testimonials_title: "Hear what students say…"

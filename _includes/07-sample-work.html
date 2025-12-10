@@ -1,0 +1,19 @@
+<section class="sample-work" id="sample-work" name="sample-work">
+	<h2>
+		{{ site.data.sample-work.title }} 
+	</h2>
+	<p>
+		{{ site.data.sample-work.desc }} 
+	</p>
+	<div class="sample-work-grid-container">
+		{% for image in site.data.sample-work.images %} <a href="{{ image.url }}" target="_blank" rel="noopener noreferrer" class="grid-image" title="{{ image.title }} by {{ image.author }} ({{ image.year }});"> <img src="/images/sample-work/{{ image.src }}" alt="{{ image.title }}"> </a> {% endfor %} 
+	</div>
+	<p>
+		{{ site.data.sample-work.outro }} 
+	</p>
+	<div class="video">
+		<iframe src="https://player.vimeo.com/video/1069603667?h=5665d5f949&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;muted=1&amp;loop=1" frameborder="0" allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AC Graphic Design Grads | Student Reel 2025"></iframe>
+	</div>
+	<script src="https://player.vimeo.com/api/player.js">
+</script>
+</section>

@@ -1,0 +1,33 @@
+<section class="faculty" id="faculty" name="faculty">
+	<h2>
+		{{site.data.faculty.title}} 
+	</h2>
+	<p>
+		{{site.data.faculty.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}} 
+	</p>
+	<ul class="person">
+	 {% for person in site.data.faculty.people %} 
+		<li> 
+		<img src="{{site.baseurl}}/images/faculty/{{person.img}}" alt="{{person.name}}" loading="lazy">
+		<p>
+			{{person.name}}, {{ person.accreditation }}
+		</p>
+		<p>
+			{{person.role}} 
+		</p>
+		<p>
+			{{person.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}} 
+		</p>
+		{% if person.links %} 
+		<ul class="person-links">
+			{% for link in person.links %} 
+			<li> <a href="{{link.url}}" rel="external">{{link.title}}</a></li>
+			{% unless forloop.last %} • {% endunless %} {% endfor %} 
+		</ul>
+		{% endif %} </li>
+		{% endfor %} 
+	</ul>
+	<p>
+		{{site.data.faculty.outro}} 
+	</p>
+</section>

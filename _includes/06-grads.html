@@ -1,0 +1,33 @@
+<section class="grads" id="grads" name="grads">
+	<h2>
+		{{site.data.grads.title}} 
+	</h2>
+	<p>
+		{{site.data.grads.desc | replace: '& ', '<abbr title="and">&amp;</abbr> '}} 
+	</p>
+	<article>
+		<div>
+			<img alt="{{site.data.grads.shows[0].title}}" src="{{site.baseurl}}/images/grad-shows/{{site.data.grads.shows[0].start_time | date: '%Y'}}.png" loading="lazy"> 
+		</div>
+		<div>
+			<h3>
+				{{site.data.grads.shows[0].title}} — {{site.data.grads.shows[0].start_time | date: '%Y'}} 
+			</h3>
+			<time datetime="{{site.data.grads.shows[0].start_time}}">{{site.data.grads.shows[0].start_time | date: '%a., %b %e, %Y — %l:%M %P'}}</time> {% if site.data.grads.shows[0].addr %} 
+			<address>{{site.data.grads.shows[0].addr.name}} <br>
+			{{site.data.grads.shows[0].addr.street_address}}, 
+			{{site.data.grads.shows[0].addr.city}}, {{site.data.grads.shows[0].addr.province}}, {{site.data.grads.shows[0].addr.postal_code}} </address>
+			{% else %}
+			<em class="block">{{site.data.grads.shows[0].intro}}</em> {{site.data.grads.shows[0].desc}}
+			{% endif %}
+			<a href="http://{{site.data.grads.shows[0].start_time | date: '%Y'}}.grads.algonquindesign.ca/" class="sans bold"> <span>Learn&nbsp;more</span>&nbsp;➜</a> 
+		</div>
+	</article>
+	<div>
+		<ol>
+			{% for show in site.data.grads.shows offset:1 limit:4 %} 
+			<li> <a href="http://{{show.start_time | date: '%Y'}}.grads.algonquindesign.ca/"><img class="embed-item" src="{{site.baseurl}}/images/grad-shows/{{show.start_time | date: '%Y'}}.png" alt="Brand Graphic" loading="lazy"> <span class="sans">{{show.title}} {{show.start_time | date: '%Y'}}</span> </a></li>
+			{% endfor %} 
+		</ol>
+	</div>
+</section>
