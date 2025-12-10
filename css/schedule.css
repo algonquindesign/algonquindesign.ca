@@ -80,5 +80,8 @@ body
   cursor: default;
 }
 footer {
-    font-size: 0.8rem;    
+  width: 90%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin: 0 auto 0 auto;
 }
