@@ -36,9 +36,14 @@ body
 	overflow-x: hidden;
 }
 
-/* 
+/*
 * { outline: 1px solid red; }
  */
+
+:where(a, button, input, textarea, select):focus-visible {
+  outline: 4px solid #000;
+  outline-offset: 4px;
+}
 
 .masthead
 {
@@ -583,7 +588,7 @@ footer ul.social li { }
 @media (min-width: 576px)
 {
 	.masthead { flex-direction: row; }
-	
+
 	.masthead-content
 	{
 		display: flex;
@@ -591,34 +596,34 @@ footer ul.social li { }
 		justify-content: space-between;
 		width: 90%;
 	}
-	
+
 	.grads ol { grid-template-columns: repeat(2, 1fr); }
-	
+
 	.sample-work-grid-container
 	{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, auto);
 	}
-	
+
 	.curriculum div { grid-template-columns: repeat(2, 1fr); }
 	.faculty ul.person { grid-template-columns: repeat(2, 1fr); }
 	nav ul { grid-template-columns: 1fr 1fr; }
-	
+
 	.content-box
 	{
 		flex-direction: row;
 		align-items: flex-start;
 		text-align: left;
 	}
-	
+
 	.content-box .graphic-box
 	{
 		display: flex;
 		width: 25%;
 		object-position: center;
 	}
-	
+
 	.content-box .graphic-box svg
 	{
 		display: block;
@@ -626,7 +631,7 @@ footer ul.social li { }
 		height: auto;
 		object-fit: cover;
 	}
-	
+
 	.content-box .text-box
 	{
 		display: flex;
@@ -642,31 +647,31 @@ footer ul.social li { }
 {
 	.banner { justify-content: center; }
 	.banner-content { width: 90vw; }
-	
+
 	.satisfaction
 	{
 		display: block;
 		max-width: 70%;
 	}
-	
+
 	.grads ol { grid-template-columns: repeat(4, 1fr); }
-	
+
 	.sample-work-grid-container
 	{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(3, auto);
 	}
-	
+
 	.rgd { }
-	
+
 	.rgd-content
 	{
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
 	}
-	
+
 	.rgd-text
 	{
 		display: flex;
@@ -675,14 +680,14 @@ footer ul.social li { }
 		align-items: flex-start;
 		text-align: left;
 	}
-	
+
 	.portfolio-reqs-content
 	{
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
 	}
-	
+
 	.portfolio-reqs-text
 	{
 		display: flex;
@@ -691,7 +696,7 @@ footer ul.social li { }
 		align-items: flex-start;
 		text-align: left;
 	}
-	
+
 	.portfolio-reqs-logo
 	{
 		display: flex;
@@ -700,17 +705,17 @@ footer ul.social li { }
 		max-width: 260px;
 		width: 100%;
 	}
-	
+
 	.portfolio-reqs-logo svg
 	{
 		display: block;
 		width: 150px;
 		height: auto;
 	}
-	
+
 	footer ul.social, footer ul.resources { justify-content: space-between; }
 	nav ul { grid-template-columns: repeat(3, 1fr); }
-	
+
 	/* Grid of portfolio pieces on requirements page */
 	.portfolio-reqs-pieces
 	{
@@ -718,7 +723,7 @@ footer ul.social li { }
 		max-width: 90vw;
 		margin-inline: auto;
 	}
-	
+
 	.portfolio-reqs-questions ul
 	{
 		display: flex;
@@ -729,29 +734,29 @@ footer ul.social li { }
 @media (min-width: 1280px)
 {
 	.grads ol { grid-template-columns: repeat(4, 1fr); }
-	
+
 	.sample-work-grid-container
 	{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(3, auto);
 	}
-	
+
 	/* Grid of portfolio pieces on requirements page */
 	.portfolio-reqs-pieces
 	{
 		grid-template-columns: repeat(3, 1fr);
 		max-width: 90vw;
 	}
-	
+
 	.curriculum div { grid-template-columns: repeat(3, 1fr); }
 	.faculty ul.person { grid-template-columns: repeat(3, 1fr); }
-	
+
 	.portfolio-reqs-logo svg
 	{
 		width: 200px;
 		height: auto;
 	}
-	
+
 	nav ul { grid-template-columns: repeat(4, 1fr); }
 }
