@@ -1,0 +1,37 @@
+{% assign day_rows = site.data.schedule-26w | where: "day", include.day %}
+{% assign rooms = day_rows | map: "room" | uniq | sort %}
+{% assign times = day_rows | map: "time" | uniq | sort %}
+
+<table class="schedule-table">
+  <thead>
+    <tr>
+      <th>Time</th>
+      {% for room in rooms %}
+        <th>{{ room }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for time in times %}
+      <tr>
+        <td>{{ time }}</td>
+        {% for room in rooms %}
+          {% assign cell_classes = day_rows | where: "time", time | where: "room", room %}
+          {% if cell_classes.size > 0 %}
+            {% assign entry = cell_classes.first %}
+            {% assign level_class = entry.level | downcase | replace: " ", "-" %}
+            <td class="level-{{ level_class }}">
+            <strong>{{ entry.time }}</strong><br>
+              {{ entry.code }}<br>
+              <strong>{{ entry.courses }}</strong><br>
+              Sec {{ entry.section }} – Level {{ entry.level }}<br>
+              <a href="mailto:{{ entry.email }}">{{ entry.instructor }}</a>
+            </td>
+          {% else %}
+            <td></td>
+          {% endif %}
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

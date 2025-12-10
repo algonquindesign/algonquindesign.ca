@@ -6,24 +6,32 @@
 	<meta charset="utf-8">
 	<title> {% if page.title %}{{ page.title }} | {% endif %} {{ site.title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="noindex, nofollow"> 
+	<meta name="robots" content="noindex, nofollow">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/css/schedule.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/css/schedule.css' | relative_url }}">
 </head>
 <body>
 <header>
 	<h1>
-		{{ page.title }}
+		{{ page.title }} 
 	</h1>
-{% include schedule-nav.html %}
+	{% include schedule-nav.html %} 
 </header>
 <main class="page-content">
+	<div class="async">
+		{% assign async_courses = site.data.schedule-26w | where: "day", "ASYNC" %} 
+		<ul>
+			{% for async in async_courses %} 
+			<li><strong>Asynchronous:</strong> {{ async.code }} {{ async.courses }}, Level: {{ async.level }}, <a href="mailto:{{ async.email }}">{{ async.instructor }}</a></li>
+			{% endfor %} 
+		</ul>
+	</div>
 	{{ content }} 
 </main>
 <footer>
 	<p>
-    Note: Level 6 courses are 7 weeks in duration, ending February 27, 2026.
+		Note: Level 6 courses are 7 weeks in duration, ending February 27, 2026. 
 	</p>
 </footer>
 </body>

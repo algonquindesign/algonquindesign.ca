@@ -1,7 +1,7 @@
 ---
-layout: day-schedule
+layout: schedule
 title: Wednesday Schedule
 permalink: /schedule/wednesday/
 day: Wednesday
 ---
-{% include schedule-day-table.html day=page.day %}
+{% include schedule-table.html day=page.day %}

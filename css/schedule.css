@@ -1,87 +1,94 @@
 body
 {
-  font-family: "IBM Plex Mono", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: clamp(1rem, 1rem + 0.5vw, 1.6rem);
-  margin: 0.5rem;
-  padding: 0;
+	font-family: "IBM Plex Mono", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: clamp(1rem, 1rem, 1.6rem);
+	margin: 0.5rem;
+	padding: 0;
 }
-.schedule-table {
-  width: 90%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
-  margin: 0 auto 0 auto;
+
+.schedule-table
+{
+	width: 90%;
+	border-collapse: collapse;
+	margin: 0 auto 0 auto;
 }
 
 .schedule-table th,
-.schedule-table td {
-  border: 1px solid #ddd;
-  padding: 0.35rem 0.5rem;
-  vertical-align: top;
+.schedule-table td
+{
+	border: 1px solid #ddd;
+	padding: 0.35rem 0.5rem;
+	vertical-align: top;
 }
 
-.schedule-table th {
-  background: #f3f3f3;
-  text-align: left;
+.schedule-table th
+{
+	background: #f3f3f3;
+	text-align: left;
 }
 
 /* Level-based colours */
-.level-2 {
-  background: #e6f2ff;
+.level-2 { background: #e6f2ff; }
+.level-4 { background: #e8ffe6; }
+.level-6 { background: #ffe6f2; }
+.level-async { background: #fdf2d6; }
+
+.schedule-nav
+{
+	text-align: center;
+	margin: 1rem 0;
 }
 
-.level-4 {
-  background: #e8ffe6;
+.schedule-nav ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-.level-6 {
-  background: #ffe6f2;
+.schedule-nav li
+{
+	display: inline-block;
+	margin: 0 0.25rem;
 }
 
-.level-async {
-  background: #fdf2d6;
+.schedule-nav li + li::before
+{
+	content: "•";
+	margin: 0 0.35rem 0 0.1rem;
+	color: #666;
 }
 
-.schedule-nav {
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.schedule-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.schedule-nav li {
-  display: inline-block;
-  margin: 0 0.25rem;
-  font-size: 0.95rem;
-}
-
-.schedule-nav li + li::before {
-  content: "•";
-  margin: 0 0.35rem 0 0.1rem;
-  color: #666;
-}
-
-.schedule-nav a {
-  color: #333;
-}
-
+.schedule-nav a { color: #333; }
 .schedule-nav a:hover,
-.schedule-nav a:focus {
+.schedule-nav a:focus { }
 
+.schedule-nav a.is-current-day
+{
+	font-weight: 700;
+	cursor: default;
 }
 
-.schedule-nav a.is-current-day {
-  font-weight: 700;
-  cursor: default;
+.async
+{
+	width: 90%;
+	margin: 0 auto 0 auto;
+	padding: 1rem 0;
 }
-footer {
-  width: 90%;
-  border-collapse: collapse;
-  font-size: 0.8rem;
-  margin: 0 auto 0 auto;
+
+.async ul
+{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+footer
+{
+	width: 90%;
+	border-collapse: collapse;
+	font-size: 0.8rem;
+	margin: 0 auto 0 auto;
 }
