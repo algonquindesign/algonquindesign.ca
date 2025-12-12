@@ -1,6 +1,6 @@
 html
 {
-	font-size: clamp(.8rem, 1.5vw, 2rem);
+	font-size: clamp(1rem, 1.5vw, 2rem);
 	font-family: var(--serif);
 	font-style: normal;
 	font-weight: 400;
