@@ -1,3 +1,4 @@
+/* Base type and layout */
 html
 {
 	font-size: clamp(1rem, 1.5vw, 2rem);
@@ -6,16 +7,35 @@ html
 	font-weight: 400;
 	line-height: 1.5;
 	color: var(--text-color);
-	/*
-	hyphens: auto;
-	hyphenate-limit-chars: 6 3 3;
-	hyphenate-limit-lines: 2;
-	hyphenate-limit-last: always;
-	hyphenate-limit-zone: 8%;
- */
+	/* Optional hyphenation if you want it:
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+  */
 }
 
-p { margin-bottom: 2.0rem; }
+body { margin: 0; }
+
+/* Simple type scale utilities (all scale via root clamp) */
+.text-xs { font-size: 0.85rem; }
+.text-sm { font-size: 0.9rem; }
+.text-base { font-size: 1rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xl { font-size: 1.25rem; }
+.text-2xl { font-size: 1.5rem; }
+
+/* General text blocks */
+p
+{
+	margin-bottom: 2rem;
+	max-width: 80ch;
+}
+
+p + p { margin-bottom: 1rem; }
+ul + p { margin-top: 2rem; }
+li { max-width: 80ch; }
 
 .sans
 {
@@ -23,6 +43,7 @@ p { margin-bottom: 2.0rem; }
 	max-width: 80ch;
 }
 
+/* Skip links */
 .skip-links
 {
 	margin: 0;
@@ -35,11 +56,10 @@ p { margin-bottom: 2.0rem; }
 .skip-links a,
 .skip-links button
 {
-	padding: .5em .75em;
+	padding: 0.5em 0.75em;
 	position: absolute;
 	top: -10em;
 	z-index: 10000;
-	/* To make sure they're always on top */
 	background-color: #000;
 	border: 0;
 	color: #fff;
@@ -55,12 +75,37 @@ p { margin-bottom: 2.0rem; }
 	top: 0;
 }
 
+/* Misc text helpers */
 .hidden
 {
 	visibility: hidden;
 	line-height: 0;
 }
 
+.small-caps
+{
+	font-variant: small-caps;
+	font-weight: 500;
+}
+
+em
+{
+	font-weight: 600;
+	font-style: italic;
+	color: var(--text-color);
+}
+
+strong,
+bold,
+.bold
+{
+	font-weight: 600;
+	color: var(--text-color);
+}
+
+.italic { font-style: italic; }
+
+/* Links */
 a
 {
 	color: var(--dark-green);
@@ -76,8 +121,7 @@ a:active
 	border-bottom: 2px solid var(--orange);
 }
 
-p, li { max-width: 80ch; }
-
+/* Blockquotes */
 blockquote
 {
 	margin: 2rem 0 2rem 2rem;
@@ -90,8 +134,10 @@ blockquote
 	color: var(--dark-green);
 }
 
-/* * * * * * HEADINGS * * * * *  */
-h1, h2, h3
+/* Headings */
+h1,
+h2,
+h3
 {
 	font-family: var(--sans);
 	font-style: normal;
@@ -103,7 +149,9 @@ h1, h2, h3
 	max-width: 45ch;
 }
 
-h4, h5, h6
+h4,
+h5,
+h6
 {
 	font-family: var(--sans);
 	color: var(--dark-green);
@@ -115,6 +163,21 @@ h4, h5, h6
 	max-width: 45ch;
 }
 
+/* Scaled heading sizes using clamp + rem scale */
+h1
+{
+	font-size: clamp(2rem, 6vw, 4rem);
+	line-height: 1;
+	margin-top: 0;
+}
+
+h2 { font-size: clamp(1.5rem, 3vw, 2.5rem); }
+h3 { font-size: clamp(1.25rem, 2.4vw, 2rem); }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.125rem; }
+h6 { font-size: 1rem; }
+
+/* Heading/link interaction */
 :is(h1, h2, h3, h4, h5, h6) a,
 :is(h1, h2, h3, h4, h5, h6) a:link
 {
@@ -125,24 +188,18 @@ h4, h5, h6
 
 :is(h1, h2, h3, h4, h5, h6) a:hover { color: var(--lime-green); }
 h1 + p,
-	h2 + p,
-	h3 + p,
-	h4 + p,
-	h5 + p,
-	h6 + p,
-	h1 + h2,
-	h2 + h3,
-	h3 + h4,
-	h4 + h5,
-	h5 + h6 { margin-top: 0.25rem; }
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p,
+h1 + h2,
+h2 + h3,
+h3 + h4,
+h4 + h5,
+h5 + h6 { margin-top: 0.25rem; }
 
-h1
-{
-	font-size: clamp(2rem, 6vw, 4rem);
-	line-height: 1;
-	margin-top: 0;
-}
-
+/* Banner / hero */
 .banner h2
 {
 	font-family: var(--serif);
@@ -152,18 +209,9 @@ h1
 	margin: 1.5rem 0;
 }
 
-footer { color: white; }
+.banner div { margin-bottom: 0.5rem; }
 
-.curriculum h2, .interested h2, footer h2, .grads h2, .sample-work h2, .fieldwork h2
-{
-	text-align: center;
-	margin: 1rem auto;
-}
-
-.sample-work h2, footer h2 { color: white; }
-p + p { margin-bottom: 1rem; }
-ul + p { margin-top: 2rem; }
-
+/* Hanging list style */
 .hanging-list
 {
 	list-style: none;
@@ -187,13 +235,15 @@ ul + p { margin-top: 2rem; }
 	left: 0;
 }
 
+/* Horizontal rule */
 hr
 {
-	border: 2px solid #C0C0C0;
+	border: 2px solid #c0c0c0;
 	max-width: 33.333%;
 	margin: 1rem auto;
 }
 
+/* Definition lists */
 dt
 {
 	font-weight: 500;
@@ -204,26 +254,7 @@ dt
 
 dd { margin: 0 2rem 1rem 2rem; }
 
-.small-caps
-{
-	font-variant: small-caps;
-	font-weight: 500;
-}
-
-em
-{
-	font-weight: 600;
-	font-style: italic;
-	color: var(--text-color);
-}
-
-strong, bold, .bold
-{
-	font-weight: 600;
-	color: var(--text-color);
-}
-
-.italic { font-style: italic; }
+/* Masthead */
 .masthead { color: white; }
 
 .masthead a
@@ -235,8 +266,25 @@ strong, bold, .bold
 
 .masthead-link { border-bottom: 2px solid var(--lime-green); }
 a.masthead-link:hover { border-bottom: 2px solid white; }
-.banner div { margin-bottom: 0.5rem; }
 
+/* Section headings that are centered */
+footer { color: white; }
+
+.curriculum h2,
+.interested h2,
+footer h2,
+.grads h2,
+.sample-work h2,
+.fieldwork h2
+{
+	text-align: center;
+	margin: 1rem auto;
+}
+
+.sample-work h2,
+footer h2 { color: white; }
+
+/* News section */
 .news h2
 {
 	font-size: 1rem;
@@ -253,11 +301,14 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	border-bottom: 2px solid var(--teal);
 }
 
-.news p { font-size: .85rem; }
+.news p { font-size: 0.85rem; }
 .news a:hover { border-bottom: solid 2px lightgrey; }
 .news-item { hyphens: none; }
 
-.checklist ul, .opportunities ul, .highlights ul
+/* Checklist / opportunities / highlights lists */
+.checklist ul,
+.opportunities ul,
+.highlights ul
 {
 	list-style: none;
 	padding-left: 0;
@@ -271,13 +322,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	text-indent: 0;
 }
 
-.opportunities ul li
-{
-	position: relative;
-	padding-left: 1.15rem;
-	text-indent: 0;
-}
-
+.opportunities ul li,
 .highlights ul li
 {
 	position: relative;
@@ -299,7 +344,8 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	background-image: url("/svg/checkmark.svg");
 }
 
-.opportunities ul li::before, .post ul li::before
+.opportunities ul li::before,
+.post ul li::before
 {
 	content: ">";
 	color: var(--lime-green);
@@ -309,6 +355,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	font-size: 1rem;
 }
 
+/* Post lists */
 .post ul
 {
 	list-style: none;
@@ -323,6 +370,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	text-indent: 0;
 }
 
+/* Grads */
 .grads article a
 {
 	color: var(--text-color);
@@ -353,6 +401,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	border-bottom: 2px solid var(--teal);
 }
 
+/* Sample work */
 .sample-work p
 {
 	margin: 0 auto 1.5rem auto;
@@ -362,6 +411,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	color: #fff;
 }
 
+/* Curriculum */
 .curriculum-icon
 {
 	stroke: #999;
@@ -387,10 +437,9 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	margin: 1rem 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
+	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
-	/* 	border: solid 2px lightgrey; */
 	border-radius: 10px;
 }
 
@@ -415,6 +464,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 
 .curriculum li a:hover { border-bottom: 2px solid lightgrey; }
 
+/* Faculty */
 .faculty > p
 {
 	margin: 0 auto 1.5rem auto;
@@ -434,6 +484,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 
 .faculty a:hover { border-bottom: 2px solid lightgrey; }
 
+/* Assumes: .faculty ul.person p:nth-child(2) is the title/role line */
 .faculty ul.person p:nth-child(2)
 {
 	font-family: var(--serif);
@@ -442,8 +493,11 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	margin-bottom: 1rem;
 }
 
+/* RGD and portfolio requirements */
 .rgd div:nth-child(2) { max-width: 60ch; }
-.rgd-text h3, .portfolio-reqs-text h3, .content-box .text-box h3 { margin-top: 0; }
+.rgd-text h3,
+.portfolio-reqs-text h3,
+.content-box .text-box h3 { margin-top: 0; }
 
 .rgd a
 {
@@ -463,6 +517,8 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 
 .portfolio-reqs-text { max-width: 60ch; }
 .portfolio-reqs a:hover { border-bottom: 2px solid lightgrey; }
+
+/* Interested section */
 .interested { text-align: center; }
 .interested p { color: white; }
 
@@ -479,6 +535,7 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	color: var(--grey);
 }
 
+/* Footer */
 .footer > a { border-bottom: 2px solid white; }
 footer ul { list-style: none; }
 
@@ -486,7 +543,7 @@ footer p
 {
 	display: flex;
 	justify-content: center;
-	margin: 0rem auto;
+	margin: 0 auto;
 	text-align: center;
 	max-width: 65ch;
 	hyphens: none;
@@ -513,6 +570,7 @@ footer a:hover { border-bottom: solid 2px white; }
 
 .footer-copyright { font-size: 0.85rem; }
 
+/* Logos */
 .logo-algonquindesign
 {
 	width: 100%;
@@ -529,6 +587,7 @@ footer a:hover { border-bottom: solid 2px white; }
 	height: auto;
 }
 
+/* Buttons */
 .btn
 {
 	font-size: 1.25rem;
@@ -543,6 +602,7 @@ footer a:hover { border-bottom: solid 2px white; }
 	display: block;
 	width: max-content;
 	transition: background-color 0.3s ease;
+	font-family: var(--sans);
 }
 
 a.btn-small
