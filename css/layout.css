@@ -575,6 +575,15 @@ footer ul.social li { }
 	object-fit: cover;
 }
 
+.content-box .graphic-box img {
+  max-width: 260px;
+  width: 100%;        /* scales down inside its container */
+  height: auto;       /* keeps aspect ratio */
+  object-fit: contain;/* ensures full image is visible within the box */
+  display: block;
+}
+
+
 .content-box .text-box
 {
 	display: flex;
