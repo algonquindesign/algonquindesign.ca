@@ -1,0 +1,183 @@
+identification:
+  program-name: Graphic Design Program
+  site-title: Program Promotion
+  my-name: Alain Paradis
+  my-job-title: Coordinator, Professor
+  credentials: M.A., R.G.D.
+  prof-short-name: Alain
+  email: paradia@algonquincollege.com
+  phone: +1 613-727-4723,5878
+  mobile: +1 613-618-2138
+
+algonquin-contacts:
+  - lastname: Gill
+    firstname: Chris
+    title: Manager, Recruitment & Brand
+    email: "gillc@algonquincollege.com"
+  - lastname: Devries
+    firstname: Jessica
+    title: Academic Development
+    email: devriej1@algonquincollege.com
+  - lastname: McDonald
+    firstname: Alanna
+    title: Academic Development
+    email: macdona2@algonquincollege.com
+  - lastname: Ryall
+    firstname: Heather
+    title: Dean, School of Media & Design
+    email: ryallh@algonquincollege.com
+  - lastname: Sharma
+    firstname: Abhay
+    title: Chair, Acting, School of Media & Design
+    email: sharmaa@algonquincollege.com
+  - lastname: Norris
+    firstname: Tracy
+    title: Chair, Academic Access Centre
+    email: norrist@algonquincollege.com
+  - lastname: Smeal
+    firstname: Steven
+    title: Admissions Officer
+  - lastname: McDonell
+    firstname: Alanna
+    title: Marketing Director
+ 
+schools:
+  - name: "John McCrae Secondary School"
+    contact:
+      name: "Megan Cameron"
+      title: "Arts Department Head"
+      address: "103 Malvern Dr, Nepean, ON K2J 4T2"
+      email: "johnmccraess@ocdsb.ca"
+      phone: "+1 613-823-0367"
+      url: "103 Malvern Dr, Nepean, ON K2J 4T2"
+  - name: "St. Pius High School"
+    contact:
+      name:
+      title:
+      address: "1481 Fisher Avenue, Ottawa  K2C 1X4"
+      email: "PiusX.High@ocsb.ca"
+      phone: "+1 613-225-8105"
+      url: "https://pih.ocsb.ca"
+  - name: "St. Peter High School"
+    contact:
+      name:
+      title:
+      address:
+      email:
+      phone: "+1 613-837-9377"
+      url:
+  - name: "All Saints High School"
+    contact:
+      name:
+      title:
+      address: "5115 Kanata Avenue, Kanata, Ontario K2K 3K5"
+      email: "AllSaints.High@ocsb.ca"
+      phone: "+1 613-271-4254"
+      url: "https://ash.ocsb.ca"
+  - name: "Notre Dame High School"
+    contact:
+      name:
+      title:
+      address: "710 Broadview Avenue, Ottawa  K2A 2M2"
+      email: "NotreDame.High@ocsb.ca"
+      phone: "1 613-722-6565"
+      url: "https://ndh.ocsb.ca"
+  - name: "Ridgemont High School"
+    contact:
+      name: "Charlotte Granum"
+      title:
+      address: "2597 Alta Vista Drive"
+      email: "charlotte.granum@ocdsb.ca"
+      phone: "+1 (613)733-4860"
+      url: "https://ridgemonths.ocdsb.ca"
+  - name: "Colonel By Secondary School"
+    contact:
+      name: "Scott Virgo"
+      title:
+      address: "2381 Ogilvie Road"
+      email: "scott.virgo@ocdsb.ca"
+      phone: "+1 613-745-9411"
+      url: "https://colonelbyss.ocdsb.ca"
+  - name: "Hillcrest High School"
+    contact:
+      name: "Melanie Reeks"
+      title:
+      address: "1900 Dauphin Road"
+      email: "melanie.reeks@ocdsb.ca"
+      phone: "+1 613-733-1755"
+      url: "https://hillcresths.ocdsb.ca"
+  - name: "Sir Wilfrid Laurier Secondary School"
+    contact:
+      name: "Alex Budgell"
+      title:
+      address: "1515 Tenth Line Road"
+      email: "alexander.budgell@ocdsb.ca"
+      phone: "+1 613-834-4500"
+      url: "https://sirwilfridlaurierss.ocdsb.ca"
+  - name: "Gloucester High School"
+    contact:
+      name: "Joe Ross"
+      title: "Principal"
+      address: "2060 Ogilvie Road"
+      email: "joe.ross@ocdsb.ca"
+      phone: "+1 613-745-7176"
+      url: "https://gloucesterhs.ocdsb.ca"
+  - name: "Canterbury High School Arts Program"
+    contact:
+      name: "John Unsworth"
+      title: "Principal"
+      address: "900 Canterbury Avenue"
+      email: "john.unsworth@ocdsb.ca"
+      phone: "+1 613-731-1191"
+      url: "https://canterburyhs.ocdsb.ca/academics-landing/arts-canterbury"
+  - name: "Merivale High School"
+    contact:
+      name: "Jaclyn Canas"
+      title: "HSM Lead Coordinator"
+      address: "1755 Merivale Road"
+      email: "jaclyn.canas@ocdsb.ca"
+      phone: "+1 613-224-1807"
+      url: "https://merivalehs.ocdsb.ca"
+
+links:
+  - title: "OCDSB Arts Programs"
+    url: "https://www.ocdsb.ca/programs-learning/secondary/programs/arts"
+  - title: "Specialist High Skills Major (SHSM)"
+    url: "https://www.ontario.ca/document/specialist-high-skills-major-policy-and-implementation-guide/arts-and-culture"
+  - title: "OSAP"
+    url: "https://www.ontario.ca/page/osap-ontario-student-assistance-program"
+  - title: "Algonquin Micro-Credentials"
+    url: "https://www.algonquincollege.com/microcredentials/"
+  - title: "OCDSB SHSM"
+    url: "https://www.ocdsb.ca/programs-learning/secondary/specialist-high-skills-major/arts-and-culture#referrer=https%3A%2F%2Fwww.ocdsb.ca%2F"
+  - title: "Ontario College Program Standard: Graphic Design"
+    url: "https://www.ontario.ca/page/college-program-standard-graphic-design"
+  - title: "Ontario Colleges: All Graphic Design Programs"
+    url: "https://www.ontariocolleges.ca/en/programs?q=Graphic%20Design&page=0"
+  - title: "AI in Graphic Design"
+    url: "https://www.bluehost.com/en-ca/blog/ai-in-graphic-design/"
+
+messaging:
+-  "Transition from expressive art to applied design. Learn how creativity solves real-world communication problems."  
+-  "Explore visual storytelling, branding, and layout design while maintaining your artistic voice."  
+-  "Classes feel like art studios, project-based, critique-driven, and collaborative."  
+-  "Weekly 3-hour blocks allow for deep focus and experimentation, similar to high school art classes."  
+-  "Learn to use design software as creative instruments, not just technical tools."  
+-  "Create a professional design portfolio that showcases your artistic strengths and design thinking."  
+-  "Projects are diverse, giving you room to explore your style."  
+-  "Join a cohort of students who are also passionate about art and design."  
+-  "Faculty are practicing designers and educators who understand the transition from fine art to graphic design."  
+-  "Graphic design opens doors to careers in design, web design, animation, user experience design, advertising, and publishing."  
+-  "You’ll learn how to monetize your creativity while staying true to your artistic roots."  
+-  "Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally."
+
+resourcing:
+  - title: "Team Building"
+    description: >
+      A cohesive faculty team, working in sync towards common goals is necessary for change to happen.
+  - title: "Workload"
+    description: >
+      Equitable workload distribution...
+  - title: "IT Resources"
+    description: >
+      We have the key IT resources to begin, with college issued laptops, creative tools and Microsoft cloud apps. We may need to interface with other departments, for which additional technologies may be needed.
