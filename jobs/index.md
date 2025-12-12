@@ -7,13 +7,13 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 	<li><a href="#form">Jump to Form</a></li>
 </ul>
 {% include 01-masthead.html %}
-{% include 02-banner.html %} 
+{% include 02-banner.html %}
 <main role="main" class="main-jobs">
 	<h3>
-		Hire a Designer 
+		Hire a Designer
 	</h3>
 	<p>
-		Students in the Graphic Design program undergo rigorous training in their field. They may even specialize in specific disciplines, such as branding, web development, publication design, user interface design, and more. <em>What we wish for our students is for them to find fulfilling employment in the industry and hope they’ll occasionally provide their services at no cost for the public good.</em> 
+		Students in the Graphic Design program undergo rigorous training in their field. They may even specialize in specific disciplines, such as branding, web development, publication design, user interface design, and more. <em>What we wish for our students is for them to find fulfilling employment in the industry and hope they’ll occasionally provide their services at no cost for the public good.</em>
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
@@ -21,22 +21,22 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 		</div>
 		<div class="text-box">
 			<h3>
-				Algonquin Design 
+				Algonquin Design
 			</h3>
 			<p>
-				<em>Learn more about Algonquin College’s Graphic Design program.</em> 
+				<em>Learn more about Algonquin College’s Graphic Design program.</em>
 			</p>
 			<p>
-				See what problems our amazing students can help you solve and discover the wonderful things they can produce. 
+				See what problems our amazing students can help you solve and discover the wonderful things they can produce.
 			</p>
-			<a href="/">Read more ➜</a> 
+			<a href="/">Read more ➜</a>
 		</div>
 	</div>
 	<h3>
-		Rates 
+		Rates
 	</h3>
 	<p>
-		We’re confident you will find our students’ rates very affordable. In fact, they will be way below usual industry rates. What we want to avoid is having them work for no money, or too little money. <strong>If you’re looking for free graphic design services for a for-profit endeavour, please enquire elsewhere.</strong> 
+		We’re confident you will find our students’ rates very affordable. In fact, they will be way below usual industry rates. What we want to avoid is having them work for no money, or too little money. <strong>If you’re looking for free graphic design services for a for-profit endeavour, please enquire elsewhere.</strong>
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
@@ -44,55 +44,55 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 		</div>
 		<div class="text-box">
 			<h3>
-				Spec Work 
+				Spec Work
 			</h3>
 			<p>
-				<em>Learn what spec work is and why it’s harmful to our industry</em> 
+				<em>Learn what spec work is and why it’s harmful to our industry</em>
 			</p>
 			<p>
-				Our students will not work for free—except for non-profits that gives us warm, fuzzy feelings. 
+				Our students will not work for free—except for non-profits that gives us warm, fuzzy feelings.
 			</p>
-			<a href="https://www.rgd.ca/resources/no-spec">Read more ➜</a> 
+			<a href="https://www.rgd.ca/resources/no-spec">Read more ➜</a>
 		</div>
 	</div>
 	<h3 name="form">
-		Submit a job 
+		Submit a job
 	</h3>
 	<p>
-		Once you submit your information, we will vet it, then distribute it to our students. They will contact you directly, where you can evaluate and choose amongst them as you see fit. Negotiation of rates will be between you and the candidate. 
+		Once you submit your information, we will vet it, then distribute it to our students. They will contact you directly, where you can evaluate and choose amongst them as you see fit. Negotiation of rates will be between you and the candidate.
 	</p>
 	<p>
-		If you do not receive any responses, it's possible their schedules are full. You may reach out to Alain Paradis to enquire. 
+		If you do not receive any responses, it's possible their schedules are full. You may reach out to Alain Paradis to enquire.
 	</p>
-    	<form class="" action="https://submit-form.com/DrQxZHCef">
+    	<form class="" action="https://submit-form.com/Ktd6xuG2z">
 		<fieldset>
 			<legend>Identification</legend>
 			<div>
-				<label class="form-label" for="name">Name</label> 
+				<label class="form-label" for="name">Name</label>
 				<input type="text" id="name" name="Name" placeholder="Name" required="">
 			</div>
 			<div>
-				<label class="form-label" for="email">Email</label> 
+				<label class="form-label" for="email">Email</label>
                 <input type="email" id="email" name="E-mail" placeholder="E-mail" required="">
 			</div>
 			<div>
-				<label class="form-label" for="telephone">Phone</label> 
+				<label class="form-label" for="telephone">Phone</label>
                 <input type="telephone" id="tel" name="telephone" placeholder="Telephone">
 			</div>
 			<div>
-				<label class="form-label" for="organization">Organization name <em>(Optional)</em></label> 
+				<label class="form-label" for="organization">Organization name <em>(Optional)</em></label>
                 <input type="text" id="organization" name="Organization" placeholder="Organization" required="">
 			</div>
 			<div>
-				<label class="form-label" for="address">Address <em>(Optional)</em></label> 
+				<label class="form-label" for="address">Address <em>(Optional)</em></label>
 				<input type="text" id="address" name="Address" placeholder="Address" required="">
 			</div>
 			<div>
-				<label class="form-label" for="city">City <em>(Optional)</em></label> 
+				<label class="form-label" for="city">City <em>(Optional)</em></label>
 				<input type="text" id="city" name="City" placeholder="City">
 			</div>
 			<div>
-				<label class="form-label" for="type">You are a…</label> 
+				<label class="form-label" for="type">You are a…</label>
 				<select id="org-type" name="Org-Type" required="">
 					<option value=""></option>
 					<option value="Individual">Individual</option>
@@ -104,7 +104,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 				</select>
 			</div>
 			<div>
-				<label class="form-label" for="seeking">You’re seeking a designer for…</label> 
+				<label class="form-label" for="seeking">You’re seeking a designer for…</label>
 				<select id="seeking" name="Seeking" required="">
 					<option value=""></option>
 					<option value="A single job">A single job</option>
@@ -116,7 +116,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			</div>
 		</fieldset>
         <fieldset class="form-work-paid">
-          <legend>Is the work paid?</legend> 
+          <legend>Is the work paid?</legend>
           <div class="form-row">
             <label class="radio-option">
               <input type="radio" id="work-paid-yes" name="Paid" value="Yes" checked>
@@ -129,7 +129,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
           </div>
         </fieldset>
 		<fieldset>
-			<legend>Description of the work needed</legend> 
+			<legend>Description of the work needed</legend>
 			<div class="form-text">
 			General graphic design, web design, branding, motion video, etc.
 			</div>
@@ -138,7 +138,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			<input type="text" id="timeframe" name="timeframe" placeholder="Timeframe" required="">
 		</fieldset>
 		<fieldset class="app-reqs">
-			<legend>Application requirements</legend> 
+			<legend>Application requirements</legend>
 			<div class="form-text">
 			What information & documents should the applying students send you?
 			</div>
@@ -150,8 +150,8 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			</div>
 		</fieldset>
 		<input type="hidden" name="_email.subject" value="Student Employment Opportunity" />
-		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks/"> 
-		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small> 
+		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks/">
+		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
 		<div>
 			<button class="" type="submit">Submit</button>
 		</div>
