@@ -277,14 +277,16 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 
 .checklist ul li::before
 {
-	content: "☑";
-	font-weight: bold;
+	content: "";
 	color: var(--lime-green);
 	position: absolute;
 	left: 0;
-	top: 0;
-	font-size: 1.5rem;
-	line-height: 1;
+	top: 0.35rem;
+	width: 0.9rem;
+	height: 0.8rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/svg/checkmark.svg");
 }
 
 .opportunities ul li::before, .post ul li::before
