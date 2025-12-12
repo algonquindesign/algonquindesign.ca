@@ -76,16 +76,18 @@ a:active
 	border-bottom: 2px solid var(--orange);
 }
 
-p, li {
-  max-width: 80ch;
-}
+p, li { max-width: 80ch; }
 
 blockquote
 {
-	margin-left: 1rem;
-	padding-left: 1rem;
+	margin: 2rem 0 2rem 2rem;
+	padding-left: 1.25rem;
+	text-indent: -0.5rem;
+	max-width: 60ch;
+	line-height: 1.5;
 	border-left: solid 6px var(--lime-green);
 	font-style: italic;
+	color: var(--dark-green);
 }
 
 /* * * * * * HEADINGS * * * * *  */
@@ -101,15 +103,16 @@ h1, h2, h3
 	max-width: 45ch;
 }
 
-h1
+h4, h5, h6
 {
-	font-weight: 700;
-	border-bottom: 0;
-}
-h4, h5, h6 {
-  font-family: var(--sans);
-  color: var(--dark-green);
-  font-weight: 500;
+	font-family: var(--sans);
+	color: var(--dark-green);
+	font-weight: 500;
+	letter-spacing: -0.025rem;
+	margin-top: 1rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	max-width: 45ch;
 }
 
 :is(h1, h2, h3, h4, h5, h6) a,
@@ -161,26 +164,28 @@ footer { color: white; }
 p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
 
-.hanging-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.hanging-list
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-.hanging-list li {
-  margin-left: 1rem;
-  margin-bottom: 0.25rem;
-  padding-left: 1rem;
-  position: relative;
+.hanging-list li
+{
+	margin-left: 1rem;
+	margin-bottom: 0.25rem;
+	padding-left: 1rem;
+	position: relative;
 }
 
-.hanging-list li::before {
-  content: "•";
-  color: var(--lime-green);
-  position: absolute;
-  left: 0;
+.hanging-list li::before
+{
+	content: "•";
+	color: var(--lime-green);
+	position: absolute;
+	left: 0;
 }
-
 
 hr
 {
@@ -289,9 +294,9 @@ a.masthead-link:hover { border-bottom: 2px solid white; }
 	top: 0.35rem;
 	width: 0.9rem;
 	height: 0.8rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("/svg/checkmark.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("/svg/checkmark.svg");
 }
 
 .opportunities ul li::before, .post ul li::before
