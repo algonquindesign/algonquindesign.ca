@@ -89,7 +89,7 @@ blockquote
 }
 
 /* * * * * * HEADINGS * * * * *  */
-h1, h2, h3, h4, h5, h6
+h1, h2, h3
 {
 	font-family: var(--sans);
 	font-style: normal;
@@ -105,6 +105,11 @@ h1
 {
 	font-weight: 700;
 	border-bottom: 0;
+}
+h4, h5, h6 {
+  font-family: var(--sans);
+  color: var(--dark-green);
+  font-weight: 500;
 }
 
 :is(h1, h2, h3, h4, h5, h6) a,
@@ -163,7 +168,7 @@ ul + p { margin-top: 2rem; }
 }
 
 .hanging-list li {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   margin-bottom: 0.25rem;
   padding-left: 1rem;
   position: relative;
