@@ -9,38 +9,6 @@ identification:
   phone: +1 613-727-4723,5878
   mobile: +1 613-618-2138
 
-algonquin-contacts:
-  - lastname: Gill
-    firstname: Chris
-    title: Manager, Recruitment & Brand
-    email: "gillc@algonquincollege.com"
-  - lastname: Devries
-    firstname: Jessica
-    title: Academic Development
-    email: devriej1@algonquincollege.com
-  - lastname: McDonald
-    firstname: Alanna
-    title: Academic Development
-    email: macdona2@algonquincollege.com
-  - lastname: Ryall
-    firstname: Heather
-    title: Dean, School of Media & Design
-    email: ryallh@algonquincollege.com
-  - lastname: Sharma
-    firstname: Abhay
-    title: Chair, Acting, School of Media & Design
-    email: sharmaa@algonquincollege.com
-  - lastname: Norris
-    firstname: Tracy
-    title: Chair, Academic Access Centre
-    email: norrist@algonquincollege.com
-  - lastname: Smeal
-    firstname: Steven
-    title: Admissions Officer
-  - lastname: McDonell
-    firstname: Alanna
-    title: Marketing Director
- 
 schools:
   - name: "John McCrae Secondary School"
     contact:
@@ -158,17 +126,17 @@ links:
     url: "https://www.bluehost.com/en-ca/blog/ai-in-graphic-design/"
 
 messaging:
--  "Transition from expressive art to applied design. Learn how creativity solves real-world communication problems."  
--  "Explore visual storytelling, branding, and layout design while maintaining your artistic voice."  
--  "Classes feel like art studios, project-based, critique-driven, and collaborative."  
--  "Weekly 3-hour blocks allow for deep focus and experimentation, similar to high school art classes."  
--  "Learn to use design software as creative instruments, not just technical tools."  
--  "Create a professional design portfolio that showcases your artistic strengths and design thinking."  
--  "Projects are diverse, giving you room to explore your style."  
--  "Join a cohort of students who are also passionate about art and design."  
--  "Faculty are practicing designers and educators who understand the transition from fine art to graphic design."  
--  "Graphic design opens doors to careers in design, web design, animation, user experience design, advertising, and publishing."  
--  "You’ll learn how to monetize your creativity while staying true to your artistic roots."  
+-  "Transition from expressive art to applied design. Learn how creativity solves real-world communication problems."
+-  "Explore visual storytelling, branding, and layout design while maintaining your artistic voice."
+-  "Classes feel like art studios, project-based, critique-driven, and collaborative."
+-  "Weekly 3-hour blocks allow for deep focus and experimentation, similar to high school art classes."
+-  "Learn to use design software as creative instruments, not just technical tools."
+-  "Create a professional design portfolio that showcases your artistic strengths and design thinking."
+-  "Projects are diverse, giving you room to explore your style."
+-  "Join a cohort of students who are also passionate about art and design."
+-  "Faculty are practicing designers and educators who understand the transition from fine art to graphic design."
+-  "Graphic design opens doors to careers in design, web design, animation, user experience design, advertising, and publishing."
+-  "You’ll learn how to monetize your creativity while staying true to your artistic roots."
 -  "Fieldwork and client-based projects introduce you to the business side of art—how to work with clients, meet deadlines, and present your work professionally."
 
 resourcing:
