@@ -150,7 +150,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			</div>
 		</fieldset>
 		<input type="hidden" name="_email.subject" value="Student Employment Opportunity" />
-		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks/">
+		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks.html">
 		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
 		<div>
 			<button class="" type="submit">Submit</button>
