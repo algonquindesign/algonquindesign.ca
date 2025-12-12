@@ -55,7 +55,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			<a href="https://www.rgd.ca/resources/no-spec">Read more ➜</a>
 		</div>
 	</div>
-	<h3 name="form">
+	<h3 name="form" name="form" id="form">
 		Submit a job
 	</h3>
 	<p>
