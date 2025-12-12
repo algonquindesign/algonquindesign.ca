@@ -16,7 +16,12 @@ html
 }
 
 p { margin-bottom: 2.0rem; }
-.sans { font-family: var(--sans); }
+
+.sans
+{
+	font-family: var(--sans);
+	max-width: 80ch;
+}
 
 .skip-links
 {
