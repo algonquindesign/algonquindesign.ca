@@ -680,3 +680,38 @@ a.btn-white:hover
 	color: var(--lime-green);
 	border: 0;
 }
+
+ol.StepsToApply
+{
+	counter-reset: list-counter;
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ol.StepsToApply li
+{
+	counter-increment: list-counter;
+	color: var(--text-color);
+	display: inline;
+}
+
+ol.StepsToApply h4
+{
+	display: inline;
+	border-bottom: 2px solid var(--lime-green);
+}
+
+ol.StepsToApply h4:hover {
+
+}
+
+ol.StepsToApply p { margin-left: 1.7rem; }
+
+ol.StepsToApply li::before
+{
+	font-family: var(--sans);
+	font-weight: bold;
+	color: var(--lime-green);
+	content: counter(list-counter) ". ";
+	margin-right: 0.25rem;
+}

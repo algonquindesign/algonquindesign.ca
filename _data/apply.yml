@@ -1,0 +1,31 @@
+title: "Steps to Apply"
+desc: "To apply to the graphic design program at Algonquin College as a Canadian citizen, follow these steps."
+
+StepsToApply:
+  - title: "Research the Program"
+    text: "Familiarize yourself with the program details, curriculum, and career opportunities."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/"
+  - title: "Meet Admission Requirements"
+    text: "Generally, you need a high school diploma or equivalent. A portfolio showcasing your artwork, showcasing your skills and creativity."
+    url: "https://www.algonquincollege.com/mediaanddesign/program/graphic-design/#application-information"
+  - title: "Prepare Your Portfolio"
+    text: "Include a variety of your best work. This can include sketches, digital designs, and other creative projects. Follow these specific guidelines."
+    url: "https://algonquindesign.ca/portfolio-requirements/"
+  - title: "Apply Online"
+    text: "Create an account on the Ontario Colleges Application Service (OCAS) website. Complete the application, specifying your program choice. The Graphic Design program code will be needed. It's 1400X01FWO."
+    url: "https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&programCode=1400X01F"
+  - title: "Pay the Application Fee"
+    text: "There is a non-refundable application fee that must be paid when you submit your application."
+    url: "https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&programCode=1400X01F"
+  - title: "Submit Supporting Documents"
+    text: "Upload or send any required documentation, such as transcripts and your portfolio, according to the college's instructions."
+    url:
+  - title: "Check Your Application Status"
+    text: "After submission, monitor your application through the OCAS portal."
+    url:
+  - title: "Receive an Offer of Admission"
+    text: "Once reviewed, you will receive an offer letter if accepted. Follow the instructions to confirm your acceptance."
+    url:
+  - title: "Finish Registration"
+    text: "After accepting your offer, finalize any necessary payments for tuition and fees."
+    url:
