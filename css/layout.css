@@ -40,9 +40,10 @@ body
 * { outline: 1px solid red; }
  */
 
-:where(a, button, input, textarea, select):focus-visible {
-  outline: 4px solid #000;
-  outline-offset: 4px;
+:where(a, button, input, textarea, select):focus-visible
+{
+	outline: 4px solid #000;
+	outline-offset: 4px;
 }
 
 .masthead
@@ -576,14 +577,17 @@ footer ul.social li { }
 	object-fit: cover;
 }
 
-.content-box .graphic-box img {
-  max-width: 260px;
-  width: 100%;        /* scales down inside its container */
-  height: auto;       /* keeps aspect ratio */
-  object-fit: contain;/* ensures full image is visible within the box */
-  display: block;
+.content-box .graphic-box img
+{
+	max-width: 260px;
+	width: 100%;
+	/* scales down inside its container */
+	height: auto;
+	/* keeps aspect ratio */
+	object-fit: contain;
+	/* ensures full image is visible within the box */
+	display: block;
 }
-
 
 .content-box .text-box
 {
