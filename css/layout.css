@@ -119,7 +119,7 @@ body
 	justify-items: center;
 }
 
-.stats-grid
+.stats-content
 {
 	display: grid;
 	gap: 2rem;
@@ -298,6 +298,10 @@ body
 	background-position: top left;
 	background-size: auto;
 	width: 100%;
+}
+
+.faculty-content
+{
 	display: grid;
 	grid-template-columns: 1fr;
 	justify-items: center;
@@ -621,7 +625,7 @@ footer ul.social li { }
 	}
 
 	.curriculum div { grid-template-columns: repeat(2, 1fr); }
-	.faculty ul.person { grid-template-columns: repeat(2, 1fr); }
+	.faculty-content ul.person { grid-template-columns: repeat(2, 1fr); }
 	nav ul { grid-template-columns: 1fr 1fr; }
 
 	.content-box
@@ -747,6 +751,13 @@ footer ul.social li { }
 
 @media (min-width: 1280px)
 {
+	.main-jobs, .main-fieldwork, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .masthead-content, .banner-content, .news, .stats-content, .banner-content, .fieldwork article, .sample-work-grid-container, .sample-work .video, .curriculum div, .faculty-content, .rgd-content, .portfolio-reqs-content, .footer-content
+	{
+		width: 90vw;
+		margin: 0 auto 0 auto;
+	}
+
+
 	.grads ol { grid-template-columns: repeat(4, 1fr); }
 
 	.sample-work-grid-container
