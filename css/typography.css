@@ -1,7 +1,7 @@
 /* Base type and layout */
 html
 {
-	font-size: clamp(1.2rem, 1.85vw, 2rem);
+	font-size: clamp(1rem, 1.5vw, 2rem);
 	font-family: var(--serif);
 	font-style: normal;
 	font-weight: 400;
@@ -136,10 +136,12 @@ blockquote
 
 /* Headings */
 h1,
-h2
+h2,
+h3
 {
 	font-family: var(--sans);
 	font-style: normal;
+	letter-spacing: -0.02rem;
 	font-weight: 600;
 	margin-top: 1rem;
 	margin-bottom: 0;
@@ -147,7 +149,6 @@ h2
 	max-width: 45ch;
 }
 
-h3,
 h4,
 h5,
 h6
@@ -155,6 +156,7 @@ h6
 	font-family: var(--sans);
 	color: var(--dark-green);
 	font-weight: 500;
+	letter-spacing: -0.025rem;
 	margin-top: 1rem;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -699,7 +701,10 @@ ol.StepsToApply h4
 	border-bottom: 2px solid var(--lime-green);
 }
 
-ol.StepsToApply h4:hover { }
+ol.StepsToApply h4:hover {
+
+}
+
 ol.StepsToApply p { margin-left: 1.7rem; }
 
 ol.StepsToApply li::before
