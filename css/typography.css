@@ -695,14 +695,18 @@ ol.StepsToApply li
 	display: inline;
 }
 
-ol.StepsToApply h4
+ol.StepsToApply h4 a
 {
+  position: relative;
 	display: inline;
 	border-bottom: 2px solid var(--lime-green);
 }
 
-ol.StepsToApply h4:hover {
-
+ol.StepsToApply h4
+{
+	display: inline;
+	border-bottom: 0;
+	padding-right: 1rem;
 }
 
 ol.StepsToApply p { margin-left: 1.7rem; }

@@ -19,7 +19,7 @@ id: "spark-apply"
 		{% if application.url %}
       <a href="{{ application.url }}">{{ application.title }}</a>
       {% else %}
-      {{ application.title }}
+     <span class="">{{ application.title }}</span>
     {% endif %}
 		</h4>
 		<p>
