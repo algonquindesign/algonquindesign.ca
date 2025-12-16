@@ -18,7 +18,7 @@ title: Home
 
 <main role="main" class="main-home">
 {% include 02-banner.html %}
-<!-- {% include 03-news.html %} -->
+{% include 03-news.html %}
 {% include 04-stats.html %}
 {% include 05-fieldwork.html %}
 {% include 06-grads.html %}

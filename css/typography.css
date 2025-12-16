@@ -1,4 +1,3 @@
-/* Base type and layout */
 html
 {
 	font-size: clamp(1rem, 1.5vw, 2rem);
@@ -18,7 +17,6 @@ html
 
 body { margin: 0; }
 
-/* Simple type scale utilities (all scale via root clamp) */
 .text-xs { font-size: 0.85rem; }
 .text-sm { font-size: 0.9rem; }
 .text-base { font-size: 1rem; }
@@ -26,7 +24,6 @@ body { margin: 0; }
 .text-xl { font-size: 1.25rem; }
 .text-2xl { font-size: 1.5rem; }
 
-/* General text blocks */
 p
 {
 	margin-bottom: 2rem;
@@ -37,13 +34,6 @@ p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
 li { max-width: 80ch; }
 
-.sans
-{
-	font-family: var(--sans);
-	max-width: 80ch;
-}
-
-/* Skip links */
 .skip-links
 {
 	margin: 0;
@@ -75,17 +65,10 @@ li { max-width: 80ch; }
 	top: 0;
 }
 
-/* Misc text helpers */
 .hidden
 {
 	visibility: hidden;
 	line-height: 0;
-}
-
-.small-caps
-{
-	font-variant: small-caps;
-	font-weight: 500;
 }
 
 em
@@ -105,7 +88,6 @@ bold,
 
 .italic { font-style: italic; }
 
-/* Links */
 a
 {
 	color: var(--dark-green);
@@ -121,7 +103,6 @@ a:active
 	border-bottom: 2px solid var(--orange);
 }
 
-/* Blockquotes */
 blockquote
 {
 	margin: 2rem 0 2rem 2rem;
@@ -134,7 +115,6 @@ blockquote
 	color: var(--dark-green);
 }
 
-/* Headings */
 h1,
 h2,
 h3
@@ -163,7 +143,6 @@ h6
 	max-width: 45ch;
 }
 
-/* Scaled heading sizes using clamp + rem scale */
 h1
 {
 	font-size: clamp(2rem, 6vw, 4rem);
@@ -177,7 +156,6 @@ h4 { font-size: 1.25rem; }
 h5 { font-size: 1.125rem; }
 h6 { font-size: 1rem; }
 
-/* Heading/link interaction */
 :is(h1, h2, h3, h4, h5, h6) a,
 :is(h1, h2, h3, h4, h5, h6) a:link
 {
@@ -199,7 +177,6 @@ h3 + h4,
 h4 + h5,
 h5 + h6 { margin-top: 0.25rem; }
 
-/* Banner / hero */
 .banner h2
 {
 	font-family: var(--serif);
@@ -211,7 +188,6 @@ h5 + h6 { margin-top: 0.25rem; }
 
 .banner div { margin-bottom: 0.5rem; }
 
-/* Hanging list style */
 .hanging-list
 {
 	list-style: none;
@@ -235,7 +211,6 @@ h5 + h6 { margin-top: 0.25rem; }
 	left: 0;
 }
 
-/* Horizontal rule */
 hr
 {
 	border: 2px solid #c0c0c0;
@@ -243,7 +218,6 @@ hr
 	margin: 1rem auto;
 }
 
-/* Definition lists */
 dt
 {
 	font-weight: 500;
@@ -254,7 +228,6 @@ dt
 
 dd { margin: 0 2rem 1rem 2rem; }
 
-/* Masthead */
 .masthead { color: white; }
 
 .masthead a
@@ -267,7 +240,6 @@ dd { margin: 0 2rem 1rem 2rem; }
 .masthead-link { border-bottom: 2px solid var(--lime-green); }
 a.masthead-link:hover { border-bottom: 2px solid white; }
 
-/* Section headings that are centered */
 footer { color: white; }
 
 .curriculum h2,
@@ -284,7 +256,6 @@ footer h2,
 .sample-work h2,
 footer h2 { color: white; }
 
-/* News section */
 .news h2
 {
 	font-size: 1rem;
@@ -305,7 +276,13 @@ footer h2 { color: white; }
 .news a:hover { border-bottom: solid 2px lightgrey; }
 .news-item { hyphens: none; }
 
-/* Checklist / opportunities / highlights lists */
+.stats h3
+{
+	font-size: 1.25rem;
+	padding: 0;
+	margin-bottom: .33rem;
+}
+
 .checklist ul,
 .opportunities ul,
 .highlights ul
@@ -355,7 +332,6 @@ footer h2 { color: white; }
 	font-size: 1rem;
 }
 
-/* Post lists */
 .post ul
 {
 	list-style: none;
@@ -370,7 +346,6 @@ footer h2 { color: white; }
 	text-indent: 0;
 }
 
-/* Grads */
 .grads article a
 {
 	color: var(--text-color);
@@ -401,7 +376,6 @@ footer h2 { color: white; }
 	border-bottom: 2px solid var(--teal);
 }
 
-/* Sample work */
 .sample-work p
 {
 	margin: 0 auto 1.5rem auto;
@@ -411,7 +385,6 @@ footer h2 { color: white; }
 	color: #fff;
 }
 
-/* Curriculum */
 .curriculum-icon
 {
 	stroke: #999;
@@ -464,7 +437,6 @@ footer h2 { color: white; }
 
 .curriculum li a:hover { border-bottom: 2px solid lightgrey; }
 
-/* Faculty */
 .faculty > p
 {
 	margin: 0 auto 1.5rem auto;
@@ -484,7 +456,6 @@ footer h2 { color: white; }
 
 .faculty a:hover { border-bottom: 2px solid lightgrey; }
 
-/* Assumes: .faculty ul.person p:nth-child(2) is the title/role line */
 .faculty ul.person p:nth-child(2)
 {
 	font-family: var(--serif);
@@ -493,7 +464,6 @@ footer h2 { color: white; }
 	margin-bottom: 1rem;
 }
 
-/* RGD and portfolio requirements */
 .rgd div:nth-child(2) { max-width: 60ch; }
 .rgd-text h3,
 .portfolio-reqs-text h3,
@@ -518,7 +488,6 @@ footer h2 { color: white; }
 .portfolio-reqs-text { max-width: 60ch; }
 .portfolio-reqs a:hover { border-bottom: 2px solid lightgrey; }
 
-/* Interested section */
 .interested { text-align: center; }
 .interested p { color: white; }
 
@@ -535,7 +504,6 @@ footer h2 { color: white; }
 	color: var(--grey);
 }
 
-/* Footer */
 .footer > a { border-bottom: 2px solid white; }
 footer ul { list-style: none; }
 
@@ -570,7 +538,6 @@ footer a:hover { border-bottom: solid 2px white; }
 
 .footer-copyright { font-size: 0.85rem; }
 
-/* Logos */
 .logo-algonquindesign
 {
 	width: 100%;
@@ -587,7 +554,6 @@ footer a:hover { border-bottom: solid 2px white; }
 	height: auto;
 }
 
-/* Buttons */
 .btn
 {
 	font-size: 1.25rem;
@@ -697,7 +663,7 @@ ol.StepsToApply li
 
 ol.StepsToApply h4 a
 {
-  position: relative;
+	position: relative;
 	display: inline;
 	border-bottom: 2px solid var(--lime-green);
 }

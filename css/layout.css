@@ -92,7 +92,11 @@ body
 	padding: 1rem 0;
 }
 
-.banner-content { width: 90vw; }
+.banner-content
+{
+	width: 90%;
+	margin: 0 auto;
+}
 
 .news
 {
@@ -108,11 +112,12 @@ body
 
 .news-item
 {
-	border: solid 1px lightgrey;
 	border-radius: 10px;
-	padding: 0.75rem;
+	padding: 1rem 0.5rem 0rem 1rem;
 	background-color: #fff;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
+	border: solid 1px lightgrey;
+	border-bottom: 9px solid var(--lime-green);
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
 }
 
 .stats
@@ -181,7 +186,7 @@ body
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
 }
 
 .grads article div:nth-of-type(1)
@@ -228,7 +233,7 @@ body
 	color: black;
 	border-radius: 10px;
 	text-align: center;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
 }
 
 .grads ol li img
@@ -327,7 +332,7 @@ body
 	background-color: white;
 	border-radius: 8px;
 	padding: .5rem;
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
 }
 
 .faculty ul { list-style: none; }
@@ -607,6 +612,13 @@ footer ul.social li { }
 	text-align: center;
 }
 
+.post-content
+{
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+}
+
 @media (min-width: 576px)
 {
 	.masthead { flex-direction: row; }
@@ -668,7 +680,6 @@ footer ul.social li { }
 @media (min-width: 768px)
 {
 	.banner { justify-content: center; }
-	.banner-content { width: 90vw; }
 
 	.satisfaction
 	{
@@ -751,11 +762,13 @@ footer ul.social li { }
 		display: flex;
 		flex-direction: row;
 	}
+
+	.post-content { width: 70%; }
 }
 
 @media (min-width: 1280px)
 {
-	.main-jobs, .main-fieldwork, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .masthead-content, .banner-content, .news, .stats-content, .banner-content, .fieldwork article, .sample-work-grid-container, .sample-work .video, .curriculum div, .faculty-content, .rgd-content, .portfolio-reqs-content, .footer-content
+	.main-jobs, .main-fieldwork, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .banner-content, .news, .stats-content, .banner-content, .fieldwork article, .sample-work-grid-container, .sample-work .video, .curriculum div, .faculty-content, .rgd-content, .portfolio-reqs-content, .footer-content
 	{
 		width: 90vw;
 		margin: 0 auto 0 auto;

@@ -5,19 +5,16 @@
 	{% include scripts.html %}
 </head>
 <body>
-{% include 01-masthead.html %} 
-<div class="post">
-	<h1>
-		{{ page.title }}
-	</h1>
-	<p>
-	{{ page.deck }}
-	</p>
+{% include 01-masthead.html %}
+{% include 02-banner.html %}
+<div class="post-content">
+<!--
 	<p>
 		{{ page.date | date: "%B %d, %Y" }}
 	</p>
+ -->
 	<section>
-		{{ content }} 
+		{{ content }}
 	</section>
 </div>
 {% include 13-footer.html %}
