@@ -30,25 +30,25 @@ shows:
     desc: |
       Our students reach their zenith, the highest point of their artistic journey, as they showcase their exceptional portfolios to industry professionals and art enthusiasts alike. Join us at Zenith and witness the future stars of graphic design shine bright!
 
-  - title: "Resolve"
-    start_time: "2023-04-13T17:00"
-    end_time: "2023-04-13T21:00"
-    bgcolor: "#fff"
-    addr:
-      name: "Bayview Yards"
-      street_address: "7 Bayview Station Rd"
-      city: "Ottawa"
-      province: "ON"
-      postal_code: "K1Y 2C5"
-      tel: "+1-613-216-4229"
-
-  - title: "Collation"
-    start_time: "2022-04-21T19:00"
-    end_time: "2022-04-21T20:00"
-    bgcolor: "#fff"
-    # intro: "YouTube — Live Stream"
-    desc: |
-      We are Collation — Algonquin's freshest batch of Graphic Designers. We each bring something different to the table, whether it be animation, illustration, coding or a really good grid. Our collaboration is key. Check us out!
+ #  - title: "Resolve"
+#     start_time: "2023-04-13T17:00"
+#     end_time: "2023-04-13T21:00"
+#     bgcolor: "#fff"
+#     addr:
+#       name: "Bayview Yards"
+#       street_address: "7 Bayview Station Rd"
+#       city: "Ottawa"
+#       province: "ON"
+#       postal_code: "K1Y 2C5"
+#       tel: "+1-613-216-4229"
+#
+#   - title: "Collation"
+#     start_time: "2022-04-21T19:00"
+#     end_time: "2022-04-21T20:00"
+#     bgcolor: "#fff"
+#     # intro: "YouTube — Live Stream"
+#     desc: |
+#       We are Collation — Algonquin's freshest batch of Graphic Designers. We each bring something different to the table, whether it be animation, illustration, coding or a really good grid. Our collaboration is key. Check us out!
 
   - title: "Gen. A"
     start_time: "2021-04-23T19:00"
