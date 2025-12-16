@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version-file: '.ruby-version'
+        bundler-cache: true
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'yarn'
+    
+    - name: Install dependencies
+      run: |
+        yarn install --frozen-lockfile
+        bundle install
+    
+    - name: Build CSS
+      run: npm run build-css
+    
+    - name: Build JavaScript
+      run: |
+        npm run build-js:fonts
+        npm run build-js
+    
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
+    
+    - name: Minify site
+      run: npm run minify-site
