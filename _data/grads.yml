@@ -58,17 +58,17 @@ shows:
     # desc: |
     #   We know — we’re sad too that we can’t meet in person, but we’ve got some cool new ideas!
 
-  - title: "Anthology"
-    start_time: "2020-04-09T17:00"
-    end_time: "2020-04-09T21:00"
-    bgcolor: "#fff"
-    addr:
-      name: "Horticulture Building"
-      street_address: "1525 Princess Patricia Way"
-      city: "Ottawa"
-      province: "ON"
-      postal_code: "K1S 5J3"
-      tel: "+1-613-580-2429"
+#   - title: "Anthology"
+#     start_time: "2020-04-09T17:00"
+#     end_time: "2020-04-09T21:00"
+#     bgcolor: "#fff"
+#     addr:
+#       name: "Horticulture Building"
+#       street_address: "1525 Princess Patricia Way"
+#       city: "Ottawa"
+#       province: "ON"
+#       postal_code: "K1S 5J3"
+#       tel: "+1-613-580-2429"
 
   - title: "Pathfinder"
     start_time: "2019-04-24T17:00"
