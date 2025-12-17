@@ -278,7 +278,7 @@ footer h2 { color: white; }
 
 .stats h3
 {
-	font-size: 1.25rem;
+	font-size: clamp(0.85rem, 1.25rem, 1.75rem);
 	padding: 0;
 	margin-bottom: .33rem;
 }
