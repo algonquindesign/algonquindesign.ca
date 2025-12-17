@@ -18,11 +18,13 @@ Gather 3-5 of your best design projects from school assignments or personal work
 
 These are sites you can use to post your work without having to build your own:
 
--   [Behance.net](https://www.behance.net/)
--   [Adobe Portfolio](https://portfolio.adobe.com/)
--   [Dribbble](https://dribbble.com)
--   [SqareSpace](https://www.squarespace.com)
--   [Wix](https://www.wix.com)
+<ul class="hanging-list">
+	<li><a href="https://www.behance.net/">Behance.net</a></li>
+	<li><a href="https://portfolio.adobe.com/">Adobe Portfolio</a></li>
+	<li><a href="https://dribbble.com">Dribbble</a></li>
+	<li><a href="https://www.squarespace.com">SqareSpace</a></li>
+	<li><a href="https://www.wix.com">Wix</a></li>
+</ul>
 
 #### Craft Your Email
 Write a professional email to request a meeting. <a href="{{ site.url }}{{ site.baseurl }}/downloads/e-mail-template.txt.zip" title="Download sample text">This text file</a> is a starting point for your message to a pro you wish to meet. You should personalize it to make it sound more like you. You should also connect with each designer on [LinkedIn](https://www.linkedin.com/). When you do so, *always* include a message in the note area in the invitation. Once you're connected, it will give you an opportunity to stay in touch. Feel free to comment on their posts to keep the connection alive.
@@ -36,7 +38,7 @@ Note suggested changes to your work during the meeting. If you see multiple desi
 #### Follow Up
 Send a thank-you email expressing your appreciation for their time and insights. If you make changes to your work, you should share with them to keep the conversation going.
 
-Other Summer Activities
+#### Other Summer Activities
 
 In addition to building your portfolio, you can seek out local events to attend to network with practicing designers. There's [Creative Mornings](https://creativemornings.com/cities/ott), [Ottawa Design Club](https://www.ottdesign.club), and [others](https://www.eventbrite.ca).
 

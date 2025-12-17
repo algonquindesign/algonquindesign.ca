@@ -17,7 +17,7 @@ This unofficial activity is designed to help you kickstart your professional net
 
 We have grad web sites for each year. You can find them here:
 
-<div class="grad-site-list">
+<div class="multi-column">
 2025, <a href="https://2025.grads.algonquindesign.ca">Kaleido</a><br>
 2024, <a href="https://2024.grads.algonquindesign.ca">Zenith</a><br>
 2023, <a href="https://2023.grads.algonquindesign.ca">Resolve</a><br>

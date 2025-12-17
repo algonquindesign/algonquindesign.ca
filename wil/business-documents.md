@@ -4,7 +4,7 @@ title: Design Business Documents
 ---
 It’s often difficult to define where a design project starts and finishes. If we take a web site as an example, the number of pages and the site functionality can be quite nebulous. Are page templates needed? Is database functionality needed? All this needs to be clearly defined. That's where a professionally designed, thorough, and precise proposal comes into play.
 
-> You're a student member of the [**RGD**](https://rgd.ca). If you log in to their web site, you can download basic templates for business documents.
+> "You're a student member of the [**RGD**](https://rgd.ca). If you log in to their web site, you can download basic templates for business documents."
 
 ### The RFP
 
@@ -22,13 +22,15 @@ A proposal can also include information about the design firm to ensure they are
 
 These are some elements included in proposals;
 
-- a cover page, including all contact information,
-- a cover letter summarizing and delivering a sales pitch. Choose us!
-- a profile of the design firm, including experience,
-- a response to the RFP using their terms and language,
-- mandatory elements requested in the RFP,
-- technical requirements,
-- all proposals should be tailored to the RFP
+<ul class="hanging-list">
+	<li>a cover page, including all contact information,</li>
+	<li>a cover letter summarizing and delivering a sales pitch. Choose us!</li>
+	<li>a profile of the design firm, including experience,</li>
+	<li>a response to the RFP using their terms and language,</li>
+	<li>mandatory elements requested in the RFP,</li>
+	<li>technical requirements,</li>
+	<li>all proposals should be tailored to the RFP</li>
+</ul>
 
 Whether you’re responding to an RFP, or simply writing a proposal based on a client interview, it’s essential that the document responds directly to the needed work.
 
@@ -38,11 +40,13 @@ Great work starts with a great brief. The brief is the specific document which d
 
 Purpose:
 
-- Set up two-way communication
-- Ask questions
-- Guide discussion
-- Align expectations
-- Introduce process
+<ul class="hanging-list">
+	<li>Set up two-way communication</li>
+	<li>Ask questions</li>
+	<li>Guide discussion</li>
+	<li>Align expectations</li>
+	<li>Introduce process</li>
+</ul>
 
 ### Quotes
 

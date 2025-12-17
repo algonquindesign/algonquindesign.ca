@@ -7,7 +7,7 @@ Your résumé should be an error-free, creatively written, professionally design
 
 <div class="alertBox">
 <h3>TL;DR</h3>
-<ul class="hasBullets">
+<ul class="hanging-list">
 	<li>It's a business document, not a portfolio piece. Avoid over-designing it.</li>
 	<li>Proof read, proof read, proof read.</li>
 	<li>Make it only one page long, if possible.</li>
@@ -35,7 +35,7 @@ Be sure to address the recipient by name. Be formal about this. The commonly use
 
 If you're going to use bullet lists, use action verbs to start each item, like these:
 
-<ul class="columns3 none">
+<ul class="multi-column hanging-list">
 	<li>authored</li>
 	<li>brainstormed</li>
 	<li>communicated</li>
@@ -115,11 +115,11 @@ Paper? Who needs paper? Sharing a PDF file works well and saves trees. A respons
 
 Once you've completed your PDF, the last thing you should do to it is open it in Acrobat. Hit ⌘-D.
 
-<ol>
+<ul class="hanging-list">
 	<li>Set the Navigation tab to Page Only if you only have a single page.</li>
 	<li>Set Page Layout to Single Page.</li>
 	<li>Set Magnification to Full Page.</li>
-</ol>
+</ul>
 
 When the recipient opens your PDF, it'll be zoomed to show the whole page.
 

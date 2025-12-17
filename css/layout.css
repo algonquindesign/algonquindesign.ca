@@ -677,6 +677,18 @@ td
 	word-wrap: break-word;
 }
 
+.multi-column
+{
+	column-count: 2;
+	column-gap: 2rem;
+}
+
+figure svg
+{
+	display: block;
+	margin: 1rem auto;
+}
+
 @media (min-width: 576px)
 {
 	.masthead { flex-direction: row; }
@@ -738,7 +750,8 @@ td
 	{
 		flex: 2;
 		order: 1;
-		margin-right: 0.25rem;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
 	}
 
 	.wil-aside
@@ -836,7 +849,7 @@ td
 
 	.post-content { width: 70%; }
 
-	.grad-site-list
+	.multi-column
 	{
 		column-count: 2;
 		column-gap: 2rem;
@@ -878,4 +891,10 @@ td
 	}
 
 	nav ul { grid-template-columns: repeat(4, 1fr); }
+
+	.multi-column
+	{
+		column-count: 3;
+		column-gap: 2rem;
+	}
 }

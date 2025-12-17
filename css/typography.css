@@ -30,7 +30,6 @@ p
 }
 
 .center { text-align: center; }
-
 p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
 li { max-width: 80ch; }
@@ -714,3 +713,62 @@ ol.StepsToApply li::before
 
 .wil-aside ul li { }
 .wil-aside ul li a { color: var(--black); }
+
+.anxiety ol
+{
+	margin-left: 2rem;
+}
+
+.anxiety ol > li
+{
+	font-family: var(--sans);
+	font-weight: 600;
+	color: var(--dark-green);
+	font-size: clamp(1rem, 1.25rem, 1.5rem);
+	margin-top: 1rem;
+}
+
+.anxiety ol ul > li
+{
+	font-family: var(--serif);
+	margin-top: 1.0rem;
+	font-weight: 600;
+	font-style: <#normal|italic#>;
+}
+
+.anxiety ol ul
+{
+	font-family: var(--serif);
+	list-style-type: none;
+}
+
+.anxiety ul li
+{
+	font-size: 1rem;
+	color: var(--dark-green);
+}
+
+.anxiety li + p, .anxiety p + p
+{
+	margin-top: 0.25rem;
+	margin-bottom: 0;
+}
+
+.anxiety p + li
+{
+	margin-top: 1rem;
+}
+
+.anxiety p + ul
+{
+	margin: 1rem 0 1rem 1rem;
+
+}
+
+.anxiety p + ul li {
+	padding-bottom: 0.5rem;
+	font-family: var(--serif);
+	font-style: italic;
+}
+
+.anxiety strong { color: var(--lime-green); }
