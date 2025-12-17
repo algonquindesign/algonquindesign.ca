@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head.html %} {% include scripts.html %}
+</head>
+<body>
+<div class="wil-page-wrapper">
+		{% include 01-masthead.html %}
+		{% include 02-banner.html %}
+	<div class="wil-container">
+		<div class="wil-aside">
+			{% include wil-aside.html %}
+		</div>
+		<div class="wil-main-content">
+			{{ content }}
+		</div>
+	</div>
+	{% include 13-footer.html %}
+</div>
+</body>
+</html>

@@ -16,7 +16,6 @@ html
 }
 
 body { margin: 0; }
-
 .text-xs { font-size: 0.85rem; }
 .text-sm { font-size: 0.9rem; }
 .text-base { font-size: 1rem; }
@@ -29,6 +28,8 @@ p
 	margin-bottom: 2rem;
 	max-width: 80ch;
 }
+
+.center { text-align: center; }
 
 p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
@@ -227,7 +228,6 @@ dt
 }
 
 dd { margin: 0 2rem 1rem 2rem; }
-
 .masthead { color: white; }
 
 .masthead a
@@ -239,7 +239,6 @@ dd { margin: 0 2rem 1rem 2rem; }
 
 .masthead-link { border-bottom: 2px solid var(--lime-green); }
 a.masthead-link:hover { border-bottom: 2px solid white; }
-
 footer { color: white; }
 
 .curriculum h2,
@@ -487,7 +486,6 @@ footer h2 { color: white; }
 
 .portfolio-reqs-text { max-width: 60ch; }
 .portfolio-reqs a:hover { border-bottom: 2px solid lightgrey; }
-
 .interested { text-align: center; }
 .interested p { color: white; }
 
@@ -685,3 +683,34 @@ ol.StepsToApply li::before
 	content: counter(list-counter) ". ";
 	margin-right: 0.25rem;
 }
+
+.wil-page-wrapper h1
+{
+	font-size: clamp(1rem, 2.25rem, 2.5rem);
+	line-height: 1;
+	margin-top: 0;
+}
+
+.wil-aside h3
+{
+	margin-top: 1rem;
+	font-size: clamp(1.0rem, 1.75vw, 1.75rem);
+	line-height: 1;
+}
+
+.wil-aside h3:first-of-type { margin-top: 0; }
+
+.wil-aside a
+{
+	color: black;
+	line-height: 2;
+}
+
+.wil-aside ul
+{
+	list-style-type: none;
+	margin-left: 0rem;
+}
+
+.wil-aside ul li { }
+.wil-aside ul li a { color: var(--black); }

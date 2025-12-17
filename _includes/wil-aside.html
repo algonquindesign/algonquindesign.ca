@@ -1,0 +1,32 @@
+<aside class="wil-aside">
+<h3>
+	Dates & Stuff
+</h3>
+<p>
+	Fieldwork will start {{ site.data.wil-course-info.fieldwork-start-date }} for six weeks, ending {{ site.data.wil-course-info.fieldwork-end-date }}.
+</p>
+<p>
+	The Grad Show will be {{ site.data.wil-course-info.grad-show-date }} from 5:00 to 9<span class="small-caps">pm</span> at the {{ site.data.wil-course-info.grad-show-location }}.<br>
+		<a href="{{ site.data.wil-course-info.grad-show-location-map }}" target="_blank" rel="noopener noreferrer">1525 Princess Patricia Way,<br>Ottawa ON K1S 5J3, Canada</a>
+</p>
+<h3>Pages</h3>
+<ul>
+{% for nav-item in site.data.wil-course-info.nav %}
+	<li><a href="{{ nav-item.url }}">{{ nav-item.title }}</a></li>
+{% endfor %}
+</ul>
+<h3>Resources</h3>
+<ul>
+{% for resource in site.data.wil-course-info.resources %}
+	<li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
+{% endfor %}
+</ul>
+<!--
+<a href="https://forms.office.com/r/Cfnb0V3zTE" target="_blank">Employer Form</a>
+<a href="https://www.dropbox.com/s/xkpmhgyo24mcjuz/student-fieldwork-consent-form.pdf.zip?dl=1" title="Fieldwork Consent Form">Fieldwork Consent Form</a> (.pdf)<br>
+Fill this out only if you're working on site.
+<a href="https://www.dropbox.com/s/9rgcvkpnoj4eewd/donations-letter.pdf.zip?dl=1" title="Grad Show Donations Letter" target="_blank">Grad Show Donations Letter</a> (.pdf)
+
+<a href="https://www.dropbox.com/s/g75pyb3q52uhrtn/international-students-fieldwork-info-sheet.pdf.zip?dl=1" title="International Student Fieldwork Information Sheet" target="_blank">International Students Fieldwork Info Sheet</a> (.pdf)
+-->
+</aside>

@@ -1,0 +1,53 @@
+title: Fieldwork & Professional Practice
+professor: Alain Paradis
+prof-short-name: Alain
+email: paradia@algonquincollege.com
+phone: +1 613-727-4723,5878
+total_students: 61
+course-code: DSN1690
+course-name: Fieldwork & Professional Practice
+course-description: "Mentorship is a crucial factor in the professional development of a junior graphic designer. For this purpose, students are coached to market themselves as valued candidates for positions in industry by presenting their portfolios in an interview scenario. Their work is also featured in a graduation showcase event they organize together. The goal of these activities is for students to secure a position for their six-week internship where they will be mentored by professional designers working on real-world client projects."
+logistics: "This is a multi-faceted course where students take the lead in raising funds, preparing for fieldwork and organizing their grad show. You will be organized in teams, each with a task described here. Each week, teams meet to move their responsibilites forward. Attendance & participation by each student is a requirement for passing the course."
+prerequisits:
+  - DSN1545 Graphic Design 5
+  - DSN1668 Design Research 2
+  - DSN1677 Computer Graphics 5
+  - DSN1686 Web Development 5
+  - DSN1688 Motion Graphics 3
+fieldwork-start-date: March 10, 2026
+fieldwork-end-date: April 17, 2026
+grad-show-date: "Wednesday, April 22, 2026"
+grad-show-location: "Horticulture Building, Lansdowne Park"
+grad-show-location-address: "1525 Princess Patricia Way, Ottawa ON K1S 5J3, Canada"
+grad-show-location-map: "https://maps.apple.com/place?address=1525%20Princess%20Patricia%20Way,%20Ottawa%20ON%20K1S%205J3,%20Canada&coordinate=45.400966,-75.682529&name=Horticulture%20Building&place-id=IE5D60B5C93A484D6&map=explore"
+work-spreadsheet: "https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EdxwHS7bjtBHkyedGvPwKMYBw13StRQs2bNMC8jQushC_Q?e=YoRrTj"
+i-got-my-fieldwork-form: "https://forms.office.com/r/3YZE1zTAWj"
+nav:
+  - title: "I got Fieldwork!"
+    text: "Fill in this form once you've secured Fieldwork."
+    url: "{{ site.data.course-info.i-got-my-fieldwork-form }}"
+  - title: "Grad Show Teams/Work Log"
+    text: "Fill in this spreadsheet when you've done concrete work relating to the Grad Show."
+    url: "https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EdxwHS7bjtBHkyedGvPwKMYBw13StRQs2bNMC8jQushC_Q?e=YoRrTj"
+  - title: "FSWEP"
+    text: "Interested in working at the Canadian federal government? Apply to FSWEP."
+    url: "/fswep/"
+resources:
+  - title: "RGD Career Planning Workbook"
+    text: "RGD Career Planning Workbook PDF"
+    url: "https://rgd.ca/working-in-design/resources/the-rgd-career-planning-workbook-for-designers"
+  - title: "Handling Anxiety"
+    text: "This page contains advice on how to handle anxiety relating to showing your portfolio, interviewing, and securing Fieldwork."
+    url: "/handling-anxiety/"
+  - title: "Horticulture Building Floor Plan (PDF)"
+    text: "This is a PDF with the floor plan for the Horticulture Building at Lansdowne Park."
+    url: "/downloads/Horticulture-Building-Floor-Plan.pdf.zip"
+  - title: "Business Documents"
+    text: "Design Proposal Resources"
+    url: "/business-documents/"
+  - title: "Your Résumé"
+    text: "Learn to write an effective design résumé."
+    url: "/your-resume/"
+  - title: "Getting Portfolio Feedback"
+    text: "This page contains advice on how to meet practicing designers to get feedback on your portfolio."
+    url: "/portfolio-feedback/"

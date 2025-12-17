@@ -1,0 +1,58 @@
+- date: "Sept. 27, 2025"
+  attendees:
+    - last_name: Almeida
+      first_name: Aires
+      studio: Operative
+      url: "https://www.makeitoperativ.com"
+    - last_name: Guerrero
+      first_name: Susana
+      studio: Canada Post
+      url: "#"
+    - last_name: Emery
+      first_name: Katrin
+      studio: Banfield Agency
+      url: "https://banfield.agency"
+    - last_name: Muxlow
+      first_name: Christina
+      studio: Operativ
+      url: "https://www.makeitoperativ.com"
+    - last_name: Grice
+      first_name: Evan
+      studio: Alphabet Creative
+      url: "https://www.alphabetcreative.com"
+    - last_name: Rochford
+      first_name: Nicole
+      studio: Canada Foundation for Innovation
+      url: "https://www.innovation.ca"
+    - last_name: Miles
+      first_name: Kelly
+      studio: Rewind
+      url: "https://rewind.com/"
+    - last_name: O’Neill
+      first_name: Bonnie Jean 
+      studio: Blackiron Agency
+      url: "https://blackiron.agency"
+    - last_name: Chaloub
+      first_name: Angela
+      studio: CPCS
+      url: "https://cpcs.ca"
+    - last_name: Lebel
+      first_name: Jared
+      studio: Freelance
+      url: "#"
+    - last_name: Jean
+      first_name: Adrian
+      studio: "Spark*Advocacy"
+      url: "https://sparkadvocacy.ca"
+    - last_name: Jones
+      first_name: Adam
+      studio: Freelance
+      url: "#"
+    - last_name: Fuentes
+      first_name: Daniela
+      studio: MultiCraft
+      url: "https://www.multicraft.ca/"
+    - last_name: Dicaire
+      first_name: Alissa
+      studio: IRCC
+      url: "#"
