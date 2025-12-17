@@ -10,7 +10,7 @@
 	--orange: rgb(224, 173, 59);
 	--teal: rgb(67, 152, 164);
 	/* Typography */
-	--sans: 'Open Sans', sans-serif;
+	--sans: 'IBMPlexSans', sans-serif;
 	--serif: 'Merriweather', serif;
 	/* Defaults */
 	--background-color: var(--white);

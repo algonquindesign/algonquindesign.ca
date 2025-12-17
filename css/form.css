@@ -83,7 +83,7 @@ button[type="submit"]
 	background: var(--dark-green);
 	color: #fff;
 	font-family: var(--sans);
-	font-weight: bold;
+	font-weight: 500;
 	padding: 0.7em 2em;
 	font-size: 1.1em;
 	border: none;
