@@ -41,7 +41,7 @@ resources:
     url: "/wil/handling-anxiety/"
   - title: "Horticulture Building Floor Plan (PDF)"
     text: "This is a PDF with the floor plan for the Horticulture Building at Lansdowne Park."
-    url: "./downloads/Horticulture-Building-Floor-Plan.pdf.zip"
+    url: "/downloads/Horticulture-Building-Floor-Plan.pdf.zip"
   - title: "Business Documents"
     text: "Design Proposal Resources"
     url: "/wil/business-documents/"
