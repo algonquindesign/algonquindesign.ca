@@ -10,7 +10,7 @@ github_username:  "@algonquindesign"
 plugins:
   - jekyll-feed
 
-repository: alainparadis/ad
+repository: algonquindesign.ca
 
 exclude:
   - .sass-cache/
