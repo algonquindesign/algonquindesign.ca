@@ -65,6 +65,10 @@ li { max-width: 80ch; }
 	line-height: 0;
 }
 
+.mono {
+  font-family: var(--mono);
+}
+
 em
 {
 	font-weight: 700;
@@ -172,7 +176,7 @@ h4 + h5,
 h5 + h6 { margin-top: 0.25rem; }
 
 .banner h1 {
-  font-weight: 500;
+  font-weight: 700;
 }
 .banner h2
 {

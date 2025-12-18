@@ -9,12 +9,13 @@
 	--lime-green: rgb(149, 200, 70);
 	--orange: rgb(224, 173, 59);
 	--teal: rgb(67, 152, 164);
-	/* Typography */
-	--sans: 'IBMPlexSans', sans-serif;
-	--serif: 'Merriweather', serif;
 	/* Defaults */
 	--background-color: var(--white);
 	--text-color: rgb(0, 0, 0);
+	/* Typography */
+	--sans: 'IBMPlexSans', sans-serif;
+	--serif: 'Merriweather', serif;
+	--mono: 'IBMPlexMono', monospace;
 }
 
 html
@@ -646,7 +647,6 @@ footer ul.social li { }
 
 table
 {
-	font-family: var(--sans);
 	font-style: normal;
 	width: 100%;
 	table-layout: auto;
@@ -665,7 +665,8 @@ td
 
 th
 {
-	font-weight: 600;
+	font-family: var(--mono);
+	font-weight: bold;
 	text-align: left;
 	font-style: normal;
 	padding: 0.25rem;
@@ -674,6 +675,8 @@ th
 
 td
 {
+	font-family: var(--mono);
+  font-weight: normal;
 	width: 33%;
 	border-bottom: 1px solid lightgrey;
 	word-wrap: break-word;

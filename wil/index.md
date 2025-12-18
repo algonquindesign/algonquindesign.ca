@@ -52,7 +52,7 @@ These are the students who have fieldwork and where they're going.
   </thead>
   <tbody>
     {% for student in site.data.wil-i-got-fieldwork %}
-    <tr>
+    <tr class="">
       <td>{{ student.first_name }}</td>
       <td>{{ student.last_name }}</td>
       <td><a href="{{ student.studio_url }}">{{ student.studio_name }}</a></td>
