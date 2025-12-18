@@ -643,6 +643,7 @@ footer ul.social li { }
 {
 	flex: 0 0 100%;
 	order: 1;
+	margin-bottom: 1rem;
 }
 
 table
@@ -751,19 +752,6 @@ figure svg
 		text-align: left;
 	}
 
-	.wil-main-content
-	{
-		flex: 2;
-		order: 1;
-		margin-right: 1rem;
-		margin-bottom: 1rem;
-	}
-
-	.wil-aside
-	{
-		flex: 1;
-		order: 2;
-	}
 }
 
 @media (min-width: 768px)
@@ -860,6 +848,21 @@ figure svg
 		column-gap: 2rem;
 		column-width: 50%;
 	}
+		.wil-main-content
+	{
+		flex: 2;
+		order: 1;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.wil-aside
+	{
+		flex: 1;
+		order: 2;
+		margin-bottom: 0;
+	}
+
 }
 
 @media (min-width: 1280px)
