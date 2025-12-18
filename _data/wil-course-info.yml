@@ -23,6 +23,9 @@ grad-show-location-map: "https://maps.apple.com/place?address=1525%20Princess%20
 work-spreadsheet: "https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EdxwHS7bjtBHkyedGvPwKMYBw13StRQs2bNMC8jQushC_Q?e=YoRrTj"
 i-got-my-fieldwork-form: "https://forms.office.com/r/3YZE1zTAWj"
 nav:
+  - title: "Employers"
+    text: ""
+    url: "./employers/"
   - title: "I got Fieldwork!"
     text: "Fill in this form once you've secured Fieldwork."
     url: "https://forms.office.com/r/3YZE1zTAWj"
