@@ -7,7 +7,7 @@ title: Work-Integrated Learning
 
 <!-- <a href="/portfolio-review-2025-09-13/" class="btn-small">Fall 2025 Portfolio Review ➜</a> -->
 
-<a href="/wil/employers/" class="btn btn-orange">Employers</a>
+<a href="/wil/employers.html" class="btn btn-orange">Employers</a>
 
 ### [Portfolio Development](/portfolio-development/)
 
