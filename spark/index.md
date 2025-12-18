@@ -18,9 +18,7 @@ id: "spark"
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
-      {% assign img = site.data.sample-work.images[1] %}
-      <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
-
+			{% assign img = site.data.sample-work.images[1] %} <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
 		</div>
 		<div class="text-box">
 			<h3>
@@ -30,10 +28,10 @@ id: "spark"
 				<strong>{{site.data.sample-work.desc}}</strong>
 			</p>
 			<p>
-			{{site.data.sample-work.long-desc}}
+				{{site.data.sample-work.long-desc}}
 			</p>
 			<p>
-			<a href="/index.html#sample-work">{{site.data.sample-work.button}}</a> ➜
+				<a href="/index.html#sample-work">{{site.data.sample-work.button}}</a> ➜
 			</p>
 		</div>
 	</div>
@@ -65,7 +63,7 @@ id: "spark"
 		Create a professional portfolio that shows both artistic strengths and design thinking. Projects are diverse, so students can explore style across posters, branding, digital media, motion, and more, building a portfolio that speaks to employers and clients.
 	</p>
 	<blockquote>
-		“The future of design is human-led, AI-enhanced.”
+		“<a href="/ai-in-graphic-design/">The future of design is human-led, AI-enhanced.</a>”
 	</blockquote>
 	<h4>
 		Community, Mentors, Futures
@@ -73,7 +71,7 @@ id: "spark"
 	<p>
 		Join a cohort of students who care about art and design as much as you do. Study with faculty who work as designers and educators, who understand the move from fine art to graphic design, and who help students prepare for careers in design, web, animation, user experience, publishing, and more.
 	</p>
-				<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&programCode=1400X01F" class="btn btn-lime-green">Apply Now ➜</a>
+	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-lime-green">Apply Now&nbsp;➜</a>
 	<h4>
 		Turning Passion Into a Career
 	</h4>
@@ -85,7 +83,9 @@ id: "spark"
 			<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewbox="0 0 151.42 157.32"><defs><style>
 
 
+
 .cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}
+
 
 
 
