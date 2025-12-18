@@ -677,7 +677,7 @@ th
 td
 {
 	font-family: var(--mono);
-  font-weight: normal;
+	font-weight: normal;
 	width: 33%;
 	border-bottom: 1px solid lightgrey;
 	word-wrap: break-word;
@@ -751,7 +751,6 @@ figure svg
 		max-width: 40rem;
 		text-align: left;
 	}
-
 }
 
 @media (min-width: 768px)
@@ -763,9 +762,8 @@ figure svg
 		display: block;
 		max-width: 70%;
 	}
-  .grads article {
-  	width: 65vw;
-  }
+
+	.grads article { width: 65vw; }
 	.grads ol { grid-template-columns: repeat(4, 1fr); }
 
 	.sample-work-grid-container
@@ -850,7 +848,8 @@ figure svg
 		column-gap: 2rem;
 		column-width: 50%;
 	}
-		.wil-main-content
+
+	.wil-main-content
 	{
 		flex: 2;
 		order: 1;
@@ -864,7 +863,6 @@ figure svg
 		order: 2;
 		margin-bottom: 0;
 	}
-
 }
 
 @media (min-width: 1280px)
@@ -901,10 +899,4 @@ figure svg
 	}
 
 	nav ul { grid-template-columns: repeat(4, 1fr); }
-
-	.multi-column
-	{
-		column-count: 3;
-		column-gap: 2rem;
-	}
 }
