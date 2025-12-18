@@ -709,6 +709,7 @@ ol.StepsToApply li::before
 {
 	list-style-type: none;
 	margin-left: 0rem;
+	font-family: var(--sans);
 }
 
 .wil-aside ul li { }
