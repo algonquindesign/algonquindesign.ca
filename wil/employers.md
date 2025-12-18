@@ -4,7 +4,7 @@ title: Employers
 ---
 This is a list of {{ site.data.employers.size }} employers who've taken students on Fieldwork in past years. You'll have to do your own research to find out who to contact.
 
-<span class="sans">If a name is <a href="#" class="crossed-out"><strong>crossed out</strong></a>, they're no longer hiring.</span>
+If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></a>, they're no longer hiring.
 
 {% assign modality_groups = site.data.employers | group_by: "Modality" %}
 
@@ -27,7 +27,7 @@ This is a list of {{ site.data.employers.size }} employers who've taken students
 </ul>
 
 <ul class="employers">
-  {% for row in site.data.employers %}
+  {% for row in site.data.wil-employers %}
   <li>
     <strong>
       <a href="{{ row.URL }}" target="_blank" class="{% if row.Hired == 'yes' %}crossed-out{% endif %}">{{ row.Employer }}</a>
@@ -46,7 +46,7 @@ This is a list of {{ site.data.employers.size }} employers who've taken students
       {% endif %}
     </span>
     {% if row.Notes %}
-    <span class="notes">Notes: {{ row.Notes | safe }}</span>
+    <span class="notes"><strong>Notes:</strong> {{ row.Notes | safe }}</span>
     {% endif %}
   </li>
   {% endfor %}

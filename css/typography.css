@@ -64,7 +64,7 @@ li { max-width: 80ch; }
 	visibility: hidden;
 	line-height: 0;
 }
-
+.sans { font-family: var(--sans); }
 .mono {
   font-family: var(--mono);
 }
@@ -80,7 +80,7 @@ strong,
 bold,
 .bold
 {
-	font-weight: 700;
+	font-weight: 500;
 	color: var(--text-color);
 }
 
@@ -176,7 +176,7 @@ h4 + h5,
 h5 + h6 { margin-top: 0.25rem; }
 
 .banner h1 {
-  font-weight: 700;
+  font-weight: 500;
 }
 .banner h2
 {
@@ -598,21 +598,19 @@ a.btn-lime-green
 
 a.btn-lime-green:hover
 {
-	background-color: var(--dark-green);
-	color: white;
+	color: var(--black);
 	border: 0;
 }
 
 a.btn-orange
 {
-	background-color: var(--lime-green);
-	color: white;
+	background-color: var(--orange);
+	color: var(--white);
 }
 
 a.btn-orange:hover
 {
-	background-color: var(--lime-green);
-	color: var(--dark-green);
+	color: var(--black);
 	border: 0;
 }
 
@@ -773,3 +771,99 @@ ol.StepsToApply li::before
 }
 
 .anxiety strong { color: var(--lime-green); }
+
+ul.legend
+{
+  font-family: var(--sans);
+  font-weight: 600;
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+	display: flex;
+	gap: 20px;
+}
+
+ul.legend li::before { content: none; }
+
+ul.legend li
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+ul.legend li img { margin-right: 10px; }
+.legend span { border-bottom: 2px solid var(--lime-green); }
+.legend li:hover { cursor: pointer; }
+
+ul.employers li span img,
+ul.legend li span img
+{
+	display: inline;
+	vertical-align: middle;
+	margin-left: 0.25rem;
+	list-style: none;
+}
+
+ul.employers
+{
+  font-family: var(--sans);
+  font-weight: 400;
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ul.employers li::before { content: none; }
+
+ul.employers li
+{
+	padding: 0.25rem 0 0.5rem 0;
+	margin-bottom: 0.5rem;
+	max-width: 60ch;
+}
+
+ul.employers .notes
+{
+	display: block;
+	font-size: 0.9rem;
+}
+
+a.crossed-out
+{
+	text-decoration: line-through;
+	text-decoration-color: var(--blue-light);
+	color: var(--light);
+	border-bottom: 0;
+}
+
+.FSWEP ol {
+  font-family: var(--sans);
+  font-weight: 500;
+	margin-left: 2rem;
+}
+
+.FSWEP ol li {
+  margin-top: 1rem;
+}
+
+.FSWEP ol > ul {
+  font-family: var(--sans);
+  list-style-type: none;
+  font-weight: 400;
+}
+
+.FSWEP ol ul li {
+	margin: 0.5rem 0 0 0;
+	padding-left: 1rem;
+	position: relative;
+
+}
+
+.FSWEP ol ul li::before
+{
+	content: "•";
+	color: var(--lime-green);
+	position: absolute;
+	left: 0;
+}
