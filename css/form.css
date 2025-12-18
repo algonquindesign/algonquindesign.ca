@@ -3,7 +3,6 @@ fieldset
 	margin: 1rem 0;
 	padding: 1rem;
 	border: solid 1px grey;
-	max-width: 90vw;
 }
 
 legend { font-weight: bold; }
@@ -43,8 +42,8 @@ input:focus, textarea:focus { border: solid 2px var(--dark-green); }
 
 textarea, select, input[type="text"], input[type="email"], input[type="telephone"]
 {
-  border: solid 2px var(--dark-green);
-	width: 90%;
+	border: solid 2px var(--dark-green);
+	width: 70vw;
 }
 
 select
@@ -96,5 +95,5 @@ button[type="submit"]:hover { background: var(--lime-green); }
 @media (min-width: 768px)
 {
 	fieldset { width: 90%; }
-	textarea, select, input[type="text"], input[type="email"], input[type="telephone"] { width: 70%; }
+	textarea, select, input[type="text"], input[type="email"], input[type="telephone"] { }
 }
