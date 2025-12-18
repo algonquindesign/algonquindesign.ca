@@ -16,9 +16,9 @@ legend { font-weight: bold; }
 	gap: 0.3rem;
 	width: 65ch;
 }
-.form-text {
-	margin: 0.5rem 0 0.25rem 0;
-}
+
+.form-text { margin: 0.5rem 0 0.25rem 0; }
+
 input,
 textarea
 {
@@ -39,14 +39,12 @@ textarea
 	resize: horizontal;
 }
 
-input:focus,
-
-textarea:focus { border: solid 2px var(--dark-green); }
+input:focus, textarea:focus { border: solid 2px var(--dark-green); }
 
 textarea, select, input[type="text"], input[type="email"], input[type="telephone"]
 {
-	border: solid 2px #666;
-	width: 95%;
+  border: solid 2px var(--dark-green);
+	width: 90%;
 }
 
 select
@@ -63,20 +61,20 @@ select
 	padding: 0.4rem 0.6rem;
 }
 
-.form-row {
-  display: flex;
-  gap: 1.5rem;
+.form-row
+{
+	display: flex;
+	gap: 1.5rem;
 }
 
-.radio-option {
-  display: inline-flex;
-  align-items: center;
-  cursor: pointer;
+.radio-option
+{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
 }
 
-.radio-option input[type="radio"], .radio-option input[type="checkbox"] {
-  margin: 0 1rem;
-}
+.radio-option input[type="radio"], .radio-option input[type="checkbox"] { margin: 0 1rem; }
 
 button[type="submit"]
 {
@@ -97,5 +95,6 @@ button[type="submit"]:hover { background: var(--lime-green); }
 
 @media (min-width: 768px)
 {
+	fieldset { width: 90%; }
 	textarea, select, input[type="text"], input[type="email"], input[type="telephone"] { width: 70%; }
 }

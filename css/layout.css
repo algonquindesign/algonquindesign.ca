@@ -180,7 +180,7 @@ body
 
 .grads article
 {
-	width: 65vw;
+	width: 80vw;
 	padding: 1rem;
 	background-color: white;
 	border-radius: 10px;
@@ -763,7 +763,9 @@ figure svg
 		display: block;
 		max-width: 70%;
 	}
-
+  .grads article {
+  	width: 65vw;
+  }
 	.grads ol { grid-template-columns: repeat(4, 1fr); }
 
 	.sample-work-grid-container
