@@ -9,6 +9,7 @@ id: "spark-apply"
 </ul>
 {% include 01-masthead.html %} {% include 02-banner.html %}
 <main role="main" class="main-apply">
+{% include breadcrumb.html %}
 	<p>
 		Wondering about the process of applying to our program? This is what to expect.
 	</p>

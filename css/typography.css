@@ -860,3 +860,12 @@ a.crossed-out
 	position: absolute;
 	left: 0;
 }
+
+.breadcrumb {
+  font-family: var(--sans);
+  font-size: .80rem;
+}
+.breadcrumb li[aria-current="page"] {
+  color: #6c757d;
+  pointer-events: none;
+}

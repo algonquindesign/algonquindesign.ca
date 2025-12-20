@@ -6,8 +6,10 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 <ul class="skip-links">
 	<li><a href="#form">Jump to Form</a></li>
 </ul>
-{% include 01-masthead.html %} {% include 02-banner.html %}
+{% include 01-masthead.html %}
+{% include 02-banner.html %}
 <main role="main" class="main-jobs">
+{% include breadcrumb.html %}
 	<h3>
 		Hire a Designer
 	</h3>

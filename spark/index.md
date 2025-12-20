@@ -10,6 +10,7 @@ id: "spark"
 {% include 01-masthead.html %}
 {% include 02-banner.html %}
 <main role="main" class="main-future">
+  {% include breadcrumb.html %}
 	<h3>
 		Why AlgonquinDesign?
 	</h3>

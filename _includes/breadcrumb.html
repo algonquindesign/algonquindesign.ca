@@ -1,0 +1,32 @@
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol>
+    <li>
+      <a href="{{ '/' | relative_url }}">Home</a>
+    </li>
+    {% assign segments = page.url | split: '/' %}
+    {% assign current_href = '' %}
+    {% for segment in segments %}
+      {% if segment != "" and segment != segments.last %}
+        <li>
+          {% assign current_href = current_href | append: '/' | append: segment %}
+          <a href="{{ current_href | relative_url }}">
+            {% assign segment_page = site.pages | where:"url", current_href | first %}
+            {% if segment_page and segment_page.title %}
+              {{ segment_page.title }}
+            {% else %}
+              {{ segment | capitalize }}
+            {% endif %}
+          </a>
+        </li>
+      {% elsif segment == segments.last %}
+        <li aria-current="page">
+          {% if page.title %}
+            {{ page.title }}
+          {% else %}
+            {{ segment | capitalize }}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</nav>
