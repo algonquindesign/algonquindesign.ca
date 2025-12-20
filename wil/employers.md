@@ -13,15 +13,15 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
     <span>All</span>
   </li>
   <li data-modality="In-Person">
-   <img src="{{ site.url }}{{ site.baseurl }}/svg/in-person.svg" alt="In-Person" width="20" height="20">
+   <img src="{{ site.url }}{{ site.baseurl }}/svg/in-person.svg" alt="In-Person" width="30px" height="30px">
     <span>In-Person</span>
   </li>
   <li data-modality="Hybrid">
-    <img src="{{ site.url }}{{ site.baseurl }}/svg/hybrid.svg" alt="Hybrid" width="20" height="20">
+    <img src="{{ site.url }}{{ site.baseurl }}/svg/hybrid.svg" alt="Hybrid" width="30px" height="30px">
     <span>Hybrid</span>
   </li>
   <li data-modality="Remote">
-    <img src="{{ site.url }}{{ site.baseurl }}/svg/remote.svg" alt="Remote" width="20" height="20">
+    <img src="{{ site.url }}{{ site.baseurl }}/svg/remote.svg" alt="Remote" width="30px" height="30px">
     <span>Remote</span>
   </li>
 </ul>
@@ -30,17 +30,21 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
   {% for row in site.data.wil-employers %}
   <li>
     <strong>
+    {% if row.URL %}
       <a href="{{ row.URL }}" target="_blank" class="{% if row.Hired == 'yes' %}crossed-out{% endif %}">{{ row.Employer }}</a>
+      {% else %}
+      <span class="{% if row.Hired == 'yes' %}crossed-out{% endif %}">{{ row.Employer }}</span>
+      {% endif %}
     </strong>,
     <span><a href="mailto:{{ row['E-mail'] }}">{{ row.Contact }}</a></span>,
     <span>{{ row.Location }}</span>,
     <span>
       {% if row.Modality == "In-Person" %}
-        <img src="{{ site.url }}{{ site.baseurl }}/svg/in-person.svg" alt="In-Person" width="20" height="20">
+        <img src="{{ site.url }}{{ site.baseurl }}/svg/in-person.svg" alt="In-Person" width="30" height="30">
       {% elsif row.Modality == "Hybrid" %}
-        <img src="{{ site.url }}{{ site.baseurl }}/svg/hybrid.svg" alt="Hybrid" width="20" height="20">
+        <img src="{{ site.url }}{{ site.baseurl }}/svg/hybrid.svg" alt="Hybrid" width="30" height="30">
       {% elsif row.Modality == "Remote" %}
-        <img src="{{ site.url }}{{ site.baseurl }}/svg/remote.svg" alt="Remote" width="20" height="20">
+        <img src="{{ site.url }}{{ site.baseurl }}/svg/remote.svg" alt="Remote" width="30" height="30">
       {% else %}
         {{ row.Modality }}
       {% endif %}
