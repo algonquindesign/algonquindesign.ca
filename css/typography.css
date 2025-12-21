@@ -89,6 +89,13 @@ sup a
 	color: var(--lime-green);
 }
 
+.smallcaps
+{
+	font-family: var(--serif);
+	font-variant: small-caps;
+	font-size: .85rem;
+}
+
 .italic { font-style: italic; }
 
 a
