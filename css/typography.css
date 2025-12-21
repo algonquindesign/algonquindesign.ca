@@ -925,3 +925,36 @@ ul.sources li
 	font-size: clamp(0.85rem, 0.75rem + 0.2vw, 0.95rem);
 	line-height: 1.8;
 }
+
+.home-banner-list
+{
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.home-banner-list span
+{
+	position: relative;
+	padding-left: 2.5rem;
+}
+
+.home-banner-list span::before
+{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 2rem;
+	height: 2rem;
+	transform: translateY(-50%);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.home-banner-list span:nth-child(1)::before { background-image: url("/svg/accreditation.svg");  }
+
+.home-banner-list span:nth-child(2)::before { background-image: url("/svg/duration.svg"); }
+
+.home-banner-list span:nth-child(3)::before { background-image: url("/svg/campus.svg"); }
