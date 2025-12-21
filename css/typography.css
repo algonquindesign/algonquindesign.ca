@@ -869,3 +869,15 @@ a.crossed-out
   color: #6c757d;
   pointer-events: none;
 }
+
+ul.articles {
+  list-style-type: none;
+  margin-left: 1rem;
+  padding-left: 0;
+}
+
+ul.articles li {
+margin-bottom: 1rem;
+max-width: 60ch;
+}
+
