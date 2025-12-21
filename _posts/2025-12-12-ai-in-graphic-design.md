@@ -4,7 +4,7 @@ title: "A.I. in Graphic Design"
 date: 2025-12-12 16:19:36 -0500
 categories: News Items
 deck: "A.I. is not replacing creativity. It is amplifying it. We cannot ignore the craft aspect of design while demand for creative thinking, strategy, and design leadership are on the rise."
-permalink: /ai-in-graphic-design/
+permalink: /articles/ai-in-graphic-design/
 ---
 With automation supplanting production tasks, we're left space for higher level, conceptual thinking. This is where the focus of the new curriculum must be. The most valuable designers are going to be those who blend creative direction with strategic thinking. We will guide the A.I.-assisted generation of assets to create original concepts that elicit emotional connections. While routine technical jobs are declining, demand is rising for unique creative thinking, strategy, and design leadership. This is where we need to be.
 
