@@ -321,14 +321,22 @@ footer h2 { color: white; }
 	position: relative;
 	padding-left: 1.5rem;
 	text-indent: 0;
+	margin-bottom: 0.5rem;
 }
 
-.opportunities ul li,
 .highlights ul li
 {
 	position: relative;
 	padding-left: 1.15rem;
 	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+.opportunities ul li
+{
+	position: relative;
+	padding-left: 1.15rem;
+	text-indent: 0;
+	margin-bottom: 0.25rem;
 }
 
 .checklist ul li::before
@@ -345,15 +353,18 @@ footer h2 { color: white; }
 	background-image: url("/svg/checkmark.svg");
 }
 
-.opportunities ul li::before,
-.post ul li::before
+.highlights ul li::before, .opportunities ul li::before
 {
-	content: ">";
+	content: "";
 	color: var(--lime-green);
 	position: absolute;
 	left: 0;
-	top: 0;
-	font-size: 1rem;
+	top: 0.35rem;
+	width: 0.9rem;
+	height: 0.8rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("/svg/arrow-circle.svg");
 }
 
 .post ul
