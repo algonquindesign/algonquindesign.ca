@@ -929,8 +929,19 @@ ul.sources li
 .home-banner-list
 {
 	display: flex;
+	flex-direction: column;
 	gap: 1.5rem;
-	align-items: center;
+	align-items: flex-start;
+	margin-top: 1rem;
+}
+
+@media (min-width: 576px)
+{
+	.home-banner-list
+	{
+		flex-direction: row;
+		align-items: center;
+	}
 }
 
 .home-banner-list span
@@ -953,8 +964,6 @@ ul.sources li
 	background-position: center;
 }
 
-.home-banner-list span:nth-child(1)::before { background-image: url("/svg/accreditation.svg");  }
-
+.home-banner-list span:nth-child(1)::before { background-image: url("/svg/accreditation.svg"); }
 .home-banner-list span:nth-child(2)::before { background-image: url("/svg/duration.svg"); }
-
 .home-banner-list span:nth-child(3)::before { background-image: url("/svg/campus.svg"); }
