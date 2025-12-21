@@ -83,6 +83,12 @@ bold,
 	color: var(--text-color);
 }
 
+sup a
+{
+	border-bottom: 0;
+	color: var(--lime-green);
+}
+
 .italic { font-style: italic; }
 
 a
