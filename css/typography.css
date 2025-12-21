@@ -48,7 +48,7 @@ li { max-width: 80ch; }
 	border: 0;
 	color: #fff;
 	font-size: 1.125rem;
-	font-weight: bold;
+	font-weight: 500;
 	text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ strong,
 bold,
 .bold
 {
-	font-weight: 500;
+	font-weight: bold;
 	color: var(--text-color);
 }
 
