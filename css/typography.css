@@ -142,16 +142,16 @@ h6
 
 h1
 {
-	font-size: clamp(2rem, 6vw, 4rem);
+	font-size: clamp(2.4rem, 1.8rem + 1.5vw, 3.2rem);
 	line-height: 1;
 	margin-top: 0;
 }
 
-h2 { font-size: clamp(1.5rem, 3vw, 2.5rem); }
-h3 { font-size: clamp(1.25rem, 2.4vw, 2rem); }
-h4 { font-size: 1.25rem; }
-h5 { font-size: 1.125rem; }
-h6 { font-size: 1rem; }
+h2 { font-size: clamp(2.0rem, 1.6rem + 1.2vw, 2.6rem); }
+h3 { font-size: clamp(1.7rem, 1.4rem + 0.9vw, 2.1rem); }
+h4 { font-size: clamp(1.4rem, 1.2rem + 0.6vw, 1.8rem); }
+h5 { font-size: clamp(1.2rem, 1.05rem + 0.4vw, 1.5rem); }
+h6 { font-size: clamp(1.05rem, 0.95rem + 0.3vw, 1.25rem); }
 
 :is(h1, h2, h3, h4, h5, h6) a,
 :is(h1, h2, h3, h4, h5, h6) a:link
@@ -173,15 +173,29 @@ h2 + h3,
 h3 + h4,
 h4 + h5,
 h5 + h6 { margin-top: 0.25rem; }
-.banner h1 { font-weight: 500; }
+
+.banner h1
+{
+	font-size: clamp(3rem, 2.2rem + 2vw, 4rem);
+	font-weight: 500;
+}
 
 .banner h2
 {
 	font-family: var(--serif);
 	font-weight: 400;
-	font-size: clamp(1rem, 4vw, 1.75rem);
+	font-size: clamp(1rem, 1.2rem + 1.2vw, 1.5rem);
+	/* Adjusted size for regular pages */
 	text-wrap: balance;
 	margin: 1.5rem 0;
+}
+
+.banner h1.home { font-size: clamp(3.5rem, 2.8rem + 2.5vw, 5rem); }
+
+.banner h2.home
+{
+	font-size: clamp(1.2rem, 1.5rem + 1.3vw, 1.8rem);
+	/* Step down for home */
 }
 
 .banner div { margin-bottom: 0.5rem; }
@@ -861,23 +875,40 @@ a.crossed-out
 	left: 0;
 }
 
-.breadcrumb {
-  font-family: var(--sans);
-  font-size: .80rem;
-}
-.breadcrumb li[aria-current="page"] {
-  color: #6c757d;
-  pointer-events: none;
+.breadcrumb
+{
+	font-family: var(--sans);
+	font-size: .80rem;
 }
 
-ul.articles {
-  list-style-type: none;
-  margin-left: 1rem;
-  padding-left: 0;
+.breadcrumb li[aria-current="page"]
+{
+	color: #6c757d;
+	pointer-events: none;
 }
 
-ul.articles li {
-margin-bottom: 1rem;
-max-width: 60ch;
+ul.articles
+{
+	list-style-type: none;
+	margin-left: 1rem;
+	padding-left: 0;
 }
 
+ul.articles li
+{
+	margin-bottom: 1rem;
+	max-width: 60ch;
+}
+
+ul.sources
+{
+	list-style-type: none;
+	font-family: var(--sans);
+	margin-left: 1rem;
+}
+
+ul.sources li
+{
+	font-size: clamp(0.85rem, 0.75rem + 0.2vw, 0.95rem);
+	line-height: 1.8;
+}
