@@ -25,6 +25,4 @@ Designers who wish to remain competitive must master conceptual thinking, brand 
 	<li><a href="https://dazonn.com/blog/the-future-of-graphic-design-embracing-ai-integration/">Embracing A.I. Integration</a></li>
 </ul>
 
-Additionally, software training and basic coding, including fundamentals about pixels, vectors, page layout, and HTML/CSS will be necessary for the foreseeable future.
-
 A.I. levels the technical playing field, but the ability of humans to conjure novel ideas through deep understanding of a client's needs will remain irreplaceable.
