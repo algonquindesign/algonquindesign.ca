@@ -7,10 +7,9 @@ id: "spark"
 <ul class="skip-links">
 	<li><a href="#form">Jump to Form</a></li>
 </ul>
-{% include 01-masthead.html %}
-{% include 02-banner.html %}
+{% include 01-masthead.html %} {% include 02-banner.html %}
 <main role="main" class="main-future">
-  {% include breadcrumb.html %}
+	{% include breadcrumb.html %}
 	<h3>
 		Why AlgonquinDesign?
 	</h3>
@@ -42,6 +41,7 @@ id: "spark"
 	<p>
 		Transition from expressive art to applied design, where creativity solves real communication problems for real people. Explore visual storytelling, branding, layout, and digital experiences while keeping your unique artistic voice at the centre.
 	</p>
+		<a href="/articles/need-for-numbers/" class="btn-small btn-lime-green">Doubts about higher education?</a>
 	<h4>
 		Studio Energy in Every Class
 	</h4>
@@ -63,9 +63,9 @@ id: "spark"
 	<p>
 		Create a professional portfolio that shows both artistic strengths and design thinking. Projects are diverse, so students can explore style across posters, branding, digital media, motion, and more, building a portfolio that speaks to employers and clients.
 	</p>
-	<blockquote>
-		“<a href="/ai-in-graphic-design/">The future of design is human-led, AI-enhanced.</a>”
-	</blockquote>
+		<blockquote>
+		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design/">Read on</a>&nbsp;➜
+		</blockquote>
 	<h4>
 		Community, Mentors, Futures
 	</h4>
@@ -81,16 +81,7 @@ id: "spark"
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
-			<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewbox="0 0 151.42 157.32"><defs><style>
-
-
-
-.cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}
-
-
-
-
-			</style>
+			<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewbox="0 0 151.42 157.32"><defs><style>.cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}</style>
 			</defs><path d="M132.57 157.32l-96.34-13.93 18.85-130.4 96.34 13.93-18.85 130.4zm-85.02-22.4l76.55 11.07 15.99-110.6-76.55-11.07-15.99 110.6z" class="cls-1" /><path d="M47.55 134.92l76.55 11.07 15.99-110.6-76.55-11.07-15.99 110.6z" class="cls-2" /><path d="M82.45 10.5h36.74v96.13H82.45z" class="cls-2" /><path d="M124.19 111.63H77.45V5.5h46.74v106.13zm-36.74-10h26.74V15.5H87.45v86.13z" class="cls-1" /><path d="M0 24.52l32.54 127.67 96.18-24.52L96.18 0 0 24.52zm12.16 7.22l10.88-2.77 27.6 108.29-10.88 2.77-27.6-108.29zm104.4 88.71l-56.23 14.33-27.6-108.29 56.23-14.33 27.6 108.29z" class="cls-1" /><path d="M12.16 31.74l10.88-2.77 27.6 108.29-10.88 2.77-27.6-108.29zm104.4 88.71l-56.23 14.33-27.6-108.29 56.23-14.33 27.6 108.29z" class="cls-2" /></svg>
 		</div>
 		<div class="text-box">

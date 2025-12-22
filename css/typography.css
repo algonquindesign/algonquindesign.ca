@@ -83,6 +83,8 @@ bold,
 	color: var(--text-color);
 }
 
+.semibold { font-weight: 500; }
+
 sup a
 {
 	border-bottom: 0;
@@ -331,6 +333,7 @@ footer h2 { color: white; }
 	text-indent: 0;
 	margin-bottom: 0.5rem;
 }
+
 .opportunities ul li
 {
 	position: relative;
@@ -364,7 +367,7 @@ footer h2 { color: white; }
 	height: 0.8rem;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-image: url("/svg/arrow-circle.svg");
+	background-image: url("/svg/arrow.svg");
 }
 
 .post ul
@@ -978,3 +981,12 @@ ul.sources li
 .home-banner-list span:nth-child(1)::before { background-image: url("/svg/accreditation.svg"); }
 .home-banner-list span:nth-child(2)::before { background-image: url("/svg/duration.svg"); }
 .home-banner-list span:nth-child(3)::before { background-image: url("/svg/campus.svg"); }
+
+.read-more
+{
+	font-family: var(--sans);
+	font-weight: 500;
+  text-align: center;
+}
+
+
