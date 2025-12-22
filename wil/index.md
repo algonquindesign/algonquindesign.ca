@@ -11,7 +11,7 @@ title: Work-Integrated Learning
 
 ### [Portfolio Development](/portfolio-development/)
 
-This unofficial activity is designed to help you kickstart your professional network to gain valuable insights for building your portfolio. By reaching out to [professional designers](/wil/employers/), you'll receive expert advice on your current work and guidance for your future career in graphic design. [Read more…](/wil/portfolio-development/)
+This unofficial activity is designed to help you kickstart your professional network to gain valuable insights for building your portfolio. By reaching out to [professional designers](/wil/employers.html), you'll receive expert advice on your current work and guidance for your future career in graphic design. [Read more…](/wil/portfolio-development.html)
 
 <a href="/wil/career-advice.html" class="btn btn-lime-green">Career Advice</a>
 
