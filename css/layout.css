@@ -180,22 +180,18 @@ body
 
 .grads article
 {
-	width: 80vw;
-	padding: 1rem;
+	padding: 1.0rem;
 	background-color: white;
 	border-radius: 10px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
 	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.2));
 }
 
 .grads article div:nth-of-type(1)
 {
-	flex: 1 1 33.33%;
-	box-sizing: border-box;
 	min-width: 250px;
 	display: flex;
 	align-items: center;
@@ -208,13 +204,7 @@ body
 	margin: 0;
 }
 
-.grads article div:nth-of-type(2)
-{
-	flex: 2 1 66.67%;
-	box-sizing: border-box;
-	padding: 10px;
-	min-width: 200px;
-}
+.grads article div:nth-of-type(2) { padding: 10px; }
 
 .grads ol
 {
@@ -794,7 +784,13 @@ figure svg
 		max-width: 70%;
 	}
 
-	.grads article { width: 65vw; }
+	.grads article
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 	.grads ol { grid-template-columns: repeat(4, 1fr); }
 
 	.sample-work-grid-container
