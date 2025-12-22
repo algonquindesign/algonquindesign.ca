@@ -15,7 +15,7 @@ This unofficial activity is designed to help you kickstart your professional net
 
 <a href="/wil/career-advice.html" class="btn btn-lime-green">Career Advice</a>
 
-### <a name="grads">Grad Web Sites</a>
+### <a id="grads">Grad Web Sites</a>
 
 We have grad web sites for each year. You can find them here:
 
