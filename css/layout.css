@@ -264,7 +264,7 @@ body
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, auto);
 	gap: 0.25rem;
-	margin: 1rem auto;
+	margin: 1rem auto 2rem auto;
 }
 
 .sample-work-grid-container img
@@ -276,6 +276,8 @@ body
 	display: block;
 	border: solid 1px black;
 }
+
+.sample-work-grid-container a, .sample-work-grid-container a:hover { border: 0; }
 
 .sample-work .video
 {
@@ -742,6 +744,7 @@ figure svg
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, auto);
+		margin: 1rem auto 2rem auto;
 	}
 
 	.curriculum div { grid-template-columns: repeat(2, 1fr); }
@@ -799,6 +802,7 @@ figure svg
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(3, auto);
+		margin: 1rem auto 2rem auto;
 	}
 
 	.rgd { }
