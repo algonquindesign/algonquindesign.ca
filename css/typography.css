@@ -412,6 +412,7 @@ footer h2 { color: white; }
 {
 	color: var(--teal);
 	border-bottom: 2px solid var(--teal);
+  font-size: clamp(1.0rem, 1vw + 1rem, 1.25rem);
 }
 
 .sample-work p
