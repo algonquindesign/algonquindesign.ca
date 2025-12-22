@@ -722,6 +722,8 @@ figure svg
 	{
 		display: flex;
 		flex-direction: row;
+		align-content: space-between;
+		align-items: flex-end;
 		justify-content: space-between;
 		width: 90%;
 	}
