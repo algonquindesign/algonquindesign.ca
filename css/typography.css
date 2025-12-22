@@ -412,7 +412,7 @@ footer h2 { color: white; }
 {
 	color: var(--teal);
 	border-bottom: 2px solid var(--teal);
-  font-size: clamp(1.0rem, 1vw + 1rem, 1.25rem);
+	font-size: clamp(1.0rem, 1vw + 1rem, 1.25rem);
 }
 
 .sample-work p
@@ -683,45 +683,6 @@ a.btn-white:hover
 	border: 0;
 }
 
-ol.StepsToApply
-{
-	counter-reset: list-counter;
-	list-style-type: none;
-	margin-left: 0;
-}
-
-ol.StepsToApply li
-{
-	counter-increment: list-counter;
-	color: var(--text-color);
-	display: inline;
-}
-
-ol.StepsToApply h4 a
-{
-	position: relative;
-	display: inline;
-	border-bottom: 2px solid var(--lime-green);
-}
-
-ol.StepsToApply h4
-{
-	display: inline;
-	border-bottom: 0;
-	padding-right: 1rem;
-}
-
-ol.StepsToApply p { margin-left: 1.7rem; }
-
-ol.StepsToApply li::before
-{
-	font-family: var(--sans);
-	font-weight: 500;
-	color: var(--lime-green);
-	content: counter(list-counter) ". ";
-	margin-right: 0.25rem;
-}
-
 .wil-page-wrapper h1
 {
 	font-size: clamp(1rem, 2.25rem, 2.5rem);
@@ -987,7 +948,5 @@ ul.sources li
 {
 	font-family: var(--sans);
 	font-weight: 500;
-  text-align: center;
+	text-align: center;
 }
-
-
