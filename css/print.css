@@ -1,0 +1,559 @@
+/* print.css
+ * Print stylesheet for Algonquin Graphic Design site
+ */
+
+@media print {
+  
+  /* ===== 1. RESET & BASE STYLES ===== */
+  
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .masthead {
+    display: block;
+    margin-bottom: 1.5rem;
+    background: transparent;
+    padding: 0;
+  }
+
+  .masthead img,
+  .masthead svg {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  html {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    color: #000 !important;
+    background: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+
+  @page :first {
+    margin: 2cm;
+  }
+
+  .banner {
+    display: block;
+    margin: 0 0 1.5rem 0;
+    padding: 1rem 0;
+    background: transparent;
+  }
+
+  .banner h1,
+  .banner h1.home {
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 0 0 0.25rem 0;
+    page-break-after: avoid;
+  }
+
+  .banner h2,
+  .banner h2.home {
+    font-size: 16pt;
+    font-weight: normal;
+    margin: 0;
+    page-break-after: avoid;
+  }
+
+  /* ===== 2. HIDE INTERACTIVE & DECORATIVE ELEMENTS ===== */
+
+  nav,
+  .skip-links,
+  .btn,
+  button,
+  [role="button"],
+  .breadcrumb,
+  form,
+  input,
+  textarea,
+  select {
+    display: none !important;
+  }
+
+  iframe,
+  video,
+  .video,
+  [class*="hero"],
+  [class*="carousel"] {
+    display: none !important;
+  }
+
+  /* ===== 3. LAYOUT RESET ===== */
+
+  main,
+  article,
+  section {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .news,
+  .news-content,
+  .stats-content,
+  .faculty-content,
+  .sample-work-grid-container,
+  .portfolio-reqs-content,
+  .rgd-content,
+  .grads,
+  .curriculum,
+  .main-content,
+  .wil-page-wrapper,
+  .wil-container,
+  .wil-main-content {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+  }
+
+  /* ===== 4. TYPOGRAPHY ===== */
+
+  h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 1.5rem 0 0.5rem 0;
+    padding: 0;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 1rem 0 0.25rem 0;
+    padding: 0;
+    page-break-after: avoid;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0.75rem 0 0.25rem 0;
+    padding: 0;
+  }
+
+  p,
+  li,
+  dd {
+    margin: 0 0 0.75rem 0;
+    padding: 0;
+    max-width: 100%;
+    orphans: 3;
+    widows: 3;
+  }
+
+  a {
+    color: #2d8659;
+    text-decoration: underline;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    color: #2d8659 !important;
+  }
+
+  a[href]::after {
+    content: "";
+  }
+
+  a[href="/articles/ai-in-graphic-design/"] {
+    display: inline-block;
+  }
+
+  a[href="/articles/ai-in-graphic-design/"]::after {
+    content: "https://algonquindesign.ca/articles/ai-in-graphic-design/";
+    font-size: 9pt;
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  a[href*="bromled@algonquincollege.com"]::after {
+    content: " (bromled@algonquincollege.com)";
+    font-size: 9pt;
+  }
+
+  a[href*="paradia@algonquincollege.com"]::after {
+    content: " (paradia@algonquincollege.com)";
+    font-size: 9pt;
+  }
+
+  a[href*="emerya@algonquincollege.com"]::after {
+    content: " (emerya@algonquincollege.com)";
+    font-size: 9pt;
+  }
+
+  a[href*="warrenw@algonquincollege.com"]::after {
+    content: " (warrenw@algonquincollege.com)";
+    font-size: 9pt;
+  }
+
+  a[href*="fahlmaa@algonquincollege.com"]::after {
+    content: " (fahlmaa@algonquincollege.com)";
+    font-size: 9pt;
+  }
+
+  strong,
+  b {
+    font-weight: bold;
+  }
+
+  em,
+  i {
+    font-style: italic;
+  }
+
+  /* ===== 5. LISTS ===== */
+
+  ul,
+  ol {
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  /* ===== 6. BLOCKQUOTES & CODE ===== */
+
+  blockquote {
+    border-left: 3px solid #333;
+    margin: 0.75rem 0 0.75rem 0;
+    padding-left: 0.75rem;
+    font-style: italic;
+  }
+
+  pre,
+  code {
+    font-family: "Courier New", monospace;
+    font-size: 10pt;
+  }
+
+  pre {
+    margin: 0.75rem 0;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    overflow: visible;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* ===== 7. TABLES ===== */
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    page-break-inside: avoid;
+  }
+
+  th,
+  td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #999;
+  }
+
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+
+  /* ===== 8. IMAGES & SVG ===== */
+
+  img {
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  svg {
+    display: none;
+  }
+
+  /* ===== 8B. SAMPLE WORK IMAGES - TWO COLUMN GRID ===== */
+
+  .sample-work-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .sample-work-grid-container article {
+    page-break-inside: avoid;
+  }
+
+  .sample-work-grid-container img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  /* ===== 9. CURRICULUM SECTION - TWO COLUMNS ===== */
+
+  .curriculum {
+    margin: 1.5rem 0;
+  }
+
+  .curriculum h2 {
+    width: 100%;
+    page-break-after: avoid;
+  }
+
+  .curriculum > div,
+  .curriculum ul {
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid #ddd;
+    margin: 0.75rem 0;
+  }
+
+  .curriculum li {
+    page-break-inside: avoid;
+    margin-bottom: 0.5rem;
+  }
+
+  .curriculum h3 {
+    margin-top: 0;
+  }
+
+  /* ===== 10. FACULTY SECTION - TWO COLUMNS ===== */
+
+  .faculty {
+    margin: 1.5rem 0;
+  }
+
+  .faculty h2 {
+    width: 100%;
+    page-break-after: avoid;
+  }
+
+  .faculty-content {
+    display: block;
+  }
+
+  .faculty ul.person {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid #ddd;
+  }
+
+  .faculty ul.person > li {
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .faculty ul.person > li:last-child {
+    border-bottom: none;
+  }
+
+  .faculty .person li img {
+    display: none;
+  }
+
+  .faculty .person li h3 {
+    margin-top: 0;
+  }
+
+  /* ===== 11. GRADS SECTION ===== */
+
+  .grads {
+    margin: 1.5rem 0;
+  }
+
+  .grads article {
+    page-break-inside: avoid;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .grads article:last-child {
+    border-bottom: none;
+  }
+
+  .grads article h3 {
+    margin-top: 0;
+    font-size: 13pt;
+  }
+
+  .grads article a {
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  .grads article a::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+  }
+
+  .grads ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .grads ol li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    page-break-inside: avoid;
+  }
+
+  .grads ol li:last-child {
+    border-bottom: none;
+  }
+
+  .grads ol li a {
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  .grads ol li a::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+  }
+
+  .interested {
+    margin: 1.5rem 0;
+    text-align: left !important;
+  }
+
+  .interested h2 {
+    text-align: left !important;
+  }
+
+  .interested p {
+    text-align: left !important;
+  }
+
+  .interested a {
+    text-align: left;
+  }
+
+  .news,
+  .stats,
+  .fieldwork,
+  .sample-work,
+  .interested,
+  .portfolio-reqs,
+  .rgd {
+    margin: 1.5rem 0;
+  }
+
+  .news-item,
+  .stat {
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+
+  /* ===== 13. FOOTER ===== */
+
+  footer {
+    display: block;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid #000;
+  }
+
+  footer nav {
+    display: block;
+  }
+
+  footer ul {
+    list-style: disc;
+    margin: 0.75rem 0 0.75rem 1.5rem;
+    padding: 0;
+  }
+
+  footer li {
+    margin-bottom: 0.25rem;
+  }
+
+  footer ul.social a::after,
+  footer ul.resources a::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+  }
+
+  /* ===== 14. PAGE BREAKS ===== */
+
+  h1,
+  h2 {
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    page-break-after: avoid;
+  }
+
+  section,
+  article {
+    page-break-inside: auto;
+  }
+
+  /* Keep long sections together when possible, but allow breaks if needed */
+  .news {
+    page-break-inside: auto;
+  }
+
+  .curriculum,
+  .faculty {
+    page-break-inside: auto;
+  }
+
+  /* ===== 15. RESPONSIVE ADJUSTMENTS FOR SMALL PRINTS ===== */
+
+  @media print and (max-width: 8.5in) {
+    @page {
+      margin: 1.5cm;
+    }
+
+    .curriculum > div,
+    .curriculum ul,
+    .faculty ul.person {
+      column-count: 1;
+      column-rule: none;
+    }
+  }
+
+}
