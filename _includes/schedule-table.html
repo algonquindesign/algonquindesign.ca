@@ -2,6 +2,10 @@
 {% assign rooms = day_rows | map: "room" | uniq | sort %}
 {% assign times = day_rows | map: "time" | uniq | sort %}
 
+{% assign day_rows = site.data.schedule-26w | where: "day", include.day %}
+{% assign rooms = day_rows | map: "room" | uniq | sort %}
+{% assign times = day_rows | map: "time" | uniq | sort %}
+
 <table class="schedule-table">
   <thead>
     <tr>
@@ -19,9 +23,15 @@
           {% assign cell_classes = day_rows | where: "time", time | where: "room", room %}
           {% if cell_classes.size > 0 %}
             {% assign entry = cell_classes.first %}
-            {% assign level_class = entry.level | downcase | replace: " ", "-" %}
-            <td class="level-{{ level_class }}">
-            <strong>{{ entry.time }}</strong><br>
+
+            {%- comment -%}
+              Build a group key like "020-04" and then a CSS-safe class.
+            {%- endcomment -%}
+            {% assign group_key = entry.section | append: "-" | append: entry.level %}
+            {% assign group_class = group_key | downcase | replace: " ", "-" %}
+
+            <td class="group-{{ group_class }}">
+              <strong>{{ entry.time }}</strong><br>
               {{ entry.code }}<br>
               <strong>{{ entry.courses }}</strong><br>
               Sec {{ entry.section }} – Level {{ entry.level }}<br>

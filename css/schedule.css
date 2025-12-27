@@ -29,11 +29,15 @@ body
 	text-align: left;
 }
 
-/* Level-based colours */
-.level-2 { background: #e6f2ff; }
-.level-4 { background: #e8ffe6; }
-.level-6 { background: #ffe6f2; }
-.level-async { background: #fdf2d6; }
+/* group colours */
+.schedule-table td.group-010-02 { background-color: #fce4ec; }
+.schedule-table td.group-020-02 { background-color: #e3f2fd; }
+.schedule-table td.group-010-04 { background-color: #e8f5e9; }
+.schedule-table td.group-020-04 { background-color: #fff3e0; }
+.schedule-table td.group-030-04 { background-color: #f3e5f5; }
+.schedule-table td.group-010-06 { background-color: #ede7f6; }
+.schedule-table td.group-020-06 { background-color: #f9fbe7; }
+
 
 .schedule-nav
 {
