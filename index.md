@@ -5,7 +5,7 @@ title: Home
 <ul class="skip-links">
 	<li><a href="#news">Jump to News</a></li>
 	<li><a href="#stats">Jump to Stats</a></li>
-		<li><a href="#fieldwork">Jump to Fieldwork</a></li>
+	<li><a href="#fieldwork">Jump to Fieldwork</a></li>
 	<li><a href="#grads">Jump to Grads</a></li>
 	<li><a href="#sample-work">Jump to Sample Work</a></li>
 	<li><a href="#curriculum">Jump to Curriculum</a></li>
