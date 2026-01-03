@@ -57,15 +57,15 @@ id: "spark"
 	<p>
 		Learn industry-standard design software as creative instruments, not just technical tools to click through. Use them to sketch, explore, and refine ideas, so technology supports your imagination rather than replacing it.
 	</p>
+		<blockquote>
+		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design/">Read on</a>&nbsp;➜
+		</blockquote>
 	<h4>
 		Build a Standout Portfolio
 	</h4>
 	<p>
 		Create a professional portfolio that shows both artistic strengths and design thinking. Projects are diverse, so students can explore style across posters, branding, digital media, motion, and more, building a portfolio that speaks to employers and clients.
 	</p>
-		<blockquote>
-		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design/">Read on</a>&nbsp;➜
-		</blockquote>
 	<h4>
 		Community, Mentors, Futures
 	</h4>
