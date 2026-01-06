@@ -27,6 +27,8 @@ body
 {
 	background: #f3f3f3;
 	text-align: left;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 /* group colours */
