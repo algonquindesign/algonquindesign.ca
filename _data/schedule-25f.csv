@@ -1,0 +1,42 @@
+code,courses,section,level,day,time,room,instructor,email
+DSN1535,Computer Graphics 3,010,3,Monday,09:00-12:00,N214,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1558,Motion Graphics 1,020,3,Monday,09:00-12:00,N216,Andrew Miller,millera1@algonquincollege.com
+DSN1562,Computer Graphics 1,020,1,Monday,12:00-15:00,N214,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1713,Web Design 2,020,3,Monday,13:00-16:00,N216,Wendy Warren,warrenw@algonquincollege.com
+DSN1713,Web Design 2,030,3,Monday,09:00-12:00,N219,Wendy Warren,warrenw@algonquincollege.com
+DSN1730,Design Systems,010,5,Monday,09:30-12:30,N203,Glenn Gobuyan,gobuyag@algonquincollege.com
+DSN1730,Design Systems,020,5,Monday,13:00-16:00,N203,Glenn Gobuyan,gobuyag@algonquincollege.com
+DSN1728,UX/UI Design 3,010,5,Monday,17:00-20:00,N214,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1562,Computer Graphics 1,010,1,Tuesday,12:00-15:00,N216,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1697,Concept Sketching 1,020,1,Monday,10:00-12:00,N103,Andrea Emery,emerya@algonquincollege.com
+DSN1713,Web Design 2,010,3,Tuesday,09:00-12:00,N216,Wendy Warren,warrenw@algonquincollege.com
+DSN1696,Business of Design,010,3,Tuesday,13:00-16:00,T130,Alain Paradis,paradia@algonquincollege.com
+DSN1534,Typography 3,030,3,Tuesday,09:00-12:00,N214,Alain Paradis,paradia@algonquincollege.com
+DSN1677,Computer Graphics 5,010,5,Tuesday,18:00-21:00,N214,Anish Parmar,parmara@algonquincollege.com
+DSN1688,Motion Graphics 3,020,5,Tuesday,12:00-15:00,N214,Andrew Miller,millera1@algonquincollege.com
+DSN1728,UX/UI Design 3,020,5,Tuesday,17:00-20:00,N216,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1697,Concept Sketching 1,010,1,Wednesday,08:00-10:00,N219,Andrea Emery,emerya@algonquincollege.com
+DSN1560,Typography 1,010,1,Wednesday,11:30-14:30,N214,Andrea Emery,emerya@algonquincollege.com
+DSN1558,Motion Graphics 1,010,3,Wednesday,09:00-12:00,N216,Andrew Miller,millera1@algonquincollege.com
+DSN1534,Typography 3,020,3,Wednesday,08:30-11:30,N214,Alain Paradis,paradia@algonquincollege.com
+DSN1533,Graphic Design 3,030,3,Wednesday,15:00-18:00,N214,David Bromley,bromled@algonquincollege.com
+DSN1558,Motion Graphics 1,030,3,Wednesday,18:30-21:30,N214,Bradley Doyle,doyleb@algonquincollege.com
+DSN1688,Motion Graphics 3,010,5,Wednesday,13:00-16:00,N216,Andrew Miller,millera1@algonquincollege.com
+DSN1677,Computer Graphics 5,020,5,Wednesday,18:00-21:00,N216,Anish Parmar,parmara@algonquincollege.com
+DSN1561,Graphic Design 1,010,1,Thursday,08:00-11:00,N214,Meredith Luce,lucem@algonquincollege.com
+DSN1561,Graphic Design 1,020,1,Thursday,12:00-15:00,N203,Meredith Luce,lucem@algonquincollege.com
+DSN1560,Typography 1,020,1,Thursday,15:30-18:30,N214,Andrea Emery,emerya@algonquincollege.com
+DSN1726,UX/UI Design 1,010,3,Thursday,12:00-15:00,N214,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1535,Computer Graphics 3,020,3,Thursday,09:00-12:00,N219,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1535,Computer Graphics 3,030,3,Thursday,13:00-16:00,N219,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1715,Web Design 4,010,5,Thursday,08:00-11:00,N216,Wendy Warren,warrenw@algonquincollege.com
+DSN1715,Web Design 4,020,5,Thursday,12:00-15:00,N216,Wendy Warren,warrenw@algonquincollege.com
+DSN1534,Typography 3,010,3,Friday,13:00-16:00,N219,Alain Paradis,paradia@algonquincollege.com
+DSN1726,UX/UI Design 1,020,3,Friday,08:00-11:00,N219,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1726,UX/UI Design 1,030,3,Friday,12:00-15:00,B419,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1545,Graphic Design 5,010,5,Friday,09:00-12:00,N214,Jamie McLennan,mclennj@algonquincollege.com
+DSN1533,Graphic Design 3,010,3,Friday,09:00-12:00,N216,David Bromley,bromled@algonquincollege.com
+DSN1533,Graphic Design 3,020,3,Friday,13:00-16:00,N216,David Bromley,bromled@algonquincollege.com
+DSN1545,Graphic Design 5,020,5,Friday,13:00-16:00,N214,Jamie McLennan,mclennj@algonquincollege.com
+DSN1710,Design Strategy,,,ASYNC,ASYNC,ASYNC,Andrea Emery,emerya@algonquincollege.com
+DSN1782,Understanding Colour,,,ASYNC,ASYNC,ASYNC,David Bromley,bromled@algonquincollege.com
