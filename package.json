@@ -1,7 +1,7 @@
 {
   "name": "algonquindesign.ca",
-  "version": "1.3.2",
-  "author": "Thomas J Bradley <bradlet@algonquincollege.com>",
+  "version": "2.0.0",
+  "author": "Alain Paradis <paradia@algonquincollege.com>",
   "description": "Public facing website for the Algonquin College Graphic Design program.",
   "private": true,
   "keywords": [
