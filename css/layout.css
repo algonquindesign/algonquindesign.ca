@@ -671,7 +671,9 @@ td
 	font-weight: normal;
 	width: 33%;
 	border-bottom: 1px solid lightgrey;
-	word-wrap: break-word;
+	white-space: nowrap;
+	overflow: hidden;
+/* 	word-wrap: break-word; */
 }
 
 .multi-column
