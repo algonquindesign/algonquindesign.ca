@@ -651,7 +651,7 @@ table
 th,
 td
 {
-	padding: 2px;
+	padding: 0.25rem 0.5rem;
 	text-align: left;
 }
 
@@ -669,11 +669,10 @@ td
 {
 	font-family: var(--mono);
 	font-weight: normal;
-	width: 33%;
 	border-bottom: 1px solid lightgrey;
 	white-space: nowrap;
 	overflow: hidden;
-/* 	word-wrap: break-word; */
+
 }
 
 .multi-column
