@@ -640,7 +640,7 @@ footer ul.social li { }
 table
 {
 	font-style: normal;
-	width: 100%;
+	width: auto;
 	table-layout: auto;
 	border-collapse: collapse;
 	border-spacing: 0.25rem;
