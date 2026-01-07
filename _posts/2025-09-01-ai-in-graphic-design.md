@@ -4,7 +4,7 @@ title: "A.I. in Graphic Design"
 date: 2025-09-01 16:19:36 -0500
 categories: News Items
 deck: "A.I. is not replacing creativity. It is amplifying it. We cannot ignore the craft aspect of design while demand for creative thinking, strategy, and design leadership are on the rise."
-permalink: /articles/ai-in-graphic-design/
+permalink: /articles/ai-in-graphic-design.html
 ---
 A.I. automation is rapidly taking over the menial, repetitive production tasks in graphic design, such as resizing images, removing backgrounds, and adjusting colours. These processes used to take hours. Now, advanced design tools handle them in minutes, freeing designers to focus less on technical execution and more on conceptual and strategic thinking.
 
