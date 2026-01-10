@@ -3,7 +3,7 @@ professor: Alain Paradis
 prof-short-name: Alain
 email: paradia@algonquincollege.com
 phone: +1 613-727-4723,5878
-total_students: 61
+total_students: 59
 course-code: DSN1690
 course-name: Fieldwork & Professional Practice
 course-description: "Mentorship is a crucial factor in the professional development of a junior graphic designer. For this purpose, students are coached to market themselves as valued candidates for positions in industry by presenting their portfolios in an interview scenario. Their work is also featured in a graduation showcase event they organize together. The goal of these activities is for students to secure a position for their six-week internship where they will be mentored by professional designers working on real-world client projects."
@@ -14,7 +14,7 @@ prerequisits:
   - DSN1677 Computer Graphics 5
   - DSN1686 Web Development 5
   - DSN1688 Motion Graphics 3
-fieldwork-start-date: March 10, 2026
+fieldwork-start-date: March 9, 2026
 fieldwork-end-date: April 17, 2026
 grad-show-date: "Wednesday, April 22, 2026"
 grad-show-location: "Horticulture Building, Lansdowne Park"
