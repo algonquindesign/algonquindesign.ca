@@ -33,7 +33,7 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
     {% if row.URL %}
       <a href="{{ row.URL }}" target="_blank" class="{% if row.Hired == 'yes' %}crossed-out{% endif %}">{{ row.Employer }}</a>
       {% else %}
-      <span class="{% if row.Hired == 'yes' %}crossed-out{% endif %}">{{ row.Employer }}</span>
+      <span class="{% if row.Hired == 'Yes' %}crossed-out{% endif %}">{{ row.Employer }}</span>
       {% endif %}
     </strong>,
     <span><a href="mailto:{{ row['E-mail'] }}">{{ row.Contact }}</a></span>,
