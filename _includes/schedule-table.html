@@ -18,16 +18,20 @@
   <tbody>
     {% for time in times %}
       <tr>
-      {% assign formatted_time = time | date: "%I:%M %p" %}
-        <td>{{ formatted_time }}</td>
+        <td>{{ time }}</td>
         {% for room in rooms %}
           {% assign cell_classes = day_rows | where: "time", time | where: "room", room %}
           {% if cell_classes.size > 0 %}
             {% assign entry = cell_classes.first %}
+
+            {%- comment -%}
+              Build a group key like "020-04" and then a CSS-safe class.
+            {%- endcomment -%}
             {% assign group_key = entry.section | append: "-" | append: entry.level %}
             {% assign group_class = group_key | downcase | replace: " ", "-" %}
+
             <td class="group-{{ group_class }}">
-              <strong>{{ entry.time | date: "%I:%M %p" }}</strong><br>
+              <strong>{{ entry.time }}</strong><br>
               {{ entry.code }}<br>
               <strong>{{ entry.courses }}</strong><br>
               Sec {{ entry.section }} – Level {{ entry.level }}<br>
