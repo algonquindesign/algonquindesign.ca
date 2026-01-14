@@ -50,7 +50,7 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
       {% endif %}
     </span>
     {% if row.Notes %}
-    <span class="notes"><strong>Notes:</strong> {{ row.Notes | markdownify }}</span>
+    <span class="notes">{{ row.Notes | markdownify }}</span>
     {% endif %}
   </li>
   {% endfor %}
