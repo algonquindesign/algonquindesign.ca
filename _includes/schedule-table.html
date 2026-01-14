@@ -23,13 +23,8 @@
           {% assign cell_classes = day_rows | where: "time", time | where: "room", room %}
           {% if cell_classes.size > 0 %}
             {% assign entry = cell_classes.first %}
-
-            {%- comment -%}
-              Build a group key like "020-04" and then a CSS-safe class.
-            {%- endcomment -%}
             {% assign group_key = entry.section | append: "-" | append: entry.level %}
             {% assign group_class = group_key | downcase | replace: " ", "-" %}
-
             <td class="group-{{ group_class }}">
               <strong>{{ entry.time }}</strong><br>
               {{ entry.code }}<br>
