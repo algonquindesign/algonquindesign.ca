@@ -7,7 +7,7 @@ title: Work-Integrated Learning
 
 <a href="2026-01-21-portfolio-review.html" class="btn btn-lime-green">Fall 2026 Portfolio Review ➜</a>
 
-See the list of Fieldwork employers who've either taken students in the past, or have expressed interest in taking someone on. Don't limit yourself to this list!
+See the list of Fieldwork employers who've either taken students in the past, or have expressed interest in taking someone on. Don't limit yourself to this list! If you've found someone new, feel free to ask me to get in touch with them to establish expectations for Fieldwork.
 
 <a href="/wil/employers.html" class="btn btn-orange">Employers</a>
 
