@@ -44,6 +44,11 @@ body
 * { outline: 1px solid red; }
  */
 
+.dark-green { color: var(--dark-green); }
+.lime-green { color: var(--lime-green); }
+.orange { color: var(--orange); }
+.teal { color: var(--teal); }
+
 :where(a, button, input, textarea, select):focus-visible
 {
 	outline: 4px solid #000;
