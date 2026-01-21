@@ -70,7 +70,7 @@ li { max-width: 80ch; }
 
 em
 {
-	font-weight: 700;
+	font-weight: 600;
 	font-style: italic;
 	color: var(--text-color);
 }
@@ -79,7 +79,7 @@ strong,
 bold,
 .bold
 {
-	font-weight: 500;
+	font-weight: 600;
 	color: var(--text-color);
 }
 
