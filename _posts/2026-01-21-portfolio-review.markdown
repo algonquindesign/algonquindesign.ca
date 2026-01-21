@@ -2,7 +2,7 @@
 layout: post
 title: "Portfolio Review"
 date: Jan 21, 2026 at 1:08 PM
-categories: News Items
+category: Events
 deck: "This is your chance to get real, practical feedback on your work before heading out on fieldwork placements starting March 9. Don’t talk yourself out of going that morning. Come as you are, portfolio in hand!"
 permalink: /articles/portfolio-review.html
 ---

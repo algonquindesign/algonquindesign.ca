@@ -2,7 +2,7 @@
 layout: post
 title: "Need for Numbers?"
 date: 2025-12-21 11:05:35 -0500
-categories: News Items
+category: News
 deck: "Think college isn’t worth it? The numbers might change your mind. You’ve probably heard the arguments against going to college: the cost, the time commitment, the uncertainty about your future. But here’s what the data actually shows."
 permalink: /articles/need-for-numbers.html
 ---
