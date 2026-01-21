@@ -2,6 +2,7 @@
 layout: wil
 title: Ross Video
 ---
+<em>Application Deadline: February 6, 2026</em><br>
 Location: Remote / Virtual<br>
  Duration: March 10th–April 17th 2026<br>
  Team: In-House Graphic Design Team / Marketing @ Ross Video<br>
