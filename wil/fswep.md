@@ -3,7 +3,7 @@ layout: wil
 title: FSWEP
 ---
 <p>
-	The <a href="{{ site.data.fswep.url }}" target="_blank" rel="noopener noreferrer">Federal Student Work Experience Program (FSWEP)</a> is the main entry point for students who want paid work experience with the Government of Canada, including in design, communications, and related roles. Students create a single online application that managers across federal departments can search when hiring.
+	The <a href="https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html" target="_blank" rel="noopener noreferrer">Federal Student Work Experience Program (FSWEP)</a> is the main entry point for students who want paid work experience with the Government of Canada, including in design, communications, and related roles. Students create a single online application that managers across federal departments can search when hiring.
 </p>
 <h4>
 	What is FSWEP?
@@ -83,7 +83,7 @@ title: FSWEP
 		</ul>
 	</ol>
 </div>
-<a href="{{ site.data.fswep.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-orange">Apply Now ➜</a>
+<a href="https://www.canada.ca/en/public-service-commission/jobs/services/recruitment/students/federal-student-work-program.html" target="_blank" rel="noopener noreferrer" class="btn btn-orange">Apply Now ➜</a>
 <h3>
 	Tips for design students applying
 </h3>
