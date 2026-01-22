@@ -27,6 +27,14 @@ So bring what you’ve got, show your work, ask questions, and soak in as much f
 <span class="lime-green">Location:</span> <span class="dark-green">AC Hub, just above the Starbucks in Student Commons.</span><br>
 </p>
 
+<p class="sans semibold">
+Reviewers attending. The list is growing...
+<ul class="hanging-list sans">
+	<li>Melanie Burgess, <a href="https://cyansolutions.com" target="_blank">Cyan Solutions</a></li>
+	<li>Amanda Spencer, <a href="https://www.onefishcreative.ca" target="_blank">OneFish Creative</a></li>
+</ul>
+</p>
+
 #### Tips to Prep
 
 The general rule is to show your work in the medium it was made for. If it's a print piece, bring a printed sample if you can. You can also have it in a PDF file. If it's motion, obviously show the rendered piece. Web, in a browser, and so on…
