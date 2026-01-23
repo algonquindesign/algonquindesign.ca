@@ -79,7 +79,7 @@ strong,
 bold,
 .bold
 {
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--text-color);
 }
 
