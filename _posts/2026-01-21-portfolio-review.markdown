@@ -32,6 +32,7 @@ Reviewers attending. The list is growing...
 <ul class="hanging-list sans">
 	<li>Melanie Burgess, <a href="https://cyansolutions.com" target="_blank">Cyan Solutions</a>, Open to Fieldwork</li>
 	<li>Amanda Spencer, <a href="https://www.onefishcreative.ca" target="_blank">OneFish Creative</a>, Open to Fieldwork</li>
+	<li>Melany Pelletier Vaillant, UOttawa, Open to Fieldwork</li>
 </ul>
 </p>
 
