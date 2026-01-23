@@ -34,6 +34,9 @@ Reviewers attending. The list is growing...
 	<li><strong>Amanda Spencer</strong>, Owner & Creative Lead, <a href="https://www.onefishcreative.ca" target="_blank">OneFish Creative</a>, Open to Fieldwork</li>
 	<li><strong>Melany Pelletier</strong>, Senior Graphic Designer, UOttawa, Open to Fieldwork</li>
 	<li><strong>Jazmin Katz</strong>, Motion Designer, <a href="https://www.getjobber.com" target="_blank">Jobber</a></li>
+	<li><strong>Ali Caudle</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
+	<li><strong>Morgan McGregor</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
+	<li><strong>Christi Volden</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
 </ul>
 </p>
 
