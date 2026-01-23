@@ -30,9 +30,10 @@ So bring what you’ve got, show your work, ask questions, and soak in as much f
 <p class="sans semibold">
 Reviewers attending. The list is growing...
 <ul class="hanging-list sans">
-	<li>Melanie Burgess, <a href="https://cyansolutions.com" target="_blank">Cyan Solutions</a>, Open to Fieldwork</li>
-	<li>Amanda Spencer, <a href="https://www.onefishcreative.ca" target="_blank">OneFish Creative</a>, Open to Fieldwork</li>
-	<li>Melany Pelletier Vaillant, UOttawa, Open to Fieldwork</li>
+	<li><strong>Melanie Burgess</strong>, Creative Director, <a href="https://cyansolutions.com" target="_blank">Cyan Solutions</a>, Open to Fieldwork</li>
+	<li><strong>Amanda Spencer</strong>, Owner & Creative Lead, <a href="https://www.onefishcreative.ca" target="_blank">OneFish Creative</a>, Open to Fieldwork</li>
+	<li><strong>Melany Pelletier</strong>, Senior Graphic Designer, UOttawa, Open to Fieldwork</li>
+	<li><strong>Jazmin Katz</strong>, Motion Designer, <a href="https://www.getjobber.com" target="_blank">Jobber</a></li>
 </ul>
 </p>
 
