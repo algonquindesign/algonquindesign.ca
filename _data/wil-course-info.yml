@@ -35,6 +35,9 @@ nav:
   - title: "FSWEP"
     text: "Interested in working at the Canadian federal government? Apply to FSWEP."
     url: "/wil/fswep.html"
+  - title: "Weekly Fieldwork Check-Ins"
+    text: "Please keep me apprised of your progress securing Fieldwork."
+    url: "https://forms.office.com/r/g6RZze5pXS"
 resources:
   - title: "RGD Career Planning Workbook"
     text: "RGD Career Planning Workbook PDF"
