@@ -37,6 +37,7 @@ Reviewers attending. The list is growing...
 	<li><strong>Ali Caudle</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
 	<li><strong>Morgan McGregor</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
 	<li><strong>Christi Volden</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
+	<li><strong>Elizabeth (Liz) Larivière</strong>, Comms Coordinator, <a href="https://sprott.carleton.ca" target="_blank">Carleton U</a>, Open to Fieldwork.</li>
 </ul>
 </p>
 
