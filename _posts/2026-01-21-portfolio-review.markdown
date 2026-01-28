@@ -6,7 +6,13 @@ category: Events
 deck: "This is your chance to get real, practical feedback on your work. Don’t talk yourself out of going that morning. Come as you are, portfolio in hand!"
 permalink: /articles/portfolio-review.html
 ---
+<p class="italic semibold dark-green">
+You should be attending this event even if you have secured Fieldwork. It has little to do with that. You’re starting your career. You need to get your work in front of as many professionals as possible.
+</p>
+<p>
 I know what some of you might be thinking:
+</p>
+
 <p class="italic semibold dark-green">
 “My portfolio isn’t perfect yet.”
 </p>
