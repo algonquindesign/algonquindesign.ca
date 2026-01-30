@@ -45,6 +45,7 @@ This group of reviewers is really an all-star list of alumni from the Graphic De
 	<li><strong>Christi Volden</strong>, Graphic Designer, <a href="https://getinitiated.ca/agency/" target="_blank">Initiate Marketing</a>, Open to Fieldwork</li>
 	<li><strong>Elizabeth (Liz) Larivière</strong>, Comms Coordinator, <a href="https://sprott.carleton.ca" target="_blank">Carleton U</a>, Open to Fieldwork</li>
 	<li><strong>Annika Cayanga</strong>, Graphic Designer, <a href="https://oseg.ca/" target="_blank">Ottawa Sports Entertainment Group</a>, Open to Fieldwork</li>
+	<li><strong>Fran Payette</strong>, UX Designer, <a href="https://baytek.ca" target="_blank">Baytek</a></li>
 </ul>
 </p>
 
