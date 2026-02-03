@@ -2,7 +2,9 @@
 layout: wil
 title: E-Dealer Video
 ---
-<h4>Contact Info</h4>
+<h4>
+	Contact Info
+</h4>
 Contact Person: Natalia Kuzma<br>
 Organization: EDealer<br>
 Email: <a href="mailto:natalia.kuzma@e.inc">natalia.kuzma@e.inc</a><br>
@@ -37,8 +39,9 @@ What You Will Do:<br>
 	<li>Adhere to design guidelines pre-determined and provided by the various manufacturers we work with</li>
 	<li>Adhere to strict schedules, fast timelines, and deliverables</li>
 	<li>Mentorship and collaboration with designers, managers, and opportunities to learn about design in the automotive industry from the Design Director.</li>
-
-	What You Will Need:
+</ul>
+What You Will Need:<br>
+<ul class="hanging-list">
 	<li>Enrolled in a college or university design, media or art program</li>
 	<li>Strong portfolio of work showcasing conceptual and execution capabilities for digital mediums. Digital portfolio must be provided with application.</li>
 	<li>Proficiency in Adobe Suite with particular strength in Photoshop and Illustrator</li>
