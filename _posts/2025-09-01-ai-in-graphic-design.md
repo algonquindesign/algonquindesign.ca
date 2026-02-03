@@ -3,7 +3,7 @@ layout: post
 title: "A.I. in Graphic Design"
 date: 2025-09-01 16:19:36 -0500
 category: News
-front-page: true
+front-page: false
 deck: "A.I. is not replacing creativity. It is amplifying it. We cannot ignore the craft aspect of design while demand for creative thinking, strategy, and design leadership are on the rise."
 permalink: /articles/ai-in-graphic-design.html
 ---
