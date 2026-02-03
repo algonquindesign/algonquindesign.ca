@@ -7,7 +7,7 @@ title: E-Dealer Video
 </h4>
 Contact Person: Natalia Kuzma<br>
 Organization: EDealer<br>
-Email: <a href="mailto:natalia.kuzma@e.inc">natalia.kuzma@e.inc</a><br>
+Email: <a href="mailto:talent.acquisition@e.inc">talent.acquisition@e.inc</a><br>
 Job Title: Talent Acquisition Partner<br>
 Telephone 437-770-6521<br>
 Address: 10 Lower Spadina Ave, Unit #400, Toronto, ON M5V 2Z2<br>
