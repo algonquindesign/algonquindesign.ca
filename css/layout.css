@@ -5,7 +5,7 @@
 	--white: rgb(255, 255, 255);
 	--dark-green-50: rgb(125, 167, 141);
 	--dark-green: rgb(43, 101, 65);
-	--grey: rgb(100, 102, 106);
+	--grey: rgb(120, 120, 120);
 	--lime-green: rgb(149, 200, 70);
 	--orange: rgb(255, 175, 0);
 	--teal: rgb(67, 152, 164);
@@ -24,6 +24,12 @@ html
 	scroll-behavior: smooth;
 	box-sizing: border-box;
 }
+
+.lime-green { color: var(--lime-green); }
+.dark-green { color: var(--dark-green); }
+.grey { color: var(--grey); }
+.orange { color: var(--orange); }
+.teal { color: var(--teal); }
 
 *, *::before, *::after
 {
