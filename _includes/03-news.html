@@ -1,12 +1,15 @@
-<article class="news" id="news" name="news">
-		{% for news in site.posts limit:4 %}
-    {% if news.category == 'News' %}
-		<div class="news-item">
-			{% if news.link.url %} <a href="{{news.link.url}}" rel="external">{{news.img.alt}}</a> {% else %} <span>{{news.img.alt}}</span> {% endif %}
-			<h2><a href="{{news.url}}">{{ news.title }}</a></h2>
-			{{ news.deck | markdownify }}
-		</div>
-    {% endif %}
-		{% endfor %}
-</article>
+{% assign front_news = site.posts | where_exp: "post", "post['front-page'] == true" %}
 
+<article class="news" id="news" name="news">
+  {% for news in front_news limit:3 %}
+    <div class="news-item">
+      {% if news.link.url %}
+        <a href="{{ news.link.url }}" rel="external">{{ news.img.alt }}</a>
+      {% else %}
+        <span>{{ news.img.alt }}</span>
+      {% endif %}
+      <h2><a href="{{ news.url }}">{{ news.title }}</a></h2>
+      {{ news.deck | markdownify }}
+    </div>
+  {% endfor %}
+</article>
