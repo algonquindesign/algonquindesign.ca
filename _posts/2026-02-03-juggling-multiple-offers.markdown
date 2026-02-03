@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Juggling Multiple Offers"
+title: "Juggling Multiple Offers?"
 date: Feb 3, 2026 at 9:53 AM
 category: Advice
 front-page: false
-deck: "Juggling more than one fieldwork or internship offer is a good problem to have, but it can feel stressful."
+deck: "Juggling more than one fieldwork offer is a good problem to have, but it can feel stressful."
 permalink: /articles/juggling-multiple-offers.html
 ---
 <p>
