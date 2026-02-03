@@ -26,6 +26,8 @@ pre {
   font-size: .75rem;
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+  margin-bottom: 1rem;
+  line-height: 2;
 }
 .center { text-align: center; }
 p + p { margin-bottom: 1rem; }
