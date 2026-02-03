@@ -36,6 +36,8 @@ We have grad web sites for each year. You can find them here:
 2012, <a href="https://2012.grads.algonquindesign.ca">Grads 2012</a><br>
 </div>
 
+<a href="/articles/juggling-multiple-offers.html" class="btn-small btn-orange">Juggling multiple offers?</a>
+
 ### I Got Fieldwork!
 
 These are the students who have fieldwork and where they're going.
