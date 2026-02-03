@@ -28,6 +28,8 @@ p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
 li { max-width: 80ch; }
 
+.small { font-size: .75rem; }
+
 .skip-links
 {
 	margin: 0;
