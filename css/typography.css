@@ -620,8 +620,6 @@ footer a:hover { border-bottom: solid 2px white; }
 
 a.btn-small
 {
-	background-color: var(--orange);
-	color: var(--lime-green);
 	font-family: var(--sans);
 	font-size: 1rem;
 	font-weight: 500;
@@ -629,7 +627,7 @@ a.btn-small
 	padding: 0.25rem 2rem;
 	margin: 2rem auto;
 	text-align: center;
-	border: 4px solid var(--lime-green);
+	border: 0;
 	border-radius: 9999px;
 	background-clip: padding-box;
 	display: block;
