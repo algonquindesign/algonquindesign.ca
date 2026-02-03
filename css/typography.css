@@ -22,7 +22,11 @@ p
 	margin-bottom: 2rem;
 	max-width: 80ch;
 }
-
+pre {
+  font-size: .75rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
 .center { text-align: center; }
 p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
