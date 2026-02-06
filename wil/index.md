@@ -43,8 +43,9 @@ We have grad web sites for each year. You can find them here:
 These are the students who have fieldwork and where they're going.
 
 {% assign fieldwork_count = site.data.wil-i-got-fieldwork | size %}
+{% assign percentage = fieldwork_count | times: 100.0 | divided_by: site.data.wil-course-info.total_students | round %}
 
-<p class="mono center"><em>{{ fieldwork_count }}</em> of <em>{{ site.data.wil-course-info.total_students }}</em> students have fieldwork.</p>
+<p class="mono center"><em>{{ fieldwork_count }}</em> of <em>{{ site.data.wil-course-info.total_students }}</em> students have fieldwork.<br>That's <em>{{ percentage }}%</em> of students.</p>
 
 <table>
   <thead>
