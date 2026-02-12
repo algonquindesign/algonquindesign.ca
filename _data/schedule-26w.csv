@@ -1,41 +1,41 @@
 code,courses,section,level,day,time,room,instructor,email
-DSN1539,Graphic Design 4,010,04,Friday,12:00-15:00,N216,David Bromley,bromled@algonquincollege.com,
-DSN1539,Graphic Design 4,020,04,Monday,08:00-11:00,N216,David Bromley,bromled@algonquincollege.com,
-DSN1539,Graphic Design 4,030,04,Thursday,12:00-15:00,N216,David Bromley,bromled@algonquincollege.com,
-DSN1540,Typography 4,010,04,Thursday,12:00-15:00,N214,Alain Paradis,paradia@algonquincollege.com,
-DSN1540,Typography 4,020,04,Friday,12:00-15:00,N214,Alain Paradis,paradia@algonquincollege.com,
-DSN1540,Typography 4,030,04,Monday,13:30-16:30,N214,Alain Paradis,paradia@algonquincollege.com,
-DSN1541,Computer Graphics 4,010,04,Monday,09:00-12:00,N219,Travis Gobeil,gobeilt@algonquincollege.com,
-DSN1541,Computer Graphics 4,020,04,Wednesday,09:00-12:00,N219,Travis Gobeil,gobeilt@algonquincollege.com,
-DSN1541,Computer Graphics 4,030,04,Thursday,08:30-11:30,N219,Angela Fahlman,fahlmaa@algonquincollege.com,
-DSN1565,Graphic Design 2,010,02,Friday,08:00-11:00,N216,David Bromley,bromled@algonquincollege.com,
-DSN1565,Graphic Design 2,020,02,Tuesday,11:00-14:00,N214,Andrea Emery,emerya@algonquincollege.com
-DSN1566,Typography 2,010,02,Monday,15:30-18:30,N216,Andrea Emery,emerya@algonquincollege.com
-DSN1566,Typography 2,020,02,Tuesday,16:00-19:00,N216,Andrea Emery,emerya@algonquincollege.com
-DSN1567,Computer Graphics 2,010,02,Wednesday,12:30-15:30,N216,Travis Gobeil,gobeilt@algonquincollege.com,
-DSN1567,Computer Graphics 2,020,02,Monday,12:30-15:30,N216,Travis Gobeil,gobeilt@algonquincollege.com,
-DSN1669,Motion Graphics 2,010,04,Tuesday,13:00-16:00,N216,Andrew Miller,millera1@algonquincollege.com,
-DSN1669,Motion Graphics 2,020,04,Thursday,09:00-12:00,N216,Andrew Miller,millera1@algonquincollege.com,
-DSN1669,Motion Graphics 2,030,04,Tuesday,09:00-12:00,N216,Andrew Miller,millera1@algonquincollege.com,
-DSN1684,Graphic Design 6,010,06,Thursday,09:00-12:00,WP301,Jamie McLennan,mclennj@algonquincollege.com,
-DSN1684,Graphic Design 6,020,06,Thursday,13:00-16:00,WC153A,Jamie McLennan,mclennj@algonquincollege.com,
-DSN1685,Computer Graphics 6,010,06,Tuesday,18:00-21:00,N214,Anish Parmar,parmara@algonquincollege.com
-DSN1685,Computer Graphics 6,020,06,Wednesday,18:00-21:00,N216,Anish Parmar,parmara@algonquincollege.com
-DSN1689,Motion Graphics 4,010,06,Wednesday,11:00-14:00,N214,Andrew Miller,millera1@algonquincollege.com,
-DSN1689,Motion Graphics 4,020,06,Monday,09:00-12:00,N214,Brad Doyle,doyleb@algonquincollege.com
-DSN1690,Fieldwork and Professional Practice,010,06,Monday,12:30-14:30,T207,Alain Paradis,paradia@algonquincollege.com,
-DSN1698,Concept Sketching 2,010,02,Thursday,12:00-14:00,J210,Andrea Emery,emerya@algonquincollege.com
-DSN1698,Concept Sketching 2,020,02,Thursday,08:00-10:00,N103,Andrea Emery,emerya@algonquincollege.com
-DSN1712,Web Design 1,010,02,Thursday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
-DSN1712,Web Design 1,020,02,Friday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
-DSN1714,Web Design 3,010,04,Wednesday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
-DSN1714,Web Design 3,020,04,Tuesday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
-DSN1714,Web Design 3,030,04,Monday,12:00-15:00,N214,Wendy Warren,warrenw@algonquincollege.com
-DSN1727,UX/UI Design 2,010,04,Monday,12:30-15:30,N219,Angela Fahlman,fahlmaa@algonquincollege.com,
-DSN1727,UX/UI Design 2,020,04,Friday,08:00-11:00,N219,Angela Fahlman,fahlmaa@algonquincollege.com,
-DSN1727,UX/UI Design 2,030,04,Friday,12:00-15:00,N219,Angela Fahlman,fahlmaa@algonquincollege.com,
-DSN1729,UX/UI Design 4,010,06,Wednesday,18:00-21:00,N214,Alyster Mahoney,mahonea@algonquincollege.com
-DSN1729,UX/UI Design 4,020,06,Thursday,18:00-21:00,N214,Alyster Mahoney,mahonea@algonquincollege.com
-DSN1731,Innovative Strategies,350,06,ASYNC,ASYNC,ASYNC,Michael Ball,ballm@algonquincollege.com
-ENL1950A,Communications for Graphic Design,300,02,Wednesday,09:00-11:00,WB182,Kate Corsten,corstek@algonquincollege.com
-ENL1950A,Communications for Graphic Design,310,02,Thursday,12:00-14:00,A2007,Kate Corsten,corstek@algonquincollege.com
+DSN1539,Graphic Design 4,20,4,Monday,08:00-11:00,N216,David Bromley,bromled@algonquincollege.com
+DSN1541,Computer Graphics 4,10,4,Monday,09:00-12:00,N219,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1689,Motion Graphics 4,20,6,Monday,09:00-12:00,N214,Brad Doyle,doyleb@algonquincollege.com
+DSN1714,Web Design 3,30,4,Monday,12:00-15:00,N214,Wendy Warren,warrenw@algonquincollege.com
+DSN1690,Fieldwork and Professional Practice,10,6,Monday,12:30-14:30,T207,Alain Paradis,paradia@algonquincollege.com
+DSN1727,UX/UI Design 2,10,4,Monday,12:30-15:30,N219,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1567,Computer Graphics 2,20,2,Monday,12:30-15:30,N216,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1540,Typography 4,30,4,Monday,13:30-16:30,N214,Alain Paradis,paradia@algonquincollege.com
+DSN1566,Typography 2,10,2,Monday,15:30-18:30,N216,Andrea Emery,emerya@algonquincollege.com
+DSN1714,Web Design 3,20,4,Tuesday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
+DSN1669,Motion Graphics 2,30,4,Tuesday,09:00-12:00,N216,Andrew Miller,millera1@algonquincollege.com
+DSN1565,Graphic Design 2,20,2,Tuesday,11:00-14:00,N214,Andrea Emery,emerya@algonquincollege.com
+DSN1669,Motion Graphics 2,10,4,Tuesday,13:00-16:00,N216,Andrew Miller,millera1@algonquincollege.com
+DSN1566,Typography 2,20,2,Tuesday,16:00-19:00,N216,Andrea Emery,emerya@algonquincollege.com
+DSN1685,Computer Graphics 6,10,6,Tuesday,18:00-21:00,N214,Anish Parmar,parmara@algonquincollege.com
+DSN1714,Web Design 3,10,4,Wednesday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
+ENL1950A,Communications for Graphic Design,300,2,Wednesday,09:00-11:00,WB182,Kate Corsten,corstek@algonquincollege.com
+DSN1541,Computer Graphics 4,20,4,Wednesday,09:00-12:00,N219,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1689,Motion Graphics 4,10,6,Wednesday,11:00-14:00,N214,Andrew Miller,millera1@algonquincollege.com
+DSN1567,Computer Graphics 2,10,2,Wednesday,12:30-15:30,N216,Travis Gobeil,gobeilt@algonquincollege.com
+DSN1685,Computer Graphics 6,20,6,Wednesday,18:00-21:00,N216,Anish Parmar,parmara@algonquincollege.com
+DSN1729,UX/UI Design 4,10,6,Wednesday,18:00-21:00,N214,Alyster Mahoney,mahonea@algonquincollege.com
+DSN1698,Concept Sketching 2,20,2,Thursday,08:00-10:00,N103,Andrea Emery,emerya@algonquincollege.com
+DSN1712,Web Design 1,10,2,Thursday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
+DSN1541,Computer Graphics 4,30,4,Thursday,08:30-11:30,N219,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1669,Motion Graphics 2,20,4,Thursday,09:00-12:00,N216,Andrew Miller,millera1@algonquincollege.com
+DSN1684,Graphic Design 6,10,6,Thursday,09:00-12:00,WP301,Jamie McLennan,mclennj@algonquincollege.com
+DSN1698,Concept Sketching 2,10,2,Thursday,12:00-14:00,J210,Andrea Emery,emerya@algonquincollege.com
+ENL1950A,Communications for Graphic Design,310,2,Thursday,12:00-14:00,A2007,Kate Corsten,corstek@algonquincollege.com
+DSN1539,Graphic Design 4,30,4,Thursday,12:00-15:00,N216,David Bromley,bromled@algonquincollege.com
+DSN1540,Typography 4,10,4,Thursday,12:00-15:00,N214,Alain Paradis,paradia@algonquincollege.com
+DSN1684,Graphic Design 6,20,6,Thursday,13:00-16:00,WC153A,Jamie McLennan,mclennj@algonquincollege.com
+DSN1565,Graphic Design 2,10,2,Friday,08:00-11:00,N216,David Bromley,bromled@algonquincollege.com
+DSN1712,Web Design 1,20,2,Friday,08:00-11:00,N214,Wendy Warren,warrenw@algonquincollege.com
+DSN1727,UX/UI Design 2,20,4,Friday,08:00-11:00,N219,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1539,Graphic Design 4,10,4,Friday,12:00-15:00,N216,David Bromley,bromled@algonquincollege.com
+DSN1540,Typography 4,20,4,Friday,12:00-15:00,N214,Alain Paradis,paradia@algonquincollege.com
+DSN1727,UX/UI Design 2,30,4,Friday,12:00-15:00,N219,Angela Fahlman,fahlmaa@algonquincollege.com
+DSN1729,UX/UI Design 4,20,6,Thursday,18:00-21:00,N214,Alyster Mahoney,mahonea@algonquincollege.com
+DSN1731,Innovative Strategies,350,6,ASYNC,ASYNC,ASYNC,Michael Ball,ballm@algonquincollege.com
