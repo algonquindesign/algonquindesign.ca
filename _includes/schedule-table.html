@@ -2,10 +2,6 @@
 {% assign rooms = day_rows | map: "room" | uniq | sort %}
 {% assign times = day_rows | map: "time" | uniq | sort %}
 
-{% assign day_rows = site.data.schedule-26w | where: "day", include.day %}
-{% assign rooms = day_rows | map: "room" | uniq | sort %}
-{% assign times = day_rows | map: "time" | uniq | sort %}
-
 <table class="schedule-table">
   <thead>
     <tr>
