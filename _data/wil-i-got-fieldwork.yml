@@ -70,10 +70,6 @@
   last_name: Ludwig
   studio_name: Phantom Productions
   studio_url: https://www.phantomproductions.com
-- first_name: Amelia
-  last_name: Frederick
-  studio_name: Sequence Marketing
-  studio_url: https://sequencemarketing.ca
 - first_name: Noliad
   last_name: Zabanga
   studio_name: Sequence Marketing
@@ -150,3 +146,7 @@
   last_name: Paquin
   studio_name: Gadar Promotions
   studio_url: https://gadar.ca
+- first_name: Amelia
+  last_name: Frederick
+  studio_name: CADSI
+  studio_url: https://defenceandsecurity.ca
