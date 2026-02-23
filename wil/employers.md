@@ -27,7 +27,7 @@ This is a list of {{ site.data.employers.size }} employers who've taken students
 </ul>
 
 <p class="sans dark-green">
-<strong>Feb 23, 2026:</strong> Note that the list has now been filtered to include only employers who are still open to taking on students for Fieldwork.
+<strong>Feb 23, 2026:</strong> Note that the list has now been filtered to include only employers who are still open to taking students for Fieldwork.
 </p>
 
 <ul class="employers">
