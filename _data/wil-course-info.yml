@@ -40,7 +40,7 @@ nav:
     url: "https://forms.office.com/r/g6RZze5pXS"
 resources:
   - title: "Fieldwork Consent Form"
-    url: "downloads/fieldwork-consent-form.pdf.zip"
+    url: "/downloads/fieldwork-consent-form.pdf.zip"
   - title: "Juggling Multiple Fieldwork Offers?"
     url: "/articles/juggling-multiple-offers.html"
   - title: "RGD Career Planning Workbook"
