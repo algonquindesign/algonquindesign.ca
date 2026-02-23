@@ -28,6 +28,7 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
 
 <ul class="employers">
   {% for row in site.data.wil-employers %}
+  {% if row.Hired == 'No' %}
   <li>
     <strong>
     {% if row.URL %}
@@ -53,7 +54,6 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
     <span class="notes">{{ row.Notes | replace: '||', '<br>' | markdownify }}</span>
     {% endif %}
   </li>
+  {% endif %}
   {% endfor %}
 </ul>
-
-
