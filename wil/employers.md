@@ -4,7 +4,7 @@ title: Employers
 ---
 This is a list of {{ site.data.employers.size }} employers who've taken students on Fieldwork in past years. You'll have to do your own research to find out who to contact.
 
-If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></a>, they're no longer hiring.
+<!-- If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></a>, they're no longer hiring. -->
 
 {% assign modality_groups = site.data.employers | group_by: "Modality" %}
 
@@ -25,6 +25,10 @@ If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></
     <span>Remote</span>
   </li>
 </ul>
+
+<p class="sans dark-green">
+<strong>Feb 23, 2026:</strong> Note that the list has now been filtered to include only employers who are still open to taking on students for Fieldwork.
+</p>
 
 <ul class="employers">
   {% for row in site.data.wil-employers %}
