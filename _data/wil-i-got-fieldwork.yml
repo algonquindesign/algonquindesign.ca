@@ -130,10 +130,6 @@
   last_name: Quinn
   studio_name: Cyan Solutions
   studio_url: https://cyansolutions.com
-- first_name: Nicole
-  last_name: Sterling
-  studio_name: Hit Point Press
-  studio_url: https://hitpointpress.com
 - first_name: Lily
   last_name: MacDonald-Some
   studio_name: GreenRe
@@ -170,3 +166,7 @@
   last_name: Provenzano
   studio_name: Correctional Service Canada
   studio_url: https://www.canada.ca/en/correctional-service.html
+- first_name: Nicole
+  last_name: Sterling
+  studio_name: OSEG
+  studio_url: https://www.tdplace.ca/oseg/
