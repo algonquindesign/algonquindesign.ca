@@ -831,6 +831,11 @@ ul.employers .notes
 	font-size: 0.9rem;
 }
 
+ul.employers b {
+  font-weight: 600;
+  color: var(--red);
+}
+
 a.crossed-out
 {
 	text-decoration: line-through;
