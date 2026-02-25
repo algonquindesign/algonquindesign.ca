@@ -9,6 +9,7 @@
 	--lime-green: rgb(149, 200, 70);
 	--orange: rgb(255, 175, 0);
 	--teal: rgb(67, 152, 164);
+	--red: rgb(255, 0, 0);
 	/* Defaults */
 	--background-color: var(--white);
 	--text-color: rgb(0, 0, 0);
