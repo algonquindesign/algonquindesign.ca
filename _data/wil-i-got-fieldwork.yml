@@ -186,10 +186,10 @@
   last_name: Ahmed
   studio_name: NISA Foundation
   studio_url: https://www.nisafoundation.ca
-# - first_name: Keeren
-#   last_name: Milomga
-#   studio_name:
-#   studio_url:
+- first_name: Keeren
+  last_name: Milomga
+  studio_name: Human-Centred Design Lab
+  studio_url: https://algonquincollege.com
 # - first_name: Danika
 #   last_name: Krul
 #   studio_name: Cloud in the Sky Studios
