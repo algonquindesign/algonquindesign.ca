@@ -64,13 +64,17 @@ To create, renew or upgrade a clearance, the sponsoring employer and employee co
 
 These steps make the process smoother.
 
-*Keep Your Identification Ready*: You need two pieces of ID. One must include a photo. One must be foundational (such as a passport or birth certificate). The second must be supporting ID.
+<dl>
+	<dt>Keep Your Identification Ready</dt>
+		<dd>You need two pieces of ID. One must include a photo. One must be foundational (such as a passport or birth certificate). The second must be supporting ID.</dd>
+	<dt>Maintain a Professional Online Presence</dt>
+		<dd>Reviewers may consider public online information. Keep your digital footprint consistent and respectful.</dd>
+	<dt>Manage Your Finances</dt>
+		<dd>A stable credit history supports the reliability assessment. Reducing outstanding debt helps.</dd>
+	<dt>Be Accurate and Honest</dt>
+		<dd>Inconsistent information delays or harms your application. Accuracy shows reliability.</dd>
+</dl>
 
-*Maintain a Professional Online Presence* Reviewers may consider public online information. Keep your digital footprint consistent and respectful.
-
-*Manage Your Finances* A stable credit history supports the reliability assessment. Reducing outstanding debt helps.
-
-*Be Accurate and Honest* Inconsistent information delays or harms your application. Accuracy shows reliability.
 
 #### After You Are Cleared
 
