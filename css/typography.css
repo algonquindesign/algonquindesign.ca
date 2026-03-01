@@ -22,18 +22,20 @@ p
 	margin-bottom: 2rem;
 	max-width: 80ch;
 }
-pre {
-  font-size: .75rem;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
-  margin-bottom: 1rem;
-  line-height: 2;
+
+pre
+{
+	font-size: .75rem;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	margin-bottom: 1rem;
+	line-height: 2;
 }
+
 .center { text-align: center; }
 p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
 li { max-width: 80ch; }
-
 .small { font-size: .75rem; }
 
 .skip-links
@@ -121,6 +123,13 @@ a:active
 {
 	color: var(--orange);
 	border-bottom: 2px solid var(--orange);
+}
+
+dt
+{
+	font-family: var(--sans);
+	font-weight: 600;
+	color: var(--dark-green);
 }
 
 blockquote
@@ -831,9 +840,10 @@ ul.employers .notes
 	font-size: 0.9rem;
 }
 
-ul.employers b {
-  font-weight: 500;
-  color: var(--red);
+ul.employers b
+{
+	font-weight: 500;
+	color: var(--red);
 }
 
 a.crossed-out
