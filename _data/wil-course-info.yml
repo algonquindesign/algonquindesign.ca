@@ -39,6 +39,8 @@ nav:
     text: "Please keep me apprised of your progress securing Fieldwork."
     url: "https://forms.office.com/r/g6RZze5pXS"
 resources:
+  - title: "Government Security Clearance"
+    url: "/articles/security-clearance.html"
   - title: "Fieldwork Consent Form"
     url: "/downloads/fieldwork-consent-form.pdf.zip"
   - title: "Juggling Multiple Fieldwork Offers?"
