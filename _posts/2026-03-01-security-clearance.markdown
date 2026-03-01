@@ -10,6 +10,8 @@ permalink: /articles/security-clearance.html
 
 Working as a graphic designer for the federal government often requires a security clearance. This guide explains what clearances are, why you may need one and how to prepare.
 
+> You cannot request a clearance yourself. A sponsoring organization must submit it on your behalf.
+
 #### What a Security Clearance Is
 
 Before accessing sensitive government information or worksites, you must be screened and approved for a security status or clearance. This applies to employees and many contractors working with federal departments. The process confirms you are honest, trustworthy and reliable.
