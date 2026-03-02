@@ -202,6 +202,10 @@
   last_name: Landry
   studio_name: Agence Christelle
   studio_url: https://www.agencechristelle.com/
+- first_name: Alyse
+  last_name: Butler
+  studio_name: National Defence - Government of Canada
+  studio_url: https://www.canada.ca/en/department-national-defence.html
 # - first_name: Milo
 #   last_name: Bernique
 #   studio_name:
@@ -220,10 +224,6 @@
 #   studio_url:
 # - first_name: Colin
 #   last_name: Burnett
-#   studio_name:
-#   studio_url:
-# - first_name: Alyse
-#   last_name: Butler
 #   studio_name:
 #   studio_url:
 # - first_name: Dosen
