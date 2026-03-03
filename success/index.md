@@ -3,6 +3,7 @@ layout: default
 title: "Success Story Submission"
 description: "Please use this form to submit your materials for AlgonquinDesign success stories."
 ---
+
 <ul class="skip-links">
 	<li><a href="#form">Jump to Form</a></li>
 </ul>
@@ -20,9 +21,6 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 	</p>
 	<p>
 		Your participation is completely voluntary. You can choose how much you want to share. We appreciate your time. We are proud to showcase the work you’re doing.
-	</p>
-	<p>
-		Note that only some of the questions are required. If you do not have a response, or wish not to respond, simply skip those questions.
 	</p>
 	<form class="" action="https://submit-form.com/Ktd6xuG2z" data-botpoison-public-key="pk_b88ffdb8-a584-4f07-98d9-972f30fbc017">
 		<fieldset>
@@ -49,32 +47,44 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 			</div>
 		</fieldset>
 		<fieldset>
-			<legend>Description of the work needed</legend>
+			<legend>Your bio</legend>
 			<div class="form-text">
-				General graphic design, web design, branding, motion video, etc.
+				Include your professional biography.
 			</div>
-			<textarea id="work-desc" name="Work-Description" required></textarea>
-			<label class="form-label" for="timeframe">Timeframe to complete the work (2 weeks, 1 month, 6 months, etc…)</label>
-			<input type="text" id="timeframe" name="timeframe" placeholder="Timeframe" required="">
-		</fieldset>
-		<fieldset class="app-reqs">
-			<legend>Application requirements</legend>
+			<textarea id="bio" name="Bio" required></textarea>
 			<div class="form-text">
-				What information & documents should the applying students send you?
+				Describe your current role and what you do day-to-day.
 			</div>
-			<div class="form-row">
-				<label class="radio-option">
-				<input type="checkbox" id="send-resume" name="send-resume" value="R&eacute;sum&eacute;" />
-				Résumé
-				<input type="checkbox" id="send-portfolio" name="send-portfolio" value="Portfolio" />
-				Portfolio </label>
-			</div>
+			<textarea id="role" name="Role" required></textarea>
 		</fieldset>
-		<input type="hidden" name="_email.subject" value="Student Employment Opportunity" />
-		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks.html"> <small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
-		<div>
-			<button class="" type="submit">Submit</button>
-		</div>
-	</form>
-</main>
+		<fieldset>
+			<legend>Links</legend>
+			<div>
+				<label class="link1" for="link1">Link #1</label>
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+			</div>
+			<div>
+				<label class="link1" for="link1">Link #1</label>
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+			</div>
+			<div>
+				<label class="link1" for="link1">Link #1</label>
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+			</div>
+			<div>
+				<label class="link1" for="link1">Link #1</label>
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+			</div>
+			<div>
+				<label class="link1" for="link1">Link #1</label>
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+			</div>
+			<input type="hidden" name="_email.subject" value="Student Employment Opportunity" />
+			<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks.html"> <small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
+			<div>
+				<button class="" type="submit">Submit</button>
+			</div>
+			</fieldset>
+		</form>
+	</main>
 {% include 13-footer.html %}
