@@ -210,14 +210,14 @@
   last_name: Berniqué
   studio_name: HitPoint Press
   studio_url: https://hitpointpress.com
-# - first_name: Guillaume
 - first_name: Jazmin
   last_name: Bill
   studio_name: Bathorium
   studio_url: https://www.bathorium.com
-#   last_name: Bisson
-#   studio_name:
-#   studio_url:
+- first_name: Guillaume
+  last_name: Bisson
+  studio_name: Nouvelle Administration
+  studio_url: https://nouvelleadministration.com/
 # - first_name: Jordan
 #   last_name: Belanger
 #   studio_name:
