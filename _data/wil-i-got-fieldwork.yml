@@ -218,10 +218,10 @@
   last_name: Bisson
   studio_name: Nouvelle Administration
   studio_url: https://nouvelleadministration.com/
-# - first_name: Jordan
-#   last_name: Belanger
-#   studio_name:
-#   studio_url:
+- first_name: Jordan
+  last_name: Belanger
+  studio_name: Victory Arts
+  studio_url: https://www.victoryarts.com
 # - first_name: Colin
 #   last_name: Burnett
 #   studio_name:
