@@ -35,7 +35,7 @@ This is a list of {{ site.data.employers.size }} employers who've taken students
   <li>
     <strong>
     {% if row.URL %}
-      <a href="{{ row.URL }}" target="_blank" class="{% if row.Hired == 'Yes' %}crossed-out{% endif %}">{{ row.Employer }}</a>
+      <a href="{{ row.URL }}" target="_blank" class="">{{ row.Employer }}</a>
       {% else %}
       <span class="{% if row.Hired == 'Yes' %}crossed-out{% endif %}">{{ row.Employer }}</span>
       {% endif %}
