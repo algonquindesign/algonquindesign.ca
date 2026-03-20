@@ -32,7 +32,6 @@ This is a list of {{ site.data.employers.size }} employers who've taken students
 
 <ul class="employers">
   {% for row in site.data.wil-employers %}
-  {% if row.Hired == 'No' %}
   <li>
     <strong>
     {% if row.URL %}
@@ -58,6 +57,5 @@ This is a list of {{ site.data.employers.size }} employers who've taken students
     <span class="notes">{{ row.Notes | replace: '||', '<br>' | markdownify }}</span>
     {% endif %}
   </li>
-  {% endif %}
   {% endfor %}
 </ul>
