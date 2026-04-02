@@ -41,7 +41,7 @@ id: "spark"
 	<p>
 		Transition from expressive art to applied design, where creativity solves real communication problems for real people. Explore visual storytelling, branding, layout, and digital experiences while keeping your unique artistic voice at the centre.
 	</p>
-		<a href="../articles/need-for-numbers/" class="btn-small btn-lime-green">Doubts about higher education?</a>
+		<a href="/articles/need-for-numbers/" class="btn-small btn-lime-green">Doubts about higher education?</a>
 	<h4>
 		Studio Energy in Every Class
 	</h4>
