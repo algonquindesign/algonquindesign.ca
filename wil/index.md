@@ -26,7 +26,7 @@ We have grad web sites for each year. You can find them here:
 2023, <a href="https://2023.grads.algonquindesign.ca">Resolve</a><br>
 2022, Collation<br>
 2021, <a href="https://2021.grads.algonquindesign.ca">Generation Adaptation</a><br>
-2020, <a href="https://2020.grads.algonquindesign.ca">Anthology</a><br>
+2020, Anthology<br>
 2019, <a href="https://2019.grads.algonquindesign.ca">Pathfinder</a><br>
 2018, <a href="http://2018.grads.algonquindesign.ca">Reboot</a><br>
 2017, <a href="https://2017.grads.algonquindesign.ca">Studio N</a><br>
