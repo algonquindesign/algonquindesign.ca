@@ -41,7 +41,7 @@ id: "spark"
 	<p>
 		Transition from expressive art to applied design, where creativity solves real communication problems for real people. Explore visual storytelling, branding, layout, and digital experiences while keeping your unique artistic voice at the centre.
 	</p>
-		<a href="/articles/need-for-numbers/" class="btn-small btn-lime-green">Why higher education?</a>
+	<a href="/articles/need-for-numbers/" class="btn-small btn-lime-green">Why higher education?</a>
 	<h4>
 		Studio Energy in Every Class
 	</h4>
@@ -57,9 +57,9 @@ id: "spark"
 	<p>
 		Learn industry-standard design software as creative instruments, not just technical tools to click through. Use them to sketch, explore, and refine ideas, so technology supports your imagination rather than replacing it.
 	</p>
-		<blockquote>
+	<blockquote>
 		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design/">Read on</a>&nbsp;➜
-		</blockquote>
+	</blockquote>
 	<h4>
 		Build a Standout Portfolio
 	</h4>
@@ -81,7 +81,9 @@ id: "spark"
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
-			<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewbox="0 0 151.42 157.32"><defs><style>.cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}</style>
+			<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewbox="0 0 151.42 157.32"><defs><style>
+.cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}
+			</style>
 			</defs><path d="M132.57 157.32l-96.34-13.93 18.85-130.4 96.34 13.93-18.85 130.4zm-85.02-22.4l76.55 11.07 15.99-110.6-76.55-11.07-15.99 110.6z" class="cls-1" /><path d="M47.55 134.92l76.55 11.07 15.99-110.6-76.55-11.07-15.99 110.6z" class="cls-2" /><path d="M82.45 10.5h36.74v96.13H82.45z" class="cls-2" /><path d="M124.19 111.63H77.45V5.5h46.74v106.13zm-36.74-10h26.74V15.5H87.45v86.13z" class="cls-1" /><path d="M0 24.52l32.54 127.67 96.18-24.52L96.18 0 0 24.52zm12.16 7.22l10.88-2.77 27.6 108.29-10.88 2.77-27.6-108.29zm104.4 88.71l-56.23 14.33-27.6-108.29 56.23-14.33 27.6 108.29z" class="cls-1" /><path d="M12.16 31.74l10.88-2.77 27.6 108.29-10.88 2.77-27.6-108.29zm104.4 88.71l-56.23 14.33-27.6-108.29 56.23-14.33 27.6 108.29z" class="cls-2" /></svg>
 		</div>
 		<div class="text-box">
@@ -106,7 +108,9 @@ id: "spark"
 	<p>
 		Do you have questions, or do you wish to express interest in learning more? Just get in touch!
 	</p>
-	<form class="" action="https://submit-form.com/psFiS9q14" data-botpoison-public-key="pk_6470daed-f37c-4eb7-8c5b-3d5e79205092">
+	<form action="https://submit-form.com/echo">
+		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/spark/thanks.html">
+		<input type="hidden" name="_email.subject" value="Prospective student inquiry." />
 		<fieldset>
 			<legend>Identification</legend>
 			<div>
@@ -127,10 +131,10 @@ id: "spark"
 			<div class="form-text">
 				Ask us a question, or tell us if you're interested in registering.
 			</div>
-			<textarea id="work-desc" name="Work-Description" required></textarea>
+			<textarea id="Comment" name="Comment" required></textarea>
 		</fieldset>
 		<input type="hidden" name="_email.subject" value="Spark Question or Expression of Interest" />
-		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/spark/thanks.html"> <small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
+		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
 		<div>
 			<button class="" type="submit">Submit</button>
 		</div>
