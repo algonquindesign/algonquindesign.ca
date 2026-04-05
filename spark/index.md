@@ -108,7 +108,7 @@ id: "spark"
 	<p>
 		Do you have questions, or do you wish to express interest in learning more? Just get in touch!
 	</p>
-	<form action="https://submit-form.com/echo">
+	<form action="https://submit-form.com/wpn6xPbHe" method="POST">
 		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/spark/thanks.html">
 		<input type="hidden" name="_email.subject" value="Prospective student inquiry." />
 		<fieldset>
@@ -133,8 +133,8 @@ id: "spark"
 			</div>
 			<textarea id="Comment" name="Comment" required></textarea>
 		</fieldset>
-		<input type="hidden" name="_email.subject" value="Spark Question or Expression of Interest" />
 		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
+		<input type="text" name="honeypot" style="display: none;" tabindex="-1" autocomplete="off">
 		<div>
 			<button class="" type="submit">Submit</button>
 		</div>
