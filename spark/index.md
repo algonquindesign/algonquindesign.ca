@@ -16,6 +16,16 @@ id: "spark"
 	<p>
 		There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. These are a few of them.
 	</p>
+<h4>Joy in Numbers</h4>
+  <ul class="default">
+    <li>1 portfolio is required for acceptance.</li>
+    <li>3 year Advanced Diploma full-time program.</li>
+    <li>6 semesters, starting in Fall.</li>
+    <li>About 7 courses per semester, most in-class, some online.</li>
+    <li>4 full-time professors and about 12 part-time faculty.</li>
+    <li>Ends with 6 weeks of fieldwork.</li>
+    <li>100’s of possibilities for employment upon graduation.</li>
+  </ul>
 	<div class="content-box">
 		<div class="graphic-box">
 			{% assign img = site.data.sample-work.images[1] %} <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
