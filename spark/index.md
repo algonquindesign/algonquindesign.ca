@@ -76,6 +76,9 @@ id: "spark"
 	<p>
 		Learn industry-standard design software as creative instruments, not just technical tools to click through. Use them to sketch, explore, and refine ideas, so technology supports your imagination rather than replacing it.
 	</p>
+	<p>
+	AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose.
+	</p>
 	<blockquote>
 		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design/">Read on</a>&nbsp;➜
 	</blockquote>
