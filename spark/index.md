@@ -86,6 +86,17 @@ id: "spark"
 		Join a cohort of students who care about art and design as much as you do. Study with faculty who work as designers and educators, who understand the move from fine art to graphic design, and who help students prepare for careers in design, web, animation, user experience, publishing, and more.
 	</p>
 	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-lime-green">Apply Now&nbsp;➜</a>
+<h5>It Takes a Village</h5>
+	<ul class="default columns">
+		<li><a href="https://www.algonquincollege.com/financial-aid/">Financial Aid</a></li>
+		<li><a href="https://www.algonquincollege.com/cal/">Academic Supports</a></li>
+		<li><a href="https://www.algonquincollege.com/healthservices/">Health Services</a></li>
+		<li><a href="https://www.algonquincollege.com/dental-clinic/">Dental Clinic</a></li>
+		<li><a href="https://www.algonquincollege.com/massage-clinic/">Massage Clinic</a></li>
+		<li><a href="https://www.algonquincollege.com/international/">International Student Services</a></li>
+		<li><a href="https://www.algonquinsa.com/studentlife/clubs-and-communities/">Clubs & Events</a></li>
+		<li><a href="https://www.algonquincollege.com/mamidosewin/">Indigenous Students Supports</a></li>
+	</ul>
 	<h4>
 		Turning Passion Into a Career
 	</h4>
