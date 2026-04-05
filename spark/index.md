@@ -109,7 +109,7 @@ id: "spark"
 		Do you have questions, or do you wish to express interest in learning more? Just get in touch!
 	</p>
 	<form action="https://submit-form.com/wpn6xPbHe" method="POST">
-		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/spark/thanks.html">
+		<input type="hidden" name="_next" value="https://algonquindesign.ca/spark/thanks.html">
 		<input type="hidden" name="_email.subject" value="Prospective student inquiry." />
 		<fieldset>
 			<legend>Identification</legend>
