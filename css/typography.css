@@ -326,6 +326,35 @@ footer h2 { color: white; }
 	margin-bottom: .33rem;
 }
 
+ul.default
+{
+	list-style: none;
+	padding-left: 0;
+	margin: 1rem 0 2rem 1rem;
+}
+
+ul.default li
+{
+	position: relative;
+	padding-left: 1.25rem;
+	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+
+ul.default li::before
+{
+	content: "";
+	color: var(--lime-green);
+	position: absolute;
+	left: 0;
+	top: 0.35rem;
+	width: 0.9rem;
+	height: 0.8rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("/svg/arrow.svg");
+}
+
 .checklist ul,
 .opportunities ul,
 .highlights ul
