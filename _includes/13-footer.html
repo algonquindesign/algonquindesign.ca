@@ -32,7 +32,7 @@
 		</h2>
 		<ul class="footer-links social">
 			{% for link in site.data.footer.social %}
-			<li><img alt="" class="social-icon" src="{{ site.baseurl }}/svg/{{ link.icon }}.svg"><a href="{{link.url}}" rel="external">{{link.title}}</a></li>
+			<li><img class="social-icon" src="{{ site.baseurl }}/svg/{{ link.icon }}.svg"><a href="{{link.url}}" rel="external"  aria-label="{{link.title}}">{{link.title}}</a></li>
 			{% endfor %}
 		</ul>
 		<h2 class="hidden">
