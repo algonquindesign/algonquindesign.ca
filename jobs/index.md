@@ -77,7 +77,6 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 		If you do not receive any responses, it's possible their schedules are full. You may reach out to Alain Paradis to enquire.
 	</p>
 	<form class="" action="https://submit-form.com/Ktd6xuG2z" data-botpoison-public-key="pk_b88ffdb8-a584-4f07-98d9-972f30fbc017">
-	<input type="hidden" name="_next" value="https://algonquindesign.ca/jobs/thanks.html">
 	<input type="hidden" name="_email.replyto" value="paradia@algonquincollege.com" />
 		<fieldset>
 			<legend>Identification</legend>
@@ -165,5 +164,12 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			<button class="" type="submit">Submit</button>
 		</div>
 	</form>
+<script>
+document.querySelector('form').addEventListener('submit', function() {
+  setTimeout(function() {
+    window.location.href = 'https://algonquindesign.ca/jobs/thanks.html';
+  }, 500); // Redirect after 500ms (half second)
+});
+</script>
 </main>
 {% include 13-footer.html %}

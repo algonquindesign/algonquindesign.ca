@@ -109,7 +109,6 @@ id: "spark"
 		Do you have questions, or do you wish to express interest in learning more? Just get in touch!
 	</p>
 	<form action="https://submit-form.com/wpn6xPbHe" method="POST">
-		<input type="hidden" name="_next" value="https://algonquindesign.ca/spark/thanks.html">
 		<input type="hidden" name="_email.subject" value="Prospective student inquiry." />
 		<fieldset>
 			<legend>Identification</legend>
@@ -139,5 +138,12 @@ id: "spark"
 			<button class="" type="submit">Submit</button>
 		</div>
 	</form>
+<script>
+document.querySelector('form').addEventListener('submit', function() {
+  setTimeout(function() {
+    window.location.href = 'https://algonquindesign.ca/spark/thanks.html';
+  }, 500); // Redirect after 500ms (half second)
+});
+</script>
 </main>
 {% include 13-footer.html %}

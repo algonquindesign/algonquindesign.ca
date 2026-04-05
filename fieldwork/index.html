@@ -54,8 +54,7 @@ id: 2
 			Employer’s Fieldwork Request
 		</h3>
 		<form action="https://submit-form.com/DrQxZHCef" data-botpoison-public-key="pk_5b05dcc1-1514-4e51-848d-8cb5e891bbc9">
-		<input type="hidden" name="_next" value="https://algonquindesign.ca/fieldwork/thanks.html">
-	<input type="hidden" name="_email.replyto" value="paradia@algonquincollege.com" />
+	  <input type="hidden" name="_email.replyto" value="paradia@algonquincollege.com" />
 			<div class="">
 				<label class="form-label" for="Organization">Organization Name</label>
 				<input type="text" id="Organization" name="Organization" placeholder="Organization Name" required="">
@@ -129,6 +128,13 @@ id: 2
 				<button class="" type="submit">Submit</button>
 			</div>
 		</form>
+<script>
+document.querySelector('form').addEventListener('submit', function() {
+  setTimeout(function() {
+    window.location.href = 'https://algonquindesign.ca/fieldwork/thanks.html';
+  }, 500); // Redirect after 500ms (half second)
+});
+</script>
 	</section>
 </main>
 {% include 13-footer.html %}
