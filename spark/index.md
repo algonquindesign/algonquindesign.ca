@@ -29,6 +29,12 @@ id: "spark"
 		<li>100’s of possibilities for employment upon graduation.</li>
 		<li>Huge alumni community</li>
 	</ul>
+	<p>
+		Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.
+	</p>
+	<p>
+		Design is everywhere, from branding and user-experience design to motion graphics and packaging. The demand for visual communication is growing, not shrinking. In fact, companies need designers more than ever to stand out in a noisy, digital world. It’s not either/or, it’s design + tech.
+	</p>
 	<div class="content-box">
 		<div class="graphic-box">
 			{% assign img = site.data.sample-work.images[1] %} <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
