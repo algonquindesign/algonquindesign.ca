@@ -128,6 +128,8 @@ id: "spark"
 	<li>For international students: apply for a study permit/visa, arrange health insurance, and complete any required pre-arrival steps.  </li>
 	<li>Complete required pre-arrival or orientation tasks (registration for courses, placement tests, immunization forms) as instructed.</li>
 </ul>
+
+	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-lime-green">Apply Now&nbsp;➜</a>
 	<h3 name="form" id="form">
 		Interested?
 	</h3>
