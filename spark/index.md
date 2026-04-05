@@ -16,7 +16,6 @@ id: "spark"
 	<p>
 		There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. These are a few of them.
 	</p>
-<h4>Joy in Numbers</h4>
   <ul class="default">
     <li>1 portfolio is required for acceptance.</li>
     <li>3 year Advanced Diploma full-time program.</li>
