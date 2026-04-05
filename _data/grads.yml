@@ -2,6 +2,20 @@ title: "Graduate Showcases"
 desc: "Our grads host a yearly public exhibition to share their work with family, friends & industry professionals."
 
 shows:
+  - title: "Astro"
+    start_time: "2026-04-22T17:00"
+    end_time: "2025-04-22T21:00"
+    bgcolor: "#000"
+    addr:
+      name: "Horticulture Building"
+      street_address: "1525 Princess Patricia Way"
+      city: "Ottawa"
+      province: "ON"
+      postal_code: "K1S 5J3"
+      tel: "+1-613-580-2429"
+    desc: |
+      Astra represents a gathering of emerging designers at a moment of transition. Like stars in orbit, our paths intersect here before moving forward. Each designer stands as a distinct presence, yet together we form a larger constellation.
+
   - title: "Kaleido"
     start_time: "2025-04-10T17:00"
     end_time: "2025-04-10T21:00"

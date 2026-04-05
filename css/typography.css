@@ -401,10 +401,12 @@ footer h2 { color: white; }
 	text-indent: 0;
 }
 
+.grads article { color: #fff; }
+
 .grads article a
 {
-	color: var(--text-color);
-	border-bottom: 2px solid var(--teal);
+	color: var(--background-color);
+	border-bottom: 2px solid var(--lime-green);
 }
 
 .grads p
