@@ -14,7 +14,7 @@ id: "spark"
 		Why AlgonquinDesign?
 	</h3>
 	<p>
-		There are myriad reasons for starting your creative future at Algonquin College's Graphic Design program. These are a few of them.
+		There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. These are a few of them.
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
