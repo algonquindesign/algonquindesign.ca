@@ -144,20 +144,18 @@ id: "spark"
 			<a href="{{site.data.portfolio.url}}" class="">{{site.data.portfolio.button}} ➜</a>
 		</div>
 	</div>
-<ul class="default">
-	<li>Create an <a href="https://ontariocolleges.ca">OCAS (Ontario Colleges)</a> account.  </li>
-	<li>Gather required documents: transcript(s), proof of English proficiency (if required), passport or immigration documents (if international), portfolio or resume (if required).  </li>
-	<li>Request official transcripts from your current/previous school(s) to be sent to the college or OCAS as instructed.  </li>
-	<li>Complete any program-specific tests, interviews, auditions, or portfolio submissions by the stated deadlines.  </li>
-	<li>Fill out the OCAS application: select Algonquin College, choose program(s), enter personal and educational information, and upload documents if prompted.  </li>
-	<li>Pay the OCAS application fee.  </li>
-	<li>Monitor your email and OCAS account for offers, requests for further documents, or status updates.  </li>
-	<li>If offered admission, accept the offer through OCAS (or the college portal) and pay any required deposit by the deadline.  </li>
-	<li>Apply for financial aid, scholarships, or OSAP (if eligible) and arrange housing if needed.  </li>
-	<li>For international students: apply for a study permit/visa, arrange health insurance, and complete any required pre-arrival steps.  </li>
-	<li>Complete required pre-arrival or orientation tasks (registration for courses, placement tests, immunization forms) as instructed.</li>
-</ul>
-
+	<h4>
+		Steps to Apply
+	</h4>
+	<ul class="default columns">
+		<li>Create an <a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F">OCAS</a> (Ontario Colleges) account.</li>
+		<li>Request official high school transcripts be sent to OCAS.</li>
+		<li>Complete <a href="{{site.data.portfolio.url}}">portfolio submission</a>.</li>
+		<li>Fill out the OCAS application.</li>
+		<li>Pay the OCAS application fee.</li>
+		<li>Monitor your email and OCAS account.</li>
+		<li>Accept the offer through OCAS.</li>
+	</ul>
 	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-lime-green">Apply Now&nbsp;➜</a>
 	<h3 name="form" id="form">
 		Interested?
