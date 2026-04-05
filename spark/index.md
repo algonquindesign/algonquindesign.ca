@@ -194,11 +194,17 @@ id: "spark"
 		</div>
 	</form>
 	<script>
+
+
+
 document.querySelector('form').addEventListener('submit', function() {
   setTimeout(function() {
     window.location.href = 'https://algonquindesign.ca/spark/thanks.html';
   }, 500); // Redirect after 500ms (half second)
 });
+
+
+
 	</script>
 </main>
 {% include 13-footer.html %}
