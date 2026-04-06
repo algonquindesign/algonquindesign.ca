@@ -76,7 +76,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 	<p>
 		If you do not receive any responses, it's possible their schedules are full. You may reach out to Alain Paradis to enquire.
 	</p>
-	<form class="" action="https://submit-form.com/Ktd6xuG2z" data-botpoison-public-key="pk_b88ffdb8-a584-4f07-98d9-972f30fbc017">
+	<form class="" action="https://submit-form.com/Ktd6xuG2z">
 	<input type="hidden" name="_email.replyto" value="paradia@algonquincollege.com" />
 		<fieldset>
 			<legend>Identification</legend>
@@ -161,6 +161,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 		<input type="hidden" name="_email.subject" value="Student Employment Opportunity" />
 		<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks.html"> <small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
 		<div>
+				<input type="text" name="honeypot" style="display: none;" tabindex="-1" autocomplete="off">
 			<button class="" type="submit">Submit</button>
 		</div>
 	</form>

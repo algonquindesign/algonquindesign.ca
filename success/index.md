@@ -22,7 +22,7 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 	<p>
 		Your participation is completely voluntary. You can choose how much you want to share. We appreciate your time. We are proud to showcase the work you’re doing.
 	</p>
-	<form class="" action="https://submit-form.com/Ktd6xuG2z" data-botpoison-public-key="pk_b88ffdb8-a584-4f07-98d9-972f30fbc017">
+	<form class="" action="https://submit-form.com/Ktd6xuG2z">
 		<fieldset>
 			<legend>Identification</legend>
 			<div>
