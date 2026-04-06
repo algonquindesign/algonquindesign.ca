@@ -182,7 +182,7 @@ id: "spark"
 		</fieldset>
 		<fieldset>
 			<legend>How may we help?</legend>
-			<div class="form-text">
+			<div class="form-label">
 				Ask us a question, or tell us if you're interested in registering.
 			</div>
 			<textarea id="Comment" name="Comment" required></textarea>

@@ -43,7 +43,8 @@ input:focus, textarea:focus { border: solid 2px var(--dark-green); }
 textarea, select, input[type="text"], input[type="email"], input[type="telephone"]
 {
 	border: solid 2px var(--dark-green);
-	width: 70vw;
+	width: 100%;
+	max-width: 50ch;
 }
 
 select
