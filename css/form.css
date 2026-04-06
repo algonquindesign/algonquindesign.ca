@@ -3,6 +3,17 @@ fieldset
 	margin: 1rem 0;
 	padding: 1rem;
 	border: solid 1px grey;
+	box-sizing: border-box;
+}
+
+form
+{
+	box-sizing: border-box;
+}
+
+form div
+{
+	box-sizing: border-box;
 }
 
 legend { font-weight: bold; }
@@ -13,7 +24,8 @@ legend { font-weight: bold; }
 	display: flex;
 	flex-direction: row;
 	gap: 0.3rem;
-	width: 65ch;
+	width: 100%;
+	max-width: 100%;
 }
 
 .form-text { margin: 0.5rem 0 0.25rem 0; }
@@ -44,7 +56,7 @@ textarea, select, input[type="text"], input[type="email"], input[type="telephone
 {
 	border: solid 2px var(--dark-green);
 	width: 100%;
-	max-width: 50ch;
+	max-width: 100%;
 }
 
 select
@@ -96,5 +108,6 @@ button[type="submit"]:hover { background: var(--lime-green); }
 @media (min-width: 768px)
 {
 	fieldset { width: 90%; }
-	textarea, select, input[type="text"], input[type="email"], input[type="telephone"] { }
+	.form-label { max-width: 65ch; }
+	textarea, select, input[type="text"], input[type="email"], input[type="telephone"] { max-width: 50ch; }
 }
