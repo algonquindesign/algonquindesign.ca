@@ -17,5 +17,5 @@ permalink: /articles/graduating-high-school.html
 	Design is everywhere, from branding and user-experience design to motion graphics and packaging. The demand for visual communication is growing, not shrinking. In fact, companies need designers more than ever to stand out in a noisy, digital world. It’s not either/or, it’s design + tech.
 </p>
 <p>
-The Algonquin Design program could be a good fit for you. <a href="https://algonquindesign.ca/spark/">Read more...</a>
+The Algonquin Design program could be a good fit for you. <a href="/spark/">Read more...</a>
 </p>
