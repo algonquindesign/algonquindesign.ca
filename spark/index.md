@@ -32,7 +32,7 @@ id: "spark"
 	<p>
 		Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.
 	</p>
-		<a href="/articles/grade-11-students.html" class="btn-small btn-lime-green">A Timeline for Grade 11 Students</a>
+	<a href="/articles/grade-11-students.html" class="btn-small btn-lime-green">A Timeline for Grade 11 Students</a>
 	<p>
 		Design is everywhere, from branding and user-experience design to motion graphics and packaging. The demand for visual communication is growing, not shrinking. In fact, companies need designers more than ever to stand out in a noisy, digital world. It’s not either/or, it’s design + tech.
 	</p>
@@ -78,7 +78,7 @@ id: "spark"
 		Learn industry-standard design software as creative instruments, not just technical tools to click through. Use them to sketch, explore, and refine ideas, so technology supports your imagination rather than replacing it.
 	</p>
 	<p>
-	AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose.
+		AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose.
 	</p>
 	<blockquote>
 		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design.html">Read on</a>&nbsp;➜
@@ -114,6 +114,21 @@ id: "spark"
 	<p>
 		Learn how to monetize creativity while staying true to artistic roots. Fieldwork and client-based projects offer a first look at the business side of art, from working with clients to meeting deadlines to presenting work with confidence.
 	</p>
+	<h4>
+		Success Stories
+	</h4>
+	<p>
+		These designers all started where you are now. They came to Algonquin's Graphic Design program with a love of art and a curiosity about design.
+	</p>
+	<ul class="default columns">
+		<li><a href="https://depippodesigns.com" target="_blank">Michael DePippo</a></li>
+		<li><a href="https://brendandroppo.com" target="_blank">Brendan Droppo</a></li>
+		<li><a href="https://cinnamontoast.ca" target="_blank">Bev Hyatt</a></li>
+		<li><a href="https://crmoberg.tv/" target="_blank">Chris Moberg</a></li>
+	</ul>
+	<p>
+	Today they work with major brands, run their own studios, and shape how people experience the world. Take a look at what they are doing now.
+	</p>
 	<div class="content-box">
 		<div class="graphic-box">
 			<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewbox="0 0 151.42 157.32"><defs><style>
@@ -121,7 +136,9 @@ id: "spark"
 
 
 
+
 .cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}
+
 
 
 
@@ -198,11 +215,13 @@ id: "spark"
 
 
 
+
 document.querySelector('form').addEventListener('submit', function() {
   setTimeout(function() {
     window.location.href = 'https://algonquindesign.ca/spark/thanks.html';
   }, 500); // Redirect after 500ms (half second)
 });
+
 
 
 
