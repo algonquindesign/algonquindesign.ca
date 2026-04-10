@@ -5,6 +5,7 @@ js/algonquindesign.min.js
 # Test files
 node_modules
 npm-debug.log
+yarn.lock
 
 # Jekyll
 _site
