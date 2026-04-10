@@ -7,6 +7,15 @@ front-page: false
 deck: "A.I. is not replacing creativity. It is amplifying it. We cannot ignore the craft aspect of design while demand for creative thinking, strategy, and design leadership are on the rise."
 permalink: /articles/ai-in-graphic-design.html
 ---
+<!--
+From: Robert Smith
+Tools are getting smarter.
+That doesn’t mean you can stop thinking. 🧠
+Execution can be automated.
+Judgement can’t.
+Be the person AI cannot replace.
+ -->
+
 A.I. automation is rapidly taking over the menial, repetitive production tasks in graphic design, such as resizing images, removing backgrounds, and adjusting colours. These processes used to take hours. Now, advanced design tools handle them in minutes, freeing designers to focus less on technical execution and more on conceptual and strategic thinking.
 
 > Graphic designers are no longer editors; we're directors.
