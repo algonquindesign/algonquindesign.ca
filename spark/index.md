@@ -175,56 +175,6 @@ id: "spark"
 		<li>Accept the offer through OCAS.</li>
 	</ul>
 	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-lime-green">Apply Now&nbsp;➜</a>
-	<h3 name="form" id="form">
-		Interested?
-	</h3>
-	<p>
-		Do you have questions, or do you wish to express interest in learning more? Just get in touch!
-	</p>
-	<form action="https://submit-form.com/wpn6xPbHe" method="POST">
-		<input type="hidden" name="_email.subject" value="Prospective student inquiry." />
-		<fieldset>
-			<legend>Identification</legend>
-			<div>
-				<label class="form-label" for="name">Name</label>
-				<input type="text" id="name" name="Name" placeholder="Name" required="">
-			</div>
-			<div>
-				<label class="form-label" for="email">Email</label>
-				<input type="email" id="email" name="E-mail" placeholder="E-mail" required="">
-			</div>
-			<div>
-				<label class="form-label" for="telephone">Phone <em>(Optional)</em></label>
-				<input type="telephone" id="tel" name="telephone" placeholder="Telephone">
-			</div>
-		</fieldset>
-		<fieldset>
-			<legend>How may we help?</legend>
-			<div class="form-label">
-				Ask us a question, or tell us if you're interested in registering.
-			</div>
-			<textarea id="Comment" name="Comment" required></textarea>
-		</fieldset>
-		<small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
-		<input type="text" name="honeypot" style="display: none;" tabindex="-1" autocomplete="off">
-		<div>
-			<button class="" type="submit">Submit</button>
-		</div>
-	</form>
-	<script>
-
-
-
-
-document.querySelector('form').addEventListener('submit', function() {
-  setTimeout(function() {
-    window.location.href = 'https://algonquindesign.ca/spark/thanks.html';
-  }, 500); // Redirect after 500ms (half second)
-});
-
-
-
-
-	</script>
+{% include spark-form.html %}
 </main>
 {% include 13-footer.html %}
