@@ -16,7 +16,8 @@ ul li { line-height: 1.6rem; }
 {% for row in site.data.schedule-26w %}
   {% assign key = row.instructor | append: "||" | append: row.email %}
   {% unless unique_instructors contains key %}
-    {% assign unique_instructors = unique_instructors | push: key %}
+    {% assign _tmp = key | split: "|||" %}
+    {% assign unique_instructors = unique_instructors | concat: _tmp %}
   {% endunless %}
 {% endfor %}
 {% assign emails = "" | split: "" %}
@@ -24,7 +25,8 @@ ul li { line-height: 1.6rem; }
   {% assign parts = item | split: "||" %}
   {% assign email = parts[1] | strip %}
   {% unless emails contains email %}
-    {% assign emails = emails | push: email %}
+    {% assign _tmp = email | split: "|||" %}
+    {% assign emails = emails | concat: _tmp %}
   {% endunless %}
 {% endfor %}
 {% assign emails_sorted = emails | sort %}
