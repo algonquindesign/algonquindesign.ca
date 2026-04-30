@@ -23,6 +23,9 @@ permalink: /articles/need-for-numbers.html
 	<li> <strong>Employment Stability:</strong> During economic downturns, individuals with post-secondary education face lower unemployment rates. College graduates are less likely to experience layoffs compared to those with only a high school diploma. </li>
 	<li> <strong>Retirement Security:</strong> College graduates are more likely to have jobs that offer employer-sponsored pension plans. This leads to greater financial security in retirement. </li>
 </ul>
+<div>
+	<a href="/articles/ai-in-graphic-design.html" class="btn-small btn-dark-green">Concerned about A.I.?</a>
+</div>
 <h4>
 	Mental Health Outcomes
 </h4>
