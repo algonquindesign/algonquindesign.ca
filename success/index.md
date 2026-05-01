@@ -24,7 +24,6 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 	</p>
 	<!-- Form ID: tU4gqT04j -->
 	<form class="" action="https://submit-form.com/tU4gqT04j">
-	<input type="hidden" name="_email.replyto" value="paradia@algonquincollege.com" />
 		<fieldset>
 			<legend>Identification</legend>
 			<div>
@@ -37,7 +36,7 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 			</div>
 			<div>
 				<label class="form-label" for="email">Email</label>
-				<input type="email" id="email" name="E-mail" placeholder="E-mail" required="">
+				<input type="email" id="email" name="email" placeholder="E-mail" required="">
 			</div>
 			<div>
 				<label class="form-label" for="job_title">Current job title <em>(Optional)</em></label>
@@ -49,7 +48,7 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 			</div>
 		</fieldset>
 		<fieldset>
-			<legend>Your bio</legend>
+			<legend>Your Bio</legend>
 			<div class="form-text">
 				Include your professional biography.
 			</div>
