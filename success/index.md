@@ -38,8 +38,8 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 				<input type="email" id="email" name="E-mail" placeholder="E-mail" required="">
 			</div>
 			<div>
-				<label class="form-label" for="organization">Current job title <em>(Optional)</em></label>
-				<input type="text" id="organization" name="Organization" placeholder="Organization" required="">
+				<label class="form-label" for="job_title">Current job title <em>(Optional)</em></label>
+				<input type="text" id="job_title" name="Job Title" placeholder="Job-Title" required>
 			</div>
 			<div>
 				<label class="form-label" for="organization">Organization name <em>(Optional)</em></label>
