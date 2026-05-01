@@ -35,7 +35,7 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 				<input type="text" id="LastName" name="Last Name" placeholder="Last Name" required="">
 			</div>
 			<div>
-				<label class="form-label" for="email">Email</label>
+				<label class="form-label" for="email">E-mail</label>
 				<input type="email" id="email" name="email" placeholder="E-mail" required="">
 			</div>
 			<div>
