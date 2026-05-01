@@ -86,7 +86,7 @@ description: "Inquire about hiring one of our fantastic, highly skilled & motiva
 			</div>
 			<div>
 				<label class="form-label" for="email">Email</label>
-				<input type="email" id="email" name="E-mail" placeholder="E-mail" required="">
+				<input type="email" id="email" name="email" placeholder="E-mail" required="">
 			</div>
 			<div>
 				<label class="form-label" for="telephone">Phone</label>
