@@ -27,15 +27,15 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 			<legend>Identification</legend>
 			<div>
 				<label class="form-label" for="FirstName">First Name</label>
-				<input type="text" id="FirstName" name="FirstName" placeholder="First Name" required="">
+				<input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>
 			</div>
 			<div>
 				<label class="form-label" for="FamilyName">Family Name</label>
-				<input type="text" id="FamilyName" name="FamilyName" placeholder="Family Name" required="">
+				<input type="text" id="FamilyName" name="FamilyName" placeholder="Family Name" required>
 			</div>
 			<div>
 				<label class="form-label" for="email">Email</label>
-				<input type="email" id="email" name="E-mail" placeholder="E-mail" required="">
+				<input type="email" id="email" name="E-mail" placeholder="E-mail" required>
 			</div>
 			<div>
 				<label class="form-label" for="job_title">Current job title <em>(Optional)</em></label>
@@ -43,7 +43,7 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 			</div>
 			<div>
 				<label class="form-label" for="organization">Organization name <em>(Optional)</em></label>
-				<input type="text" id="organization" name="Organization" placeholder="Organization" required="">
+				<input type="text" id="organization" name="Organization" placeholder="Organization" required>
 			</div>
 		</fieldset>
 		<fieldset>
@@ -61,23 +61,23 @@ description: "Please use this form to submit your materials for AlgonquinDesign 
 			<legend>Links</legend>
 			<div>
 				<label class="link1" for="link1">Link #1</label>
-				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required>
 			</div>
 			<div>
 				<label class="link1" for="link1">Link #1</label>
-				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required>
 			</div>
 			<div>
 				<label class="link1" for="link1">Link #1</label>
-				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required>
 			</div>
 			<div>
 				<label class="link1" for="link1">Link #1</label>
-				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required>
 			</div>
 			<div>
 				<label class="link1" for="link1">Link #1</label>
-				<input type="text" id="link1" name="Link1" placeholder="Link #1" required="">
+				<input type="text" id="link1" name="Link1" placeholder="Link #1" required>
 			</div>
 			<input type="hidden" name="_email.subject" value="Student Employment Opportunity" />
 			<input type="hidden" name="_redirect" value="https://algonquindesign.ca/jobs/thanks.html"> <small class="">By providing your contact information, you are granting the Graphic Design program permission to contact you for program-related activities. We mostly wish to invite you to our yearly Grad Show. We will not share your private information.</small>
