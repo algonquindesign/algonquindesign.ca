@@ -355,6 +355,19 @@ ul.default li::before
 	background-image: url("/svg/arrow.svg");
 }
 
+ol.default {
+  list-style-type: decimal;
+  padding-left: 0;
+	margin: 1rem 0 2rem 2.25rem;
+}
+
+ol.default li {
+	position: relative;
+	padding-left: 0;
+	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+
 .checklist ul,
 .opportunities ul,
 .highlights ul
