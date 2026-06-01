@@ -37,7 +37,7 @@ It is the case you make, in pictures, video, and in words, for why someone shoul
 <ol class="default">
 	<li> <em>Honest.</em> Your brand is a promise. The work has to keep it. If the identity looks more polished than the projects behind it, that gap shows.</li>
 	<li> <em>Specific.</em> Stand for something. A clear point of view reads as a real designer with direction. A vague one reads as a blank.</li>
-	<li> <em>Coherent.</em> The same name, the same voice, and the same visual identity belong everywhere. Someone should recognize your hand before they read your name.</li>
+	<li> <em>Coherent.</em> The same name, the same voice, and the same visual identity belong everywhere. Someone should recognize your brand before they read your name.</li>
 	<li> <em>Aimed.</em> Point it at the work you want next, not only the work you have done. A brand attracts more of what it already shows.</li>
 	<li> <em>Human.</em> Studios hire teammates. Curiosity, personality, and the way you talk about your own work matter more now than at any later stage.</li>
 	<li> <em>Defensible.</em> You should be able to state your argument out loud, in a room, in one or two sentences. If you cannot, it is not finished.</li>
