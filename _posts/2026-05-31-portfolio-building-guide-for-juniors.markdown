@@ -3,7 +3,7 @@ layout: post
 title: "Build a Portfolio That Speaks for You"
 date: 2026-05-31 16:13:47 -0400
 category: News
-front-page: true
+front-page: false
 deck: "Your portfolio is the most important thing you make as a junior designer. A resume lists what you have done. A portfolio proves it. Treat it as your most important design project. This guide follows the work roughly in order, from the audit that starts it to the life it has once it ships."
 permalink: /articles/portfolio-building-guide-for-juniors.html
 ---
