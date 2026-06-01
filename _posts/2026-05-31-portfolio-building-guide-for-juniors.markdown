@@ -36,7 +36,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	The audit also produces a depth plan. Decide now which pieces become anchor case studies and which stay light gallery pieces. Building a case study is time-consuming. You only invest in the anchors.
 </p>
 <p>
-	Then rework in batches, not one piece at a time. Improve several pieces in parallel. Bring them to critique on a rolling basis. A first batch. A second batch. A full draft.  That is what stops any single piece from swallowing all your time.
+	Then rework in batches, not one piece at a time. Improve several pieces in parallel. Bring them to critique on a rolling basis. A first batch. A second batch. A full draft. That is what stops any single piece from swallowing all your time.
 </p>
 <p>
 	The audit ends with assembly and presentation. The portfolio itself is the final deliverable. It should be presentation-ready, something you could walk into an interview with.
@@ -114,7 +114,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	<li><strong>The outcome.</strong> What it achieved, or what you learned, or what you would change. For school work with no client metrics, honest reflection substitutes.</li>
 </ul>
 <p>
-	Its reason for being is simple. A finished image shows you can execute. A case study shows you can think. Employers are buying a problem-solver, not a render. For a junior this is the main lever, because your craft may not yet match a senior's, but your thinking can. A case study also proves you can explain a decision. That is the same skill you use to defend work to a client and to brief a team.
+	Its reason for being is simple. A finished image shows you can execute. A case study shows you can think. Employers are buying a problem-solver, not a computer operator. For a junior this is the main lever, because your craft may not yet match a senior’s, but your thinking can. A case study also proves you can explain a decision. That is the same skill you use to defend work to a client and to brief a team.
 </p>
 <p>
 	Avoid the common traps. No unedited narration of every step. No tool lists in place of decisions. No process with no payoff. No invented outcomes. A case study is curated like the work itself.
@@ -123,12 +123,17 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	It is never finished
 </h3>
 <p>
-	Ship first. Then it lives. The portfolio becomes a living document the moment it goes public, not before. Living means improving while deployed, not improving before deploying.
+	The portfolio becomes a living document the moment it goes public, not before. Living means improving while deployed, not improving before deploying.
 </p>
+<blockquote>
+	Ship first. Then it lives.
+</blockquote>
 <p>
 	Launch on your best current read of your direction. Then sharpen toward a clearer specialty in public, as you learn where you actually fit.
 </p>
-Once it is live:
+<p>
+	Once it is live:
+</p>
 <ul class="default">
 	<li>Swap weaker pieces out as stronger work arrives. Your worst piece today is likely better than your best piece last year.</li>
 	<li>Point it where you are headed, not only where you have been.</li>
@@ -140,7 +145,8 @@ Once it is live:
 <p>
 	A quick gut check.
 </p>
-<ul class="default">
+<div class="checklist" style="margin-left: 1rem;">
+<ul class="checklist">
 	<li>Every piece earns its place.</li>
 	<li>The set has a clear lead discipline.</li>
 	<li>Each project shows process, not just the final.</li>
@@ -152,3 +158,4 @@ Once it is live:
 	<li>No dead links. No missing images.</li>
 	<li>A stranger could navigate it without help.</li>
 </ul>
+</div>
