@@ -11,7 +11,7 @@ permalink: /articles/build-a-brand-that-makes-your-case.html
 	Start Here
 </h2>
 <p>
-	Your personal brand is the frame around everything else you make. Your portfolio, your resume, your site, your emails, and your social profiles all sit inside it.
+	Your personal brand is the frame around everything else you make. <a href="/articles/portfolio-building-guide-for-juniors.html">Your portfolio</a>, your resume, your site, your emails, and your social profiles all sit inside it.
 </p>
 <p>
 	Your brand is not your logo. It is the whole impression you leave. It is what an employer believes about you after thirty seconds on your site, before they have read a word.

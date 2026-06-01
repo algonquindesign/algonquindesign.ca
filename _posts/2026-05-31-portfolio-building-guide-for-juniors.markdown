@@ -45,7 +45,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	It Is Part of Your Brand
 </h3>
 <p>
-	The portfolio is one piece of something larger. Your personal brand is how you present yourself as a designer. It runs across the portfolio site, your résumé, your business card, your email signature, and your socials.
+	The portfolio is one piece of something larger. <a href="/articles/build-a-brand-that-makes-your-case.html">Your personal brand</a> is how you present yourself as a designer. It runs across the portfolio site, your résumé, your business card, your email signature, and your socials.
 </p>
 <p>
 	Keep it coherent. The same name, the same voice, and the same visual identity belong everywhere. Someone should recognize your hand before they read your name. Your brand is a promise about how you think and what you value. Make the promise clear. Then keep it in every piece you choose to show.
