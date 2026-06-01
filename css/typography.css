@@ -33,7 +33,6 @@ pre
 }
 
 .center { text-align: center; }
-p + p { margin-bottom: 1rem; }
 ul + p { margin-top: 2rem; }
 li { max-width: 80ch; }
 .small { font-size: .75rem; }
@@ -128,8 +127,11 @@ a:active
 dt
 {
 	font-family: var(--sans);
-	font-weight: 600;
+	font-weight: 500;
 	color: var(--dark-green);
+	font-style: normal;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 blockquote
@@ -143,14 +145,50 @@ blockquote
 	font-style: italic;
 	color: var(--dark-green);
 }
+h1:has(+ p),
+h2:has(+ p),
+h3:has(+ p),
+h4:has(+ p),
+h5:has(+ p),
+h6:has(+ p) {
+  margin-bottom: 0.5rem;
+}
+
+p + p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  padding-left: 1.5rem;
+}
+
+p + ul,
+p + ol {
+  margin-top: 0;
+}
+ul + p,
+ol + p {
+  margin-top: 0;
+}
+
+ul + ul,
+ol + ol,
+ul + ol,
+ol + ul {
+  margin-top: 0;
+}
 
 h1,
 h2,
-h3
+h3,
+h4,
+h5,
+h6
 {
 	font-family: var(--sans);
-	font-style: normal;
-	letter-spacing: -0.02rem;
 	font-weight: 500;
 	margin-top: 1rem;
 	margin-bottom: 0;
@@ -158,18 +196,20 @@ h3
 	max-width: 45ch;
 }
 
+h1,
+h2,
+h3
+{
+	font-style: normal;
+	letter-spacing: -0.02rem;
+}
+
 h4,
 h5,
 h6
 {
-	font-family: var(--sans);
 	color: var(--dark-green);
-	font-weight: 500;
 	letter-spacing: -0.025rem;
-	margin-top: 1rem;
-	margin-bottom: 0;
-	padding-bottom: 0;
-	max-width: 45ch;
 }
 
 h1
@@ -262,14 +302,6 @@ hr
 	margin: 1rem auto;
 }
 
-dt
-{
-	font-weight: 500;
-	font-style: normal;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
 dd { margin: 0 2rem 1rem 2rem; }
 .masthead { color: white; }
 
@@ -341,20 +373,6 @@ ul.default li
 	margin-bottom: 0.5rem;
 }
 
-ul.default li::before
-{
-	content: "";
-	color: var(--lime-green);
-	position: absolute;
-	left: 0;
-	top: 0.35rem;
-	width: 0.9rem;
-	height: 0.8rem;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url("/svg/arrow.svg");
-}
-
 ol.default {
   list-style-type: decimal;
   padding-left: 0;
@@ -401,21 +419,10 @@ ol.default li {
 	margin-bottom: 0.25rem;
 }
 
-.checklist ul li::before
-{
-	content: "";
-	color: var(--lime-green);
-	position: absolute;
-	left: 0;
-	top: 0.35rem;
-	width: 0.9rem;
-	height: 0.8rem;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url("/svg/checkmark.svg");
-}
-
-.highlights ul li::before, .opportunities ul li::before
+ul.default li::before,
+.checklist ul li::before,
+.highlights ul li::before,
+.opportunities ul li::before
 {
 	content: "";
 	color: var(--lime-green);
@@ -428,6 +435,8 @@ ol.default li {
 	background-size: contain;
 	background-image: url("/svg/arrow.svg");
 }
+
+.checklist ul li::before { background-image: url("/svg/checkmark.svg"); }
 
 .post ul
 {
