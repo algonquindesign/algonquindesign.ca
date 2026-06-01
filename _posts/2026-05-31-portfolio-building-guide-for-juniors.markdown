@@ -8,10 +8,10 @@ deck: "Your portfolio is the most important thing you make as a junior designer.
 permalink: /articles/portfolio-building-guide-for-juniors.html
 ---
 <h2>
-	A guide for junior designers.
+	A Guide for Junior Designers.
 </h2>
 <h3>
-	Start with an audit
+	Start With an Audit
 </h3>
 <p>
 	The portfolio begins with curation, not production. Before you build or rebuild anything, you audit what you already have. Curation is a real professional skill. Deciding what represents you is part of the job.
@@ -42,7 +42,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	The audit ends with assembly and presentation. The portfolio itself is the final deliverable. It should be presentation-ready, something you could walk into an interview with.
 </p>
 <h3>
-	It is part of your brand
+	It Is Part of Your Brand
 </h3>
 <p>
 	The portfolio is one piece of something larger. Your personal brand is how you present yourself as a designer. It runs across the portfolio site, your résumé, your business card, your email signature, and your socials.
@@ -51,7 +51,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	Keep it coherent. The same name, the same voice, and the same visual identity belong everywhere. Someone should recognize your hand before they read your name. Your brand is a promise about how you think and what you value. Make the promise clear. Then keep it in every piece you choose to show.
 </p>
 <h3>
-	<a name="t-shape">The T-shape</a>
+	<a name="t-shape">The T-Shape</a>
 </h3>
 <p>
 	This is the principle to hold onto above all others.
@@ -72,7 +72,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	A provisional lead discipline is fine. Most juniors do not know their lane yet. Lead with the work that is strongest. Favour the area you are most drawn to. Accept that it may shift. The program gives you breadth across many streams. The portfolio is where you choose an area of specialization from it.
 </p>
 <h3>
-	What it should be
+	What It Should Be
 </h3>
 <ul class="default">
 	<li><strong>Curated.</strong> Six to ten strong pieces beat twenty average ones. One weak project lowers the read on everything near it.</li>
@@ -83,7 +83,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	<li><strong>Easy to move through.</strong> Fast pages. Clear navigation. Working links. Readable on a phone.</li>
 </ul>
 <h3>
-	What it should not be
+	What It Should Not Be
 </h3>
 <ul class="default">
 	<li><strong>A folder of assignments.</strong> Drop labels like <em>Assignment 1</em> and <em>Project 3</em>. Present the work as real projects answering real briefs.</li>
@@ -94,7 +94,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	<li><strong>Broken or slow.</strong> Dead links, missing images, and slow loads end the visit. Test everything before you share it.</li>
 </ul>
 <h3>
-	Case studies
+	Case Studies
 </h3>
 <p>
 	Not every piece needs a case study. The portfolio does. The trap is treating it as all or nothing.
@@ -120,7 +120,7 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	Avoid the common traps. No unedited narration of every step. No tool lists in place of decisions. No process with no payoff. No invented outcomes. A case study is curated like the work itself.
 </p>
 <h3>
-	It is never finished
+	It Is Never Finished
 </h3>
 <p>
 	The portfolio becomes a living document the moment it goes public, not before. Living means improving while deployed, not improving before deploying.
@@ -140,22 +140,22 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 	<li>Set a rhythm. Revisit it every few months and tighten as you go.</li>
 </ul>
 <h3>
-	Before you share it
+	Before You Share It
 </h3>
 <p>
 	A quick gut check.
 </p>
 <div class="checklist" style="margin-left: 1rem;">
-<ul class="checklist">
-	<li>Every piece earns its place.</li>
-	<li>The set has a clear lead discipline.</li>
-	<li>Each project shows process, not just the final.</li>
-	<li>Two to four pieces go deep as case studies.</li>
-	<li>Each case study explains the problem and the decisions.</li>
-	<li>The work points toward the jobs you want.</li>
-	<li>Your brand is consistent across every touchpoint.</li>
-	<li>It loads fast and reads well on a phone.</li>
-	<li>No dead links. No missing images.</li>
-	<li>A stranger could navigate it without help.</li>
-</ul>
+	<ul class="checklist">
+		<li>Every piece earns its place.</li>
+		<li>The set has a clear lead discipline.</li>
+		<li>Each project shows process, not just the final.</li>
+		<li>Two to four pieces go deep as case studies.</li>
+		<li>Each case study explains the problem and the decisions.</li>
+		<li>The work points toward the jobs you want.</li>
+		<li>Your brand is consistent across every touchpoint.</li>
+		<li>It loads fast and reads well on a phone.</li>
+		<li>No dead links. No missing images.</li>
+		<li>A stranger could navigate it without help.</li>
+	</ul>
 </div>
