@@ -10,6 +10,10 @@ permalink: /articles/portfolio-building-guide-for-juniors.html
 <h2>
 	A Guide for Junior Designers.
 </h2>
+<p>
+The portfolio is one piece of something larger, your personal brand. If you’re just starting out, you should really <a href="/articles/build-a-brand-that-makes-your-case.html">read this first</a>.
+</p>
+
 <h3>
 	Start With an Audit
 </h3>
