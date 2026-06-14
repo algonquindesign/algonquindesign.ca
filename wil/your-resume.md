@@ -76,11 +76,13 @@ Speaking of lists, you do not need to list *every* design software title you kno
 
 The issue here is that it's a no-win situation. Either you under-sell or over-sell yourself. If you state that you're an 9/10 with Photoshop, you better deliver 9/10. If you're 3/10, don't tell them!
 
+<!--
 <h4>Grin and Bear It</h4>
 
 In my opinion, a really sharp looking mug shot is valuable. If you e-mail your résumé beforehand, the employer will recognize you when you go for an interview. Don't obscure your face in any way. Make yourself recognizable in the picture. It'll make you more memorable. The only down side is if your photo is not professional enough. Have someone help you set up for the photo. Comb your hair and be well lit. You can take it with your phone.
 
 Hopefully your résumé will only be one page long. That means the file size will be small. You can export your PDF with the *Print Ready* preset. That'll make the photo look sharp if they output on paper. Test it yourself.
+ -->
 
 <h4>Travel & Photography</h4>
 
