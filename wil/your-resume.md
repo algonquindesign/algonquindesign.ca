@@ -113,7 +113,7 @@ Avoid using a template. You're a graphic designer. Design and build your résum�
 
 <h4>Delivery</h4>
 
-Paper? Who needs paper? Sharing a PDF file works well and saves trees. A responsive web page is really great too. Both is best! Either way, build it to be accessible. It has to work for recipients, no matter the screen and their abilities. Ok. Have a few paper backup copies with you.
+Paper? Who needs paper? Sharing a PDF file works well and saves trees. A Word (.docx) file is often read more reliably than a PDF. A responsive web page is really great too. Both is best! Either way, build it to be accessible. It has to work for recipients, no matter the screen and their abilities. Ok. Have a few paper backup copies with you.
 
 Once you've completed your PDF, the last thing you should do to it is open it in Acrobat. Hit ⌘-D.
 
@@ -128,7 +128,3 @@ When the recipient opens your PDF, it'll be zoomed to show the whole page.
 If you send out a resume in PDF format, make sure to name the file with your name. `Appleseed-Johnny-Resume.pdf`. The recipient may receive hundreds of them. They need to be able to find yours in the crowd.
 
 You can e-mail your PDF as an attachment. You should also keep it in the cloud, in Dropbox or in Google Drive. Leave it in the same location in case someone goes back to retrieve it at a later date.
-
-<h4>Résumé Examples & Critique</h4>
-
-This is my take on some résumés, good and bad. <a href="https://youtu.be/l3SZOFOlqKo" title="Watch on YouTube" target="_blank" class="bold">Watch on YouTube</a> (9m33s).
