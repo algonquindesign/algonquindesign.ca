@@ -130,7 +130,7 @@ Address it to a real person by name, with their title and business contact infor
 
 Keep it short. A few tight paragraphs on one page. They're busy. A wall of text will not be read.
 
-Make it about them, not you. A strong one leads with what you can do for them. Open with a specific reason you are writing to this employer. Their work, a project you admire, the clients they serve. One real, researched detail proves you are not sending the same letter to fifty places.
+Make it about them, not you. A strong letter leads with what you can do for them. Open with a specific reason you are writing to this employer. Their work, a project you admire, the clients they serve. One real, researched detail proves you are not sending the same letter to fifty places.
 
 Then give them your best one or two reasons to keep reading. Not your whole history. The single most relevant thing you have done, and where it points. The letter’s real job is to get them to open your portfolio, so send them there.
 
