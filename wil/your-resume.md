@@ -134,7 +134,7 @@ Make it about them, not you. A strong letter leads with what you can do for them
 
 Then give them your best one or two reasons to keep reading. The single most relevant thing you have done, and where it points. The letter’s real job is to get them to open your portfolio, so send them to it.
 
-If there was a posting, respond to it. Use the language the posting uses. If they want someone who can handle motion and layout, speak to motion and layout in their terms. Show them the match instead of making them hunt for it.
+If there was a job posting, respond to it. Use the language the posting uses. If they want someone who can handle motion and layout, speak to motion and layout in their terms. Show them the match instead of making them hunt for it.
 
 Mind your tone the same way you do on the résumé. Formal, but human. Witty is fine. Flippant is not. When in doubt, say it plainly.
 
