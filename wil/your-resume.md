@@ -132,7 +132,7 @@ Keep it short. A few tight paragraphs on one page. They're busy. A wall of text 
 
 Make it about them, not you. A strong letter leads with what you can do for them. Open with a specific reason you are writing to this employer. Their work, a project you admire, the clients they serve. One real, researched detail proves you are not sending the same letter to fifty places.
 
-Then give them your best one or two reasons to keep reading. Not your whole history. The single most relevant thing you have done, and where it points. The letter’s real job is to get them to open your portfolio, so send them there.
+Then give them your best one or two reasons to keep reading. The single most relevant thing you have done, and where it points. The letter’s real job is to get them to open your portfolio, so send them to it.
 
 If there was a posting, respond to it. Use the language the posting uses. If they want someone who can handle motion and layout, speak to motion and layout in their terms. Show them the match instead of making them hunt for it.
 
