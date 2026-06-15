@@ -29,8 +29,6 @@ When communicating your experience, don't exaggerate or leave things out. Includ
 
 If your previous jobs seem irrelevant to a position in graphic design, tell them which skills they gave you that will be of use to them. For example, if you worked at the returns counter at Canadian Tire, that would likely make you skilled at dealing with clients. You may even be able to tame the most rude, irate customers. That's an asset. Say that. Include travel, military, academics, accreditations, internships, volunteering and other life experience which would contribute to your value as an employee. Don't forget to state whether you're multi-lingual.
 
-Be sure to address the recipient by name. Be formal about this. The commonly used *Hey, I'm Johnny and I love design* is too casual.
-
 If you're going to use bullet lists, use action verbs to start each item, like these:
 
 <ul class="multi-column hanging-list">
