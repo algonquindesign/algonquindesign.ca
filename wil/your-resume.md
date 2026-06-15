@@ -151,7 +151,7 @@ Avoid using a template. You’re a graphic designer. Design and build your résu
 
 <h4>Delivery</h4>
 
-Paper? Who needs paper? Sharing a PDF file works well and saves trees. A Word (.docx) file is often read more reliably than a PDF. A responsive web page is really great too. Both is best! Either way, build it to be accessible. It has to work for recipients, no matter the screen and their abilities. Ok. Have a few paper backup copies with you.
+Paper? Who needs paper? Sharing a PDF file works well and saves trees. A Word (.docx) file is often read by the ATS more reliably than a PDF. A responsive web page is really great too. Both is best! Either way, build it to be accessible. It has to work for recipients, no matter the screen and their abilities. Ok. Have a few paper backup copies with you.
 
 Once you’ve completed your PDF, the last thing you should do to it is open it in Acrobat. Hit ⌘-D.
 
