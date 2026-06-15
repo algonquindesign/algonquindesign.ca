@@ -68,7 +68,7 @@ Speaking of lists, you do not need to list *every* design software title you kno
   <figure>
     {% include /svg/resume-software-skills.svg %}
   <figcaption>
-    Avoid listing software titles. Who says you're 75% proficient in Photoshop‽
+    Avoid listing software titles. Who says you’re 75% proficient in Photoshop‽
   </figcaption>
   </figure>
 
