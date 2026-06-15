@@ -100,6 +100,27 @@ You should have a cover letter. It needs to be addressed to the recipient by nam
 
 If there was a job posting, answer the language in the posting in your cover letter.
 
+#### The Machine Reads First
+
+For many employers, the first to read your résumé is not a person—it’s software. An Applicant Tracking System, or ATS, takes your file, pulls the text out, sorts it into sections. It then ranks you against the role before a human ever sees it. The bigger the organization, the more likely this is. Most government and large-company applications work this way.
+
+You do not get to see which system you are up against. Some are modern and forgiving. Some are old and brittle. So you build for the brittle one. Here is how to stay readable.
+
+**Keep it to a single column.** This is the big one. A parser reads straight across the page. Put two columns side by side and it reads right across both, mashing your job titles into your skills into a line of nonsense. The text is all there. It just arrives scrambled and lands in the wrong field. One column, top to bottom, every time.
+
+**Skip tables, text boxes, and sidebars.** They break the same way a column does. Line your dates up in a table and the parser can lose the link between the date and the job it belongs to.
+
+**Use plain section headings.** Experience. Education. Skills. The parser looks for these to know what it is reading. Clever labels throw it off.
+
+**Keep your type live.** This is the designer’s trap. A parser can only read actual text. If you outline your type, you hand the machine a picture of words it cannot read. Export with the text intact. If you’re not sure whether you have live type, open your PDF, then try to select a line of text. If you cannot highlight it, neither can the parser.
+
+**A Word file is often the safest bet.** Many parsers read .docx more reliably than a PDF. If a posting does not ask for a format, send .docx into a portal and save the beautiful PDF for when you are emailing a real person.
+
+**Use their words.** The system often ranks you on how well your résumé matches the posting. If they ask for Figma, write Figma, not “industry-standard UI tools.” Mirror the real terms for the software and skills you actually have. Do not stuff in words you cannot back up. The newer systems read for whether your story holds together, and a wall of buzzwords reads as noise.
+
+**Test what the machine sees.** Select everything on your résumé, copy it, and paste it into a plain text file. Whatever survives, in whatever order, is roughly what the parser gets. If it reads like nonsense to you, it reads like nonsense to the software.
+
+None of this means your résumé has to be plain. It means your craft goes into hierarchy, type, and restraint, not into columns and graphics. A clean, single-column résumé set with a good eye still looks like a designer made it. It just also survives the robot.
 <h4>Design</h4>
 
 Your résumé is a professional business document. It shouldn’t be origami art—better simple and well executed than over-designed. Avoid clichés or contrived concepts that’ll be more of a burden on the employer. You’ll need to gauge the degree of creativity you put into your résumé. If you go overboard, the document overwhelms and confuses. If you stop short, you could be perceived as unimaginative or unmotivated.
