@@ -144,7 +144,7 @@ Then proofread it like your job depends on it, because it will. Read it aloud. H
 
 <h4>Design</h4>
 
-Your résumé is a professional business document. It shouldn’t be origami art—better simple and well executed than over-designed. Avoid clichés or contrived concepts that’ll be more of a burden on the employer. You’ll need to gauge the degree of creativity you put into your résumé. If you go overboard, the document overwhelms and confuses. If you stop short, you could be perceived as unimaginative or unmotivated.
+Your résumé is a professional business document. It shouldn’t be origami art. It's better simple and well executed than over-designed. Avoid clichés or contrived concepts that’ll be more of a burden on the employer. You’ll need to gauge the degree of creativity you put into your résumé. If you go overboard, the document overwhelms and confuses. If you stop short, you could be perceived as unimaginative or unmotivated.
 
 How far do you go with your design? That’s up to you. To start, your layout, typography and colour treatment needs to be flawless—even to a seasoned designer. Design your résumé to have a consistent look with your web site and other social media platforms.
 Avoid using a template. You’re a graphic designer. Design and build your résumé from the ground up. Apply all the production skills you have. Resolution, file size and colour fidelity are all important.
