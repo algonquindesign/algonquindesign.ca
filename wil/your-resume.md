@@ -121,6 +121,27 @@ You do not get to see which system you are up against. Some are modern and forgi
 **Test what the machine sees.** Select everything on your résumé, copy it, and paste it into a plain text file. Whatever survives, in whatever order, is roughly what the parser gets. If it reads like nonsense to you, it reads like nonsense to the software.
 
 None of this means your résumé has to be plain. It means your craft goes into hierarchy, type, and restraint, not into columns and graphics. A clean, single-column résumé set with a good eye still looks like a designer made it. It just also survives the robot.
+
+#### Your Cover Letter
+
+Write one. Even when it is optional, the letter is a chance the résumé does not give you. The résumé is a list. The letter is where you make the argument.
+
+Address it to a real person by name, with their title and business contact information. “To whom it may concern” tells them you did not do your research. Finding the name is part of the job. Get the spelling right, and get the company name right.
+
+Keep it short. A few tight paragraphs on one page. They're busy. A wall of text will not be read.
+
+Make it about them, not you. A strong one leads with what you can do for them. Open with a specific reason you are writing to this employer. Their work, a project you admire, the clients they serve. One real, researched detail proves you are not sending the same letter to fifty places.
+
+Then give them your best one or two reasons to keep reading. Not your whole history. The single most relevant thing you have done, and where it points. The letter’s real job is to get them to open your portfolio, so send them there.
+
+If there was a posting, respond to it. Use the language the posting uses. If they want someone who can handle motion and layout, speak to motion and layout in their terms. Show them the match instead of making them hunt for it.
+
+Mind your tone the same way you do on the résumé. Formal, but human. Witty is fine. Flippant is not. When in doubt, say it plainly.
+
+These days the letter is often the body of your email, not a separate attachment. That is fine. The same rules apply. Short, targeted, addressed to a person, and pointing at your work.
+
+Then proofread it like your job depends on it, because it will. Read it aloud. Have someone else read it. Feed it to A.I. to check for errors. A typo in the letter that argues for your attention to detail is the worst kind of typo.
+
 <h4>Design</h4>
 
 Your résumé is a professional business document. It shouldn’t be origami art—better simple and well executed than over-designed. Avoid clichés or contrived concepts that’ll be more of a burden on the employer. You’ll need to gauge the degree of creativity you put into your résumé. If you go overboard, the document overwhelms and confuses. If you stop short, you could be perceived as unimaginative or unmotivated.
