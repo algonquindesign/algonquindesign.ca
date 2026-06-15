@@ -138,7 +138,7 @@ If there was a job posting, respond to it. Use the language the posting uses. If
 
 Mind your tone the same way you do on the résumé. Formal, but human. Witty is fine. Flippant is not. When in doubt, say it plainly.
 
-These days the letter is often the body of your email, not a separate attachment. That is fine. The same rules apply. Short, targeted, addressed to a person, and pointing at your work.
+<strong>The letter should be in the body of your email, not a separate attachment.</strong>
 
 Then proofread it like your job depends on it, because it will. Read it aloud. Have someone else read it. Feed it to A.I. to check for errors. A typo in the letter that argues for your attention to detail is the worst kind of typo.
 
