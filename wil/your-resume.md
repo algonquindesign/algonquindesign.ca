@@ -23,9 +23,7 @@ Your résumé is a living document. It needs to be updated as you gain new exper
 
 Do your best to keep your whole résumé to one page. This will force you to get to the point and exclude extraneous details. Prospective employers will appreciate your brevity.
 
-Include your complete contact information in a clear and obvious manner. If the document will end up in PDF format, don't include text URLs. They're ugly on the page. Link your text or link social media icons in the PDF.
-
-You can include a statement right up front that says what you're looking for. *A job* is too obvious and bland. You can state how much you want to be part of the team, make change, etc…
+Include your complete contact information in a clear and obvious manner.
 
 When communicating your experience, don't exaggerate or leave things out. Include successes in previous jobs. If one of your listed successes was a team effort, say so. The ability to work in a team is actually a positive attribute.
 
