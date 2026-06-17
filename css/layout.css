@@ -687,7 +687,7 @@ td
 
 }
 
-ul.multi-column { margin-bottom: 1rem; }
+ul.multi-column { margin: 1rem 0; }
 
 .multi-column
 {
