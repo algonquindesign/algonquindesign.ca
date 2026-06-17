@@ -125,7 +125,6 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 			If you have any questions or concerns, please contact one of the Graphic Design coordinators:
 		</p>
 		<ul class="">
-			<li class="">David Bromley<br>+1 613 727 4723 ext. 5267<br><a href="mailto:bromled@algonquincollege.com">bromled@algonquincollege.com</a></li>
 			<li class="">Alain Paradis<br>+1 613 727 4723 ext. 5878<br><a href="mailto:paradia@algonquincollege.com">paradia@algonquincollege.com</a></li>
 		</ul>
 	</section>
