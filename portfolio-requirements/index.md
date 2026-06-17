@@ -122,7 +122,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 			<span>Questions or concerns?</span>
 		</h2>
 		<p class="">
-			If you have any questions or concerns, please contact one of the Graphic Design coordinators:
+			If you have any questions or concerns, please contact one of the Graphic Design coordinator:
 		</p>
 		<ul class="">
 			<li class="">Alain Paradis<br>+1 613 727 4723 ext. 5878<br><a href="mailto:paradia@algonquincollege.com">paradia@algonquincollege.com</a></li>
