@@ -1024,9 +1024,4 @@ ul.sources li
 		text-align: center;
 	}
 
-	.columns
-	{
-		column-count: 2;
-		column-gap: 20px;
-	}
 }
