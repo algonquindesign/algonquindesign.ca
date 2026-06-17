@@ -687,6 +687,8 @@ td
 
 }
 
+ul.multi-column { margin-bottom: 1rem; }
+
 .multi-column
 {
 	column-count: 2;
