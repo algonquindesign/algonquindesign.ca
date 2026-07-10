@@ -24,8 +24,8 @@ id: "spark"
 		<li>3 year Advanced Diploma full-time program.</li>
 		<li>6 semesters, starting in Fall.</li>
 		<li>About 7 courses per semester, most in-class, some online.</li>
-		<li>Ends with 6 weeks of fieldwork.</li>
 		<li>4 full-time professors and many part-time faculty.</li>
+		<li>Ends with <a href="/fieldwork/">6 weeks of fieldwork</a>.</li>
 		<li>100’s of possibilities for employment upon graduation.</li>
 		<li>Huge alumni community</li>
 	</ul>
