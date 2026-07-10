@@ -20,7 +20,7 @@ id: "spark"
 		Joy in Numbers
 	</h4>
 	<ul class="default columns">
-		<li>1 portfolio is required for acceptance.</li>
+		<li>1 <a href="/portfolio-requirements/">portfolio</a> is required for acceptance.</li>
 		<li>3 year Advanced Diploma full-time program.</li>
 		<li>6 semesters, starting in Fall.</li>
 		<li>About 7 courses per semester, most in-class, some online.</li>
