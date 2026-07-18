@@ -7,7 +7,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 {% include 01-masthead.html %}
 {% include 02-banner.html %}
 <main role="main" class="main-portfolio-reqs-page">
-  {% include breadcrumb.html %}
+	{% include breadcrumb.html %}
 	<h2>
 		Why a portfolio?
 	</h2>
@@ -20,7 +20,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 	<hr>
 	<section class="portfolio-requirements">
 		<h2>
-			Portfolio submission
+			Portfolio Content
 		</h2>
 		<p>
 			<strong>As part of the application process for the Graphic Design program, you are required to submit approximately 10 of your best design pieces. The first two portfolio requirements are more in-depth exercises. Your portfolio should include:</strong>
@@ -95,19 +95,23 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 	</section>
 	<section class="wrapper gutter-1-4 pad-t push-2">
 		<h2 id="submission">
-			Submission
-		</h2>
-		<h3>
 			Submitting Your Portfolio
-		</h3>
+		</h2>
 		<p>
-			To ensure that your portfolio is considered for admission to the Graphic Design Program, please follow these guidelines carefully. Your submission must be a single PDF file, labeled as “Lastname,Firstname, Portfolio”. This file should be emailed to <a href="mailto:design@algonquincollege.com?subject=Graphic%20Design%20Portfolio&amp;body=Name:%20%0D%0AEmail:%20%0D%0ATel:%20%0D%0AStudent%20Number:%20%0D%0A">design@algonquincollege.com</a>. It must include your name, email address, telephone number, and student number. If your PDF file exceeds 10MB, please use a cloud service such as Google Drive, iCloud, or Dropbox to send us a link to the file. Please note that submissions that do not adhere to this format will not be considered.
+			To make things easier, we offer an optional portfolio template you can duplicate and use. It sets up every section for you: the logo exercise, the poster, and your additional work. Log in to your GMail account. Open the link, choose <em>Make a copy</em>. Edit it however you like. Change the layouts, restyle it, add or remove slides. We’re offering this as a starting point, so don’t let it limit your presentation. Prefer to design your own from scratch? That’s welcome too.
+		</p>
+		<a href="{{site.data.portfolio.template_url}}" target="_blank" rel="noopener noreferrer" class="btn btn-lime-green">{{site.data.portfolio.template_button}}&nbsp;➜</a>
+		<p>
+			Please follow these guidelines carefully. Your submission must be a single PDF file, labeled as “Lastname, Firstname, Portfolio”. This file should be emailed to <a href="mailto:design@algonquincollege.com?subject=Graphic%20Design%20Portfolio&amp;body=Name:%20%0D%0AEmail:%20%0D%0ATel:%20%0D%0AStudent%20Number:%20%0D%0A">design@algonquincollege.com</a>. It must include your name, email address, telephone number, and student number. If your PDF file exceeds 10MB, please use a cloud service such as Google Drive, iCloud, or Dropbox to send us a link to the file. Please note that submissions that do not adhere to this format will not be considered.
+		</p>
+		<p>
+		If you want preliminary review of a draft version of your portfolio, you can send your work in progress to {{site.data.sitewide.sitewide-info.program-coordinator}} at <a href="mailto:paradia@algonquincollege.com?subject=I%20have%20a%20portfolio%20submission%20question">{{site.data.sitewide.sitewide-info.coordinator-email}}</a> before you submit your final version.
 		</p>
 		<h3>
 			Written Response
 		</h3>
 		<p>
-			In addition to your portfolio pieces, please include a 250-word written response to the following question: What experience and personal qualities do I bring as a prospective student in the Graphic Design Program? Your response should be written in Times New Roman, 12-point font, and double-spaced. Please save it as a PDF and submit it along with your portfolio pieces.
+			In addition to your portfolio pieces, please include a 250-word written response to the following question: What experience and personal qualities do I bring as a prospective student in the Graphic Design Program? Your response should be written in Times New Roman, 12-point font, and double-spaced. Please add this to your portfolio PDF file.
 		</p>
 		<h3>
 			Deadline and Acceptance
