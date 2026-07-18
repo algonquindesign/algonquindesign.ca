@@ -83,7 +83,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 			<li><img src="/images/portfolio-pieces/logo-design.jpeg" alt="Logo design for Rabid" /></li>
 		</ul>
 		<h3>
-			Important notes
+			Important Note
 		</h3>
 		<p>
 			<strong>Plagiarism is not tolerated! Applicants who have submitted work which is copied or not their own will not be accepted to the program.</strong>
