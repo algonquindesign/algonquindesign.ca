@@ -98,7 +98,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 			Submitting Your Portfolio
 		</h2>
 		<p>
-			To make things easier, we offer an optional portfolio template you can duplicate and use. It sets up every section for you: the logo exercise, the poster, and your additional work. Log in to your GMail account. Open the link, choose <em>Make a copy</em>. Edit it however you like. Change the layouts, restyle it, add or remove slides. We’re offering this as a starting point, so don’t let it limit your presentation. Prefer to design your own from scratch? That’s welcome too.
+			To make things easier, we offer an optional portfolio template you can duplicate and use. It sets up every section for you: the logo exercise, the poster, and your additional work. Log in to your GMail account. Open the link, choose <em>Make a copy</em>. You can leave it as-is, or you can edit it however you like. Change the layouts, restyle it, add or remove slides. We’re offering this as a starting point, so don’t let it limit your presentation. Prefer to design your own from scratch? That’s welcome too.
 		</p>
 		<a href="{{site.data.portfolio.template_url}}" target="_blank" rel="noopener noreferrer" class="btn btn-lime-green">{{site.data.portfolio.template_button}}&nbsp;➜</a>
 		<p>
