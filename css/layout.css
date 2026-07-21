@@ -389,6 +389,7 @@ body
 {
 	display: flex;
 	margin-top: 1rem;
+	padding: 0;
 }
 
 .faculty .person li
