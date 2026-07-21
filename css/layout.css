@@ -383,12 +383,12 @@ body
 }
 
 .faculty ul { list-style: none; }
-.faculty ul.person p { margin: 0; }
+.faculty ul.person p { margin: 0 0 0 .5rem; }
 
 .faculty ul.person-links
 {
 	display: flex;
-	margin-top: 1rem;
+	margin: 1rem 0 0 0.5rem;
 	padding: 0;
 }
 
