@@ -693,7 +693,7 @@ a.btn-small
 a.btn-lime-green
 {
 	background-color: var(--lime-green);
-	color: white;
+	color: var(--dark-green);
 	border: 0;
 }
 
