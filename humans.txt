@@ -3,37 +3,30 @@
 
 ## TEAM
 
-Developer: Thomas J Bradley <hey@thomasjbradley.ca>
-Website: https://thomasjbradley.ca
-Twitter: @thomasjbradley
-GitHub: https://github.com/thomasjbradley
+Developer: Alain Paradis
+GitHub: https://github.com/alainparadis
 Location: Ottawa, Canada
 
 Planner: Alain Paradis <paradia@algonquincollege.com>
-Website: http://cg.algonquindesign.ca/
-Twitter: @alainparadis
 Location: Ottawa, Canada
 
-
 ## CREDITS
-{% for credit in site.data.sample-work.images %}
+
+{% for credit in site.data.sample_work.images %}
 - “{{credit[1].title}}” © {{credit[1].year}} {{credit[1].author}}{% endfor %}
-- “{{site.data.sample-work.video.title}}” © {{site.data.sample-work.video.year}} {{site.data.sample-work.video.author}}
+- “{{site.data.sample_work.video.title}}” © {{site.data.sample_work.video.year}} {{site.data.sample_work.video.author}}
 
 
 ## THANKS
 
 The rest of the great faculty members:
-
-- David Bromley
+- Alain Paradis
 - Andrea Emery
-- Chris Jones
-- Jed Looker
-- Janet Menger
+- Wendy Warren
+- Angela Fahlman
 
 Check out the faculty page for a list:
 https://algonquindesign.ca/#faculty
-
 
 ## SITE
 
@@ -42,11 +35,9 @@ All our source code is up on GitHub, check it out:
 http://github.com/algonquindesign/algonquindesign.ca/
 
 Software:
-- Sublime Text 3 (with Vintageous)
+- BBEdit
 - Jekyll
 - Git + GitHub
-- PostCSS
-- UglifyJS
 
 Check out the package.json for more:
 https://github.com/algonquindesign/algonquindesign.ca/blob/master/package.json
@@ -55,4 +46,4 @@ Domain registration:
 - Hover <https://www.hover.com/>
 
 Hosting:
-- KeyCDN <https://www.keycdn.com/>
+- GitHub Pages
