@@ -22,7 +22,7 @@
 			<ul class="person-links">
 				{% for link in person.links %}
 				<li> <a href="{{link.url}}" rel="external">{{link.title}}</a></li>
-				{% unless forloop.last %} • {% endunless %} {% endfor %}
+				{% endfor %}
 			</ul>
 			{% endif %} </li>
 			{% endfor %}

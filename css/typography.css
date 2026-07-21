@@ -558,9 +558,10 @@ ul.default li::before,
 
 .faculty a
 {
-	color: var(--teal);
+	color: var(--dark-green);
 	text-decoration: none;
-	border-bottom: 2px solid var(--teal);
+	border-bottom: 2px solid var(--dark-green);
+
 }
 
 .faculty a:hover { border-bottom: 2px solid lightgrey; }
@@ -580,12 +581,14 @@ ul.default li::before,
 
 .rgd a
 {
-	color: red;
 	text-decoration: none;
 }
 
-.rgd-link { border-bottom: 2px solid red; }
-.rgd a:hover { border-bottom: 2px solid lightgrey; }
+.rgd a:hover
+{
+	color: var(--lime-green);
+	border-bottom: 2px solid var(--lime-green);
+}
 
 .portfolio-reqs a
 {
