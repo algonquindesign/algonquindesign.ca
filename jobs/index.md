@@ -2,6 +2,7 @@
 layout: default
 title: "Jobs"
 description: "Inquire about hiring one of our fantastic, highly skilled & motivated Graphic Design students."
+has_form: true
 ---
 <ul class="skip-links">
 	<li><a href="#form">Jump to Form</a></li>

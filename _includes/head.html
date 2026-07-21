@@ -6,7 +6,9 @@
 <link rel="stylesheet" href="{{ '/css/layout.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/css/fonts.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/css/typography.css' | relative_url }}">
+{% if page.has_form %}
 <link rel="stylesheet" href="{{ '/css/form.css' | relative_url }}">
+{% endif %}
 <link rel="stylesheet" href="{{ '/css/print.css' | relative_url }}" media="print">
 
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
