@@ -539,12 +539,12 @@ ul.default li::before,
 
 .curriculum li a
 {
-	color: var(--teal);
+	color: var(--dark-green);
 	text-decoration: none;
-	border-bottom: 2px solid var(--teal);
+	border-bottom: 2px solid var(--lime-green);
 }
 
-.curriculum li a:hover { border-bottom: 2px solid lightgrey; }
+.curriculum li a:hover { color: var(--lime-green); border-bottom: 2px solid lightgrey; }
 
 .faculty a
 {
