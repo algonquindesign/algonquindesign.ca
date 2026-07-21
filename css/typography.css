@@ -480,8 +480,8 @@ ul.default li::before,
 
 .grads ol a
 {
-	color: var(--teal);
-	border-bottom: 2px solid var(--teal);
+	color: var(--dark-green);
+	border-bottom: 2px solid var(--dark-green);
 	font-size: clamp(1.0rem, 1vw + 1rem, 1.25rem);
 }
 
