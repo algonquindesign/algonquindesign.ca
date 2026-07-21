@@ -1,19 +1,45 @@
 <section class="sample-work" id="sample-work" name="sample-work">
 	<h2>
-		{{ site.data.sample-work.title }}
+		{{ site.data.sample_work.title }}
 	</h2>
 	<p>
-		{{ site.data.sample-work.desc }}
+		{{ site.data.sample_work.desc }}
 	</p>
 	<div class="sample-work-grid-container">
-		{% for image in site.data.sample-work.images %} <a href="{{ image.url }}" target="_blank" rel="noopener noreferrer" class="grid-image" title="{{ image.title }} by {{ image.author }} ({{ image.year }});"> <img src="/images/sample-work/{{ image.src }}" alt="{{ image.title }}"> </a> {% endfor %}
+		{% for image in site.data.sample_work.images %} <a href="{{ image.url }}" target="_blank" rel="noopener noreferrer" class="grid-image" title="{{ image.title }} by {{ image.author }} ({{ image.year }});"> <img src="/images/sample-work/{{ image.src }}" alt="{{ image.title }}"> </a> {% endfor %}
 	</div>
 	<p>
-		{{ site.data.sample-work.outro }}
+		{{ site.data.sample_work.outro }}
 	</p>
-	<div class="video">
-		<iframe src="https://player.vimeo.com/video/1170015738?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AC Graphic Design Grads | Student Reel 2026"></iframe>
-	</div>
-	<script src="https://player.vimeo.com/api/player.js">
-</script>
+{% assign video = site.data.sample_work.video %}
+<div class="video" data-vimeo-id="{{ video.id }}" data-vimeo-title="AC Graphic Design Grads | {{ video.title }} {{ video.year }}" tabindex="0" role="button" aria-label="Play video: {{ video.title }} {{ video.year }}">
+	<img src="/images/sample-work/{{ video.poster }}" alt="{{ video.title }} {{ video.year }}" width="1280" height="720" loading="lazy">
+	<span class="play-button" aria-hidden="true">
+		<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+	</span>
+</div>
 </section>
+<script>
+document.querySelectorAll('.video').forEach(function (facade) {
+	function loadVideo() {
+		var id = facade.getAttribute('data-vimeo-id');
+		var title = facade.getAttribute('data-vimeo-title') || 'Video';
+		var iframe = document.createElement('iframe');
+		iframe.src = 'https://player.vimeo.com/video/' + id + '?autoplay=1&badge=0&autopause=0&player_id=0&app_id=58479';
+		iframe.setAttribute('frameborder', '0');
+		iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share');
+		iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+		iframe.setAttribute('title', title);
+		facade.innerHTML = '';
+		facade.appendChild(iframe);
+	}
+
+	facade.addEventListener('click', loadVideo);
+	facade.addEventListener('keydown', function (e) {
+		if (e.key === 'Enter' || e.key === ' ') {
+			e.preventDefault();
+			loadVideo();
+		}
+	});
+});
+</script>

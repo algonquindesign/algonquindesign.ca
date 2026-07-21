@@ -1,7 +1,7 @@
 title: "Fantastic Student Designs"
 desc: "See a selection of our students’ amazing graphic design work."
 long-desc: "Student work in the Graphic Design program pulses with originality, curiosity, surprise. Projects move from expressive motion pieces to immersive web experiences, each one shaped by the student’s own visual voice. Learners experiment, take risks, remix influences, test new tools."
-outro: "Featuring the Motion Graphics reel of the grads of 2025"
+outro: "Featuring the Motion Graphics reel of the grads of 2026"
 button: "See more student work"
 url: "https://2025.grads.algonquindesign.ca/meet-the-designers"
 
@@ -44,10 +44,10 @@ images:
     keywords: "web, development, design, saas, responsive, mobile first"
 
 video:
-  id: "1090303527"
+  id: "1170015738"
   service: "vimeo"
-  poster: "motion-reel-grads-2025.webp"
+  poster: "motion-reel-grads-2026.webp"
   title: "Motion Reel"
-  author: "Grads of 2025"
-  year: "2025"
+  author: "Grads of 2026"
+  year: "2026"
   keywords: "motion, graphics, typography, animation"

@@ -38,20 +38,20 @@ id: "spark"
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
-			{% assign img = site.data.sample-work.images[1] %} <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
+			{% assign img = site.data.sample_work.images[1] %} <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
 		</div>
 		<div class="text-box">
 			<h3>
-				{{site.data.sample-work.title}}
+				{{site.data.sample_work.title}}
 			</h3>
 			<p>
-				<strong>{{site.data.sample-work.desc}}</strong>
+				<strong>{{site.data.sample_work.desc}}</strong>
 			</p>
 			<p>
-				{{site.data.sample-work.long-desc}}
+				{{site.data.sample_work.long-desc}}
 			</p>
 			<p>
-				<a href="/index.html#sample-work">{{site.data.sample-work.button}}</a> ➜
+				<a href="/index.html#sample-work">{{site.data.sample_work.button}}</a> ➜
 			</p>
 		</div>
 	</div>
