@@ -175,7 +175,7 @@ has_form: true
 		<li>Monitor your email and OCAS account.</li>
 		<li>Accept the offer through OCAS.</li>
 	</ul>
-	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-lime-green">Apply Now&nbsp;➜</a>
+	<a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F" class="btn btn-dark-green">Apply Now&nbsp;➜</a>
 {% include spark-form.html %}
 </main>
 {% include 13-footer.html %}
