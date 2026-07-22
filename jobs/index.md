@@ -78,7 +78,7 @@ has_form: true
 		If you do not receive any responses, it's possible their schedules are full. You may reach out to Alain Paradis to enquire.
 	</p>
 	<form class="" action="https://submit-form.com/Ktd6xuG2z">
-	<input type="hidden" name="_email.replyto" value="paradia@algonquincollege.com" />
+	<input type="hidden" name="_email.replyto" value="{{ site.data.sitewide.sitewide.info.coordinator-email }}" />
 		<fieldset>
 			<legend>Identification</legend>
 			<div>
