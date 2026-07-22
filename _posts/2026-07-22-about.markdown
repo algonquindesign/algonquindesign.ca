@@ -8,9 +8,6 @@ deck: "This site is maintained by faculty of the Graphic Design program. It refl
 permalink: /articles/about.html
 ---
 <p>
-	AlgonquinDesign.ca is created and maintained by {{ site.data.sitewide.sitewide-info.program-coordinator }}, faculty in the graphic design program.
-</p>
-<p>
 	We built this site because a program is more than a course listing. It has a culture, a community, and a body of student and alumni work worth showing. Those things are hard to capture in an official catalogue. So we capture them here.
 </p>
 <p>
@@ -18,4 +15,7 @@ permalink: /articles/about.html
 </p>
 <p>
 	If you have questions about the program or the application process, <a href="mailto:{{ site.data.sitewide.sitewide-info.coordinator-email }}">get in touch</a>. Someone who actually teaches here will answer. That direct line is one of the reasons this site exists.
+</p>
+<p>
+	AlgonquinDesign.ca is created and maintained by {{ site.data.sitewide.sitewide-info.program-coordinator }}, faculty in the graphic design program.
 </p>
