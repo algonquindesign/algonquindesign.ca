@@ -585,8 +585,6 @@ footer ul.social, footer ul.resources
 	border-top: 1px solid var(--lime-green);
 }
 
-footer ul.social li { }
-
 .footer-copyright
 {
 	display: flex;
