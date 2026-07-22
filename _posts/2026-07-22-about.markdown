@@ -1,0 +1,21 @@
+---
+layout: post
+title: "About This Site"
+date: 2026-07-22 10:17:12 -0400
+category: News
+front-page: false
+deck: "This site is maintained by faculty of the Graphic Design program. It reflects our perspective on the program and its community."
+permalink: /articles/about.html
+---
+<p>
+	AlgonquinDesign.ca is created and maintained by {{ site.data.sitewide.sitewide-info.program-coordinator }}, faculty in the graphic design program.
+</p>
+<p>
+	We built this site because a program is more than a course listing. It has a culture, a community, and a body of student and alumni work worth showing. Those things are hard to capture in an official catalogue. So we capture them here.
+</p>
+<p>
+	This site reflects the perspective of the faculty who teach in the program. It is not a formal institutional publication, and it does not replace the college’s official resources. For authoritative information on admissions, applications, tuition, and program requirements, we link throughout to the college’s <a href="https://www.algonquincollege.com/mediaanddesign/program/graphic-design/">official program page</a>. Please treat that page as the source of record.
+</p>
+<p>
+	If you have questions about the program or the application process, <a href="mailto:{{ site.data.sitewide.sitewide-info.coordinator-email }}">get in touch</a>. Someone who actually teaches here will answer. That direct line is one of the reasons this site exists.
+</p>

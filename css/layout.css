@@ -584,6 +584,10 @@ footer ul.social, footer ul.resources
 	padding: 1rem 0;
 	border-top: 1px solid var(--lime-green);
 }
+footer .about {
+	padding: 1rem 0;
+	border-top: 1px solid var(--lime-green);
+}
 
 .footer-copyright
 {
@@ -602,7 +606,7 @@ footer ul.social, footer ul.resources
 	margin-top: 1rem;
 }
 
-.main-jobs, .main-fieldwork, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .main-articles
+.main-jobs, .main-fieldwork, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .main-articles, .main-about
 {
 	width: 90%;
 	margin: 0 auto 1rem auto;
