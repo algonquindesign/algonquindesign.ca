@@ -1,4 +1,4 @@
-{% assign day_rows = site.data.schedule-26w | where: "day", include.day %}
+{% assign day_rows = site.data['schedule-26f'] | where: "day", include.day %}
 {% assign rooms = day_rows | map: "room" | uniq | sort %}
 {% assign times = day_rows | map: "time" | uniq | sort %}
 
@@ -24,9 +24,9 @@
             <td class="group-{{ group_class }}">
               <strong>{{ entry.time }}</strong><br>
               {{ entry.code }}<br>
-              <strong>{{ entry.courses }}</strong><br>
+              <strong>{{ entry.course }}</strong><br>
               Level {{ entry.level }} - Sec {{ entry.section }}<br>
-              <a href="mailto:{{ entry.email }}">{{ entry.instructor }}</a>
+              <a href="mailto:{{ entry.email1 }}">{{ entry.instructor1 }}</a>
             </td>
           {% else %}
             <td></td>
