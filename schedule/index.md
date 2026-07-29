@@ -14,6 +14,3 @@ day: Monday
   </ul>
 </div>
 {% include schedule-table.html day=page.day %}
-<footer>
-
-</footer>
