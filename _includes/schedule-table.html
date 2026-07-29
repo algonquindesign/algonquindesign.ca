@@ -19,9 +19,7 @@
           {% assign cell_classes = day_rows | where: "time", time | where: "room", room %}
           {% if cell_classes.size > 0 %}
             {% assign entry = cell_classes.first %}
-            {% assign group_key = entry.section | append: "-" | append: entry.level %}
-            {% assign group_class = group_key | downcase | replace: " ", "-" %}
-            <td class="group-{{ group_class }}">
+              <td class="l{{ entry.level | plus: 0 }}g{{ entry.section }}">
               <strong>{{ entry.time }}</strong><br>
               {{ entry.code }}<br>
               <strong>{{ entry.course }}</strong><br>
