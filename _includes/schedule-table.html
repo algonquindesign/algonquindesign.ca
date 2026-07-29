@@ -26,7 +26,10 @@
               {{ entry.code }}<br>
               <strong>{{ entry.course }}</strong><br>
               Level {{ entry.level }}, Section {{ entry.section }}<br>
-              <a href="mailto:{{ entry.email1 }}">{{ entry.instructor1 }}</a>
+              <a href="mailto:{{ entry.email1 }}">{{ entry.instructor1 }}</a><br>
+              {% if entry.instructor2 %}
+              <a href="mailto:{{ entry.email2 }}">{{ entry.instructor2 }}</a>
+              {% endif %}
             </td>
           {% else %}
             <td></td>
