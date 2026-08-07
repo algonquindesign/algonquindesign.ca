@@ -23,7 +23,8 @@ DSN1534,Typography 3,2,3,Wednesday,13:00-16:00,N214,Andrea Emery,,emerya@algonqu
 DSN1558,Motion Graphics 1,2,3,Wednesday,18:00-21:00,N219,Bonnie O'Neill,,,,inperson
 DSN1730,Design Systems 6,1,5,Monday,12:00-15:00,N203,Glenn Gobuyan,,gobuyag@algonquincollege.com,,inperson
 DSN1545,Graphic Design 5,1,5,Tuesday,09:00-12:00,N214,Alain Paradis,,paradia@algonquincollege.com,,inperson
-DSN1715,Web Design 4,1,5,Wednesday,08:00-11:00,N103,Wendy Warren,,warrenw@algonquincollege.com,,inperson
+DSN1715,Web Design 4,1,5,Wednesday,08:00-11:00,N103,Wendy Warren,Andrew Newby,warrenw@algonquincollege.com,newbya@algonquincollege.com,inperson
+DSN1715,Web Design 4,2,5,Thursday,12:00-15:00,N213,Wendy Warren,Andrew Newby,warrenw@algonquincollege.com,newbya@algonquincollege.com,inperson
 DSN1677,Computer Graphics 5,1,5,Wednesday,12:00-15:00,N216,Anish Parmar,,parmara@algonquincollege.com,,inperson
 DSN1728,UX/UI Design 3,1,5,Thursday,18:00-21:00,N140,Angela Fahlman,Alister Mahoney,fahlmaa@algonquincollege.com,mahonea@algonquincollege.com,inperson
 DSN1688,Motion Graphics 3,1,5,Friday,13:00-16:00,N216,Brad Doyle,,doyleb@algonquincollege.com,,inperson
@@ -31,5 +32,4 @@ DSN1730,Design Systems 2,2,5,Monday,08:00-11:00,N203,Glenn Gobuyan,,gobuyag@algo
 DSN1545,Graphic Design 5,2,5,Tuesday,13:00-16:00,N216,Alain Paradis,,paradia@algonquincollege.com,,inperson
 DSN1677,Computer Graphics 5,2,5,Tuesday,18:00-21:00,N216,Anish Parmar,,parmara@algonquincollege.com,,inperson
 DSN1728,UX/UI Design 3,2,5,Wednesday,18:00-21:00,N140,Angela Fahlman,Alister Mahoney,fahlmaa@algonquincollege.com,mahonea@algonquincollege.com,inperson
-DSN1715,Web Design 4,2,5,Thursday,12:00-15:00,N213,Wendy Warren,,warrenw@algonquincollege.com,,inperson
 DSN1688,Motion Graphics 3,2,5,Friday,09:00-12:00,N216,Brad Doyle,,doyleb@algonquincollege.com,,inperson
