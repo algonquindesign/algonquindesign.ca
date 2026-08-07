@@ -5,7 +5,7 @@ permalink: /schedule/list-26f/
 day: Null
 ---
 
-{% assign schedule_sorted = site.data['schedule-26f'] | sort: "level" %}
+{% assign schedule_sorted = site.data['schedule-26f'] %}
 
 <table class="schedule-table">
 	<thead>
