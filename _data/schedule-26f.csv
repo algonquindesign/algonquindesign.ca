@@ -1,8 +1,8 @@
 code,course,section,level,day,time,room,instructor1,instructor2,email1,email2,modality
 DSN1560,Typography 1,1,1,Tuesday,12:30-15:30,N214,Andrea Emery,,emerya@algonquincollege.com,,inperson
 DSN1560,Typography 1,2,1,TBA,TBA,TBA,Andrea Emery,,,,inperson
-DSN1561,Graphic Design 1,1,1,Wednesday,12:00-15:00,N219,Angela Fahlman,Meredith Luce,fahlmaa@algonquincollege.com,lucem@algonquincollege.com,inperson
-DSN1561,Graphic Design 1,2,1,Wednesday,09:00-12:00,N219,Angela Fahlman,Meredith Luce,fahlmaa@algonquincollege.com,lucem@algonquincollege.com,inperson
+DSN1561,Graphic Design 1,1,1,Wednesday,12:00-15:00,N219,Angela Fahlman,TBA,fahlmaa@algonquincollege.com,paradia@algonquincollege.com,inperson
+DSN1561,Graphic Design 1,2,1,Wednesday,09:00-12:00,N219,Angela Fahlman,TBA,fahlmaa@algonquincollege.com,paradia@algonquincollege.com,inperson
 DSN1562,Computer Graphics 1,1,1,Tuesday,09:00-12:00,N219,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
 DSN1562,Computer Graphics 1,2,1,Friday,09:00-12:00,N219,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
 DSN1697,Concept Sketching 1,1,1,Thursday,10:00-12:00,N103,Andrea Emery,,emerya@algonquincollege.com,,inperson
