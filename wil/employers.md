@@ -4,6 +4,8 @@ title: Employers
 ---
 This is a list of {{ site.data.employers.size }} employers who've taken students on Fieldwork in past years. You'll have to do your own research to find out who to contact.
 
+Before you send applications, it would be a good idea to read about <a href="/articles/job-titles-and-sector.html">job titles and sectors</a>. It can help you focus on where you apply and for what.
+
 <!-- If a name is <a href="#" class="crossed-out sans"><strong>crossed out</strong></a>, they're no longer hiring. -->
 
 {% assign modality_groups = site.data.employers | group_by: "Modality" %}
