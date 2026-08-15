@@ -1,10 +1,12 @@
 ---
-layout: wil
-title: Your Résumé
+layout: post
+title: "A Designer's Résumé"
+date: 2024-01-08 12:00:00 -0400
+category: Guide
+front-page: false
+deck: "Your résumé should be an error-free, creatively written, professionally designed business document which evolves with you as a designer."
+permalink: "/articles/a-designers-resume.html"
 ---
-
-Your résumé should be an error-free, creatively written, professionally designed business document which evolves with you as a designer.
-
 <div class="alertBox">
 <h3>TL;DR</h3>
 <ul class="hanging-list">
