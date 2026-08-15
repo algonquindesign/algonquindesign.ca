@@ -136,12 +136,6 @@ Fits students whose strongest work is packaging, signage, wayfinding, or exhibit
 - Exhibit and display design firms
 - Government agencies managing public space
 
-### Two sectors worth adding to any list
-
-**Remote work for clients outside the region.** Ottawa’s design market is not the whole market available to an Ottawa-based designer. Studios and companies outside the region hire remote designers directly. This sector sits outside geography. Search by title alone, not by location.
-
-**Contract and freelance work through agencies.** Some Ottawa agencies staff short client projects with contract designers before offering full-time roles. This path fits a student building a first professional credit.
-
 ---
 
 *A note on the current market:* the federal government is reducing its workforce through 2028-29. This affects federal hiring directly. It does not affect the other sectors on this list the same way. A search built on titles instead of one employer, across several of these sectors, holds up better against that shift than a search aimed at one government department.
