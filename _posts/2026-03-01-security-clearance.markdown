@@ -2,7 +2,7 @@
 layout: post
 title: "Federal Government Security Clearance"
 date: Mar 1, 2026 at 2:37 PM
-category: Advice
+category: Guide
 front-page: false
 deck: "A Student Guide to Government of Canada Security Clearances For Graphic Design Students Interested in Federal Careers"
 permalink: /articles/security-clearance.html

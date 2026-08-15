@@ -2,10 +2,10 @@
 layout: post
 title: "Build a Brand That Makes Your Case"
 date: 2026-06-01 13:34:47 -0400
-category: News
+category: Advice
 front-page: false
 deck: "A guide for junior designers: what a personal brand really is, what it is not, and why everything else you make fits inside it."
-permalink: /articles/build-a-brand-that-makes-your-case.html
+permalink: "/articles/build-a-brand-that-makes-your-case.html"
 ---
 <h2>
 	Start Here
