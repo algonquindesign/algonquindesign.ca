@@ -25,11 +25,7 @@ i-got-my-fieldwork-form: "https://forms.office.com/r/3YZE1zTAWj"
 
 nav:
   - title: "Employers"
-    text: ""
     url: "/wil/employers.html"
-  - title: "FSWEP"
-    text: "Interested in working at the Canadian federal government? Apply to FSWEP."
-    url: "/wil/fswep.html"
 
 advice:
   - title: "From Campus to Industry"
