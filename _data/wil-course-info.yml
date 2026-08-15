@@ -22,6 +22,7 @@ grad-show-location-address: "1525 Princess Patricia Way, Ottawa ON K1S 5J3, Cana
 grad-show-location-map: "https://maps.apple.com/place?address=1525%20Princess%20Patricia%20Way,%20Ottawa%20ON%20K1S%205J3,%20Canada&coordinate=45.400966,-75.682529&name=Horticulture%20Building&place-id=IE5D60B5C93A484D6&map=explore"
 work-spreadsheet: "https://algonquinlivecom-my.sharepoint.com/:x:/g/personal/paradia_algonquincollege_com/EdxwHS7bjtBHkyedGvPwKMYBw13StRQs2bNMC8jQushC_Q?e=YoRrTj"
 i-got-my-fieldwork-form: "https://forms.office.com/r/3YZE1zTAWj"
+
 nav:
   - title: "Employers"
     text: ""
@@ -51,6 +52,9 @@ guides:
     url: "/wil/your-resume.html"
   - title: "Government Security Clearance"
     url: "/articles/security-clearance.html"
+  - title: "FSWEP"
+    text: "Interested in working at the Canadian federal government? Apply to FSWEP."
+    url: "/articles/fswep.html"
 
 resources:
 #   - title: "Weekly Fieldwork Check-Ins"
