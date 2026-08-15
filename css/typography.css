@@ -770,7 +770,8 @@ a.btn-white:hover
 .wil-aside ul
 {
 	list-style-type: none;
-	margin-left: 0rem;
+	margin-left: 0;
+	padding-left: 0;
 	font-family: var(--sans);
 }
 
