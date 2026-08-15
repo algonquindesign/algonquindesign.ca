@@ -1,11 +1,14 @@
 ---
-layout: wil
-title: Handling Anxiety
+layout: post
+title: "Handling Interview Anxiety"
+date: 2025-03-22 10:00:00 -0400
+category: Advice
+front-page: false
+deck: "Meeting new people and sharing your work can feel intimidating, but there are practical strategies to make the experience easier and more rewarding."
+permalink: "/articles/interview-handling-anxiety.html"
 ---
-<p>
-	Meeting new people and sharing your work can feel intimidating, but there are practical strategies to make the experience easier and more rewarding.
-</p>
-> The best response to anxiety is action.
+The best response to anxiety is action.
+
 <div class="anxiety">
 	<ol>
 		<li>Preparation Before the Review</li>
