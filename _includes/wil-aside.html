@@ -15,6 +15,18 @@
 	<li><a href="{{ nav-item.url }}">{{ nav-item.title }}</a></li>
 {% endfor %}
 </ul>
+<h3>Advice</h3>
+<ul>
+{% for item in site.data.wil-course-info.advice %}
+	<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+<h3>Guides</h3>
+<ul>
+{% for item in site.data.wil-course-info.guides %}
+	<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
 <h3>Resources</h3>
 <ul>
 {% for resource in site.data.wil-course-info.resources %}
