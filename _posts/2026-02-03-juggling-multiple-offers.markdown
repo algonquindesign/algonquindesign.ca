@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "Juggling Multiple Offers?"
 date: Feb 3, 2026 at 9:53 AM
 category: Advice

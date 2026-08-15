@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "Summer Portfolio Development"
 date: 2025-03-22 10:00:00 -0400
 category: Advice

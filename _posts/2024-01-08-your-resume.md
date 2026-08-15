@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "A Designer's Résumé"
 date: 2024-01-08 12:00:00 -0400
 category: Guide

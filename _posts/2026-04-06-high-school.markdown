@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "Graduating High School?"
 date: 2026-04-06 12:42:35 -0400
 category: Advice

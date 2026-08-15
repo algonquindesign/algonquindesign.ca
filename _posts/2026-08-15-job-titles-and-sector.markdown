@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "Job Titles and Sectors: Where to Look"
 date: 2026-08-15 15:12:55 -0400
 category: Advice

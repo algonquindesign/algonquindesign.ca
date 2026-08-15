@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "A.I. in Graphic Design"
 date: 2025-09-01 16:19:36 -0500
 category: News

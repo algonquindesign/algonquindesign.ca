@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: wil
 title: "Build a Brand That Makes Your Case"
 date: 2026-06-01 13:34:47 -0400
 category: Advice
