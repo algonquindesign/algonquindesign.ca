@@ -2,7 +2,7 @@
 layout: post
 title: "About This Site"
 date: 2026-07-22 10:17:12 -0400
-category: News
+category: About
 front-page: false
 deck: "This site is maintained by faculty of the Graphic Design program. It reflects our perspective on the program and its community."
 permalink: /articles/about.html
