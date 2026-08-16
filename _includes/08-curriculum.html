@@ -7,7 +7,7 @@
 	</p>
 	<div>
 		{% for topic in site.data.curriculum.topics %}
-		<ul>
+		<ul class="none">
 			<li><img alt="" class="curriculum-icon" src="{{ site.baseurl }}/svg/{{ topic.icon }}.svg"></li>
 			<li><h3><a href="{{topic.url}}">{{topic.title}}</a></h3></li>
 			<li>{{topic.desc | replace: '& ', '&amp; '}}</li>

@@ -12,7 +12,7 @@
 			<h2 class="hidden">
 				Sitemap
 			</h2>
-			<ul>
+			<ul class="none">
 				<li><a href="/#testimonials">{{site.data.testimonials.testimonials_title}}</a></li>
 				<li><a href="/#stats">{{site.data.stats.foryou.title | replace: ':', ''}}</a></li>
 				<li><a href="/#stats">{{site.data.stats.career.title}}</a></li>
@@ -29,7 +29,7 @@
 		<h2 class="hidden">
 			{{site.data.footer.social_title}}
 		</h2>
-		<ul class="footer-links social">
+		<ul class="footer-links social none">
 			{% for link in site.data.footer.social %}
 			<li><img class="social-icon" src="{{ site.baseurl }}/svg/{{ link.icon }}.svg" alt="{{link.alt}}"><a href="{{link.url}}" rel="external"  aria-label="{{link.title}}">{{link.title}}</a></li>
 			{% endfor %}
@@ -37,7 +37,7 @@
 		<h2 class="hidden">
 			{{site.data.footer.resources_title}}
 		</h2>
-		<ul class="footer-links resources">
+		<ul class="footer-links resources none">
 			{% for link in site.data.footer.resources %}
 			<li> <a href="{{link.url}}" rel="external">{{ link.title }}</a></li>
 			{% endfor %}
