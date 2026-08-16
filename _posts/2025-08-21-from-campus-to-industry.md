@@ -1,6 +1,6 @@
 ---
 layout: wil
-title: "From Campus to Industry: Take Small Steps Daily"
+title: "Small Daily Steps"
 date: 2025-08-21 11:02:55 -0400
 category: Advice
 front-page: false
