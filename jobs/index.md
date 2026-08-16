@@ -65,7 +65,7 @@ has_form: true
 			<p>
 				Our students will not work for free—except for non-profits that gives us warm, fuzzy feelings.
 			</p>
-			<a href="https://www.rgd.ca/resources/no-spec">Read more ➜</a>
+			<a href="https://rgd.ca/resources/no-spec">Read more ➜</a>
 		</div>
 	</div>
 	<h3 name="form" name="form" id="form">
