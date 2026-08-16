@@ -761,13 +761,6 @@ a.btn-white:hover
 	border: 0;
 }
 
-.wil-page-wrapper h1
-{
-	font-size: clamp(1rem, 2.25rem, 2.5rem);
-	line-height: 1;
-	margin-top: 0;
-}
-
 .wil-aside h3
 {
 	margin-top: 1.5rem;
