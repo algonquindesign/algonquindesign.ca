@@ -22,162 +22,145 @@ Sectors listed under a direction are strong fits for that direction. They are no
 A broad starting point. Fits students whose brand covers many platforms rather than one.
 
 **Titles to search**
-<ul>
-	<li>Graphic Designer</li>
-	<li>Junior Graphic Designer</li>
-	<li>Visual Designer</li>
-	<li>Communications Designer</li>
-	<li>Marketing Designer</li>
-	<li>Design Associate</li>
-	<li>Creative Assistant</li>
-</ul>
+
+- Graphic Designer
+- Junior Graphic Designer
+- Visual Designer
+- Communications Designer
+- Marketing Designer
+- Design Associate
+- Creative Assistant
 
 **Sectors that hire this direction**
-<ul>
-	<li>Marketing and advertising agencies</li>
-	<li>Non-profit and association offices</li>
-	<li>Government communications teams</li>
-	<li>Municipal government</li>
-	<li>Small business and retail marketing</li>
-	<li>Hospitals and health research institutes</li>
-	<li>National sport organizations, many headquartered in Ottawa</li>
-</ul>
+
+- Marketing and advertising agencies
+- Non-profit and association offices
+- Government communications teams
+- Municipal government
+- Small business and retail marketing
+- Hospitals and health research institutes
+- National sport organizations, many headquartered in Ottawa
 
 #### Brand and Identity
 
 Fits students whose work centres on logos, identity systems, and brand strategy.
 
 **Titles to search**
-<ul>
-	<li>Brand Designer</li>
-	<li>Junior Brand Designer</li>
-	<li>Identity Designer</li>
-	<li>Brand Coordinator</li>
-	<li>Visual Identity Designer</li>
-</ul>
+
+- Brand Designer
+- Junior Brand Designer
+- Identity Designer
+- Brand Coordinator
+- Visual Identity Designer
 
 **Sectors that hire this direction**
-<ul>
-	<li>Branding and design studios</li>
-	<li>Non-profit and association offices</li>
-	<li>Marketing agencies</li>
-	<li>Start-ups building a first identity</li>
-	<li>National sport organizations, many headquartered in Ottawa</li>
-	<li>Clean technology companies</li>
-</ul>
+
+- Branding and design studios
+- Non-profit and association offices
+- Marketing agencies
+- Start-ups building a first identity
+- National sport organizations, many headquartered in Ottawa
+- Clean technology companies
 
 #### Digital Product and UX/UI
 
 Fits students whose strongest work is app or software interfaces.
 
 **Titles to search**
-<ul>
-	<li>UI Designer</li>
-	<li>Junior UX/UI Designer</li>
-	<li>Product Designer (junior level)</li>
-	<li>Digital Designer</li>
-	<li>Interface Designer</li>
-</ul>
+
+- UI Designer
+- Junior UX/UI Designer
+- Product Designer (junior level)
+- Digital Designer
+- Interface Designer
 
 **Sectors that hire this direction**
-<ul>
-	<li>Tech companies, in-house product teams</li>
-	<li>Software and SaaS firms</li>
-	<li>Digital agencies</li>
-	<li>Financial and insurance firms with digital teams</li>
-	<li>Clean technology companies</li>
-	<li>Game development studios</li>
-	<li>Defense and aerospace firms</li>
-</ul>
+
+- Tech companies, in-house product teams
+- Software and SaaS firms
+- Digital agencies
+- Financial and insurance firms with digital teams
+- Clean technology companies
+- Game development studios
+- Defense and aerospace firms
 
 #### Web Design
 
 Fits students whose strongest work is websites, not app interfaces.
 
 **Titles to search**
-<ul>
-	<li>Web Designer</li>
-	<li>Junior Web Designer</li>
-	<li>Digital Content Designer</li>
-	<li>Front-End Designer</li>
-</ul>
+
+- Web Designer
+- Junior Web Designer
+- Digital Content Designer
+- Front-End Designer
 
 **Sectors that hire this direction**
-<ul>
-	<li>Web and digital agencies</li>
-	<li>Non-profit and association offices</li>
-	<li>Tech companies, marketing teams</li>
-	<li>Independent studios building client sites</li>
-	<li>Defense and aerospace firms</li>
-</ul>
+
+- Web and digital agencies
+- Non-profit and association offices
+- Tech companies, marketing teams
+- Independent studios building client sites
+- Defense and aerospace firms
 
 #### Motion and Animation
 
 Fits students whose strongest work moves: animation, video graphics, motion identity.
 
 **Titles to search**
-<ul>
-	<li>Motion Graphic Designer</li>
-	<li>Junior Motion Designer</li>
-	<li>2D Animator</li>
-	<li>Motion Content Creator</li>
-</ul>
+
+- Motion Graphic Designer
+- Junior Motion Designer
+- 2D Animator
+- Motion Content Creator
 
 **Sectors that hire this direction**
-<ul>
-	<li>Marketing and advertising agencies</li>
-	<li>Media and broadcast companies</li>
-	<li>Tech companies, in-house video teams</li>
-	<li>Government and association communications teams</li>
-	<li>Game development studios</li>
-</ul>
+
+- Marketing and advertising agencies
+- Media and broadcast companies
+- Tech companies, in-house video teams
+- Government and association communications teams
+- Game development studios
 
 #### Publication and Editorial Design
 
 Fits students whose strongest work is layout: reports, magazines, long documents.
 
 **Titles to search**
-<ul>
-	<li>Publication Designer</li>
-	<li>Layout Designer</li>
-	<li>Editorial Designer</li>
-	<li>Communications Officer (design-focused postings)</li>
-	<li>Graphic Design Officer</li>
-</ul>
+
+- Publication Designer
+- Layout Designer
+- Editorial Designer
+- Communications Officer (design-focused postings)
+- Graphic Design Officer
 
 **Sectors that hire this direction**
-<ul>
-	<li>Government departments and agencies</li>
-	<li>Municipal government</li>
-	<li>National associations, many headquartered in Ottawa</li>
-	<li>Post-secondary institutions</li>
-	<li>Publishing houses</li>
-	<li>Hospitals and health research institutes</li>
-	<li>Defense and aerospace firms</li>
-</ul>
+
+- Government departments and agencies
+- Municipal government
+- National associations, many headquartered in Ottawa
+- Post-secondary institutions
+- Publishing houses
+- Hospitals and health research institutes
+- Defense and aerospace firms
 
 #### Packaging and Environmental Design
 
 Fits students whose strongest work is packaging, signage, wayfinding, or exhibit design.
 
 **Titles to search**
-<ul>
-	<li>Packaging Designer</li>
-	<li>Junior Packaging Designer</li>
-	<li>Exhibit Designer</li>
-	<li>Signage and Wayfinding Designer</li>
-	<li>Environmental Graphic Designer</li>
-</ul>
 
+- Packaging Designer
+- Junior Packaging Designer
+- Exhibit Designer
+- Signage and Wayfinding Designer
+- Environmental Graphic Designer
 
 **Sectors that hire this direction**
-<ul>
-	<li>Museums and cultural institutions</li>
-	<li>Retail and consumer goods companies</li>
-	<li>Exhibit and display design firms</li>
-	<li>Government agencies managing public space</li>
-</ul>
 
-
+- Museums and cultural institutions
+- Retail and consumer goods companies
+- Exhibit and display design firms
+- Government agencies managing public space
 
 *A note on the current market:* the federal government is reducing its workforce through 2028-29. This affects federal hiring directly. It does not affect the other sectors on this list the same way. A search built on titles instead of one employer, across several of these sectors, holds up better against that shift than a search aimed at one government department.
