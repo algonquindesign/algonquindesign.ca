@@ -189,6 +189,8 @@ ul li::before
 	left: 0;
 }
 
+ul.none li::before { content: none; }
+
 ol
 {
 	margin-left: 1rem;

@@ -11,7 +11,7 @@ id: articles
 <main role="main" class="main-articles">
 {% include breadcrumb.html %}
 <h3>Guides</h3>
-<ul class="articles">
+<ul class="articles none">
   {% for post in site.posts %}
   {% if post.category == 'Guide' %}
     <li>
@@ -23,7 +23,7 @@ id: articles
 </ul>
 
 <h3>Advice</h3>
-<ul class="articles">
+<ul class="articles none">
   {% for post in site.posts %}
   {% if post.category == 'Advice' %}
     <li>
