@@ -20,7 +20,7 @@ has_form: true
 	<h4>
 		Joy in Numbers
 	</h4>
-	<ul class="default columns">
+	<ul class="columns">
 		<li>1 <a href="/portfolio-requirements/">portfolio</a> is required for acceptance.</li>
 		<li>3 year Advanced Diploma full-time program.</li>
 		<li>6 semesters, starting in Fall.</li>
@@ -99,7 +99,7 @@ has_form: true
 	<h5>
 		It Takes a Village
 	</h5>
-	<ul class="default columns">
+	<ul class="columns">
 		<li><a href="https://www.algonquincollege.com/financial-aid/">Financial Aid</a></li>
 		<li><a href="https://www.algonquincollege.com/cal/">Academic Supports</a></li>
 		<li><a href="https://www.algonquincollege.com/healthservices/">Health Services</a></li>
@@ -121,7 +121,7 @@ has_form: true
 	<p>
 		These designers all started where you are now. They came to Algonquin's Graphic Design program with a love of art and a curiosity about design.
 	</p>
-	<ul class="default columns">
+	<ul class="columns">
 		<li><a href="https://depippodesigns.com" target="_blank">Michael DePippo</a></li>
 		<li><a href="https://brendandroppo.com" target="_blank">Brendan Droppo</a></li>
 		<li><a href="https://cinnamontoast.ca" target="_blank">Bev Hyatt</a></li>
@@ -166,7 +166,7 @@ has_form: true
 	<h4>
 		Steps to Apply
 	</h4>
-	<ul class="default columns">
+	<ul class="columns">
 		<li>Create an <a href="https://www.ontariocolleges.ca/en/cba?collegeCode=ALGO&amp;programCode=1400X01F">OCAS</a> (Ontario Colleges) account.</li>
 		<li>Request official high school transcripts be sent to OCAS.</li>
 		<li>Complete <a href="{{site.data.portfolio.url}}">portfolio submission</a>.</li>
