@@ -11,7 +11,7 @@ See the list of Fieldwork employers who've either taken students in the past, or
 
 ### [Portfolio Development](/portfolio-development/)
 
-This unofficial activity is designed to help you kickstart your professional network to gain valuable insights for building your portfolio. By reaching out to [professional designers](/wil/employers.html), you'll receive expert advice on your current work and guidance for your future career in graphic design. [Read more…](/wil/portfolio-development.html)
+This unofficial activity is designed to help you kickstart your professional network to gain valuable insights for building your portfolio. By reaching out to [professional designers](/wil/employers.html), you'll receive expert advice on your current work and guidance for your future career in graphic design. [Read more…](/articles/portfolio-building-guide-for-juniors.html)
 
 ### <a id="grads">Grad Web Sites</a>
 
