@@ -44,8 +44,6 @@ advice:
     url: "/articles/handling-interview-anxiety.html"
 
 guides:
-  - title: "Government Security Clearance"
-    url: "/articles/security-clearance.html"
   - title: "FSWEP"
     text: "Interested in working at the Canadian federal government? Apply to FSWEP."
     url: "/articles/fswep.html"
@@ -71,3 +69,6 @@ resources:
   - title: "Getting Portfolio Feedback"
     text: "This page contains advice on how to meet practicing designers to get feedback on your portfolio."
     url: "/wil/portfolio-feedback.html"
+  - title: "Government Security Clearance"
+    text: "A Student Guide to Government of Canada Security Clearances For Graphic Design Students Interested in Federal Careers"
+    url: "/articles/security-clearance.html"
