@@ -1,6 +1,6 @@
 ---
 layout: wil
-title: "A Designer's Résumé"
+title: "A Designer’s Résumé"
 date: 2024-01-08 12:00:00 -0400
 category: Advice
 front-page: false
@@ -9,14 +9,13 @@ permalink: "/articles/a-designers-resume.html"
 ---
 <div class="alertBox">
 <h3>TL;DR</h3>
-<ul class="hanging-list">
+<ul>
 	<li>It’s a business document, not a portfolio piece. Avoid over-designing it.</li>
 	<li>Proof read, proof read, proof read.</li>
 	<li>Make it only one page long, if possible.</li>
 	<li>When presenting it, prepare for any eventuality. Have a backup plan.</li>
 	<li>It’s a living document. Update it as you grow as a designer.</li>
 </ul>
-
 </div>
 
 #### Contents
@@ -33,7 +32,7 @@ If your previous jobs seem irrelevant to a position in graphic design, tell them
 
 If you're going to use bullet lists, use action verbs to start each item, like these:
 
-<ul class="multi-column hanging-list">
+<ul class="multi-column">
 	<li>authored</li>
 	<li>brainstormed</li>
 	<li>communicated</li>
@@ -150,7 +149,7 @@ Paper? Who needs paper? Sharing a PDF file works well and saves trees. A Word (.
 
 If you do create a PDF, the final step should be to open it in Acrobat. Hit ⌘-D.
 
-<ul class="hanging-list">
+<ul>
 	<li>Set the Navigation tab to Page Only if you only have a single page.</li>
 	<li>Set Page Layout to Single Page.</li>
 	<li>Set Magnification to Full Page.</li>
