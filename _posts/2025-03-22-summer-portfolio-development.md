@@ -23,7 +23,7 @@ Gather 3-5 of your best design projects from school assignments or personal work
 
 These are sites you can use to post your work without having to build your own:
 
-<ul class="hanging-list">
+<ul>
 	<li><a href="https://www.behance.net/">Behance.net</a></li>
 	<li><a href="https://portfolio.adobe.com/">Adobe Portfolio</a></li>
 	<li><a href="https://dribbble.com">Dribbble</a></li>

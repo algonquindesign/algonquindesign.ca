@@ -165,6 +165,33 @@ ul, ol {
   padding-left: 1.5rem;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+ul li {
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "•";
+  color: var(--lime-green);
+  position: absolute;
+  left: 0;
+}
+
+ol {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  padding-left: 1.5rem;
+}
 p + ul,
 p + ol {
   margin-top: 0;
@@ -272,6 +299,7 @@ h5 + h6 { margin-top: 0.25rem; }
 
 .banner div { margin-bottom: 0.5rem; }
 
+/*
 .hanging-list
 {
 	list-style: none;
@@ -294,6 +322,7 @@ h5 + h6 { margin-top: 0.25rem; }
 	position: absolute;
 	left: 0;
 }
+ */
 
 hr
 {
@@ -767,16 +796,23 @@ a.btn-white:hover
 	line-height: 2;
 }
 
-.wil-aside ul
-{
-	list-style-type: none;
-	margin-top: 0.25rem;
-	margin-left: 0;
-	padding-left: 0;
-	font-family: var(--sans);
+.wil-aside > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-block-end: 1rem;
 }
 
-.wil-aside ul li { }
+.wil-aside > ul li {
+  font-family: var(--sans);
+  margin: 0;
+  padding: 0;
+}
+
+.wil-aside > ul li::before {
+  content: none;
+}
+
 .wil-aside ul li a { color: var(--black); }
 .anxiety ol { margin-left: 2rem; }
 

@@ -17,7 +17,7 @@ permalink: /articles/juggling-multiple-offers.html
 	Before you answer anyone, take time to decide what <i>best</i> actually means for you.
 </p>
 Consider:<br>
-<ul class="hanging-list">
+<ul>
 	<li> Type of work and how it will strengthen your portfolio.</li>
 	<li> Mentorship and feedback you are likely to receive.</li>
 	<li> Studio culture and team fit.</li>
@@ -38,7 +38,7 @@ Example script:<br>
 	“Thank you so much for the offer. I am excited about this opportunity and I really appreciate it. Would it be possible to have until [day and date] to review everything and get back to you?”
 </blockquote>
 Guidelines:<br>
-<ul class="hanging-list">
+<ul>
 	<li>Always start with genuine thanks.</li>
 	<li>Ask for a specific deadline, not <i>a bit more time</i>.</li>
 	<li>If you need one extension, ask once, briefly and politely.</li>
@@ -58,7 +58,7 @@ Statements you can use:<br>
 	“I remain very interested in your placement. I do have another offer with a deadline of [day]. Is there any chance you might have an update on my candidacy before then?”
 </blockquote>
 Tips:
-<ul class="hanging-list">
+<ul>
 	<li>You do not have to name the other studio or employer.</li>
 	<li>Avoid sounding like you are using offers as leverage.</li>
 	<li>Keep the tone calm, appreciative, and factual.</li>
@@ -109,7 +109,7 @@ Sincerely,
 [Your name]
 </pre>
 Key behaviours:<br>
-<ul class="hanging-list">
+<ul>
 	<li>Reply as soon as you have made your decision.</li>
 	<li>Be direct about declining, but keep the tone warm and respectful.</li>
 	<li>Avoid long justifications. A brief explanation about <i>fit with my goals</i> is enough.</li>
@@ -121,7 +121,7 @@ Key behaviours:<br>
 	Every email and conversation is part of your professional reputation. The design world, especially in Ottawa, is connected. People talk.
 </p>
 Helpful mindset shifts:
-<ul class="hanging-list">
+<ul>
 	<li>You are not <i>using</i> anyone. You are making a careful decision about your education and career.</li>
 	<li>Saying no politely now can still lead to a freelance project, a future job, or a recommendation later.</li>
 	<li>Clear communication shows maturity, professionalism, and respect for the employer’s time.</li>

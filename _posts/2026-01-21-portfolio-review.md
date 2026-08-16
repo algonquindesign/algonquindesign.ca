@@ -36,7 +36,7 @@ So bring what you’ve got, show your work, ask questions, and soak in as much f
 
 <p class="sans semibold">
 This group of reviewers is really an all-star list of alumni from the Graphic Design program. I couldn't be prouder, nor more grateful, to host such a talented group.
-<ul class="hanging-list sans">
+<ul class="sans">
 	<li><strong>Melanie Burgess</strong>, Creative Director, <a href="https://cyansolutions.com" target="_blank">Cyan Solutions</a>, Open to Fieldwork</li>
 	<li><strong>Amanda Spencer</strong>, Owner & Creative Lead, <a href="https://www.onefishcreative.ca" target="_blank">OneFish Creative</a>, Open to Fieldwork</li>
 	<li><strong>Melany Pelletier</strong>, Senior Graphic Designer, UOttawa, Open to Fieldwork</li>

@@ -32,7 +32,7 @@ Location: remote<br>
 	As a Graphic Design Intern at EDealer, you will work closely with the team of coordinators and alongside a team of other full time designers. This role is fast-paced, with integrated continued learning opportunities and skill development with a strong emphasis on teamwork and collaboration.
 </p>
 What You Will Do:<br>
-<ul class="hanging-list">
+<ul>
 	<li>Design visual concepts based on a detailed project brief</li>
 	<li>Create branded materials as needed for our clients</li>
 	<li>Collaborate with the rest of the dealer marketing team</li>
@@ -41,7 +41,7 @@ What You Will Do:<br>
 	<li>Mentorship and collaboration with designers, managers, and opportunities to learn about design in the automotive industry from the Design Director.</li>
 </ul>
 What You Will Need:<br>
-<ul class="hanging-list">
+<ul>
 	<li>Enrolled in a college or university design, media or art program</li>
 	<li>Strong portfolio of work showcasing conceptual and execution capabilities for digital mediums. Digital portfolio must be provided with application.</li>
 	<li>Proficiency in Adobe Suite with particular strength in Photoshop and Illustrator</li>

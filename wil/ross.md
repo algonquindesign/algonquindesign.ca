@@ -24,7 +24,7 @@ Our team works entirely virtually, using Asana and Microsoft Teams to manage pro
 We’re specifically looking for:
 </p>
 
-<ul class="hanging-list">
+<ul>
 	<li>Design Generalists – strong all-round design and production skills.</li>
 	<li>Web Designers – experience or interest in digital and Figma-based design.  </li>
 </ul>
@@ -33,7 +33,7 @@ We’re specifically looking for:
 
 <h5>Design Generalist</h5>
 
-<ul class="hanging-list">
+<ul>
 	<li>Design and produce creative assets for digital and print, including:</li>
 	<li>Long-format documents, brochures, and internal communications</li>
 	<li>Web banners, social media graphics, and marketing collateral</li>
@@ -46,7 +46,7 @@ We’re specifically looking for:
 
 ####   Web Designer
 
-<ul class="hanging-list">
+<ul>
 	<li>Work in Figma to create auto-responsive blocks and modules</li>
 	<li>Help update old web pages to new designs</li>
 	<li>Help organize component library </li>
@@ -54,7 +54,7 @@ We’re specifically looking for:
 
 #### Who You Are
 
-<ul class="hanging-list">
+<ul>
 	<li>A self-starter who can manage time and projects with minimal supervision.</li>
 	<li>Enrolled in a Graphic Design, Visual Communication, or related program.</li>
 	<li>Proficient in Adobe Creative Cloud (Photoshop, Illustrator, InDesign; Figma and After Effects are assets).</li>

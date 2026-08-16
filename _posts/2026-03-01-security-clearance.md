@@ -40,7 +40,7 @@ Most design positions require one of the first two levels below.
 
 Security screening reviews identity, background and trustworthiness. It may include:
 
-<ul class="hanging-list">
+<ul>
 	<li>Identity verification using approved documents.</li>
 	<li>A criminal record check, sometimes including fingerprinting.</li>
 	<li>Credit and financial checks.</li>
@@ -51,7 +51,7 @@ Security screening reviews identity, background and trustworthiness. It may incl
 
 You cannot request a clearance yourself. A sponsoring organization must submit it on your behalf.
 
-<ul class="hanging-list">
+<ul>
 	<li>When you apply for a federal job, the hiring department starts the process.</li>
 	<li>When you work for a private company on a federal contract, the company security officer requests your screening.</li>
 </ul>
@@ -60,7 +60,7 @@ You cannot request a clearance yourself. A sponsoring organization must submit i
 
 To create, renew or upgrade a clearance, the sponsoring employer and employee complete:
 
-<ul class="hanging-list">
+<ul>
 	<li>Personnel Screening, Consent and Authorization Form (TBS/SCT 330‑23E)</li>
 	<li>Security Clearance Form (TBS/SCT 330‑60E) Processing time varies based on complexity.</li>
 </ul>
@@ -85,7 +85,7 @@ These steps make the process smoother.
 
 Once granted, you must:
 
-<ul class="hanging-list">
+<ul>
 	<li>Follow all departmental security rules.</li>
 	<li>Report changes in personal circumstances.</li>
 	<li>Renew or update your clearance when required.</li>
