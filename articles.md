@@ -10,12 +10,27 @@ id: articles
 {% include 02-banner.html %}
 <main role="main" class="main-articles">
 {% include breadcrumb.html %}
+<h3>Guides</h3>
 <ul class="articles">
   {% for post in site.posts %}
+  {% if post.category == 'Guide' %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a><br>
       {{ post.deck }}
     </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h3>Advice</h3>
+<ul class="articles">
+  {% for post in site.posts %}
+  {% if post.category == 'Advice' %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br>
+      {{ post.deck }}
+    </li>
+  {% endif %}
   {% endfor %}
 </ul>
 </main>
