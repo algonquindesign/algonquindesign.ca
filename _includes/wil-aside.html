@@ -13,22 +13,23 @@
 	<p>
 		<a href="/wil/employers.html" class="sans">List of Employers</a>
 	</p>
-	<h3>
-		Advice
-	</h3>
-	<ul>
-		{% for item in site.data.wil-course-info.advice %}
-		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
-		{% endfor %}
-	</ul>
-	<h3>
-		Guides
-	</h3>
-	<ul>
-		{% for item in site.data.wil-course-info.guides %}
-		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
-		{% endfor %}
-	</ul>
+<h3>Advice</h3>
+<ul>
+    {% for post in site.posts %}
+    {% if post.category == 'Advice' %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<h3>Guides</h3>
+<ul>
+    {% for post in site.posts %}
+    {% if post.category == 'Guide' %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
 <!--
 <a href="https://www.dropbox.com/s/9rgcvkpnoj4eewd/donations-letter.pdf.zip?dl=1" title="Grad Show Donations Letter" target="_blank">Grad Show Donations Letter</a> (.pdf)
 
