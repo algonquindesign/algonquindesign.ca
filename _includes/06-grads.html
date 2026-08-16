@@ -20,13 +20,13 @@
 			{% else %}
 			<em class="block">{{site.data.grads.shows[0].intro}}</em> {{site.data.grads.shows[0].desc}}
 			{% endif %}
-			<a href="http://{{site.data.grads.shows[0].start_time | date: '%Y'}}.grads.algonquindesign.ca/" class="sans bold"> <span>Learn&nbsp;more</span>&nbsp;➜</a>
+			<a href="https://{{site.data.grads.shows[0].start_time | date: '%Y'}}.grads.algonquindesign.ca/" class="sans bold"> <span>Learn&nbsp;more</span>&nbsp;➜</a>
 		</div>
 	</article>
 	<div>
 		<ol>
 			{% for show in site.data.grads.shows offset:1 limit:4 %}
-			<li> <a href="http://{{show.start_time | date: '%Y'}}.grads.algonquindesign.ca/"><img src="{{site.baseurl}}/images/grad-shows/{{show.start_time | date: '%Y'}}.png" alt="Brand Graphic" loading="lazy"><span class="sans">{{show.title}} {{show.start_time | date: '%Y'}}</span> </a></li>
+			<li> <a href="https://{{show.start_time | date: '%Y'}}.grads.algonquindesign.ca/"><img src="{{site.baseurl}}/images/grad-shows/{{show.start_time | date: '%Y'}}.png" alt="Brand Graphic" loading="lazy"><span class="sans">{{show.title}} {{show.start_time | date: '%Y'}}</span> </a></li>
 			{% endfor %}
 		</ol>
 	</div>
