@@ -754,7 +754,7 @@ a.btn-white:hover
 
 .wil-aside h3
 {
-	margin-top: 1rem;
+	margin-top: 1.5rem;
 	font-size: clamp(1.0rem, 1.75vw, 1.75rem);
 	line-height: 1;
 }
