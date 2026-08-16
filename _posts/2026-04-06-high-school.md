@@ -2,7 +2,7 @@
 layout: wil
 title: "Graduating High School?"
 date: 2026-04-06 12:42:35 -0400
-category: Advice
+category: Promo
 front-page: true
 deck: "Your Future Starts Here! Discover how the Graphic Design program at Algonquin College can spark your creative future. There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. These are a few of them."
 permalink: /articles/graduating-high-school.html

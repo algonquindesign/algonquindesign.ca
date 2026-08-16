@@ -2,7 +2,7 @@
 layout: wil
 title: "A Timeline for Grade 11 Students"
 date: 2026-04-07 09:04:35 -0400
-category: Advice
+category: Promo
 front-page: true
 deck: "Open the calendar app on your phone or grab that trusty agenda or notebook! It's time to schedule essential dates and reminders that happen at the same time every year."
 permalink: /articles/grade-11-students.html
