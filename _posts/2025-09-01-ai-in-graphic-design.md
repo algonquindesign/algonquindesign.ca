@@ -28,11 +28,9 @@ Designers use A.I. to generate first drafts, spark inspiration, explore new visu
 
 Designers who wish to remain competitive must master conceptual thinking, brand strategy, user experience analysis, and creative leadership. The future requires a blend of creativity, empathy, and an ability to guide and refine A.I.-generated work. A.I. levels the technical playing field, but original thought and human understanding remain irreplaceable.
 
-<ul>
-	<li><a href="https://customcareer.miami.edu/blog/2025/02/04/how-ai-is-changing-the-graphic-design-professional-career/">How AI is Changing the Graphic Design Professional Career</a></li>
-	<li><a href="https://www.bluehost.com/en-ca/blog/ai-in-graphic-design/">How A.I. is Transforming Creative Work</a></li>
-	<li><a href="https://www.linkedin.com/pulse/impact-artificial-intelligence-graphic-design-guide-chitra-soni-cqbmf/">The Impact of Artificial Intelligence on Graphic Design</a></li>
-	<li><a href="https://dazonn.com/blog/the-future-of-graphic-design-embracing-ai-integration/">Embracing A.I. Integration</a></li>
-</ul>
+- [How AI is Changing the Graphic Design Professional Career](https://customcareer.miami.edu/blog/2025/02/04/how-ai-is-changing-the-graphic-design-professional-career/)
+- [How A.I. is Transforming Creative Work](https://www.bluehost.com/en-ca/blog/ai-in-graphic-design/)
+- [The Impact of Artificial Intelligence on Graphic Design](https://www.linkedin.com/pulse/impact-artificial-intelligence-graphic-design-guide-chitra-soni-cqbmf/)
+- [Embracing A.I. Integration](https://dazonn.com/blog/the-future-of-graphic-design-embracing-ai-integration/)
 
 A.I. levels the technical playing field, but the ability of humans to conjure novel ideas through deep understanding of a client's needs will remain irreplaceable.
