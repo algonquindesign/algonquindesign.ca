@@ -160,6 +160,16 @@ p + p
 }
 
 /* Lists */
+
+p + ul,
+p + ol { margin-top: 1rem; }
+ul + p,
+ol + p { margin-top: 1rem; }
+ul + ul,
+ol + ol,
+ul + ol,
+ol + ul { margin-top: 0; }
+
 ul, ol
 {
 	margin-block-start: 1rem;
@@ -278,14 +288,7 @@ ul.sources li
 }
 
 /* End Lists */
-p + ul,
-p + ol { margin-top: 0; }
-ul + p,
-ol + p { margin-top: 0; }
-ul + ul,
-ol + ol,
-ul + ol,
-ol + ul { margin-top: 0; }
+
 
 h1,
 h2,
