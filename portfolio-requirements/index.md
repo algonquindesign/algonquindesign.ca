@@ -67,7 +67,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 		<p>
 			<strong>Note:</strong> If you have examples of photography, illustration, or paintings, ensure these elements are combined into graphically designed pieces with type in order to be assessed on your fit for this program.
 		</p>
-		<ul class="portfolio-reqs-pieces">
+		<ul class="portfolio-reqs-pieces none">
 			<li><img src="/images/portfolio-pieces/water-colour-study-2.jpeg" alt="Water colour study of a woman" /></li>
 			<li><img src="/images/portfolio-pieces/water-colour-study.jpeg" alt="Water colour study of takeout food" /></li>
 			<li><img src="/images/portfolio-pieces/poster-design.jpeg" alt="Poster design for Ces filles-la" /></li>
@@ -128,7 +128,7 @@ description: "See what’s needed and how to excel when applying to the Algonqui
 		<p class="">
 			If you have any questions or concerns, please contact one of the Graphic Design Program Coordinator:
 		</p>
-		<ul class="">
+		<ul class="none">
 			<li class="">Alain Paradis<br><a href="tel:+16137274723,,5878">+1 613 727 4723 ext. 5878</a><br><a href="mailto:paradia@algonquincollege.com">paradia@algonquincollege.com</a></li>
 		</ul>
 	</section>
