@@ -2,7 +2,7 @@
 layout: wil
 title: "A Designer's Résumé"
 date: 2024-01-08 12:00:00 -0400
-category: Guide
+category: Advice
 front-page: false
 deck: "Your résumé should be an error-free, creatively written, professionally designed business document which evolves with you as a designer."
 permalink: "/articles/a-designers-resume.html"
