@@ -32,6 +32,9 @@ advice:
     url: "/articles/portfolio-building-guide-for-juniors.html"
   - title: "Summer Portfolio Development"
     url: "/articles/summer-portfolio-development.html"
+  - title: "Your Résumé"
+    text: "Learn to write an effective design résumé."
+    url: "/wil/your-resume.html"
   - title: "Job Titles and Sectors: Where to Look"
     url: "/articles/job-titles-and-sector.html"
   - title: "Juggling Multiple Fieldwork Offers?"
@@ -41,9 +44,6 @@ advice:
     url: "/articles/handling-interview-anxiety.html"
 
 guides:
-  - title: "Your Résumé"
-    text: "Learn to write an effective design résumé."
-    url: "/wil/your-resume.html"
   - title: "Government Security Clearance"
     url: "/articles/security-clearance.html"
   - title: "FSWEP"
