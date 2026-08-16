@@ -25,23 +25,7 @@
   </div>
 </section>
 
-{% elsif page.layout == "wil" %}
-<section class="banner">
-  <div class="banner-content">
-    <h1>{{ page.title }}</h1>
-  </div>
-</section>
-
-{% elsif page.title == 'Fieldwork'
-      or page.title == 'Jobs'
-      or page.id == 'fieldwork-thankyou'
-      or page.id == 'jobs-thankyou'
-      or page.id == 'portfolio-requirements'
-      or page.id == '404'
-      or page.id == 'hardware'
-      or page.id == 'spark'
-      or page.id == 'spark-thankyou'
-      or page.id == 'spark-apply' %}
+{% else %}
 <section class="banner">
   <div class="banner-content">
     <h1>{{ page.title }}</h1>
