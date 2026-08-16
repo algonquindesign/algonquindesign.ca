@@ -34,7 +34,7 @@ It is the case you make, in pictures, video, and in words, for why someone shoul
 <h3>
 	What It Should Be
 </h3>
-<ol class="default">
+<ol>
 	<li> <em>Honest.</em> Your brand is a promise that must be kept by your work. If the identity looks more polished than the projects behind it, that gap will show.</li>
 	<li> <em>Specific.</em> Stand for something. With a clear point of view, you'll look like a designer with a direction. A vague stance will get no response.</li>
 	<li> <em>Coherent.</em> The same name, the same voice, and the same visual identity belong everywhere. They should recognize your brand before they read your name.</li>
@@ -45,7 +45,7 @@ It is the case you make, in pictures, video, and in words, for why someone shoul
 <h3>
 	What It Should Not Be
 </h3>
-<ol class="default">
+<ol>
 	<li><em>Just a logo.</em> A wordmark is one small artifact. Perfecting it is not the same as building a brand. The brand is the total impression.</li>
 	<li><em>A list of everything you can do.</em> <em>I do everything</em> is read as <em>I do nothing yet</em>. Range does not make you hireable. Specificity does.</li>
 	<li><em>A persona the work cannot support.</em> Do not invent a slick agency-of-one act. Overreach gets exposed in the first interview.</li>
@@ -83,7 +83,7 @@ It is the case you make, in pictures, video, and in words, for why someone shoul
 <p>
 	Come back to these often. They are simple to ask and hard to answer well.
 </p>
-<ol class="default">
+<ol>
 	<li>What do you want to be hired to do?</li>
 	<li>What proves you can do it?</li>
 	<li>Who is the work for?</li>

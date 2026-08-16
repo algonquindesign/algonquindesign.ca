@@ -23,14 +23,14 @@ The portfolio is one piece of something larger, your personal brand. If you’re
 <p>
 	Sort every piece you own on two questions:
 </p>
-<ol class="default">
+<ol>
 	<li>Is it good?</li>
 	<li>Does it point the right way, toward your lead discipline? (See <a href="#t-shape">The T-shape</a> below.)</li>
 </ol>
 <p>
 	From those two questions, label each piece:
 </p>
-<ul class="default">
+<ul>
 	<li><strong>Strong.</strong> Keep it and present it.</li>
 	<li><strong>Fixable.</strong> Worth the rework.</li>
 	<li><strong>Weak.</strong> Rework only if it serves the direction.</li>

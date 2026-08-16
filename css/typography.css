@@ -195,14 +195,14 @@ ol {
   padding-left: 1.5rem;
 }
 
-ul.default
+ul
 {
 	list-style: none;
 	padding-left: 0;
 	margin: 1rem 0 2rem 1rem;
 }
 
-ul.default li
+ul li
 {
 	position: relative;
 	padding-left: 1.25rem;
@@ -210,13 +210,8 @@ ul.default li
 	margin-bottom: 0.5rem;
 }
 
-ol.default {
-  list-style-type: decimal;
-  padding-left: 0;
-	margin: 1rem 0 2rem 2.25rem;
 }
 
-ol.default li {
 	position: relative;
 	padding-left: 0;
 	text-indent: 0;
