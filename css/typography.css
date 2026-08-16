@@ -165,6 +165,8 @@ ul, ol {
   padding-left: 1.5rem;
 }
 
+/* Lists */
+
 ul {
   list-style: none;
   margin: 0;
@@ -192,6 +194,129 @@ ol {
   margin-block-end: 1rem;
   padding-left: 1.5rem;
 }
+
+ul.default
+{
+	list-style: none;
+	padding-left: 0;
+	margin: 1rem 0 2rem 1rem;
+}
+
+ul.default li
+{
+	position: relative;
+	padding-left: 1.25rem;
+	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+
+ol.default {
+  list-style-type: decimal;
+  padding-left: 0;
+	margin: 1rem 0 2rem 2.25rem;
+}
+
+ol.default li {
+	position: relative;
+	padding-left: 0;
+	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+
+.checklist ul,
+.opportunities ul,
+.highlights ul
+{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.checklist ul li
+{
+	position: relative;
+	padding-left: 1.5rem;
+	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+
+.highlights ul li
+{
+	position: relative;
+	padding-left: 1.15rem;
+	text-indent: 0;
+	margin-bottom: 0.5rem;
+}
+
+.opportunities ul li
+{
+	position: relative;
+	padding-left: 1.15rem;
+	text-indent: 0;
+	margin-bottom: 0.25rem;
+}
+
+ul.default li::before,
+.checklist ul li::before,
+.highlights ul li::before,
+.opportunities ul li::before
+{
+	content: "";
+	color: var(--lime-green);
+	position: absolute;
+	left: 0;
+	top: 0.35rem;
+	width: 0.9rem;
+	height: 0.8rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-image: url("/svg/arrow.svg");
+}
+
+.checklist ul li::before { background-image: url("/svg/checkmark.svg"); }
+
+.post ul
+{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 1rem;
+}
+
+.post ul li
+{
+	position: relative;
+	padding-left: 1.5rem;
+	text-indent: 0;
+}
+
+ul.articles
+{
+	list-style-type: none;
+	margin-left: 1rem;
+	padding-left: 0;
+}
+
+ul.articles li
+{
+	margin-bottom: 1rem;
+	max-width: 60ch;
+}
+
+ul.sources
+{
+	list-style-type: none;
+	font-family: var(--sans);
+	margin-left: 1rem;
+}
+
+ul.sources li
+{
+	font-size: clamp(0.85rem, 0.75rem + 0.2vw, 0.95rem);
+	line-height: 1.8;
+}
+
+/* End Lists */
+
 p + ul,
 p + ol {
   margin-top: 0;
@@ -385,100 +510,6 @@ footer h2 { color: white; }
 	font-size: clamp(0.85rem, 1.25rem, 1.75rem);
 	padding: 0;
 	margin-bottom: .33rem;
-}
-
-ul.default
-{
-	list-style: none;
-	padding-left: 0;
-	margin: 1rem 0 2rem 1rem;
-}
-
-ul.default li
-{
-	position: relative;
-	padding-left: 1.25rem;
-	text-indent: 0;
-	margin-bottom: 0.5rem;
-}
-
-ol.default {
-  list-style-type: decimal;
-  padding-left: 0;
-	margin: 1rem 0 2rem 2.25rem;
-}
-
-ol.default li {
-	position: relative;
-	padding-left: 0;
-	text-indent: 0;
-	margin-bottom: 0.5rem;
-}
-
-.checklist ul,
-.opportunities ul,
-.highlights ul
-{
-	list-style: none;
-	padding-left: 0;
-	margin-left: 0;
-}
-
-.checklist ul li
-{
-	position: relative;
-	padding-left: 1.5rem;
-	text-indent: 0;
-	margin-bottom: 0.5rem;
-}
-
-.highlights ul li
-{
-	position: relative;
-	padding-left: 1.15rem;
-	text-indent: 0;
-	margin-bottom: 0.5rem;
-}
-
-.opportunities ul li
-{
-	position: relative;
-	padding-left: 1.15rem;
-	text-indent: 0;
-	margin-bottom: 0.25rem;
-}
-
-ul.default li::before,
-.checklist ul li::before,
-.highlights ul li::before,
-.opportunities ul li::before
-{
-	content: "";
-	color: var(--lime-green);
-	position: absolute;
-	left: 0;
-	top: 0.35rem;
-	width: 0.9rem;
-	height: 0.8rem;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-image: url("/svg/arrow.svg");
-}
-
-.checklist ul li::before { background-image: url("/svg/checkmark.svg"); }
-
-.post ul
-{
-	list-style: none;
-	padding-left: 0;
-	margin-left: 1rem;
-}
-
-.post ul li
-{
-	position: relative;
-	padding-left: 1.5rem;
-	text-indent: 0;
 }
 
 .grads article { color: #fff; }
@@ -980,32 +1011,6 @@ a.crossed-out
 {
 	color: #6c757d;
 	pointer-events: none;
-}
-
-ul.articles
-{
-	list-style-type: none;
-	margin-left: 1rem;
-	padding-left: 0;
-}
-
-ul.articles li
-{
-	margin-bottom: 1rem;
-	max-width: 60ch;
-}
-
-ul.sources
-{
-	list-style-type: none;
-	font-family: var(--sans);
-	margin-left: 1rem;
-}
-
-ul.sources li
-{
-	font-size: clamp(0.85rem, 0.75rem + 0.2vw, 0.95rem);
-	line-height: 1.8;
 }
 
 .home-banner-list
