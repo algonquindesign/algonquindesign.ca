@@ -145,77 +145,56 @@ blockquote
 	font-style: italic;
 	color: var(--dark-green);
 }
+
 h1:has(+ p),
 h2:has(+ p),
 h3:has(+ p),
 h4:has(+ p),
 h5:has(+ p),
-h6:has(+ p) {
-  margin-bottom: 0.5rem;
-}
+h6:has(+ p) { margin-bottom: 0.5rem; }
 
-p + p {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-
-ul, ol {
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
-  padding-left: 1.5rem;
+p + p
+{
+	margin-top: 1rem;
+	margin-bottom: 0;
 }
 
 /* Lists */
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
-}
-
-ul li {
-  margin-left: 1rem;
-  margin-bottom: 0.25rem;
-  padding-left: 1rem;
-  position: relative;
-}
-
-ul li::before {
-  content: "•";
-  color: var(--lime-green);
-  position: absolute;
-  left: 0;
-}
-
-ol {
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
-  padding-left: 1.5rem;
+ul, ol
+{
+	margin-block-start: 1rem;
+	margin-block-end: 1rem;
 }
 
 ul
 {
 	list-style: none;
-	padding-left: 0;
-	margin: 1rem 0 2rem 1rem;
+	margin: 0;
+	padding: 0;
 }
 
 ul li
 {
+	margin-left: 1rem;
+	margin-bottom: 0.25rem;
+	padding-left: 1rem;
 	position: relative;
+}
+
+ul li::before
+{
+	content: "•";
+	color: var(--lime-green);
+	position: absolute;
+	left: 0;
+}
+
+ol
+{
+	margin-left: 1rem;
+	margin-bottom: 0.25rem;
 	padding-left: 1.25rem;
-	text-indent: 0;
-	margin-bottom: 0.5rem;
-}
-
-}
-
 	position: relative;
-	padding-left: 0;
-	text-indent: 0;
-	margin-bottom: 0.5rem;
 }
 
 .checklist ul,
@@ -270,20 +249,6 @@ ul.default li::before,
 
 .checklist ul li::before { background-image: url("/svg/checkmark.svg"); }
 
-.post ul
-{
-	list-style: none;
-	padding-left: 0;
-	margin-left: 1rem;
-}
-
-.post ul li
-{
-	position: relative;
-	padding-left: 1.5rem;
-	text-indent: 0;
-}
-
 ul.articles
 {
 	list-style-type: none;
@@ -311,22 +276,14 @@ ul.sources li
 }
 
 /* End Lists */
-
 p + ul,
-p + ol {
-  margin-top: 0;
-}
+p + ol { margin-top: 0; }
 ul + p,
-ol + p {
-  margin-top: 0;
-}
-
+ol + p { margin-top: 0; }
 ul + ul,
 ol + ol,
 ul + ol,
-ol + ul {
-  margin-top: 0;
-}
+ol + ul { margin-top: 0; }
 
 h1,
 h2,
@@ -599,14 +556,17 @@ footer h2 { color: white; }
 	border-bottom: 2px solid var(--lime-green);
 }
 
-.curriculum li a:hover { color: var(--lime-green); border-bottom: 2px solid lightgrey; }
+.curriculum li a:hover
+{
+	color: var(--lime-green);
+	border-bottom: 2px solid lightgrey;
+}
 
 .faculty a
 {
 	color: var(--dark-green);
 	text-decoration: none;
 	border-bottom: 2px solid var(--dark-green);
-
 }
 
 .faculty a:hover { border-bottom: 2px solid lightgrey; }
@@ -623,11 +583,7 @@ footer h2 { color: white; }
 .rgd-text h3,
 .portfolio-reqs-text h3,
 .content-box .text-box h3 { margin-top: 0; }
-
-.rgd a
-{
-	text-decoration: none;
-}
+.rgd a { text-decoration: none; }
 
 .rgd a:hover
 {
@@ -822,23 +778,22 @@ a.btn-white:hover
 	line-height: 2;
 }
 
-.wil-aside > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-block-end: 1rem;
+.wil-aside > ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-block-end: 1rem;
 }
 
-.wil-aside > ul li {
-  font-family: var(--sans);
-  margin: 0;
-  padding: 0;
+.wil-aside > ul li
+{
+	font-family: var(--sans);
+	margin: 0;
+	padding: 0;
 }
 
-.wil-aside > ul li::before {
-  content: none;
-}
-
+.wil-aside > ul li::before { content: none; }
 .wil-aside ul li a { color: var(--black); }
 .anxiety ol { margin-left: 2rem; }
 
@@ -851,10 +806,20 @@ a.btn-white:hover
 	margin-top: 1rem;
 }
 
+.anxiety ul li::before { content: none; }
+
+.anxiety ul li
+{
+	list-style: none;
+	font-size: 1rem;
+	color: var(--dark-green);
+}
+
 .anxiety ol ul > li
 {
 	font-family: var(--serif);
-	margin-top: 1.0rem;
+	padding: 0;
+	margin: 1rem 0 0 0;
 	font-weight: 600;
 }
 
@@ -862,12 +827,6 @@ a.btn-white:hover
 {
 	font-family: var(--serif);
 	list-style-type: none;
-}
-
-.anxiety ul li
-{
-	font-size: 1rem;
-	color: var(--dark-green);
 }
 
 .anxiety li + p, .anxiety p + p
@@ -1055,5 +1014,4 @@ a.crossed-out
 		font-weight: 500;
 		text-align: center;
 	}
-
 }
