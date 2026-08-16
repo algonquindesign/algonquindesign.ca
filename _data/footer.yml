@@ -7,12 +7,12 @@ resources:
     url: "https://algonquincollege.brightspace.com/"
     highlight: true
   - title: "Student Support Services"
-    url: "http://www.algonquincollege.com/studentsupportservices/"
+    url: "https://www.algonquincollege.com/studentsupportservices/"
     highlight: true
   - title: "ACSIS"
     url: "https://acsis.algonquincollege.com/students/"
   - title: "Hardware Requirements"
-    url: "http://www.algonquindesign.ca/hardware/"
+    url: "https://www.algonquindesign.ca/hardware/"
     highlight: true
 
 social_title: "Around the Web"
