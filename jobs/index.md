@@ -95,11 +95,11 @@ has_form: true
 			</div>
 			<div>
 				<label class="form-label" for="organization">Organization name <em>(Optional)</em></label>
-				<input type="text" id="organization" name="Organization" placeholder="Organization" required="">
+				<input type="text" id="organization" name="Organization" placeholder="Organization">
 			</div>
 			<div>
 				<label class="form-label" for="address">Address <em>(Optional)</em></label>
-				<input type="text" id="address" name="Address" placeholder="Address" required="">
+				<input type="text" id="address" name="Address" placeholder="Address">
 			</div>
 			<div>
 				<label class="form-label" for="city">City <em>(Optional)</em></label>
