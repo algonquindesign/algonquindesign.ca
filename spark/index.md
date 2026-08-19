@@ -18,7 +18,7 @@ has_form: true
 		There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. These are a few of them.
 	</p>
 	<h4>
-		Joy in Numbers
+		Take Joy in Numbers
 	</h4>
 	<ul class="columns">
 		<li>1 <a href="/portfolio-requirements/">portfolio</a> is required for acceptance.</li>
