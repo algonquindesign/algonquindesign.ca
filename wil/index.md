@@ -1,9 +1,12 @@
 ---
 layout: wil
-title: Work-Integrated Learning
+title: "Learning by Doing"
+deck: "Our program uses Work-Integrated Learning (WIL). WIL connects students with industry professionals. It includes portfolio reviews, guest speakers, studio tours, networking events, and Fieldwork."
 ---
 
 {{ site.data.wil-course-info.course-description }}
+
+<a href="{{ '/fieldwork/' | relative_url }}" class="btn btn-dark-green">Read About Fieldwork</a>
 
 See the list of Fieldwork employers who've either taken students in the past, or have expressed interest in taking someone on. Don't limit yourself to this list! If you've found someone new, feel free to ask me to get in touch with them to establish expectations for Fieldwork.
 

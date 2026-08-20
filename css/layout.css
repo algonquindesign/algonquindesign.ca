@@ -159,7 +159,7 @@ body
 	max-width: 90%;
 }
 
-.fieldwork
+.wil
 {
 	background-image: url('../images/grey-bg.png');
 	background-repeat: repeat;
@@ -173,7 +173,7 @@ body
 	padding-top: 1rem;
 }
 
-.fieldwork article { max-width: 90%; }
+.wil article { max-width: 90%; }
 
 .grads
 {
@@ -975,7 +975,7 @@ figure svg
 
 @media (min-width: 1280px)
 {
-	.main-jobs, .main-fieldwork, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .banner-content, .news, .stats-content, .banner-content, .fieldwork article, .sample-work .video, .curriculum div, .faculty-content, .rgd-content, .portfolio-reqs-content, .footer-content
+	.main-jobs, .main-wil, .main-thanks, .main-portfolio-reqs-page, .main-hardware, .main-future, .main-apply, .banner-content, .news, .stats-content, .banner-content, .wil article, .sample-work .video, .curriculum div, .faculty-content, .rgd-content, .portfolio-reqs-content, .footer-content
 	{
 		width: 90vw;
 		margin: 0 auto 0 auto;
