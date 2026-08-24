@@ -9,6 +9,22 @@ permalink: /articles/job-titles-and-sector.html
 ---
 This page lists titles beyond the obvious one. It also lists sectors in the National Capital Region worth checking, sectors many students skip.
 
+Before we get started, this is a list of roles and what they do:
+
+- Graphic designers design the visuals
+- Brand designers build the identity
+- Logo designers craft the mark
+- Web designers design the site
+- UX designers shape the flow
+- Copywriters write the words
+- Brand strategists define the brand
+- Creative directors lead the vision
+- Marketing designers design to sell
+- Content strategists plan the message
+- Motion designers animate the brand
+- Photographers capture the image
+- Videographers tell the story
+
 ## How to use this list
 
 Start with your strongest direction. Pick the matching section below. Search each title on its own. Job boards treat titles as separate search terms, not as synonyms for each other.
