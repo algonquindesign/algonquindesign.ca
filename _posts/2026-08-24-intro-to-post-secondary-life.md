@@ -13,11 +13,11 @@ If you’re attending design school elsewhere than Algonquin College, this advic
 
 Your [full-time faculty](/#faculty) know the program. They know the industry. They can guide you through both. You can book office hours with any of them. There are no set times. Reach out. Ask for a meeting when you need one.
 
-Your part-time faculty come from the workplace. They come from the studio or agency to teach in our classrooms. They bring current industry knowledge with them. They have stories from real client projects. Ask them about their work.
+Your part-time faculty come from studio or agency to teach in our classrooms. They bring current industry knowledge with them. They have stories from real client projects. Ask them about their work.
 
 ### Take Charge of Your Education
 
-Time management is a real challenge in your first year. Settling into college life takes time. Build strategies for managing your time early. If you would like support, you can book an appointment with a learning strategist at the [Centre for Accessible Learning](https://www.algonquincollege.com/cal/).
+Time management is a real challenge in your first year. Settling into college life takes time. Build strategies for managing your time early on. If you would like support, you can book an appointment with a learning strategist at the [Centre for Accessible Learning](https://www.algonquincollege.com/cal/).
 
 A few habits will help:
 
@@ -34,7 +34,7 @@ If you do miss a class, please don’t ask your instructor what you missed. It�
 
 If you’re coming from high school, you should know that your past academic performance is not necessarily a predictor of your success in the program. It can go either way.
 
-The graphic design industry runs on deadlines. This is true across Ottawa’s studios. It is true across the Canadian industry more broadly. Our classroom models this same pace, so you can prepare for it now.
+You should know that the graphic design industry runs on deadlines. This is true across Ottawa’s studios. It is true across the industry more broadly. Our classroom models this same pace, so you can prepare for it now.
 
 An important skill is knowing when to solve a problem yourself. An equally important skill is knowing when to ask for help. It’s useful to learn to tell the difference. Start by trying to solve the problen yourself. The next step is to ask a classmate for help. If that doesn’t work, then it’s time to ask your instructor.
 
@@ -50,7 +50,7 @@ College life extends past the classroom.
 
 Algonquin offers support services built for student success. Use them.
 
-**Centre for Accessible Learning (CAL)**: [CAL](https://www.algonquincollege.com/cal/) provides academic accommodations for students with permanent or temporary disabilities. Register early. You can register at any point in your program, but early registration prevents delays in your support.
+**Centre for Accessible Learning (CAL)**: [CAL](https://www.algonquincollege.com/cal/) provides academic accommodations for students with permanent or temporary disabilities. Register early. You can register at any point in your program, but early registration prevents delays in your support. They also have counsellors and learning strategists.
 
 **Peer Tutoring**: [The Student Learning Centre](https://algonquincollege.libguides.com/slc/peer-tutoring) matches you with a trained student tutor for one-on-one help in a specific course. The Centre also offers free coaching in writing, math, ESL, presentation skills.
 
