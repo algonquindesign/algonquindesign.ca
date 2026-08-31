@@ -13,6 +13,7 @@ permalink: "/articles/a-designers-resume.html"
 	<li>It’s a business document, not a portfolio piece. Avoid over-designing it.</li>
 	<li>Proof read, proof read, proof read.</li>
 	<li>Make it only one page long, if possible.</li>
+	<li>Build one for humans & one for application tracking systems.</li>
 	<li>When presenting it, prepare for any eventuality. Have a backup plan.</li>
 	<li>It’s a living document. Update it as you grow as a designer.</li>
 </ul>
