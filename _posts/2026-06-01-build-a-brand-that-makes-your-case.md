@@ -75,6 +75,6 @@ A brand is a living thing. It grows as you do. Your point of view will sharpen. 
 
 Here is the test. Finish this line, out loud, and mean it.
 
-	**“I am a ______ who ______, and here is the work that proves it.”**
+	**"I am a ______ who ______, and here is the work that proves it."**
 
 Say it plainly. Make sure the work backs it up. Then your brand is doing its job. If the words and the work disagree, that gap is where you start.
