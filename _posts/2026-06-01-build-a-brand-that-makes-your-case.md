@@ -24,10 +24,10 @@ While you do need to demonstrate your skills, it's self-positioning that will ge
 
 ####  What It Should Be
 
-1. **Honest.** Your brand is a promise that must be kept by your work. If the identity looks more polished than the projects behind it, that gap will show.
+1. **Aligned.** Your brand is a promise that must be kept by your work. If the identity looks more polished than the projects behind it, that gap will show.
 2. **Specific.** Stand for something. With a clear point of view, you'll look like a designer with a direction. A vague stance will get no response.
-3. **Coherent.** The same name, the same voice, and the same visual identity belong everywhere. They should recognize your brand before they read your name.
-4. **Aimed.** Point it at the work you want next, not only the work you have done. A brand attracts more of what it already shows.
+3. **Consistent.** The same name, the same voice, and the same visual identity belong everywhere. They should recognize your brand before they read your name.
+4. **Targeted.** Point it at the work you want next, not only the work you have done. A brand attracts more of what it already shows.
 5. **Human.** Studios hire teammates. Curiosity, personality, and the way you talk about your own work matter more now than at any later stage.
 6. **Defensible.** You should be able to state your argument out loud in one or two sentences. If you cannot, it's not finished.
 
@@ -38,7 +38,7 @@ While you do need to demonstrate your skills, it's self-positioning that will ge
 3. **A persona the work cannot support.** Do not invent a slick agency-of-one act. Overreach gets exposed in the first interview.
 4. **Borrowed.** Admiring a designer is healthy. Wearing their identity is not. A copied voice is not a voice.
 5. **Louder than your skill.** Keep the identity in step with the work. A brand that overpromises sets up its own disappointment.
-6. **Frozen.** You will grow. Your brand should move with you.
+6. **Frozen in time.** You will grow. Your brand should move with you.
 
 ####  About Specificity
 
