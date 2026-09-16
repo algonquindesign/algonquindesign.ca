@@ -1,8 +1,8 @@
 code,course,section,level,day,time,room,instructor1,instructor2,email1,email2,modality
 DSN1560,Typography 1,1,1,Tuesday,12:30-15:30,N214,Andrea Emery,,emerya@algonquincollege.com,,inperson
 DSN1560,Typography 1,2,1,Tuesday,09:00-12:00,N216,Andrea Emery,,emerya@algonquincollege.com,,inperson
-DSN1561,Graphic Design 1,1,1,Wednesday,12:00-15:00,N219,Angela Fahlman,Tara Boland,fahlmaa@algonquincollege.com,bolandt@algonquincollege.com,inperson
-DSN1561,Graphic Design 1,2,1,Wednesday,09:00-12:00,N219,Tara Boland,Tara Boland,bolandt@algonquincollege.com,bolandt@algonquincollege.com,inperson
+DSN1561,Graphic Design 1,1,1,Wednesday,12:00-15:00,N216,Angela Fahlman,Tara Boland,fahlmaa@algonquincollege.com,bolandt@algonquincollege.com,inperson
+DSN1561,Graphic Design 1,2,1,Wednesday,09:00-12:00,N216,Tara Boland,Tara Boland,bolandt@algonquincollege.com,bolandt@algonquincollege.com,inperson
 DSN1562,Computer Graphics 1,1,1,Tuesday,09:00-12:00,N219,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
 DSN1562,Computer Graphics 1,2,1,Friday,09:00-12:00,N219,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
 DSN1697,Concept Sketching 1,1,1,Wednesday,15:30-17:30,P318,Andrea Emery,,emerya@algonquincollege.com,,inperson
@@ -13,11 +13,11 @@ DSN1533,Graphic Design 3,1,3,Monday,17:00-20:00,N214,Tara Boland,,bolandt@algonq
 DSN1533,Graphic Design 3,2,3,Tuesday,17:30-20:30,N214,Tara Boland,,bolandt@algonquincollege.com,,inperson
 DSN1534,Typography 3,1,3,Monday,13:30-16:30,N214,Andrea Emery,,emerya@algonquincollege.com,,inperson
 DSN1534,Typography 3,2,3,Wednesday,13:00-16:00,N214,Jared Lebel,,lebelj@algonquincollege.com,,inperson
-DSN1535,Computer Graphics 3,1,3,Thursday,09:00-12:00,N219,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
-DSN1535,Computer Graphics 3,2,3,Monday,09:00-12:00,N219,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
+DSN1535,Computer Graphics 3,1,3,Thursday,09:00-12:00,N214,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
+DSN1535,Computer Graphics 3,2,3,Monday,09:00-12:00,N214,Travis Gobeil,,gobeilt@algonquincollege.com,,inperson
 DSN1726,UX/UI Design 1,1,3,Tuesday,14:00-17:00,P213A,Angela Fahlman,José Carrillo,fahlmaa@algonquincollege.com,carrilj@algonquincollege.com,inperson
-DSN1558,Motion Graphics 1,1,3,Wednesday,15:00-18:00,N219,Bonnie O'Neill,,,,inperson
-DSN1558,Motion Graphics 1,2,3,Wednesday,18:30-21:30,N219,Bonnie O'Neill,,,,inperson
+DSN1558,Motion Graphics 1,1,3,Wednesday,15:00-18:00,N216,Bonnie O'Neill,,,,inperson
+DSN1558,Motion Graphics 1,2,3,Wednesday,18:30-21:30,N216,Bonnie O'Neill,,,,inperson
 DSN1696,Business of Design,1,3,Thursday,14:00-17:00,A1120,Alain Paradis,,paradia@algonquincollege.com,,inperson
 DSN1713,Web Design 2,1,3,Friday,13:00-16:00,N214,Wendy Warren,Andrew Newby,warrenw@algonquincollege.com,newbya@algonquincollege.com,inperson
 DSN1713,Web Design 2,2,3,Friday,09:00-12:00,N214,Wendy Warren,Andrew Newby,warrenw@algonquincollege.com,newbya@algonquincollege.com,inperson
