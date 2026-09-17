@@ -10,7 +10,7 @@ permalink: "/articles/build-a-brand-that-makes-your-case.html"
 ### Start Here
 Your brand is the umbrella. Everything else is a spoke. Your [portfolio](/articles/portfolio-building-guide-for-juniors.html) is the proof. Your [résumé](/articles/a-designers-resume.html) is the list of what you have done. Your site is the stage. Your emails and your socials are the daily contact. Each one should feel like the same person made it.
 
-Your brand is not your logo. It is the whole impression you leave about how you position yourself. It is what an employer believes about where you want to go after spending time on your site.	Your résumé lists what you have done, while your portfolio proves it. Your brand decides how all all comes across to potential employers.
+Your brand is not your logo. It is the whole impression you leave about how you position yourself. It is what an employer believes about where you want to go after spending time on your site.	Your résumé lists what you have done, while your portfolio proves it. Your brand decides how all comes across to potential employers.
 
 Build the brand first. Then let it guide every other choice. The colours, the type, the tone, and the platform all follow from the argument you are making.
 
@@ -62,8 +62,7 @@ Come back to these often. They are simple to ask and hard to answer well.
 
 1. What do you want to be hired to do?
 2. What proves you can do it?
-3. Who is the work for?
-4. Why you and not someone else?
+3. Why you and not someone else?
 
 Most juniors stumble on the last one. It’s often answered either with arrogance or with apology. Learn to answer it plainly. That is the whole skill.
 
