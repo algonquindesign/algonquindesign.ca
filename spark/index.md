@@ -20,7 +20,7 @@ has_form: true
 	<h4>
 		Take Joy in Numbers
 	</h4>
-	<ul class="columns">
+	<ul>
 		<li>1 <a href="/portfolio-requirements/">portfolio</a> is required for acceptance.</li>
 		<li>3 year Advanced Diploma full-time program.</li>
 		<li>6 semesters, starting in Fall.</li>
