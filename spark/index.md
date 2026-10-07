@@ -59,6 +59,30 @@ has_form: true
 	<p>
 		Design is everywhere, from branding and user-experience design to motion graphics and packaging. The demand for visual communication is growing, not shrinking. In fact, companies need designers more than ever to stand out in a noisy, digital world. It’s not either/or, it’s design + tech.
 	</p>
+	<h4>
+		Design Careers in Ottawa and Canada
+	</h4>
+	<p>
+		Ottawa-Gatineau had 3,191 graphic design jobs in 2025. Jobs in Ottawa-Gatineau should grow 12.1% by 2033. Growth in Ontario should be 12.0%. Growth in Canada should be 9.9%.
+	</p>
+	<p>
+		Average pay in Ottawa-Gatineau is about $72,800 a year. The national average is about $69,900.
+	</p>
+	<h6>
+		Job Titles
+	</h6>
+	<p>
+		Graphic designer, art director, creative director, brand developer, illustrator, web designer, interaction designer, mobile app designer, motion graphics designer, freelance designer.
+	</p>
+	<h6>
+		Skills Ottawa Employers Ask For
+	</h6>
+	<p>
+		Adobe Illustrator, Photoshop, InDesign, Figma, After Effects.
+	</p>
+	<div class="sources">
+	Source: Lightcast dataset 2026.1, July 2026.
+	</div>
 	<div class="content-box">
 		<div class="graphic-box">
 			{% assign img = site.data.sample_work.images[1] %} <img src="/images/sample-work/{{ img.src }}" alt="{{ img.title }}">
