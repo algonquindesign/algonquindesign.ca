@@ -49,7 +49,7 @@ has_form: true
 		<li>Branding</li>
 		<li>Typography</li>
 		<li>Computer graphics</li>
-		<li>Interaction design</li>
+		<li>User experience (UX) design</li>
 		<li>Web development</li>
 		<li>Motion graphics</li>
 		<li>Theory and history</li>
@@ -72,7 +72,7 @@ has_form: true
 		Job Titles
 	</h6>
 	<p>
-		Graphic designer, art director, creative director, brand developer, illustrator, web designer, interaction designer, mobile app designer, motion graphics designer, freelance designer.
+		Graphic designer, art director, creative director, brand developer, illustrator, web designer, user experience (UX) designer, mobile app designer, motion graphics designer, freelance designer.
 	</p>
 	<h6>
 		Skills Ottawa Employers Ask For
