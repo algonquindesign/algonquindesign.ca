@@ -442,6 +442,8 @@ footer h2,
 .sample-work h2,
 footer h2 { color: white; }
 
+.sample-work a { color: white; border-bottom: 1px solid #D6D6D6;}
+
 .news h2
 {
 	font-size: 1rem;
