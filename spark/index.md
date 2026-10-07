@@ -124,12 +124,10 @@ has_form: true
 	<p>
 		Learn industry-standard design software as creative instruments, not just technical tools to click through. Use them to sketch, explore, and refine ideas, so technology supports your imagination rather than replacing it.
 	</p>
+	<a href="/articles/ai-in-graphic-design.html" class="btn-small btn-lime-green">Concerned About AI?</a>
 	<p>
-		AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose.
+		AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose. <em>The future of design is human-led, AI-enhanced.</em>
 	</p>
-	<blockquote>
-		The future of design is human-led, AI-enhanced. <a href="/articles/ai-in-graphic-design.html">Read on</a>&nbsp;➜
-	</blockquote>
 	<h4>
 		Build a Standout Portfolio
 	</h4>
@@ -146,10 +144,10 @@ has_form: true
 		It Takes a Village
 	</h5>
 	<p>
-    Studying on campus at Algonquin College comes with a strong sense of belonging. You have access to many services, supports, clubs and events. You'll meet people who share your interests. You can also find help when you need it. When you come to Algonquin, you join a community. This community will stay with you long after you graduate.
+		Studying on campus at Algonquin College comes with a strong sense of belonging. You have access to many services, supports, clubs and events. You'll meet people who share your interests. You can also find help when you need it. When you come to Algonquin, you join a community. This community will stay with you long after you graduate.
 	</p>
 	<ul class="columns">
-    <li><a href="https://www.algonquinsa.com/athletics/arc/" target="_blank">Athletic Centre</a></li>
+		<li><a href="https://www.algonquinsa.com/athletics/arc/" target="_blank">Athletic Centre</a></li>
 		<li><a href="https://www.algonquincollege.com/financial-aid/">Financial Aid</a></li>
 		<li><a href="https://www.algonquincollege.com/cal/">Academic Supports</a></li>
 		<li><a href="https://www.algonquincollege.com/healthservices/">Health Services</a></li>
@@ -172,7 +170,7 @@ has_form: true
 		<li><a href="https://crmoberg.tv/" target="_blank">Chris Moberg</a></li>
 	</ul>
 	<p>
-	Today they work with major brands, run their own studios, and shape how people experience the world. Take a look at what they are doing now.
+		Today they work with major brands, run their own studios, and shape how people experience the world. Take a look at what they are doing now.
 	</p>
 	<div class="content-box">
 		<div class="graphic-box">
@@ -182,7 +180,9 @@ has_form: true
 
 
 
+
 .cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}
+
 
 
 
