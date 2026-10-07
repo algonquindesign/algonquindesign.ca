@@ -16,6 +16,14 @@ Judgement can’t.
 Be the person AI cannot replace.
  -->
 
+Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.
+
+Design is everywhere, from branding and user-experience design to motion graphics and packaging. *The demand for visual communication is growing, not shrinking.* In fact, companies need designers more than ever to stand out in a noisy, digital world. It’s not either/or, it’s design + tech.
+
+AI can generate content, but it can’t originate meaningful, strategic, or emotionally resonant design. Graphic designers are the ones who give AI direction, context, and purpose.
+
+> The future of design is human-led, AI-enhanced.
+
 A.I. automation is rapidly taking over the menial, repetitive production tasks in graphic design, such as resizing images, removing backgrounds, and adjusting colours. These processes used to take hours. Now, advanced design tools handle them in minutes, freeing designers to focus less on technical execution and more on conceptual and strategic thinking.
 
 > Graphic designers are no longer editors; we're directors.
