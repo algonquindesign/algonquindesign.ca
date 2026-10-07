@@ -99,6 +99,9 @@ has_form: true
 	<h5>
 		It Takes a Village
 	</h5>
+	<p>
+    Studying on campus at Algonquin College comes with a strong sense of belonging. You have access to many services, supports, clubs and events. You'll meet people who share your interests. You can also find help when you need it. When you come to Algonquin, you join a community. This community will stay with you long after you graduate.
+	</p>
 	<ul class="columns">
 		<li><a href="https://www.algonquincollege.com/financial-aid/">Financial Aid</a></li>
 		<li><a href="https://www.algonquincollege.com/cal/">Academic Supports</a></li>
