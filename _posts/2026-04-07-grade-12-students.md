@@ -1,14 +1,14 @@
 ---
 layout: wil
-title: "A Timeline for Grade 11 Students"
+title: "A Timeline for Grade 12 Students"
 date: 2026-04-07 09:04:35 -0400
 category: Promo
 front-page: true
 deck: "Open the calendar app on your phone or grab that trusty agenda or notebook! It's time to schedule essential dates and reminders that happen at the same time every year."
-permalink: /articles/grade-11-students.html
+permalink: /articles/grade-12-students.html
 ---
 <p>
-	If you’re currently in grade 11, these are important dates to note to join us once you’ve graduated high school.
+	If you’re currently in grade 12, these are important dates to note to join us once you’ve graduated high school.
 </p>
 <ul>
 	<li><strong>October:</strong> Kick-start your application journey in early October when applications open for the following Fall at <a href="{{ site.data.sitewide.sitewide-info.ontario-colleges-page }}">ontariocolleges.ca</a>. Applying early gives you the extra time you need to gather any required documents or high school credits.</li>
