@@ -38,7 +38,6 @@ has_form: true
 	<p>
 		Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.
 	</p>
-	<a href="/articles/grade-12-students.html" class="btn-small btn-lime-green">A Timeline for Grade 12 Students</a>
 <h5>What You’ll Learn</h5>
 <ul class="multi-column">
 	<li>Branding</li>
@@ -178,6 +177,7 @@ has_form: true
 			<a href="{{site.data.portfolio.url}}" class="">{{site.data.portfolio.button}} ➜</a>
 		</div>
 	</div>
+	<a href="/articles/grade-12-students.html" class="btn-small btn-lime-green">A Timeline for Grade 12 Students</a>
 	<h4>
 		Steps to Apply
 	</h4>
