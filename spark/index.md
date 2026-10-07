@@ -39,6 +39,18 @@ has_form: true
 		Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.
 	</p>
 	<a href="/articles/grade-12-students.html" class="btn-small btn-lime-green">A Timeline for Grade 12 Students</a>
+<h5>What You’ll Learn</h5>
+<ul class="multi-column">
+	<li>Branding</li>
+	<li>Typography</li>
+	<li>Computer graphics</li>
+	<li>Interaction design</li>
+	<li>Web development</li>
+	<li>Motion graphics</li>
+	<li>Theory and history</li>
+	<li>Business of design</li>
+	<li>Fieldwork</li>
+</ul>
 	<p>
 		Design is everywhere, from branding and user-experience design to motion graphics and packaging. The demand for visual communication is growing, not shrinking. In fact, companies need designers more than ever to stand out in a noisy, digital world. It’s not either/or, it’s design + tech.
 	</p>
