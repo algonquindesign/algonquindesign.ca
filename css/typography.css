@@ -160,7 +160,6 @@ p + p
 }
 
 /* Lists */
-
 p + ul,
 p + ol { margin-top: 1rem; }
 ul + p,
@@ -274,6 +273,13 @@ ul.articles li
 	max-width: 60ch;
 }
 
+.sources
+{
+	font-family: var(--sans);
+	font-size: clamp(0.85rem, 0.75rem + 0.2vw, 0.95rem);
+	line-height: 1.8;
+}
+
 ul.sources
 {
 	list-style-type: none;
@@ -288,8 +294,6 @@ ul.sources li
 }
 
 /* End Lists */
-
-
 h1,
 h2,
 h3,
@@ -442,7 +446,11 @@ footer h2,
 .sample-work h2,
 footer h2 { color: white; }
 
-.sample-work a { color: white; border-bottom: 1px solid #D6D6D6;}
+.sample-work a
+{
+	color: white;
+	border-bottom: 1px solid #D6D6D6;
+}
 
 .news h2
 {
@@ -1007,14 +1015,8 @@ a.crossed-out
 	.home-banner-list span:nth-child(1)::before { background-image: url("/svg/accreditation.svg"); }
 	.home-banner-list span:nth-child(2)::before { background-image: url("/svg/duration.svg"); }
 	.home-banner-list span:nth-child(3)::before { background-image: url("/svg/campus.svg"); }
-ul li
-{
-	margin-left: 0.75rem;
-}
-blockquote
-{
-	margin: 2rem 0 2rem 2rem;
-}
+	ul li { margin-left: 0.75rem; }
+	blockquote { margin: 2rem 0 2rem 2rem; }
 
 	.read-more
 	{
