@@ -735,7 +735,7 @@ ul.multi-column { margin: 1rem 0; }
 
 .multi-column
 {
-	column-count: 2;
+	column-count: 1;
 	column-gap: 2rem;
 }
 
@@ -952,7 +952,7 @@ figure svg
 
 	.multi-column
 	{
-		column-count: 2;
+		column-count: 3;
 		column-gap: 2rem;
 		column-width: 50%;
 	}
@@ -1007,4 +1007,5 @@ figure svg
 	}
 
 	nav ul { grid-template-columns: repeat(4, 1fr); }
+
 }
