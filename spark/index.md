@@ -16,6 +16,11 @@ has_form: true
 	</h3>
 	<p>
 		There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. These are a few of them.
+	<h5>
+		Turning Passion Into a Career
+	</h5>
+	<p>
+		Learn how to monetize creativity while staying true to artistic roots. Fieldwork and client-based projects offer a first look at the business side of art, from working with clients to meeting deadlines to presenting work with confidence.
 	</p>
 	<h4>
 		Take Joy in Numbers
@@ -113,12 +118,6 @@ has_form: true
 		<li><a href="https://www.algonquinsa.com/studentlife/clubs-and-communities/">Clubs & Events</a></li>
 		<li><a href="https://www.algonquincollege.com/mamidosewin/">Indigenous Students Supports</a></li>
 	</ul>
-	<h4>
-		Turning Passion Into a Career
-	</h4>
-	<p>
-		Learn how to monetize creativity while staying true to artistic roots. Fieldwork and client-based projects offer a first look at the business side of art, from working with clients to meeting deadlines to presenting work with confidence.
-	</p>
 	<h4>
 		Success Stories
 	</h4>
