@@ -15,7 +15,7 @@ has_form: true
 		Why AlgonquinDesign?
 	</h3>
 	<p>
-		There are myriad reasons for starting your creative future at Algonquin College’s Graphic Design program. Do you express yourself creatively? Do you draw, or make posters, edit video, or design things on a screen? If so, we’re your people. Graphic design is how ideas become visuals. You see it on every package, app, sign, and screen.
+		There are many reasons for starting your creative future at Algonquin College’s Graphic Design program. Do you express yourself creatively? Do you draw, or make posters, edit video, or design things on a screen? If so, we’re your people. Graphic design is how ideas become visuals. You see it on every package, app, sign, and screen.
 	</p>
 	<p>
 		We solve communications problems with colour, images, type, motion, and layout. Design is art with a purpose. It solves a problem for a real client. Ottawa has many employers that need these skills.
