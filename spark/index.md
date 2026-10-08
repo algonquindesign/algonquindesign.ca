@@ -165,7 +165,7 @@ has_form: true
 		Success Stories
 	</h4>
 	<p>
-		These designers all started where you are now. They came to Algonquin's Graphic Design program with a love of art and a curiosity about design.
+		These designers all started where you are now. They came to Algonquin’s Graphic Design program with a love of art and a curiosity about design.
 	</p>
 	<ul class="columns">
 		<li><a href="https://depippodesigns.com" target="_blank">Michael DePippo</a></li>
