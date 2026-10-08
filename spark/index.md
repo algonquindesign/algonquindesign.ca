@@ -41,9 +41,9 @@ has_form: true
 	</ul>
 	<p>
 		Algonquin’s Graphic Design program is built around hands-on learning, industry partnerships, and portfolio development. Graduates leave with real-world experience and a job-ready portfolio, not just a diploma.
-	<blockquote>
-		We’re a Bring Your Own Device program. <a href="/hardware/">Read more...</a>
-	</blockquote>
+		<blockquote>
+			We’re a Bring Your Own Device program. <a href="/hardware/">Read more...</a>
+		</blockquote>
 	</p>
 	<h5>
 		What You’ll Learn
@@ -191,7 +191,9 @@ has_form: true
 
 
 
+
 .cls-1{fill:rgb(43, 101, 65)}.cls-2{fill:rgb(149, 200, 70)}
+
 
 
 
