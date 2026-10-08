@@ -78,6 +78,23 @@ has_form: true
 		Graphic designer, art director, creative director, brand developer, illustrator, web designer, user experience (UX) designer, mobile app designer, motion graphics designer, freelance designer.
 	</p>
 	<h6>
+		Places to Work
+	</h6>
+	<p>
+		The field of graphic design is multidisciplinary. It also offers a wide range of places to work that bring varied experiences, as they relate to salaries, quality of life, and diverse work environments. You could work:
+	</p>
+	<ul>
+		<li> in a small or medium size design studio;</li>
+		<li> in an advertising agency;</li>
+		<li> in-house in a larger organization;</li>
+		<li> in enterprise;</li>
+		<li> in government;</li>
+		<li> as a freelance designer;</li>
+	</ul>
+	<p>
+		This gives work in graphic design a multiplier effect. There’s not only a multitude of disciplines to work in, there are a number of places you can do it. This gives you the freedom to craft your career direction to best suit your lifestyle.
+	</p>
+	<h6>
 		Skills Ottawa Employers Ask For
 	</h6>
 	<p>
