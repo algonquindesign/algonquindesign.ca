@@ -66,7 +66,7 @@ has_form: true
 		Design Careers in Ottawa and Canada
 	</h4>
 	<p>
-		Ottawa-Gatineau had 3,191 graphic design jobs in 2025. Jobs in Ottawa-Gatineau should grow 12.1% by 2033. Growth in Ontario should be 12.0%. Growth in Canada should be 9.9%. Federal services employ 9.8% of Ottawa graphic designers.
+		Ottawa-Gatineau had 3,191 graphic design jobs in 2025. Jobs in Ottawa-Gatineau should grow 12.1% by 2033. Growth in Ontario should be 12.0%. Growth in Canada should be 9.9%. Federal services employ 9.8% of Ottawa graphic designers. <a href="/articles/fswep.html">Read about FSWEP</a>.
 	</p>
 	<p>
 		Average pay in Ottawa-Gatineau is about $72,800 a year. The national average is about $69,900.
