@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Your Future Starts Here"
+title: "The Spark to Your Creative Career"
 description: "Discover how the Graphic Design program at Algonquin College can spark your creative future."
 id: "spark"
 has_form: true
