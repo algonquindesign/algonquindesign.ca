@@ -157,6 +157,10 @@ has_form: true
 		<li><a href="https://www.algonquinsa.com/studentlife/clubs-and-communities/">Clubs & Events</a></li>
 		<li><a href="https://www.algonquincollege.com/mamidosewin/">Indigenous Students Supports</a></li>
 	</ul>
+	<h4>You're Invited!</h4>
+	<p>
+		We'd love for you to attend this year's Grad Show. It will be {{ site.data.wil-course-info.grad-show-date }} from 5:00 to 9<span class="small-caps">pm</span> at the {{ site.data.wil-course-info.grad-show-location }}. It's at <a href="{{ site.data.wil-course-info.grad-show-location-map }}" target="_blank" rel="noopener noreferrer">1525 Princess Patricia Way, Ottawa ON K1S 5J3, Canada</a>
+	</p>
 	<h4>
 		Success Stories
 	</h4>
