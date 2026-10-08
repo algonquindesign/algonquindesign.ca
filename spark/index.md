@@ -92,7 +92,7 @@ has_form: true
 		<li> as a freelance designer;</li>
 	</ul>
 	<p>
-		This gives work in graphic design a multiplier effect. There’s not only a multitude of disciplines to work in, there are a number of places you can do it. This gives you the freedom to craft your career direction to best suit your lifestyle.
+		This gives work in graphic design a multiplier effect. There’s not only a multitude of disciplines to work in, there are a number of places you can do it. If you choose to work in design, you gain the freedom to craft your career direction to best suit your lifestyle.
 	</p>
 	<h6>
 		Skills Ottawa Employers Ask For
