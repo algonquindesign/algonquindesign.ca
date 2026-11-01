@@ -76,14 +76,6 @@ Don’t show your skill level with a graph, a bar or a percentage. Who says you�
 
 If you have in-depth knowledge of one application in the domain where you want to specialize, state that. After Effects for motion design is a good example.
 
-<!--
-<h4>Grin and Bear It</h4>
-
-In my opinion, a really sharp looking mug shot is valuable. If you e-mail your résumé beforehand, the employer will recognize you when you go for an interview. Don't obscure your face in any way. Make yourself recognizable in the picture. It'll make you more memorable. The only down side is if your photo is not professional enough. Have someone help you set up for the photo. Comb your hair and be well lit. You can take it with your phone.
-
-Hopefully your résumé will only be one page long. That means the file size will be small. You can export your PDF with the *Print Ready* preset. That'll make the photo look sharp if they output on paper. Test it yourself.
- -->
-
 #### The Machine Reads First
 
 For many employers, the first to read your résumé is not a person. It’s software. An Applicant Tracking System, or ATS, takes your file, pulls the text out, then sorts it into sections. It then ranks you against the role before a human ever sees it. The bigger the organization, the more likely this is. Most government and large-company applications work this way.
