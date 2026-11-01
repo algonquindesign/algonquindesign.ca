@@ -63,7 +63,7 @@ If you're going to use bullet lists, use action verbs to start each item, like t
 	<li>wrote</li>
 </ul>
 
-Speaking of lists, you do not need to list *every* design software title you know. It's enough to state that your proficiency. You can say you excel at one more than others if you specialize in a discipline—After Effects for motion graphics, for example. Do not claim to be a Photoshop god. Sorry, but you're likely not one.
+You don’t need to list every design application you know. Employers assume a graphic design graduate knows the popular applications. List software when it’s useful. For example, include it if it is mentioned in the job posting.
 
   <figure>
     {% include /svg/resume-software-skills.svg %}
@@ -72,7 +72,9 @@ Speaking of lists, you do not need to list *every* design software title you kno
   </figcaption>
   </figure>
 
-This is a no-win situation. Either you under-sell or over-sell yourself. If you state that you’re an 9/10 with Photoshop, you better deliver 9/10. If you’re 3/10, you won't want to announce it!
+Don’t show your skill level with a graph, a bar or a percentage. Who says you’re 75% proficient in Photoshop‽ This is a no-win situation. If you rate yourself 9/10, you must deliver 9/10. If you rate yourself 3/10, you won’t want to announce it.
+
+If you have in-depth knowledge of one application in the domain where you want to specialize, state that. After Effects for motion design is a good example.
 
 <!--
 <h4>Grin and Bear It</h4>
