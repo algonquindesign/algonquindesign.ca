@@ -31,6 +31,14 @@ When communicating your experience, don’t exaggerate nor leave things out. Inc
 
 If your previous jobs seem irrelevant to a position in graphic design, tell them which skills they gave you that will be of use to them. For example, if you worked at the returns counter at Canadian Tire, that would likely make you skilled at dealing with clients. You may even be able to tame the most rude, irate customers. That’s an asset. State that. Additionally, include travel, military, academics, accreditations, internships, volunteering and other life experience which would contribute to your value as an employee. Don’t forget to state whether you’re multi-lingual.
 
+#### Travel & Photography
+
+Listing travel in your interest is obvious. Who doesn’t like a walk on the beach at sunset? Now, if you had an exceptionally remarkable travel experience, please share it. Your four-day bender in Punta Cana doesn’t cut it. Sailing a tall ship across the South Pacific. That’s something worth talking about, because it will have affected your growth as a person.
+
+Unless you’re actually a professional photographer, gear and all, avoid listing photography as one of your skills. First, it undervalues pro photogs. Second, you better be ready to deliver a full-fledged photo shoot. Third, we’ve all taken that one incredible shot with our iPhone. One photo does not a photographer make.
+
+#### Use Action Verbs
+
 If you're going to use bullet lists, use action verbs to start each item, like these:
 
 <ul class="multi-column">
@@ -76,7 +84,7 @@ Don’t show your skill level with a graph, a bar or a percentage. Who says you�
 
 If you have in-depth knowledge of one application in the domain where you want to specialize, state that. After Effects for motion design is a good example.
 
-#### The Machine Reads First
+#### For ATS Systems
 
 For many employers, the first to read your résumé is not a person. It’s software. An Applicant Tracking System, or ATS, takes your file, pulls the text out, then sorts it into sections. It then ranks you against the role before a human ever sees it. The bigger the organization, the more likely this is. Most government and large-company applications work this way.
 
@@ -90,7 +98,7 @@ You do not get to see which system you are up against. Some are modern and forgi
 
 **Keep your type live.** This is the designer’s trap. A parser can only read actual text. If you outline your type, you hand the machine a picture of words it cannot read. Export with the text intact. If you’re not sure whether you have live type, open your PDF, then try to select a line of text. If you cannot highlight it, neither can the parser.
 
-**A Word file is often the safest bet.** Many parsers read .docx more reliably than a PDF. If a posting does not ask for a format, send .docx into a portal and save the beautiful PDF for when you are emailing a real person. Remember to use only Windows-native fonts in a Word document. If you don’t your resume won’t look the same when the recipient opens it.
+**A Word file is often the safest bet.** Many parsers read .docx more reliably than a PDF. If a posting does not ask for a format, send .docx into a portal and save the beautiful PDF for when you are emailing a real person. Remember to use only Windows-native fonts in a Word document. If you don’t, your résumé won’t look the same when the recipient opens it.
 
 **Use their words.** The system often ranks you on how well your résumé matches the posting. If they ask for Figma, write Figma, not “industry-standard UI tools.” Mirror the real terms for the software and skills you actually have. Do not stuff in words you cannot back up. The newer systems read for whether your story holds together. A wall of buzzwords reads as noise.
 
@@ -100,17 +108,11 @@ None of this means your résumé has to be plain. It means your craft goes into 
 
 #### Design
 
-If you do create a version of your résumé to hand to a real person, it shouldn’t be origami art. You need to gauge the degree of creativity you put into it. It’s a professional business document. It’s better simple and well executed than over-designed. Avoid clichés or contrived concepts that’ll be more of a burden on the reader. If you go overboard, the document overwhelms and confuses. If you stop short, you could be perceived as unimaginative or unmotivated.
+You’ll also create a version of your résumé to hand to a real person. It shouldn’t look like origami art. You need to gauge the degree of creativity you put into it. It’s a professional business document. It’s better simple and well executed than over-designed. Avoid clichés or contrived concepts that’ll be more of a burden on the reader. If you go overboard, the document overwhelms and confuses. If you stop short, you could be perceived as unimaginative or unmotivated.
 
 How far do you go with your design? That’s up to you. To start, your layout, typography and colour treatment needs to be flawless to a seasoned designer. Design it to have a consistent look with your web site and other social media platforms.
 
 Also, avoid using a template. You’re a graphic designer. Design and build your résumé from the ground up. Apply all the production skills you have.
-
-#### Travel & Photography
-
-Listing travel in your interest is obvious. Who doesn’t like a walk on the beach at sunset? Now, if you had an exceptionally remarkable travel experience, please share it. Your four-day bender in Punta Cana doesn’t cut it. Sailing a tall ship across the South Pacific. That’s something worth talking about, because it will have affected your growth as a person.
-
-Unless you’re actually a professional photographer, gear and all, avoid listing photography as one of your skills. First, it undervalues pro photogs. Second, you better be ready to deliver a full-fledged photo shoot. Third, we’ve all taken that one incredible shot with our iPhone. One photo does not a photographer make.
 
 #### Make No Mistake!
 
@@ -152,6 +154,6 @@ If you do create a PDF, the final step should be to open it in Acrobat. Hit ⌘-
 
 When the recipient opens your PDF, it'll be zoomed to show the whole page.
 
-If you send out a resume in PDF format, make sure to name the file with your name. `Appleseed-Johnny-Resume.pdf`. The recipient may receive hundreds of them. They need to be able to find yours in the crowd.
+If you send out a résumé in PDF format, make sure to name the file with your name. `Appleseed-Johnny-Resume.pdf`. The recipient may receive hundreds of them. They need to be able to find yours in the crowd.
 
 You can e-mail your PDF as an attachment. You should also keep it in the cloud, in Dropbox or in Google Drive. Leave it in the same location in case someone goes back to retrieve it at a later date.
